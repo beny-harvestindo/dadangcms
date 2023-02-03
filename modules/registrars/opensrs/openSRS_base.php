@@ -236,7 +236,7 @@ class openSRS_base extends PEAR {
      *
      */
 
-    function openSRS_base( $environment=NULL, $protocol=NULL, $regusername=NULL, $regprivatekey=NULL )
+    function __construct( $environment=NULL, $protocol=NULL, $regusername=NULL, $regprivatekey=NULL )
     {
 
         $this->PEAR();
@@ -1130,7 +1130,7 @@ class openSRS_base extends PEAR {
             }
             
             if (preg_match('/^\s*Content-Length:\s+(\d+)\s*\r\n/i', $line, $matches ) ) {
-                $header{'content-length'} = (int)$matches[1];
+                $header['content-length'] = (int)$matches[1];
             } else {
                 $this->_OPS->_log('raw', 'e', 'UNEXPECTED READ: No Content-Length' );
                 $this->_OPS->_log('raw', 'r', $line);
@@ -1175,11 +1175,11 @@ class openSRS_base extends PEAR {
     
         $header = $this->readHeader($fh, $timeout);
     
-        if (!$header || !isset($header{'content-length'}) || (empty($header{'content-length'}))) {
+        if (!$header || !isset($header['content-length']) || (empty($header['content-length']))) {
             $this->_OPS->_log('raw', 'e', 'UNEXPECTED ERROR: No Content-Length header provided!' );
         }
     
-        $len = (int)$header{'content-length'};
+        $len = (int)$header['content-length'];
     
         $line = '';
         while (strlen($line) < $len) {

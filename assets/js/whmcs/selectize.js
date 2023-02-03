@@ -204,6 +204,102 @@ function () {
         return selectized[0];
     };
 
+    this.productSearch = function() {
+        var selector = '.selectize-product-search',
+            selectElement = jQuery(selector),
+            module = this,
+            selectized = [],
+            itemDecorator = function(data, escape) {
+                var newDiv = jQuery('<div>'),
+                    newSpan = jQuery('<span>').attr('class', 'name').text(escape(data.name));
+                newDiv.append(newSpan);
+                return newDiv;
+            };
+
+        selectElement.each(function() {
+            var element = jQuery(this),
+                configuration = {
+                    'valueField': 'id',
+                    'labelField': 'name',
+                    'render': {
+                        item: itemDecorator
+                    },
+                    optgroupField: 'groupid',
+                    optgroupLabelField: 'name',
+                    optgroupValueField: 'id',
+                    'preload': true,
+                    'load': module.builder.onLoadEvent(
+                        element.data('search-url'),
+                        function (query) {
+                            return {
+                                token: csrfToken,
+                                search: query,
+                            };
+                        }
+                    ),
+                    'onLoad': function(data) {
+                        var instance = this,
+                            listItems = jQuery('.product-recommendations-wrapper li');
+                        data.forEach(function(item) {
+                            if (listItems.find('input[value="' + item.id + '"]').length) {
+                                instance.removeOption(item.id);
+                                return;
+                            }
+                            instance.addOptionGroup(item.groupid, {
+                                $order: item.order,
+                                name: item.group,
+                            });
+                        });
+                    },
+                    'onBlur': function() {
+                        this.clear();
+                    },
+                    'onItemAdd': function(value) {
+                        var listItems = jQuery('.product-recommendations-wrapper li'),
+                            existingItems = listItems.find('input[value="' + value + '"]').length,
+                            recommendationAlert = jQuery('div.recommendation-alert'),
+                            isChanged = false;
+                        if (value && existingItems < 1) {
+                            var newSelection = jQuery(".selectize-dropdown-content div[data-value|='" + value + "']"),
+                                clonableItem = jQuery('.product-recommendations-wrapper .clonable-item'),
+                                parentList = clonableItem.closest('ul'),
+                                clonedItem = clonableItem.clone().removeClass('hidden clonable-item');
+                            clonedItem.find('a span.recommendation-name').text(
+                                newSelection.siblings('div.optgroup-header').text() +
+                                ' - ' +
+                                newSelection.children("span.name").text()
+                            );
+                            jQuery('<input>').attr({
+                                type: 'hidden',
+                                name: 'productRecommendations[]',
+                                value: value
+                            }).appendTo(clonedItem);
+                            clonedItem.find('input').val(value);
+                            clonedItem.appendTo(parentList);
+                            instance.removeOption(value);
+                            isChanged = true;
+                        }
+                        if (listItems.length > 0) {
+                            jQuery('.product-recommendations-wrapper .placeholder-list-item').addClass('hidden');
+                            isChanged = true;
+                        }
+                        if (isChanged && recommendationAlert.not(':visible')) {
+                            jQuery('.recommendation-alert').removeClass('hidden');
+                        }
+                    }
+                },
+                instance = module.products(selector, undefined, configuration);
+
+            return selectized.push(instance);
+        });
+
+        if (selectized.length > 1) {
+            return selectized;
+        }
+
+        return selectized[0];
+    };
+
     /**
      * Generic selectize of users
      *  - no 'change' or 'load' events
@@ -274,6 +370,20 @@ function () {
         );
 
         instance.settings.searchField = ['description', 'shortAccountNumber', 'type', 'payMethodType'];
+
+        return instance;
+    };
+
+    this.products = function (selector, options, configuration) {
+        var instance = this.register(
+            selector,
+            options,
+            WHMCS.selectize.optionDecorator.product,
+            configuration
+        );
+
+        instance.settings.lockOptgroupOrder = true;
+        instance.settings.searchField = ['id', 'name', 'noResults'];
 
         return instance;
     };
@@ -491,6 +601,11 @@ function () {
             }
             return '<div' + color + '><span class="name">' + escape(item.name) + '</span>'
                  + (item.noResults ? '<span class="email">' + escape(item.noResults) + '</span>' : '') +
+                '</div>';
+        },
+        product: function (item, escape) {
+            return '<div><span class="name">' + escape(item.name) + '</span>'
+                + (item.noResults ? '<span class="email">' + escape(item.noResults) + '</span>' : '') +
                 '</div>';
         }
     };

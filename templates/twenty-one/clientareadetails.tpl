@@ -6,6 +6,12 @@
     {include file="$template/includes/alert.tpl" type="error" errorshtml=$errormessage}
 {/if}
 
+{if in_array('state', $optionalFields)}
+    <script>
+        var stateNotRequired = true;
+    </script>
+{/if}
+
 <script type="text/javascript" src="{$BASE_PATH_JS}/StatesDropdown.js"></script>
 
 <form method="post" action="?action=details" role="form">
@@ -145,7 +151,7 @@
                             <input type="hidden" name="email_preferences[{$emailType}]" value="0">
                             <input type="checkbox" class="form-check-input" name="email_preferences[{$emailType}]" id="{$emailType}Emails" value="1"{if $value} checked="checked"{/if} />
                             {lang key="emailPreferences."|cat:$emailType}
-                        </label>{if !($emailType@last)}<br />{/if}
+                        </label>{if !($value@last)}<br />{/if}
                     {/foreach}
                 </div>
             </div>

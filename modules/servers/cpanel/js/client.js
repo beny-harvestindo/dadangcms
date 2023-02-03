@@ -88,8 +88,21 @@ function doEmailCreate() {
         var wpDomain = $('#cPanelWordPress').data('wp-domain');
 
         $('#wpNewPath').keyup(function() {
-            var path = $('#wpNewPath').val().replace(/[^a-z\d\-_\.]/ig, '').toLowerCase();
-            $('#newWordPressFullUrlPreview').text('https://' + wpDomain + '/' + path);
+            let path = $('#wpNewPath').val().trim().replace(/^\//, '').replace(/\/$/, '');
+            let patterns = [
+                /[^a-z\d\-_\/]/i,
+                /^\//i,
+                /\/$/i,
+                /\/{2,}/i,
+            ];
+
+            let isValidPath = patterns.every(function (pattern){
+                return !path.match(pattern);
+            });
+
+            $('#newWordPressFullUrlPreview')
+                .toggleClass('text-danger', !isValidPath)
+                .text('https://' + wpDomain + '/' + path + (path.length ? '/' : '') );
         });
     });
 

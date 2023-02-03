@@ -21,8 +21,8 @@ function initStripeACH()
         paymentForm.off('submit');
         btnContainer.find('button').addClass('disabled').prop('disabled', true);
 
-        btnContainer.before(
-            '<div class="form-group bank-details">\n' +
+        jQuery('#inputDescriptionContainer').after(
+            '<div class="form-group row bank-details">\n' +
             '    <label for="inputBankDetails" class="col-sm-4 control-label">\n' +
             '        \n' +
             '    </label>\n' +

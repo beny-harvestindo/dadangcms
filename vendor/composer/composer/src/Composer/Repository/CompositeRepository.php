@@ -136,6 +136,7 @@ class CompositeRepository extends BaseRepository
     /**
      * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange]
     public function count()
     {
         $total = 0;

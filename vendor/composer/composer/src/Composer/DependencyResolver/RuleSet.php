@@ -96,6 +96,7 @@ class RuleSet implements \IteratorAggregate, \Countable
         }
     }
 
+    #[\ReturnTypeWillChange]
     public function count()
     {
         return $this->nextRuleId;
@@ -111,6 +112,7 @@ class RuleSet implements \IteratorAggregate, \Countable
         return $this->rules;
     }
 
+    #[\ReturnTypeWillChange]
     public function getIterator()
     {
         return new RuleSetIterator($this->getRules());

@@ -11,6 +11,7 @@
 
 namespace Symfony\Component\HttpFoundation\Tests\Session\Storage\Handler;
 
+use PHPUnit\Framework\SkippedTestSuiteError;
 use PHPUnit\Framework\TestCase;
 
 class AbstractSessionHandlerTest extends TestCase
@@ -23,8 +24,8 @@ class AbstractSessionHandlerTest extends TestCase
             1 => ['file', '/dev/null', 'w'],
             2 => ['file', '/dev/null', 'w'],
         ];
-        if (!self::$server = @proc_open('exec php -S localhost:8053', $spec, $pipes, __DIR__.'/Fixtures')) {
-            self::markTestSkipped('PHP server unable to start.');
+        if (!self::$server = @proc_open('exec '.\PHP_BINARY.' -S localhost:8053', $spec, $pipes, __DIR__.'/Fixtures')) {
+            throw new SkippedTestSuiteError('PHP server unable to start.');
         }
         sleep(1);
     }
@@ -52,7 +53,7 @@ class AbstractSessionHandlerTest extends TestCase
     public function provideSession()
     {
         foreach (glob(__DIR__.'/Fixtures/*.php') as $file) {
-            yield [pathinfo($file, PATHINFO_FILENAME)];
+            yield [pathinfo($file, \PATHINFO_FILENAME)];
         }
     }
 }

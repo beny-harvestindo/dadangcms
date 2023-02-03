@@ -1,7 +1,7 @@
 /*!
  * WHMCS MarketConnect Admin JS Functions
  *
- * @copyright Copyright (c) WHMCS Limited 2005-2020
+ * @copyright Copyright (c) WHMCS Limited 2005-2022
  * @license https://www.whmcs.com/license/ WHMCS Eula
  */
 jQuery(document).ready(function() {
@@ -68,5 +68,20 @@ jQuery(document).ready(function() {
         }).always(function (xhr) {
             buttonIcon.removeClass().addClass(iconState);
         });
+    })
+    .on('click', '.feature-menu-item', function(e) {
+        e.preventDefault();
+        var self = jQuery(this),
+            name = self.data('name'),
+            shownMenu = jQuery('.feature-menu-item.shown'),
+            shownItem = jQuery('.feature-info-item.shown'),
+            target = jQuery('.feature-info-item[data-name="' + name + '"]');
+
+        shownMenu.removeClass('shown');
+        self.addClass('shown');
+        shownItem.slideUp('fast', function() {
+            jQuery(this).removeClass('shown');
+            target.hide().addClass('shown').slideDown('fast');
+        })
     });
 });

@@ -17,21 +17,21 @@ require("../init.php");
     $whmcs = Application::getInstance();
     $pid = $whmcs->get_req_var('pid');
     $currencyid = $whmcs->get_req_var('currencyid');
+    $paytype = '';
 
     // Verify user input for pid exists, is numeric, and as is a valid id
-    if (is_numeric($pid)) {
+    $data = null;
+    if (!empty($pid) && ctype_digit($pid)) {
         $data = Capsule::table('tblproducts')
             ->where('id', '=', $pid)
             ->first();
-        $pid = $data->id;
-        $paytype = $data->paytype;
-    } else {
-        $pid = '';
     }
-
-    if (!$pid) {
+    if (!is_object($data)) {
         widgetoutput('Product ID Not Found');
     }
+    $pid = $data->id;
+    $paytype = $data->paytype;
+    unset($data);
 
     $currencyid = $whmcs->get_req_var('currency');
     // Support for older currencyid variable

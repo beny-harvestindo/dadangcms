@@ -17,6 +17,8 @@ CREATE TABLE `tblactivitylog` (
   `admin_id` int(10) unsigned NOT NULL default '0',
   `ipaddr` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
+  KEY `date` (`date`),
+  KEY `user` (`user`(255)),
   KEY `userid` (`userid`),
   KEY `user_id` (`user_id`),
   KEY `admin_id` (`admin_id`)

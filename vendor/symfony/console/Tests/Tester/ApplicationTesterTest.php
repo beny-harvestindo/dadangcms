@@ -59,12 +59,12 @@ class ApplicationTesterTest extends TestCase
     public function testGetOutput()
     {
         rewind($this->tester->getOutput()->getStream());
-        $this->assertEquals('foo'.PHP_EOL, stream_get_contents($this->tester->getOutput()->getStream()), '->getOutput() returns the current output instance');
+        $this->assertEquals('foo'.\PHP_EOL, stream_get_contents($this->tester->getOutput()->getStream()), '->getOutput() returns the current output instance');
     }
 
     public function testGetDisplay()
     {
-        $this->assertEquals('foo'.PHP_EOL, $this->tester->getDisplay(), '->getDisplay() returns the display of the last execution');
+        $this->assertEquals('foo'.\PHP_EOL, $this->tester->getDisplay(), '->getDisplay() returns the display of the last execution');
     }
 
     public function testSetInputs()
@@ -82,13 +82,13 @@ class ApplicationTesterTest extends TestCase
         $tester->setInputs(['I1', 'I2', 'I3']);
         $tester->run(['command' => 'foo']);
 
-        $this->assertSame(0, $tester->getStatusCode());
+        $tester->assertCommandIsSuccessful();
         $this->assertEquals('Q1Q2Q3', $tester->getDisplay(true));
     }
 
     public function testGetStatusCode()
     {
-        $this->assertSame(0, $this->tester->getStatusCode(), '->getStatusCode() returns the status code');
+        $this->tester->assertCommandIsSuccessful('->getStatusCode() returns the status code');
     }
 
     public function testErrorOutput()

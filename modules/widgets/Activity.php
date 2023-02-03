@@ -35,8 +35,8 @@ class Activity extends AbstractWidget
             $date = Carbon::createFromFormat('Y-m-d H:i:s', $entry['date']);
 
             $description = $entry['description'];
-            if ($entry['userid']) {
-                $userLabel = ' - User ID: ' . $entry['userid'];
+            if ($entry['userId']) {
+                $userLabel = ' - User ID: ' . $entry['userId'];
                 if (!strpos($description, $userLabel)) {
                     $description .= $userLabel;
                 }

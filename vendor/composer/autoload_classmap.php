@@ -36,6 +36,7 @@ return array(
     'AuthorizeNetTransaction' => $vendorDir . '/authorizenet/authorizenet/lib/deprecated/shared/AuthorizeNetTypes.php',
     'AuthorizeNetXMLResponse' => $vendorDir . '/authorizenet/authorizenet/lib/deprecated/shared/AuthorizeNetXMLResponse.php',
     'AuthorizeNet_Subscription' => $vendorDir . '/authorizenet/authorizenet/lib/deprecated/shared/AuthorizeNetTypes.php',
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Datamatrix' => $vendorDir . '/tecnickcom/tcpdf/include/barcodes/datamatrix.php',
     'Google_Service_Exception' => $vendorDir . '/google/apiclient/src/Google/Service/Exception.php',
     'Google_Service_Resource' => $vendorDir . '/google/apiclient/src/Google/Service/Resource.php',

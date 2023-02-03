@@ -112,6 +112,22 @@ h3 {
   background-color: #f6f6f6;
 }
 
+.contentarea.theme-content-bg {
+  padding: 0;
+  background-color: #f8f9fb;
+}
+
+.contentarea.theme-content-bg > div > h1:first-child {
+  display: none;
+}
+
+.contentarea.theme-content-bg .theme-header {
+  margin: 0;
+  padding: 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
 .footerbar {
   margin: 0;
   padding: 10px 15px;
@@ -201,10 +217,46 @@ h3 {
   padding: 2px 9px;
 }
 
+.paging-dropdown .dropdown-menu {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal-reissues .modal-body {
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 @media (min-width: 768px) {
   .pull-right-md-larger {
     float: right !important;
   }
+}
+
+.slide-tray {
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 450px;
+  color: #ddd;
+  z-index: 2000;
+  overflow: auto;
+  background-color: #efefef;
+  border-right: 1px solid #ddd;
+  color: #666;
+}
+
+.slide-tray.right {
+  right: 0;
+  border-right: 0;
+  border-left: 1px solid #ddd;
+}
+
+.slide-tray .inner-container {
+  padding: 25px;
 }
 
 .no-margin {
@@ -1124,14 +1176,6 @@ h3 {
   border-radius: 2px;
 }
 
-.input-group {
-  border-collapse: collapse;
-}
-
-.input-group .form-control {
-  margin-bottom: -1px;
-}
-
 .input-group.input-group-inline-flex .input-group-btn, .input-group.input-group-inline-flex .input-group-addon {
   width: unset;
   padding: 4px 8px;
@@ -1182,6 +1226,10 @@ h3 {
   .input-group-140px {
     width: 140px;
   }
+}
+
+.input-subtext {
+  margin-top: 1ex;
 }
 
 .client-limit-notification {
@@ -1245,7 +1293,7 @@ h3 {
   padding: 24px 35px 0 0;
   font-size: 26px;
   font-weight: 300;
-  color: #0a284e;
+  color: #fff;
   text-align: center;
 }
 
@@ -1253,17 +1301,10 @@ h3 {
   font-weight: bold;
 }
 
-.modal-feature-highlights .modal-header::after {
-  position: absolute;
-  top: 100px;
-  right: 20px;
-  content: url("../../../images/whatsnew/v8.png");
-}
-
 .modal-feature-highlights .modal-content {
   border: 0;
-  border-radius: 6px 6px 0 0;
-  background: #fff url("../../../images/whatsnew/bg-v83.png");
+  border-radius: 6px;
+  background: #fff url("../../../images/whatsnew/bg-v86.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1396,6 +1437,318 @@ h3 {
     margin: 5px 25px 0;
     max-width: 100%;
   }
+}
+
+.system-settings-index {
+  padding: 30px;
+}
+
+@media only screen and (min-width: 920px) {
+  .system-settings-index .left-col {
+    float: left;
+    width: 250px;
+  }
+  .system-settings-index .right-col {
+    margin-left: 300px;
+  }
+}
+
+.system-settings-index .setup-side-menu {
+  margin: 0 0 25px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.system-settings-index .setup-side-menu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 919px) {
+  .system-settings-index .setup-side-menu li {
+    float: left;
+  }
+}
+
+.system-settings-index .setup-side-menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  border-left: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+.system-settings-index .setup-side-menu li a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.system-settings-index .setup-side-menu li.active a {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left-color: #68a933;
+  background-color: #e7efe2;
+}
+
+.system-settings-index .recently-visited {
+  margin: 50px 0 25px 0;
+  color: #999;
+}
+
+.system-settings-index .recently-visited h3 {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  font-size: 1.15em;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+}
+
+.system-settings-index .recently-visited ol {
+  margin: 10px 0;
+  padding: 0 18px;
+  border-left: 0;
+  color: #848484;
+}
+
+.system-settings-index .recently-visited ol a {
+  display: block;
+  color: #848484;
+  font-size: 0.96em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.system-settings-index .recently-visited ol a:hover {
+  color: #666;
+}
+
+@media only screen and (max-width: 919px) {
+  .system-settings-index .recently-visited {
+    display: none;
+  }
+}
+
+.system-settings-index .setup-category-title {
+  display: block;
+  margin: 0 0 15px 0;
+  padding: 0 0 20px 0;
+  font-size: 18px;
+  color: #555;
+  font-weight: bold;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.05);
+}
+
+.system-settings-index .filter-container {
+  position: relative;
+  margin: 0 0 25px 0;
+}
+
+.system-settings-index .filter-container i {
+  position: absolute;
+  z-index: 1;
+  top: 13px;
+  color: #888;
+  width: 0;
+}
+
+.system-settings-index .filter-container i:first-child {
+  left: 13px;
+}
+
+.system-settings-index .filter-container i:last-child {
+  display: none;
+  right: 28px;
+}
+
+.system-settings-index .filter-container i:last-child:hover {
+  cursor: pointer;
+}
+
+.system-settings-index .filter-container input {
+  padding-left: 40px;
+  height: 40px;
+}
+
+.system-settings-index .highlight {
+  background-color: #ffff99;
+}
+
+.system-settings-index .setup-links-container {
+  margin: 0 -10px;
+}
+
+.system-settings-index .setup-links-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.system-settings-index .setting-col {
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 2250px) {
+  .system-settings-index .setting-col {
+    width: 16.6%;
+  }
+}
+
+@media only screen and (max-width: 2035px) {
+  .system-settings-index .setting-col {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .system-settings-index .setting-col {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .system-settings-index .setting-col {
+    width: 33.3%;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .system-settings-index .setting-col {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .system-settings-index .setting-col {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .system-settings-index .setting-col {
+    width: 100%;
+  }
+}
+
+.system-settings-index a.setting {
+  display: block;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  text-decoration: none;
+}
+
+.system-settings-index a.setting .icon {
+  display: none;
+  padding: 4px 30px;
+  font-size: 55px;
+  text-align: center;
+  color: #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+@media only screen and (min-width: 576px) {
+  .system-settings-index a.setting {
+    height: 225px;
+  }
+  .system-settings-index a.setting .icon {
+    display: block;
+  }
+}
+
+.system-settings-index a.setting .content {
+  padding: 20px 30px;
+  color: #aaa;
+  letter-spacing: -.2px;
+}
+
+.system-settings-index a.setting .title {
+  display: block;
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #003756;
+  letter-spacing: -.6px;
+}
+
+.system-settings-index a.setting:hover .icon {
+  color: #003756;
+}
+
+.setup-tasks-banner {
+  margin: 20px 0 0 0;
+}
+
+.setup-tasks-banner a {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.setup-tasks-banner .progress {
+  display: inline-block;
+  margin: 0;
+  width: 85%;
+  height: 13px;
+}
+
+@media only screen and (min-width: 920px) {
+  .setup-tasks-banner {
+    float: right;
+    margin-top: -75px;
+    width: 300px;
+  }
+  .setup-tasks-banner .progress {
+    width: 255px;
+  }
+}
+
+.setup-tasks h2 {
+  font-weight: bold;
+  color: #fff;
+  color: #444;
+}
+
+.setup-tasks a {
+  color: #ddd;
+  color: #666;
+  text-decoration: none;
+}
+
+.setup-tasks ul {
+  margin: 30px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.setup-tasks ul li {
+  font-size: 1.1em;
+  line-height: 2em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #ccc;
+}
+
+.setup-tasks ul li i.fa-check {
+  color: #339936;
+}
+
+.setup-tasks ul li:last-child {
+  border: 0;
+}
+
+.setup-tasks ul li a {
+  text-decoration: none;
+}
+
+.setup-tasks ul li a:hover {
+  text-decoration: underline;
 }
 
 .whmcs-phpinfo h1 {

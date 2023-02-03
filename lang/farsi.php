@@ -68,7 +68,7 @@ $_LANG['announcementsdescription'] = "مشاهده آخرین اخبار و اط
 $_LANG['announcementsnone'] = "اخباری برای نمایش موجود نیست";
 $_LANG['announcementsrss'] = "مشاهده RSS ";
 $_LANG['announcementstitle'] = "اخبار";
-$_LANG['announcementscontinue'] = "Continue reading";
+$_LANG['announcementscontinue'] = "ادامه مطلب";
 $_LANG['bannedbanexpires'] = "انقضای ممنوعیت";
 $_LANG['bannedbanreason'] = "دلیل ممنوعیت";
 $_LANG['bannedhasbeenbanned'] = "ممنوع شد";
@@ -144,7 +144,7 @@ $_LANG['clientareacontactsemailsdomain'] = "ایمیل های دامنه - اط�
 $_LANG['clientareacontactsemailsgeneral'] = "ایمیل های کلی- اعلانات کلی و یاد آوری های کلمه عبور ";
 $_LANG['clientareacontactsemailsinvoice'] = "ایمیل های صورتحساب - یاد آوریهای صورتحساب ها";
 $_LANG['clientareacontactsemailsproduct'] = "ایمیل های محصول-جزئیات سفارش ،ایمیل خوش آمدگویی و غیره...";
-$_LANG['clientareacontactsemailssupport'] = "Support Emails - Receive a copy of all support ticket communications created by the parent account holder";
+$_LANG['clientareacontactsemailssupport'] = "ایمیل های پشتیبانی - یک نسخه از تمام ارتباطات پشتیبانی  ایجاد شده توسط دارنده حساب اصلی دریافت کنید";
 $_LANG['clientareacountry'] = "کشور";
 $_LANG['clientareacurrentsecurityanswer'] = "لطفا پاسخ خود را وارد کنید";
 $_LANG['clientareacurrentsecurityquestion'] = "لطفا یک سوال امنیتی انتخاب کنید";
@@ -168,8 +168,8 @@ $_LANG['clientareaerrorcity2'] = "شهر شما فقط میتواند شامل �
 $_LANG['clientareaerrorcountry'] = "کشور خود را انتخاب کنید";
 $_LANG['clientareaerroremail'] = "آدرس ایمیل خود را وارد نکرده اید";
 $_LANG['clientareaerroremailinvalid'] = "این آدرس ایمیل نامعتبر است";
-$_LANG['clientareaerroremailexists'] = "The email address entered is not available for use.";
-$_LANG['clientareaerrorusernotassoc'] = "The email address entered is not available for use.";
+$_LANG['clientareaerroremailexists'] = "آدرس ایمیل وارد شده برای استفاده در دسترس نیست";
+$_LANG['clientareaerrorusernotassoc'] = "آدرس ایمیل وارد شده برای استفاده در دسترس نیست";
 $_LANG['clientareaerrorfirstname'] = "نام خود را وارد نکرده اید";
 $_LANG['clientareaerrorfirstname2'] = "نام شما فقط میتواند شامل حروف باشد";
 $_LANG['clientareaerrorisrequired'] = " الزامیست";
@@ -184,7 +184,7 @@ $_LANG['clientareaerrorpostcode'] = "کد پستی خود را وارد نکرد
 $_LANG['clientareaerrorpostcode2'] = "کدپستی شما فقط میتواند شامل حروف ،اعداد و فواصل باشد";
 $_LANG['clientareaerrors'] = " خطای زیر روی داده است:";
 $_LANG['clientareaerrorstate'] = "استان خود را وارد نکرده اید";
-$_LANG['clientareaerrorlanguage'] = "A valid language was not provided";
+$_LANG['clientareaerrorlanguage'] = "یک زبان معتبر ارائه نشده است";
 $_LANG['clientareaexpired'] = "منقضی شده";
 $_LANG['clientareafirstname'] = "نام";
 $_LANG['clientareafraud'] = "تقلب";
@@ -219,7 +219,7 @@ $_LANG['clientareanavsupporttickets'] = "پشتیبانی";
 $_LANG['clientareanocontacts'] = "تماس/حساب فرعی یافت نشد";
 $_LANG['clientareapassword'] = "کلمه عبور";
 $_LANG['clientareapending'] = "معلق";
-$_LANG['clientareapendingregistration'] = "Pending Registration";
+$_LANG['clientareapendingregistration'] = "در انتظار ثبت نام";
 $_LANG['clientareapendingtransfer'] = "در حال انتقال";
 $_LANG['clientareaphonenumber'] = "تلفن";
 $_LANG['clientareapostcode'] = "کدپستی";
@@ -245,7 +245,7 @@ $_LANG['clientareaupdateyourdetails'] = "بروز رسانی مشخصات شما
 $_LANG['clientareaused'] = "استفاده شده";
 $_LANG['clientareaviewaddons'] = "دیدن افزودنی های موجود";
 $_LANG['clientareaviewdetails'] = "دیدن جزئیات";
-$_LANG['clientarealanguage'] = "Language";
+$_LANG['clientarealanguage'] = "زبان";
 $_LANG['clientlogin'] = "ورود کاربر";
 $_LANG['clientregisterheadertext'] = "برای ثبت نام حساب جدید موارد زیر را کامل کنید.پاسخگویی به موارد * دار اجباری میباشد.";
 $_LANG['clientregistertitle'] = "ثبت نام کنید";
@@ -385,9 +385,9 @@ $_LANG['domaintransfer'] = "انتقال دامنه";
 $_LANG['domainunavailable'] = "موجود نیست";
 $_LANG['domainunavailable1'] = "متاسفیم!";
 $_LANG['domainunavailable2'] = "موجود نمیباشد!";
-$_LANG['domainreserved'] = "Reserved";
-$_LANG['domainreserved1'] = "Domain";
-$_LANG['domainreserved2'] = "is available, but reserved.";
+$_LANG['domainreserved'] = "رزرو شده";
+$_LANG['domainreserved1'] = "دامنه";
+$_LANG['domainreserved2'] = "در دسترس است ، اما محفوظ است";
 $_LANG['domainviewwhois'] = "مشاهده گزارش ";
 $_LANG['downloaddescription'] = "توضیحات";
 $_LANG['downloadloginrequired'] = "شما امکان دسترسی به این صفحه را ندارید - برای استفاده از این صفحه شما باید در ابتدا وارد سیستم شوید.";
@@ -422,7 +422,7 @@ $_LANG['invoiceaddcreditdesc1'] = "موجودی حساب شما :";
 $_LANG['invoiceaddcreditdesc2'] = "این میتواند توسط فرم زیر روی صورت حساب ها اعمال شود.";
 $_LANG['invoiceaddcreditoverbalance'] = "شما برای میزان بدهی خود نمی توانید بیشتر از موجودی قابل استفاده حساب خود استفاده کنید";
 $_LANG['invoiceaddcreditovercredit'] = "شما نمی توانید از اعتبار قابل استفاده خود فراتر استفاده کنید.";
-$_LANG['invoicenumber'] = "Invoice #";
+$_LANG['invoicenumber'] = "صورتحساب #";
 $_LANG['invoiceofflinepaid'] = "پروسه پرداخت آفلاین با کارت اعتباری بصورت دستی انجام میشود.هنگامی که پروسه پرداخت تکمیل شود شما ایمیل تاییدیه دریافت خواهید کرد .";
 $_LANG['invoicerefnum'] = "شماره مرجع";
 $_LANG['invoices'] = "صورتحساب ها";
@@ -468,7 +468,7 @@ $_LANG['kbsuggestions'] = "پیشنهادهای مرکز اطلاعات";
 $_LANG['kbsuggestionsexplanation'] = "مقاله های زیر در قسمت مرکز اطلاعات ما یافت شد، لطفا قبل از ارسال درخواست برای دریافت پاسخ خود مقاله های زیر را مطالعه کنید.";
 $_LANG['knowledgebasearticles'] = "مقالات";
 $_LANG['knowledgebasecategories'] = "دسته بندی ها";
-$_LANG['nokbcategories'] = "No categories exist";
+$_LANG['nokbcategories'] = "هیچ دسته ای وجود ندارد";
 $_LANG['knowledgebasedescription'] = "مشاهده سوال و جواب های متداول";
 $_LANG['knowledgebasefavorites'] = "افزودن به مورد علاقه ها";
 $_LANG['knowledgebasehelpful'] = "آیا این پاسخ به شما کمک کرد؟";
@@ -489,7 +489,7 @@ $_LANG['knowledgebasevote'] = "نظر";
 $_LANG['knowledgebasevotes'] = "نظرات";
 $_LANG['knowledgebaseyes'] = "بلی";
 $_LANG['knowledgebaseArticleRatingThanks'] = "از رتبه ای که دادید سپاسگزاریم.";
-$_LANG['language'] = "Language";
+$_LANG['language'] = "زبان";
 $_LANG['latefee'] = "هزینه دیرکرد";
 $_LANG['latefeeadded'] = "افزوده شد";
 $_LANG['latestannouncements'] = "آخرین اخبار";
@@ -539,8 +539,8 @@ $_LANG['networkissuestitle'] = "مشکلات شبکه";
 $_LANG['networkissuestypeother'] = "دیگر";
 $_LANG['networkissuestypeserver'] = "سرور";
 $_LANG['networkissuestypesystem'] = "سیستم";
-$_LANG['networkIssuesAware'] = "We are aware of a potentially service impacting issue.";
-$_LANG['networkIssuesScheduled'] = "There are upcoming maintenance events which may impact our services.";
+$_LANG['networkIssuesAware'] = "ما از یک مشکل تأثیرگذار بر خدمات آگاه هستیم";
+$_LANG['networkIssuesScheduled'] = "رویدادهای تعمیر و نگهداری  در آینده  وجود دارد که ممکن است خدمات ما را تحت تأثیر قرار دهد";
 $_LANG['newpassword'] = "کلمه ی عبور جدید";
 $_LANG['nextpage'] = "صفحه بعد";
 $_LANG['no'] = "خیر";
@@ -686,7 +686,7 @@ $_LANG['proformainvoicenumber'] = "صورتحساب پیش صورتحساب #";
 $_LANG['promoexistingclient'] = "شما باید حداقل یک محصول فعال داشته باشید تا اجازه استفاده از این کد را پیدا کنید.";
 $_LANG['promoonceperclient'] = "از این کد تنها یک کاربر و یک بار می تواند استفاده کند.";
 $_LANG['pwstrengthfail'] = "رمزعبور وارد شده شما بسیار ساده می باشد لطفا رمزعبور پیچیده تری انتخاب کنید.";
-$_LANG['pwdoesnotmatch'] = "The passwords entered do not match";
+$_LANG['pwdoesnotmatch'] = "گذرواژه های وارد شده مطابقت ندارند";
 $_LANG['quicknav'] = "منوی سریع";
 $_LANG['recordsfound'] = "مورد یافت شد";
 $_LANG['recurring'] = "دوره ای";
@@ -698,6 +698,7 @@ $_LANG['registerdomainname'] = "ثبت یک نام دامنه";
 $_LANG['relatedservice'] = "سرویس مربوطه";
 $_LANG['rssfeed'] = "فید";
 $_LANG['securityanswerrequired'] = "شما باید یک سوال امنیتی انتخاب کنید.";
+$_LANG['securityquestionrequired'] = "You must select a security question";
 $_LANG['securitybothnotmatch'] = "پاسخ شما با تکرار پاسخ شما مطابقت ندارد";
 $_LANG['securitycurrentincorrect'] = "سوال امنیتی و پاسخ فعلی شما اشتباه است.";
 $_LANG['serverchangepassword'] = "تغییر کلمه عبور";
@@ -742,12 +743,12 @@ $_LANG['sslserverinfodetails'] = "برای اینکار شما باید کد \"C
 $_LANG['sslservertype'] = "نوع وب سرور";
 $_LANG['ssl']['selectWebserver'] = "Select a :serverType";
 $_LANG['sslstatus'] = "موقعیت گواهینامه";
-$_LANG['sslawaitingconfig'] = "Awaiting Configuration";
-$_LANG['sslconfigure'] = "Configure";
-$_LANG['ssldomain'] = "Domain";
-$_LANG['sslproduct'] = "SSL Product";
-$_LANG['sslrenewaldate'] = "Renewal Date";
-$_LANG['sslresendmail'] = "Resend Email";
+$_LANG['sslawaitingconfig'] = "در انتظار پیکربندی";
+$_LANG['sslconfigure'] = "پیکربندی";
+$_LANG['ssldomain'] = "دامنه";
+$_LANG['sslproduct'] = "ssl محصول";
+$_LANG['sslrenewaldate'] = "تاریخ تمدید";
+$_LANG['sslresendmail'] = "ارسال مجدد ایمیل";
 $_LANG['statscreditbalance'] = "موجودی حساب شما";
 $_LANG['statsdueinvoicesbalance'] = "مبلغ صورت حساب های پرداخت نشده";
 $_LANG['statsnumdomains'] = "تعداد دامنه ها";
@@ -801,7 +802,7 @@ $_LANG['supportticketsticketurgencyhigh'] = "زیاد";
 $_LANG['supportticketsticketurgencylow'] = "کم";
 $_LANG['supportticketsticketurgencymedium'] = "متوسط";
 $_LANG['supportticketsuploadfailed'] = "فایل الصاقی آپلود نشد";
-$_LANG['supportticketsuploadtoolarge'] = "Uploaded file was too large. Please try uploading a smaller file.";
+$_LANG['supportticketsuploadtoolarge'] = "فایل بارگذاری شده بسیار بزرگ بود. لطفاً فایل کوچکتر را بارگذاری کنید";
 $_LANG['supportticketsviewticket'] = "مشاهده تیکت";
 $_LANG['supportticketclosedmsg'] = "این تیکت بسته شده است. جهت بازگشایی آن، باید پاسخی ارسال کنید.";
 $_LANG['telesignincorrectpin'] = "کد اشتباه است!";
@@ -849,10 +850,10 @@ $_LANG['welcomeback'] = "خوش آمدید";
 $_LANG['whoisresults'] = "نتایج جستجو برای";
 $_LANG['yes'] = "بلی";
 $_LANG['yourdetails'] = "مشخصات شما";
-$_LANG['user'] = "User";
-$_LANG['loggedInAs'] = "Logged in as";
-$_LANG['viewAllPricing'] = "View all pricing";
-$_LANG['default'] = "Default";
+$_LANG['user'] = "کاربر";
+$_LANG['loggedInAs'] = "وارد شده به عنوان";
+$_LANG['viewAllPricing'] = "مشاهده همه قیمت ها";
+$_LANG['default'] = "پیش فرض";
 $_LANG['maxFileSize'] = "Max file size: :fileSize";
 
 # Version 4.1
@@ -868,20 +869,20 @@ $_LANG['pwresetemailnotfound'] = "هیچ اکانتی با ایمیلی که ش�
 $_LANG['pwresetsecurityquestionrequired'] = "شما در کنترل پنل خود سوال امنیتی تنظیم کرده اید. لطفا به سوال امنیتی زیر پاسخ دهید.";
 $_LANG['pwresetsecurityquestionincorrect'] = "پاسخی که به سوال امنیتی داده اید با پاسخی که در اکانت شما ثبت است مطابقت ندارد.";
 $_LANG['pwresetsubmit'] = "ارسال";
-$_LANG['pwresetrequested'] = "Password Reset Requested";
-$_LANG['pwresetcheckemail'] = "If the email address you entered matched an existing account, please check your email for instructions on what to do next.";
+$_LANG['pwresetrequested'] = "درخواست بازنشانی رمز";
+$_LANG['pwresetcheckemail'] = "اگر آدرس ایمیلی که وارد کرده اید با حساب موجود مطابقت دارد ، لطفاً ایمیل خود را برای دستورالعمل های بعدی بررسی کنید";
 $_LANG['pwresetkeyinvalid'] = "لینک بازیابی معتبر نیست. لطفا مجددا تلاش فرمایید.";
 $_LANG['pwresetkeyexpired'] = "مدت زمان فعال بودن این لینک به پایان رسیده است. لطفا مجددا تلاش فرمایید.";
 $_LANG['pwresetvalidationsuccess'] = "بازیابی کلمه عبور با موفقیت انجام گرفت.";
 
-$_LANG['overagescharges'] = "Overage Charge";
+$_LANG['overagescharges'] = "شارژ متوسط";
 $_LANG['overagestotaldiskusage'] = "حجم کل اطلاعات";
 $_LANG['overagestotalbwusage'] = "حجم کل پهنای باند مصرف شده";
 
 $_LANG['affiliatescommissionspending'] = "درآمدهای در حال تایید";
 $_LANG['affiliatescommissionsavailable'] = "میزان درآمدهای تایید شده";
 
-$_LANG['configoptionqtyminmax'] = "%s has a minimum requirement of %s and maximum of %s";
+$_LANG['configoptionqtyminmax'] = "%s دارای حداقل الزامات %s و حداکثر%s";
 
 $_LANG['creditcardnostore'] = "اگر شما نمی خواهید اطلاعات کارت شما برای پرداخت های بعدی به صورت خودکار نزد ما بماند، این قسمت را تیک بزنید.";
 $_LANG['creditcarddelete'] = "حذف اطلاعات کارت های ذخیره شده";
@@ -893,10 +894,10 @@ $_LANG['invoicepaymentfailedconfirmation'] = "متاسفانه پرداخت شم
 
 # Version 4.2
 
-$_LANG['promoappliedbutnodiscount'] = "The promotion code you entered has been applied to your cart but no items qualify for the discount yet - please check the promotion terms";
+$_LANG['promoappliedbutnodiscount'] = "کد تخفیفی  که وارد کرده اید بر روی سبد خرید شما اعمال شده است اما هنوز هیچ موردی مشمول تخفیف نمی شود - لطفاً شرایط تخفیف را بررسی کنید";
 
-$_LANG['upgradeerroroverdueinvoice'] = "You cannot currently upgrade or downgrade this product because an invoice has already been generated for the next renewal.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.";
-$_LANG['upgradeexistingupgradeinvoice'] = "You cannot currently upgrade or downgrade this product because an upgrade or downgrade is already in progress.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.<br/><br/>If you believe you are receiving this message in error, please submit a trouble ticket.";
+$_LANG['upgradeerroroverdueinvoice'] = "در حال حاضر نمی توانید این محصول را ارتقاء یا تنزل دهید زیرا قبلاً یک فاکتور برای تمدید بعدی ایجاد شده است<br /><br />برای ادامه ، لطفاً ابتدا فاکتور پرداخت نشده خود  را پرداخت کنید و سپس بلافاصله پس از آن می توانید ارتقاء یا تنزل دهید و مابه التفاوت آن را از شما کسر کرده یا به صورت مناسب اعتبار دهید";
+$_LANG['upgradeexistingupgradeinvoice'] = "شما در حال حاضر نمی توانید این محصول را ارتقاء یا تنزل دهید زیرا ارتقاء یا تنزل در حال انجام است<br /><br />برای ادامه ، لطفاً ابتدا فاکتور پرداخت نشده  را پرداخت کنید و سپس بلافاصله پس از آن می توانید ارتقاء یا تنزل دهید و مابه التفاوت آن را از شما کسر کرده یا به صورت مناسب اعتبار دهید<br/><br/>اگر فکر می کنید این پیام را به اشتباه دریافت کرده اید ، لطفاً یک تیکت مشکل ارسال کنید";
 
 $_LANG['subaccountactivate'] = "فعال نمودن حساب فرعی";
 $_LANG['subaccountactivatedesc'] = "تنظیم به عنوان یک حساب فرعی با اجازه ورود به پنل کاربری";
@@ -915,7 +916,7 @@ $_LANG['subaccountpermsorders'] = "سفارش جدید/ارتقا ها / انص�
 $_LANG['subaccountpermissiondenied'] = "شما مجوز لازم جهت دسترسی به این صفحه را ندارید";
 $_LANG['subaccountallowedperms'] = "مجوزهای دسترسی شما عبارتند از :";
 $_LANG['subaccountcontactmaster'] = "در صورتی که احساس میکنید اشتباهی صورت گرفته است با صاحب حساب اصلی تماس بگیرید.";
-$_LANG['subaccountSsoDenied'] = "You do not have permission to login using Single Sign-On.";
+$_LANG['subaccountSsoDenied'] = " Single Sign-On اجازه ورود به سیستم با استفاده از";
 
 $_LANG['knowledgebasealsoread'] = "در همین زمینه";
 
@@ -981,8 +982,8 @@ $_LANG['twitterfollowuswhy'] = "برای اینکه همواره از آخرین
 $_LANG['chatlivehelp'] = "راهنمای زنده";
 
 $_LANG['domainrelease'] = "آزاد سازی دامنه";
-$_LANG['domainreleasedescription'] = "Enter a new TAG here to move your domain name to another registrar";
-$_LANG['domainreleasetag'] = "New Registrar Tag";
+$_LANG['domainreleasedescription'] = "جدید وارد کنید تا نام دامنه خود را به ثبت کننده دیگری منتقل کنیدTAGدر اینجا یک";
+$_LANG['domainreleasetag'] = "تگ ثبت کننده جدید";
 
 # Ajax Order Form
 
@@ -1029,7 +1030,7 @@ $_LANG['domainemailforwardinglaunch'] = "باز نمودن Mail Forwarding Manag
 # Version 4.5
 
 $_LANG['domaindnspriority'] = "اولویت";
-$_LANG['domaindnsmxonly'] = "Priority Record for MX Only";
+$_LANG['domaindnsmxonly'] = "ضبط اولویت فقط برای MX";
 
 $_LANG['orderpromoprestart'] = "این فروش ویژه هنوز شروع نشده است. لطفا بعدا تلاش کنید.";
 
@@ -1062,12 +1063,12 @@ $_LANG['quotestagelost'] = "مفقود";
 $_LANG['quotestagedead'] = "کهنه";
 $_LANG['quoteref'] = "مظنه مجدد #";
 $_LANG['quotedeposit'] = "سپرده";
-$_LANG['quotefinalpayment'] = "Balance from Deposit";
+$_LANG['quotefinalpayment'] = "مانده از سپرده";
 
-$_LANG['invoiceoneoffpayment'] = "Make One Off Payment";
-$_LANG['invoicesubscriptionpayment'] = "Create Automated Recurring Subscription";
+$_LANG['invoiceoneoffpayment'] = "پرداخت انبوه";
+$_LANG['invoicesubscriptionpayment'] = "ایجاد اشتراک خودکار مکرر";
 
-$_LANG['invoicepaymentpendingreview'] = "Thank You! Your payment was successful and will be applied to your invoice as soon as 2CheckOut's Review Process has completed.\n\nThis can take up to a few hours so your patience is appreciated.";
+$_LANG['invoicepaymentpendingreview'] = "متشکرم! پرداخت شما با موفقیت انجام شد و به محض اتمام فرآیند بازبینی  ، در صورتحساب شما اعمال می شود\n\nاین کار ممکن است چند ساعت طول بکشد ، بنابراین از صبر شما قدردانی می شود.";
 
 $_LANG['step'] = "مرحله %s";
 $_LANG['cartdomainexists'] = "این دامنه در سیستم ما وجود دارد بنابراین مجددا قابل سفارش نیست";
@@ -1099,13 +1100,14 @@ $_LANG['cartchooseanothercategory'] = "انتخاب گروه دیگر";
 $_LANG['carttryanotherdomain'] = "دامنه دیگر را امتحان کنید";
 $_LANG['cartmakedomainselection'] = "لطفا با انتخاب یکی از گزینه های زیر ، دامنه ای را که میخواهید با سرویس ما میزبانی کنید مشخص کنید.";
 $_LANG['cartfraudcheck'] = "بررسی تقلب";
+$_LANG['cartapifailedtoloadcart'] = "The system could not load the requested cart. <strong><a href=\"cart.php\">Click here</a></strong> to start a new order.";
 
 $_LANG['newcustomer'] = "مشتری جدید";
 $_LANG['existingcustomer'] = "مشتری قبلی";
 $_LANG['newcustomersignup'] = "<strong>هنوز ثبت نام نکرده اید؟</strong> %sجهت ثبت نام کلیک کنید...%s";
 
 $_LANG['upgradeonselectedoptions'] = "(روی گزینه های انتخابی)";
-$_LANG['recurringpromodesc'] = "This promotion code also includes a %s Recurring Discount (This discount will apply to future renewals of the product's total price)";
+$_LANG['recurringpromodesc'] = "این کد تبلیغاتی همچنین شامل  %s تخفیف مکرر (این تخفیف برای تمدید قیمت کل محصول در آینده اعمال می شود)";
 
 # Version 4.5.2
 
@@ -1115,12 +1117,12 @@ $_LANG['ajaxcartconfigreqnotice'] = "شما در حال ثبت نام هستید
 # Version 5.0.0
 
 $_LANG['cancelrequestdomain'] = "تمدید دامنه لغو گردد ؟";
-$_LANG['cancelrequestdomaindesc'] = "You also have an active domain registration for the domain associated with this product<br />This domain is due to renew on %s at a cost of %s for %s Year/s<br /><br />If you would like to cancel the domain as well, and let it expire at the end of the current registration, then simply tick the box below.";
+$_LANG['cancelrequestdomaindesc'] = "شما همچنین یک دامنه فعال برای دامنه مرتبط با این محصول دارید<br />این دامنه باید تمدید شود %s به قیمت %s برای %s سال%/s<br /><br />اگر می خواهید دامنه را نیز لغو کنید و اجازه دهید در پایان ثبت نام فعلی منقضی شود ، به سادگی کادر زیر را علامت بزنید";
 $_LANG['cancelrequestdomainconfirm'] = "من تایید میکنم که مایل به تمدید مجدد این دامنه نیستم";
 
 $_LANG['startingfrom'] = "شروع از";
 
-$_LANG['orderpromopriceoverride'] = "Price Override";
+$_LANG['orderpromopriceoverride'] = "نادیده گرفتن قیمت";
 $_LANG['orderpromofreesetup'] = "ستاپ رایگان";
 
 $_LANG['thereisaproblem'] = "اووپس...مشکلی پیش آمده";
@@ -1144,7 +1146,7 @@ $_LANG['domaincontactprimary'] = "اطلاعات نمایه ی اصلی";
 
 $_LANG['invoicepdfgenerated'] = "PDF ایجاد شده است در";
 
-$_LANG['domainrenewalsbeforerenewlimit'] = "Minimum Advance Renewal is %s Days";
+$_LANG['domainrenewalsbeforerenewlimit'] = "حداقل تمدید پیشین است %s Days";
 
 $_LANG['promonewsignupsonly'] = "این کد تخفیف تنها برای کاربران جدید قابل استفاده است";
 
@@ -1189,12 +1191,12 @@ $_LANG['bundlevaliddateserror'] = "بسته نرم افزاری موجود نی�
 $_LANG['bundlevaliddateserrordesc'] = "این بسته نرم افزاری موجود نیست و یا منقضی شده است.اگر تصور میکنید اشتباهی رخ داده است، لطفا با بخش پشتیبانی ارتباط برقرار کنید.";
 $_LANG['bundlemaxusesreached'] = "بسته نرم افزاری موجود نیست";
 $_LANG['bundlemaxusesreacheddesc'] = "این بسته نرم افزاری به حداکثر تعداد استفاده مجاز رسیده است و متاسفانه دیگر در دسترس نیست.اگر شما علاقه مند به خدمات ما هستید لطفا از طریق بخش پشتیبانی با ما در تماس باشید";
-$_LANG['bundlereqsnotmet'] = "Bundle Requirements Not Met";
-$_LANG['bundlewarningpromo'] = "The selected bundle cannot be used in conjunction with any other promotions or offers";
-$_LANG['bundlewarningproductcycle'] = "The selected bundle requires you choose the billing cycle '%s' for product %s to qualify";
-$_LANG['bundlewarningproductconfopreq'] = "The selected bundle requires you select '%s' for '%s' in order to qualify";
-$_LANG['bundlewarningproductconfopyesnoenable'] = "The selected bundle requires you enable the option '%s' in order to qualify";
-$_LANG['bundlewarningproductconfopyesnodisable'] = "The selected bundle requires you deselect the option '%s' in order to qualify";
+$_LANG['bundlereqsnotmet'] = "بسته نرم افزاری مورد نیاز من نیست";
+$_LANG['bundlewarningpromo'] = "بسته انتخاب شده نمی تواند همراه با تخفیفات یا پیشنهادات دیگر استفاده شود";
+$_LANG['bundlewarningproductcycle'] = "بسته انتخاب شده نیاز به انتخاب چرخه صورتحساب دارد '%s' برای محصول %s واجد شرایط بودن";
+$_LANG['bundlewarningproductconfopreq'] = "بسته انتخاب شده نیاز به انتخاب شما دارد'%s' برای '%s 'به منظور واجد شرایط بودن";
+$_LANG['bundlewarningproductconfopyesnoenable'] = "بسته انتخاب شده باید گزینه را فعال کنید '%s'به منظور واجد شرایط بودن";
+$_LANG['bundlewarningproductconfopyesnodisable'] = "بسته انتخاب شده نیاز به حذف انتخاب گزینه دارد '%s 'به منظور واجد شرایط بودن ";
 $_LANG['bundlewarningproductconfopqtyreq'] = "The selected bundle requires you choose a quantity of '%s' for '%s' in order to qualify";
 $_LANG['bundlewarningproductaddonreq'] = "The selected bundle requires you select the addon '%s' for product %s to qualify";
 $_LANG['bundlewarningdomainreq'] = "The selected bundle requires you register or transfer a domain with the product %s to qualify";
@@ -1281,7 +1283,7 @@ $_LANG['pwstrengthenter'] = "رمزی وارد کنید";
 $_LANG['pwstrengthweak'] = "ضعیف";
 $_LANG['pwstrengthmoderate'] = "متعادل";
 $_LANG['pwstrengthstrong'] = "قوی";
-$_LANG['pwstrengthrating'] = "New Password Rating";
+$_LANG['pwstrengthrating'] = "امتیاز رمز عبور جدید";
 
 $_LANG['managing'] = "مدیریت";
 $_LANG['information'] = "اطلاعات";
@@ -1346,7 +1348,7 @@ $_LANG['affiliatesignupinfo3'] = "در صورت نیاز به اطلاعات ب�
 $_LANG['copyright'] = "کپی رایت";
 $_LANG['allrightsreserved'] = "تمام حقوق محفوظ است";
 $_LANG['supportticketsclose'] = "بستن درخواست";
-$_LANG['affiliatesinitialthen'] = "Initially then";
+$_LANG['affiliatesinitialthen'] = "در ابتدا پس از آن";
 $_LANG['invoicesoutstandingbalance'] = "میزان واریز نشده";
 
 $_LANG['cpanellogin'] = "ورود به cPanel";
@@ -1388,8 +1390,8 @@ $_LANG['billableitemshour'] = "ساعت";
 $_LANG['billableitemsquantity'] = "Qty";
 $_LANG['billableitemseach'] = "Each";
 
-$_LANG['invoicefilename'] = "Invoice-";
-$_LANG['quotefilename'] = "Quote-";
+$_LANG['invoicefilename'] = "صورتحساب-";
+$_LANG['quotefilename'] = "نقل قول-";
 
 # Domain Addons
 
@@ -1418,10 +1420,10 @@ $_LANG['newsletterresubscribe'] = "اگر میخواهید که مجددا به 
 $_LANG['unsubscribehashinvalid'] = "لغو اشتراک انجام نشد. با پشتیبانی تماس بگیرید";
 $_LANG['unsubscribesuccess'] = "لغو اشتراک انجام شد";
 $_LANG['newsletterremoved'] = "با تشکر از شما، ایمیل شما هم اکنون از لیست اعضای خبرنامه ما حذف شد.";
-$_LANG['newslettersubscribed'] = "You have been successfully subscribed to our mailing list.";
-$_LANG['emailMarketingAlreadyOptedIn'] = "You are already subscribed to our mailing list.";
-$_LANG['emailMarketingAlreadyOptedOut'] = "You are already unsubscribed from our mailing list.";
-$_LANG['manageSubscription'] = "Manage Subscription";
+$_LANG['newslettersubscribed'] = "شما با موفقیت در لیست خبرنامه ما مشترک شدید";
+$_LANG['emailMarketingAlreadyOptedIn'] = "شما قبلاً در لیست خبرنامه ما مشترک شده اید";
+$_LANG['emailMarketingAlreadyOptedOut'] = "شما قبلاً اشتراک لیست خبرنامه ما را لغو کرده اید";
+$_LANG['manageSubscription'] = "مدیریت اشتراک";
 
 $_LANG['erroroccured'] = "خطایی رخ داد";
 $_LANG['pwresetsuccessdesc'] = "پسورد شما هم اکنون جایگزین شد. جهت ادامه %sاینجا کلیک کنید%s ...";
@@ -1449,7 +1451,7 @@ $_LANG['feedbackworst'] = "بدترین";
 $_LANG['feedbackbest'] = "بهترین";
 $_LANG['feedbackimprove'] = "چطور میتوانیم در آینده بهتر به شما کمک کنیم؟";
 $_LANG['pleaserate2'] = "به این تیکت رسیدگی شد";
-$_LANG['feedbacksupplyrating'] = "Please supply at least a rating for :staffname (comments are optional)";
+$_LANG['feedbacksupplyrating'] = "لطفاً حداقل رتبه ای برای :staffname (comments are optional)";
 
 $_LANG['returnclient'] = "بازگشت به بخش کاربران";
 
@@ -1468,15 +1470,15 @@ $_LANG['twofadisableintro'] = "برای غیر فعال نمودن تایید ه
 $_LANG['twofaactivationerror'] = "خظایی در فعال کردن تایید هویت دو عاملی برای حساب شما رخ داد. لطفا مجددا تلاش کنید.";
 $_LANG['twofamoduleerror'] = "خطایی در بارگذاری ماژول مربوطه رخ داد. لطفا مجددا تلاش کنید.";
 $_LANG['twofadisableconfirmation'] = "تایید هویت دو عاملی هم اکنون روی حساب شما غیر فعال شد";
-$_LANG['twofabackupcode'] = "Backup Code";
-$_LANG['twofabackupcodeintro'] = "The backup code is needed to access your account in the event you cannot complete two-factor authentication.";
+$_LANG['twofabackupcode'] = "کد پشتیبان";
+$_LANG['twofabackupcodeintro'] = "در صورتی که نتوانید احراز هویت دو مرحله ای را تکمیل کنید ، کد پشتیبان برای دسترسی به حساب شما مورد نیاز است";
 $_LANG['twofabackupcodeis'] = "کد پشتیبان شما عبارت است از: ";
 $_LANG['twofanewbackupcodeis'] = "کد جدید پشتیبان شما";
 $_LANG['twofabackupcodelogin'] = "جهت ورود ،کد پشتیبان را وارد کنید";
 $_LANG['twofabackupcodeexpl'] = "این کد را در جایی امن نگهداری کنید.این کد در مواقعی که دستگاه تایید هویت دو مرحله ای را همراه نداشته باشید یا آن را گم کرده باشید به کارتان خواهد آمد.";
 $_LANG['twofaconfirmpw'] = "رمزتان را وارد کنید";
 $_LANG['twofa2ndfactorreq'] = "دومین فاکتور شما برای تکمیل ورود، نیاز است.";
-$_LANG['twofa2ndfactorincorrect'] = "The second factor you supplied was incorrect. Please try again. You have :attempts attempts remaining.";
+$_LANG['twofa2ndfactorincorrect'] = "دومین فاکتوری که ارائه کردید نادرست بود. لطفا دوباره تلاش کنید. شما دارید :attempts همچنان باقی می مانند.";
 $_LANG['twofabackupcodereset'] = "ورود از طریق کد پشتیبان گیری موفقیت آمیز بود. کدهای پشتیبان فقط یک بار معتبر هستند. این کد هم اکنون ریست خواهد شد.";
 $_LANG['twofacantaccess2ndfactor'] = "دسترسی به دستگاه از طریق فاکتور دوم مقدور نیست؟";
 $_LANG['twofaloginusingbackupcode'] = "ورود با کد پشتیبان گیری";
@@ -1487,16 +1489,16 @@ $_LANG['disable'] = "غیر فعال";
 $_LANG['manage'] = "مدیریت";
 
 # Version 5.3
-$_LANG['quoteacceptancetitle'] = "Quote Acceptance";
-$_LANG['quoteacceptancehowto'] = "To accept the quote, please confirm your acceptance of our terms of service which can be viewed @";
-$_LANG['quoteacceptancewarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
+$_LANG['quoteacceptancetitle'] = " پذیرش نقل قول";
+$_LANG['quoteacceptancehowto'] = "برای پذیرفتن نقل قول ، لطفاً پذیرفتن شرایط خدمات ما را که می توانید مشاهده کنید تأیید کنید";
+$_LANG['quoteacceptancewarning'] = "لطفاً توجه داشته باشید که پذیرفتن نقل قول به منزله انعقاد قرارداد تلقی می شود و پس از پذیرش نمی توانید آن را لغو کنید";
 
 $_LANG['contactform'] = "فرم ارتباط";
 
-$_LANG['twoipconnect'] = "Connect your app";
-$_LANG['twoipinstruct'] = "Using an authenticator app like %s or %s, scan the QR code below. Having trouble scanning the code? Enter the code manually:";
-$_LANG['twoipverificationstepmsg'] = "Enter the 6-digit code that the application generates to verify and complete setup.";
-$_LANG['twoipenterauth'] = "Enter authentication code";
+$_LANG['twoipconnect'] = "اتصال به برنامه";
+$_LANG['twoipinstruct'] = "با استفاده از یک برنامه احراز هویت مانند %s یا %s, کد کیو آر زیر را اسکن کنید. در اسکن کد مشکل دارید؟ کد را به صورت دستی وارد کنید:";
+$_LANG['twoipverificationstepmsg'] = "کد 6 رقمی را که برنامه برای تأیید و تکمیل راه اندازی ایجاد می کند وارد کنید";
+$_LANG['twoipenterauth'] = "کد احراز هویت را وارد کنید";
 $_LANG['twoipgoogleauth'] = "Google Authenticator";
 $_LANG['twoipduo'] = "Duo";
 $_LANG['twoipcodemissmatch'] = "کدی که وارد کردید با مقدار مورد انتظار مطابقت ندارد.لطفا مجدد تلاش کنید";
@@ -1505,7 +1507,7 @@ $_LANG['twoipgdmissing'] = "GD is missing from the PHP build on your server so u
 $_LANG['domaincontactdetails']['First Name'] = "نام";
 $_LANG['domaincontactdetails']['Last Name'] = "نام خانوادگی";
 $_LANG['domaincontactdetails']['Full Name'] = "نام کامل";
-$_LANG['domaincontactdetails']['Contact Name'] = "Contact Name";
+$_LANG['domaincontactdetails']['Contact Name'] = "نام مخاطب";
 $_LANG['domaincontactdetails']['Email'] = "ایمیل";
 $_LANG['domaincontactdetails']['Email Address'] = "آدرس ایمیل";
 $_LANG['domaincontactdetails']['Job Title'] = "عنوان کاری";
@@ -1527,7 +1529,7 @@ $_LANG['domaincontactdetails']['Country'] = "کشور";
 $_LANG['domaincontactdetails']['Phone'] = "تلفن";
 $_LANG['domaincontactdetails']['Phone Number'] = "شماره تلفن";
 $_LANG['domaincontactdetails']['Fax'] = "فکس";
-$_LANG['domaincontactdetails']['Phone Country Code'] = "Phone Country Code";
+$_LANG['domaincontactdetails']['Phone Country Code'] = "کد کشور تلفن";
 
 $_LANG['serverhostnameexample'] = "eg. server1(.example.com)";
 $_LANG['serverns1prefixexample'] = "eg. ns1(.example.com)";
@@ -1536,7 +1538,7 @@ $_LANG['serverns2prefixexample'] = "eg. ns2(.example.com)";
 $_LANG['hosting'] = "Hosting";
 
 $_LANG['enomfrregistration']['Heading'] = ".fr domains have different required values depending on your nationality and type of registration:";
-$_LANG['enomfrregistration']['French Individuals']['Name'] = "French Individuals";
+$_LANG['enomfrregistration']['French Individuals']['Name'] = "افراد فرانسوی";
 $_LANG['enomfrregistration']['French Individuals']['Requirements'] = "Please provide your \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\".";
 $_LANG['enomfrregistration']['EU Non-French Individuals']['Name'] = "EU Non-French Individuals";
 $_LANG['enomfrregistration']['EU Non-French Individuals']['Requirements'] = "Please provide your \"Birthdate\".";
@@ -1544,16 +1546,19 @@ $_LANG['enomfrregistration']['French Companies']['Name'] = "French Companies";
 $_LANG['enomfrregistration']['French Companies']['Requirements'] = "Please provide the \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\" for the owner contact, along with your SIRET number.";
 $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = "EU Non-French Companies";
 $_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = "Please provide the company \"DUNS Number\", and the \"Birthdate\" of the Owner Contact.";
-$_LANG['enomfrregistration']['Non-EU Warning'] = "Client contact information must be within the EU or else registration will fail.";
+$_LANG['enomfrregistration']['Non-EU Warning'] = "اطلاعات تماس مشتری باید در اتحادیه اروپا باشد در غیر این صورت ثبت نام ناموفق خواهد بود";
 
 $_LANG['confirm'] = "تایید";
 
-$_LANG['maxmind_checkconfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
-$_LANG['maxmind_addressinvalid'] = "Your address is not recognised. Please check and re-enter.";
-$_LANG['maxmind_invalidip'] = "IP Address invalid or a local address. Please contact support.";
+$_LANG['maxmind_checkconfiguration'] = "هنگام بررسی تقلب خطایی روی داد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['maxmind_addressinvalid'] = "آدرس شما به رسمیت شناخته نمی شود. لطفاً بررسی کنید و دوباره وارد کنید";
+$_LANG['maxmind_invalidip'] = "آدرس آیپی نامعتبر یا آدرس محلی است. لطفاً با پشتیبانی تماس بگیرید";
 
-$_LANG['ssounabletologin'] = "Unable to auto-login. Please contact support.";
-$_LANG['ssofatalerror'] = "A fatal error occurred. Please contact support.";
+$_LANG['ssounabletologin'] = "ورود به سیستم خودکار امکان پذیر نیست. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['ssofatalerror'] = "یک خطای مهلک رخ داد. لطفاً با پشتیبانی تماس بگیرید";
+
+$_LANG['customActionGenericError'] = "Unable to perform action. Please contact support.";
+$_LANG['customActionException'] = "An exception has occurred. Please contact support.";
 
 # Version 6.0
 
@@ -1634,9 +1639,9 @@ $_LANG['ticketfeedbackforticket'] = "برای تیکت #";
 $_LANG['notifications'] = "پیام ها";
 $_LANG['notificationsnone'] = "شما هیچ پیامی در این لحظه ندارید";
 
-$_LANG['creditcardnonestored'] = "No card on file";
+$_LANG['creditcardnonestored'] = "کارتی در پرونده نیست";
 
-$_LANG['kbviewingarticlestagged'] = "Viewing articles tagged";
+$_LANG['kbviewingarticlestagged'] = "مشاهده مقالات برچسب زده شده";
 
 $_LANG['domainprivatenameservers'] = "Nameservers خصوصی";
 
@@ -1662,7 +1667,7 @@ $_LANG['readyforquestions'] = "ما آماده و منتظر سوالات شما
 
 $_LANG['restrictedpage'] = "این صفحه محدود شده است";
 $_LANG['enteremail'] = "ایمیل را وارد کنید";
-$_LANG['restricted'] = "Restricted";
+$_LANG['restricted'] = "محصور";
 
 $_LANG['passwordtips'] = "<strong>نکاتی برای رمز عبور مناسب</strong><br />از حروف کوچک و بزرگ استفاده کنید<br />شامل حداقل یک علامت (# $ ! % &amp; etc...)<br />کلمه معنادار استفاده نکنید";
 
@@ -1671,7 +1676,7 @@ $_LANG['nextdue'] = "سررسید بعدی";
 
 $_LANG['findyourdomain'] = "دامنه جدید خود را پیدا کنید";
 $_LANG['searchtermrequired'] = "شما باید یک نام یا کلید واژه وارد کنید";
-$_LANG['unabletolookup'] = "Sorry, unable to lookup the term as provided";
+$_LANG['unabletolookup'] = "متأسفیم ، نمی توانم اصطلاح موجود را جستجو کنم";
 $_LANG['invalidchars'] = "لطفا فاصله و حروف خاص را حذف کنید.";
 $_LANG['bulkoptions'] = "تنظیمات انبوه";
 $_LANG['checkingdomain'] = "در حال جستحوی دامنه درخواستی شما، امیدواریم در دسترس باشد...";
@@ -1685,7 +1690,7 @@ $_LANG['disclaimers'] = "رفع مسئولیت";
 $_LANG['tldpricing'] = "قیمت پسوند های ";
 $_LANG['alltldpricing'] = "قیمت کلیه پسوند ها";
 
-$_LANG['quotesdesc'] = "Quotes we have generated for you";
+$_LANG['quotesdesc'] = "نقل قول هایی که برای شما ایجاد کرده ایم";
 $_LANG['quotesrejected'] = "رد شده است";
 
 $_LANG['ticketsyourhistory'] = "تاریخچه تیکت شما";
@@ -1701,8 +1706,8 @@ $_LANG['adminmasqueradingasclient'] = "شما به عنوان کاربر وار�
 $_LANG['logoutandreturntoadminarea'] = "خروج و ورود به بخش مدیریتی";
 
 $_LANG['supportAndUpdatesExpired'] = "پشتیبانی و بروز رسانی منقضی شده اند";
-$_LANG['supportAndUpdatesExpiredLicense'] = "Your Support & Updates period for this license has expired";
-$_LANG['supportAndUpdatesRenewalRequired'] = "Support & Updates access needs to be renewed before you can access this download.";
+$_LANG['supportAndUpdatesExpiredLicense'] = "مدت پشتیبانی و به روزرسانی های شما برای این مجوز به پایان رسیده است";
+$_LANG['supportAndUpdatesRenewalRequired'] = "قبل از دسترسی به این بارگیری ، دسترسی به پشتیبانی و به روز رسانی باید تمدید شود";
 $_LANG['supportAndUpdatesClickHereToRenew'] = "جهت تمدید کلیک کنید";
 
 $_LANG['pwresetemailneeded'] = "رمز عبور خود را فراموش کرده اید؟ برای شروع روند بازیابی آن، لطفا آدرس ایمیل خود را در زیر وارد کنید";
@@ -1717,9 +1722,9 @@ $_LANG['domainsExpired'] = "منقضی شده";
 $_LANG['domainsCancelled'] = "لغو شده";
 $_LANG['domainsFraud'] = "کلاهبردار";
 $_LANG['domainsPending'] = "معلق";
-$_LANG['domainsPendingRegistration'] = "Pending Registration";
+$_LANG['domainsPendingRegistration'] = "در انتظار ثبت نام";
 $_LANG['domainsPendingTransfer'] = "انتقال معلق";
-$_LANG['domainsTransferredAway'] = "Transferred Away";
+$_LANG['domainsTransferredAway'] = "منتقل دور";
 
 $_LANG['kbtagcloud'] = "ابر تگ ها";
 
@@ -1728,21 +1733,21 @@ $_LANG['cancellationrequested'] = "درخواست لغو ارسال شد";
 
 $_LANG['yourrecenttickets'] = "تیکت های اخیر شما";
 
-$_LANG['domains']['deTermsDescription1'] = "To register a new domain, transfer or change registrant information the registrant must explicitly accept the .DE terms and conditions.";
-$_LANG['domains']['deTermsDescription2'] = "(See full text of .de terms and conditions: http://www.denic.de/en/bedingungen.html.)";
-$_LANG['directDebitPageTitle'] = "Direct Debit Payment";
-$_LANG['directDebitHeader'] = "Direct Debit Payment";
-$_LANG['directDebitErrorNoBankName'] = "You must enter your banks name";
-$_LANG['directDebitErrorAccountType'] = "You must select your bank account type";
-$_LANG['directDebitErrorNoABA'] = "You must enter your banks ABA code";
-$_LANG['directDebitErrorAccNumber'] = "You must enter your bank account number";
-$_LANG['directDebitErrorConfirmAccNumber'] = "You must confirm your bank account number";
-$_LANG['directDebitErrorAccNumberMismatch'] = "Your bank account number & confirmation don't match";
-$_LANG['directDebitThanks'] = "Thank you for submitting your details. We will attempt to process your payment using the supplied details within the next few days, and contact you in case of any problems.";
-$_LANG['directDebitPleaseSubmit'] = "Please submit your bank account details below to pay by Direct Debit.";
+$_LANG['domains']['deTermsDescription1'] = "برای ثبت دامنه جدید ، انتقال یا تغییر اطلاعات ثبت نام کننده ، ثبت کننده باید صراحتاً شرایط و ضوابط  را بپذیرد";
+$_LANG['domains']['deTermsDescription2'] = "(متن کامل شرایط و ضوابط  را ببینید: http://www.denic.de/fa/bedingungen.html.)";
+$_LANG['directDebitPageTitle'] = "پرداخت بدهی مستقیم";
+$_LANG['directDebitHeader'] = "پرداخت بدهی مستقیم";
+$_LANG['directDebitErrorNoBankName'] = "شما باید نام بانک خود را وارد کنید";
+$_LANG['directDebitErrorAccountType'] = "شما باید نوع حساب بانکی خود را انتخاب کنید";
+$_LANG['directDebitErrorNoABA'] = "شما باید کد ای بی ای بانک خود را وارد کنید";
+$_LANG['directDebitErrorAccNumber'] = "شما باید شماره حساب بانکی خود را وارد کنید";
+$_LANG['directDebitErrorConfirmAccNumber'] = "باید شماره حساب بانکی خود را تأیید کنید";
+$_LANG['directDebitErrorAccNumberMismatch'] = "شماره حساب بانکی و تأیید شما مطابقت ندارد";
+$_LANG['directDebitThanks'] = "متشکرم که مشخصات خود را ارسال کردید. ما سعی می کنیم پرداخت شما را با استفاده از جزئیات ارائه شده طی چند روز آینده پردازش کنیم و در صورت بروز هرگونه مشکل با شما تماس بگیریم";
+$_LANG['directDebitPleaseSubmit'] = "لطفاً جزئیات حساب بانکی خود را در زیر برای پرداخت با واریز مستقیم ارسال کنید";
 $_LANG['directDebitBankName'] = "نام بانک";
 $_LANG['directDebitAccountType'] = "نوع اکانت بانکی";
-$_LANG['directDebitABA'] = "Bank ABA Code";
+$_LANG['directDebitABA'] = "کد بانک ABA";
 $_LANG['directDebitAccNumber'] = "شماره حساب بانک";
 $_LANG['directDebitConfirmAccNumber'] = "تایید شماره حساب";
 $_LANG['directDebitSubmit'] = "ارسال";
@@ -1760,11 +1765,11 @@ $_LANG['error'] = "اخطار";
 $_LANG['print'] = "پرینت";
 $_LANG['invoicelineitems'] = "اقلام صورت حساب";
 
-$_LANG['quotelineitems'] = "Quote Items";
+$_LANG['quotelineitems'] = "موارد نقل قول";
 
 $_LANG['quoteproposal'] = "پروپوزال";
-$_LANG['quoteacceptagreetos'] = "To accept the quote, please confirm your acceptance of our terms of service.";
-$_LANG['quoteacceptcontractwarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
+$_LANG['quoteacceptagreetos'] = "برای پذیرش نقل قول ، لطفاً پذیرفتن شرایط خدمات ما را تأیید کنید";
+$_LANG['quoteacceptcontractwarning'] = "لطفاً توجه داشته باشید که پذیرفتن نقل قول به منزله انعقاد قرارداد تلقی می شود و پس از پذیرش نمی توانید آن را لغو کنید";
 
 // Client alerts
 $_LANG['clientAlerts']['creditCardExpiring'] = "Your credit card :creditCardType-:creditCardLastFourDigits expires within :days days. Please update it at your earliest convenience.";
@@ -1786,12 +1791,12 @@ $_LANG['clientHomePanels']['recentNews'] = "اخبار اخیر";
 $_LANG['clientHomePanels']['affiliateProgram'] = "برنامه همکاری";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "تیکت های اخیر";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "هیچ تیکتی یافت نشد. اگر سوالی دارید، تیکت جدید برای ما ارسال کنید.";
-$_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
-$_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Your current commission balance is :commissionBalance. You may withdraw your earnings now.";
-$_LANG['clientHomePanels']['productsAndServices'] = "Browse our Products/Services";
+$_LANG['clientHomePanels']['affiliateSummary'] = "موجودی کمیسیون فعلی شما است :commissionBalance. شما فقط به دیگری نیاز دارید :amountUntilWithdrawalLevel قبل از اینکه بتوانید درآمد خود را برداشت کنید";
+$_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "موجودی کمیسیون فعلی شما است :commissionBalanceاکنون می توانید درآمد خود را برداشت کنید";
+$_LANG['clientHomePanels']['productsAndServices'] = "مرور محصولات / خدمات ما";
 
 $_LANG['upgradeNotPossible'] = "ارتقای این سرویس امکانپذیر نمیباشد.میتوانید با بخش پشتیبانی در ارتباط باشید یا به عقب بازگردید و انتخاب خود را بررسی کنید";
-$_LANG['upgradeSameProductMustExtendCycle'] = "To upgrade your billing cycle, please choose a cycle that is greater than your current billing cycle.";
+$_LANG['upgradeSameProductMustExtendCycle'] = "برای ارتقاء چرخه صورتحساب ، لطفاً چرخه ای را انتخاب کنید که بیشتر از چرخه صورتحساب فعلی شما باشد";
 
 $_LANG['hostingInfo'] = "اطلاعات میزبانی";
 $_LANG['additionalInfo'] = "اطلاعات دیگر";
@@ -1823,7 +1828,7 @@ $_LANG['clientHomeSearchKb'] = "سوال خود را جهت جستجو در بخ
 
 $_LANG['whoisContactWarning'] = "بسیار مهم است که اطلاعات هویز دامنه خود را به روز نگهدارید تا دسترسی به دامنه را از دست ندهید";
 
-$_LANG['paymentstodate'] = "Payments to Date";
+$_LANG['paymentstodate'] = "پرداخت به تاریخ";
 $_LANG['balancedue'] = "بدهی معوقه";
 $_LANG['submitpayment'] = "ثبت پرداخت";
 
@@ -1858,17 +1863,17 @@ $_LANG['licensingaddon']['validips'] = "آی پی های مجاز";
 $_LANG['licensingaddon']['validdirectory'] = "آدرس مجاز";
 $_LANG['licensingaddon']['status'] = "وضعیت لایسنس";
 $_LANG['licensingaddon']['reissue'] = "Reissue";
-$_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
+$_LANG['licensingaddon']['reissuestatusmsg'] = "دفعه بعد که به مجوز دسترسی پیدا کنید ، دامنه ، آیپی  و فهرست معتبر شناسایی و ذخیره می شوند";
 $_LANG['licensingaddon']['manageLicense'] = "مدیریت لایسنس";
 
-$_LANG['affiliateWithdrawalSummary'] = "You will be able to request a withdrawal as soon as your balance reaches the minimum required amount of :amountForWithdrawal.";
+$_LANG['affiliateWithdrawalSummary'] = "به محض اینکه موجودی شما به حداقل مقدار مورد نیاز برسد ، می توانید درخواست برداشت ثبت نمایید :amountForWithdrawal.";
 
 $_LANG['projectManagement']['activeProjects'] = "پروژه های فعال شما";
 
 # cPanel Module
 
-$_LANG['packageDomain'] = "Package/Domain";
-$_LANG['addonsExtras'] = "Addons and Extras";
+$_LANG['packageDomain'] = "بسته/دامنه";
+$_LANG['addonsExtras'] = "افزونه ها و موارد اضافی";
 $_LANG['purchaseActivate'] = "خرید و فعال سازی";
 
 $_LANG['usageStats'] = "آمار مصرف";
@@ -1879,29 +1884,31 @@ $_LANG['usageStatsDiskLimitNear'] = "فضای مصرفی شما رو به پای
 $_LANG['usageUpgradeNow'] = "هم اکنون ارتقا دهید";
 $_LANG['usageLastUpdated'] = "آخرین بروز رسانی";
 
-$_LANG['quickShortcuts'] = "Quick Shortcuts";
-$_LANG['cPanel']['emailAccounts'] = "Email Accounts";
-$_LANG['cPanel']['forwarders'] = "Forwarders";
-$_LANG['cPanel']['autoresponders'] = "Autoresponders";
-$_LANG['fileManager'] = "File Manager";
-$_LANG['cPanel']['backup'] = "Backup";
-$_LANG['cPanel']['subdomains'] = "Subdomains";
-$_LANG['cPanel']['addonDomains'] = "Addon Domains";
-$_LANG['cPanel']['cronJobs'] = "Cron Jobs";
+$_LANG['quickShortcuts'] = "میانبرهای سریع";
+$_LANG['cPanel']['emailAccounts'] = "حسابهای ایمیل";
+$_LANG['cPanel']['forwarders'] = "فورواردرها";
+$_LANG['cPanel']['autoresponders'] = "پاسخ دهندگان خودکار";
+$_LANG['fileManager'] = "مدیریت فایل";
+$_LANG['cPanel']['backup'] = "پشتیبان";
+$_LANG['cPanel']['subdomains'] = "زیردامنه";
+$_LANG['cPanel']['addonDomains'] = "دامنه های افزونه";
+$_LANG['cPanel']['cronJobs'] = "کرون جاب";
 $_LANG['mysqlDatabases'] = "MySQL Databases";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
 
-$_LANG['cPanel']['createEmailAccount'] = "Quick Create Email Account";
-$_LANG['cPanel']['usernamePlaceholder'] = "Yourname";
-$_LANG['cPanel']['passwordPlaceholder'] = "Desired Password";
+$_LANG['cPanel']['createEmailAccount'] = "ایجاد سریع ایمیل حساب";
+$_LANG['cPanel']['usernamePlaceholder'] = "نام شما";
+$_LANG['cPanel']['passwordPlaceholder'] = "رمز مورد نظر";
 $_LANG['cPanel']['create'] = "Create";
-$_LANG['cPanel']['emailAccountCreateSuccess'] = "Email account created successfully!";
-$_LANG['cPanel']['emailAccountCreateFailed'] = "Email account creation failed: ";
+$_LANG['cPanel']['emailAccountCreateSuccess'] = "حساب ایمیل با موفقیت ایجاد شد";
+$_LANG['cPanel']['emailAccountCreateFailed'] = ":ایجاد حساب ایمیل ناموفق بود ";
 
 $_LANG['cPanel']['packageNotActive'] = "بسته ی میزبانی وب هم اکنون";
 $_LANG['cPanel']['statusPendingNotice'] = "تا زمانیکه این سرویس میزبانی فعال نشود، نمیتوانید از آن استفاده کنید";
 $_LANG['cPanel']['statusSuspendedNotice'] = "شما تا زمان فعال سازی مجدد، نمیتوانید از این سرویس استفاده کنید یا آن را مدیریت کنید";
+
+$_LANG['wordpress']['invalidPath'] = "The supplied path is invalid.";
 
 $_LANG['billingOverview'] = "خلاصه وضعیت مالی";
 
@@ -1915,10 +1922,10 @@ $_LANG['domainCannotBeManagedUnlessActive'] = "این دامنه فعال نیس
 $_LANG['actionRequiresAtLeastOneDomainSelected'] = "لطفا جهت اعمال تغییرات، حداقل یکی از دامنه ها را انتخاب کنید";
 
 $_LANG['clientAreaProductDownloadsAvailable'] = "برای محصول/سرویس شما، فایل های زیر جهت دانلود در دسترس هستند";
-$_LANG['clientAreaProductAddonsAvailable'] = "Addons are available for your product/service. <a href=\"cart.php?gid=addons\">Click here to view &amp; order &raquo;</a>";
-$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "We strongly encourage you to enable Two-Factor Authentication for added security.";
-$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Setting a security question and answer helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
-$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "The security question helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
+$_LANG['clientAreaProductAddonsAvailable'] = "افزونه ها برای محصول/خدمات شما در دسترس هستند <a href=\"cart.php?gid=addons\">برای رقابت اینجا را کلیک کنید &amp; سقارش &raquo;</a>";
+$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "ما به شدت شما را تشویق می کنیم که برای امنیت بیشتر ، احراز هویت دو عاملی را فعال کنید";
+$_LANG['clientAreaSecurityNoSecurityQuestions'] = "تنظیم پرسش و پاسخ امنیتی به محافظت از حساب شما در برابر بازنشانی گذرواژه های غیر مجاز کمک می کند و به ما اجازه می دهد هنگام درخواست تغییرات حساب ، هویت شما را تأیید کنیم";
+$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "سوالات  امنیتی به محافظت از حساب شما در برابر بازنشانی گذرواژه های غیر مجاز کمک می کند و به ما اجازه می دهد هنگام درخواست تغییر حساب ، هویت شما را تأیید کنیم";
 
 $_LANG['billingAddress'] = "آدرس مالی";
 
@@ -1958,7 +1965,7 @@ $_LANG['orderForm']['city'] = "شهر";
 $_LANG['orderForm']['state'] = "استان";
 $_LANG['orderForm']['country'] = "کشور";
 $_LANG['orderForm']['postcode'] = "کد پستی";
-$_LANG['orderForm']['domainAlternativeContact'] = "You may specify alternative registered contact details for the domain registration(s) in your order when placing an order on behalf of another person or entity. If you do not require this, you can skip this section.";
+$_LANG['orderForm']['domainAlternativeContact'] = "هنگام ثبت سفارش به نمایندگی از شخص یا نهاد دیگر ، می توانید اطلاعات تماس دیگری را برای ثبت دامنه در ثبت سفارش خود مشخص کنید. اگر نیازی به این کار ندارید ، می توانید این بخش را رد کنید";
 $_LANG['orderForm']['accountSecurity'] = "امنیت اکانت";
 $_LANG['orderForm']['mediumStrength'] = "قدرت متوسط";
 $_LANG['orderForm']['paymentDetails'] = "جزئیات پرداخت";
@@ -1970,7 +1977,7 @@ $_LANG['orderForm']['continueToClientArea'] = "ادامه به ناحیه کار
 $_LANG['orderForm']['reviewDomainAndAddons'] = "لطفا یکبار، نام دامنه ی انتخابی و اضافات آن را بررسی کنید";
 $_LANG['orderForm']['addToCart'] = "افزودن به کارت خرید";
 $_LANG['orderForm']['addedToCartRemove'] = "اضافه به سبد خرید (حذف)";
-$_LANG['orderForm']['configureDesiredOptions'] = "Configure your desired options and continue to checkout.";
+$_LANG['orderForm']['configureDesiredOptions'] = "گزینه های مورد نظر خود را پیکربندی کرده و به پرداخت ادامه دهید";
 $_LANG['orderForm']['haveQuestionsContact'] = "سوالی دارید؟ حتما با واحد فروش در ارتباط باشید.";
 $_LANG['orderForm']['haveQuestionsClickHere'] = "اینجا کلیک کنید";
 $_LANG['orderForm']['use'] = "استفاده";
@@ -1979,7 +1986,7 @@ $_LANG['orderForm']['transfer'] = "انتقال";
 $_LANG['orderForm']['domainAddedToCart'] = "این دامنه به کارت خرید شما اضافه شد";
 $_LANG['orderForm']['registerLongerAndSave'] = "دوره ی طولانی تری ثبت کنید و هزینه ها را کاهش دهید";
 $_LANG['orderForm']['tryRegisteringInstead'] = "این دامنه را به جای دامنه ی قبل ثبت کن";
-$_LANG['orderForm']['domainAvailabilityCached'] = "Domain availability results are cached which may lead to recently registered domains being shown as available.";
+$_LANG['orderForm']['domainAvailabilityCached'] = "نتایج در دسترس بودن دامنه ذخیره می شود که ممکن است منجر به نمایش دامنه های اخیر شود";
 $_LANG['orderForm']['submitTicket'] = "ارسال تیکت";
 $_LANG['orderForm']['promotionAccepted'] = "کوپن تخفیف پذیرفته شد. قیمت مجموع بروز رسانی شد";
 $_LANG['orderForm']['promoCycles'] = "Expires after :cycles billing period/s";
@@ -2003,28 +2010,28 @@ $_LANG['orderForm']['includedWithPlans'] = "همراه با هر پلن میبا
 $_LANG['orderForm']['whatIsIncluded'] = "چه امکاناتی افزوده شده است؟";
 $_LANG['orderForm']['errorNoProductGroup'] = "امکان اجرای هیچ گروه محصولی نمیباشد";
 $_LANG['orderForm']['errorNoProducts'] = "در این گروه هیچ محصولی قابل روئیت نیست";
-$_LANG['orderForm']['errorNoGateways'] = "No payment gateways available so order cannot proceed";
-$_LANG['orderForm']['errorUnavailableGateway'] = "The selected gateway is not available. Please choose an option from the Payment Details section.";
-$_LANG['orderForm']['requiredField'] = "(required fields are marked with *)";
+$_LANG['orderForm']['errorNoGateways'] = "درگاه پرداخت در دسترس نیست بنابراین سفارش نمی تواند ادامه یابد";
+$_LANG['orderForm']['errorUnavailableGateway'] = "دروازه انتخاب شده در دسترس نیست. لطفاً از قسمت جزئیات پرداخت گزینه ای را انتخاب کنید";
+$_LANG['orderForm']['requiredField'] = "(فیلدهای مورد نیاز با *مشخص شده اند)";
 
 $_LANG['cloudSlider']['feature01Title'] = "حداکثر آپتایم سرور";
-$_LANG['cloudSlider']['feature01Description'] = "Server uptime is critical for all businesses - consider it the heart beat of hosting your business. File and databases servers, email and web servers are an indispensable part of most business processes, and downtimes have direct negative effects on productivity, sales, employee and customer satisfaction. That's why ensuring the maximum server uptime is so important to us - we want to make sure your business processes are running healthy so your customers are happy.";
-$_LANG['cloudSlider']['feature01DescriptionTwo'] = "By trusting us with your business needs, we promise you a 99.9% uptime on any services we provide, outside of any standard maintenance we may provide.";
-$_LANG['cloudSlider']['feature02Title'] = "World Wide Data Delivery";
-$_LANG['cloudSlider']['feature02Description'] = "Our services are powered by hundreds of servers and data centers located all over the world, so you can rest easy knowing that customers can access your website from anywhere. In addition, we provide monitoring tools to provide you with expert analytics - website traffic is an important step in improving your site's efficiency and popularity, as well as keeping track of where your visitors are coming from, what time of day they're visiting you, and how long they're staying. Our dedication to a global marketplace extends to domain registrations, as we offer the most popular TLD's for registration.";
-$_LANG['cloudSlider']['feature02DescriptionTwo'] = "Our dedication to customer support reaches across the globe as well. We are here to help you with your hosting in any way possible, and you can reach us via phone, email, or live chat.";
-$_LANG['cloudSlider']['feature03Title'] = "Top Tier Security";
-$_LANG['cloudSlider']['feature03Description'] = "Rest easy knowing that we provide 24/7 security monitoring and DDoS protection. You take protecting your customer's data seriously, and so do we. Our security team and safeguards are on the job all day, every day to provide the level of security needed in today's digital age.";
-$_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security tools are at your disposal, including SSL certificates, firewall configuration, security monitoring services, VPN access, and more.";
-$_LANG['cloudSlider']['selectProductLevel'] = "Select the Perfect Level for You!";
+$_LANG['cloudSlider']['feature01Description'] = "به روزرسانی سرور برای همه مشاغل بسیار مهم است - آن را ضربان قلب میزبانی کسب و کار خود بدانید. سرورهای فایل و پایگاه های داده ، سرورهای ایمیل و وب بخش مهمی از اکثر فرایندهای تجاری هستند و زمان خرابی آثار منفی مستقیم بر بهره وری ، فروش ، رضایت کارکنان و مشتریان دارد. به همین دلیل است که اطمینان از حداکثر زمان کارکرد سرور برای ما بسیار مهم است - ما می خواهیم اطمینان حاصل کنیم که فرایندهای تجاری شما سالم است تا مشتریان شما خوشحال شوند";
+$_LANG['cloudSlider']['feature01DescriptionTwo'] = "با اعتماد به ما در مورد نیازهای تجاری خود ، ما به شما قول می دهیم که 99.9  از خدمات خود را ارائه دهیم ، خارج از هر گونه تعمیر و نگهداری استاندارد که ممکن است ارائه دهیم";
+$_LANG['cloudSlider']['feature02Title'] = "تحویل داده در سرتاسر جهان";
+$_LANG['cloudSlider']['feature02Description'] = "خدمات ما از صدها سرور و مرکز داده در سراسر جهان پشتیبانی می کند ، بنابراین می توانید خیالتان راحت باشد که مشتریان می توانند از هر کجا به وب سایت شما دسترسی داشته باشند. علاوه بر این ، ما ابزارهای نظارتی را برای ارائه تجزیه و تحلیل تخصصی به شما ارائه می دهیم - ترافیک وب سایت یک گام مهم در بهبود کارآیی و محبوبیت سایت شما و همچنین پیگیری مکان بازدیدکنندگان شما ، در چه ساعتی از روز است که از شما دیدن می کنند. ، و مدت زمان اقامت آنها تعهد ما به یک بازار جهانی به ثبت دامنه نیز می انجامد ، زیرا ما محبوب ترین تی ال دی ها را برای ثبت نام ارائه می دهیم";
+$_LANG['cloudSlider']['feature02DescriptionTwo'] = "تعهد ما به پشتیبانی مشتری به سراسر جهان نیز می رسد. ما اینجا هستیم تا به هر طریق ممکن در زمینه میزبانی به شما کمک کنیم و می توانید از طریق تلفن ، ایمیل یا چت زنده با ما تماس بگیرید";
+$_LANG['cloudSlider']['feature03Title'] = "رده بالای امنیت";
+$_LANG['cloudSlider']['feature03Description'] = "خیالتان راحت باشد که ما نظارت امنیتی 24 ساعته و حفاظت دیداس را ارائه می دهیم. شما محافظت از داده های مشتری خود را جدی می گیرید و ما نیز. تیم امنیتی و پادمان های ما همه روزه در حال کار هستند تا سطح امنیت مورد نیاز در عصر دیجیتال امروز را تأمین کنند";
+$_LANG['cloudSlider']['feature03DescriptionTwo'] = "طیف گسترده ای از ابزارهای امنیتی در اختیار شماست ، از جمله گواهینامه های اس اس ال ، پیکربندی فایروال ، خدمات نظارت امنیتی ، دسترسی به وی پی ان و موارد دیگر";
+$_LANG['cloudSlider']['selectProductLevel'] = "سطح ایده آل را برای خود انتخاب کنید";
 
-$_LANG['domainChecker.additionalPricingOptions'] = "Additional Pricing Options For :domain";
+$_LANG['domainChecker.additionalPricingOptions'] = "گزینه های اضافی قیمت گذاری برای :domain";
 
 $_LANG['orderpaymenttermfree'] = "رایگان";
 
 $_LANG['usageStatsBwOverLimit'] = "شما بیش از حد مجاز ترافیک مصرف کرده اید";
 $_LANG['usageStatsDiskOverLimit'] = "شما بیش از حد مجاز از فضای دیسک استفاده کرده اید";
-$_LANG['insufficientstockmessage'] = "We are currently low on stock on certain items. The cart quantities have been adjusted accordingly.";
+$_LANG['insufficientstockmessage'] = "در حال حاضر موجودی برخی از اقلام کم است. مقادیر سبد خرید بر این اساس تنظیم شده است";
 
 $_LANG['only'] = "فقط";
 $_LANG['startingat'] = "شروع از";
@@ -2035,21 +2042,21 @@ $_LANG['yourtldplaceholder'] = "com";
 $_LANG['subaccountpermsproductsso'] = "Perform Single Sign-On";
 
 $_LANG['sso']['title'] = "Single Sign-On";
-$_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On functionality to provide direct access to your billing account without you having to re-authenticate.";
-$_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
-$_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
-$_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
-$_LANG['sso']['redirectafterlogin'] = "You will be redirected after login";
+$_LANG['sso']['summary'] = "برنامه های شخص ثالث از قابلیت Single Sign-On استفاده می کنند تا دسترسی مستقیم به حساب صورتحساب شما را بدون نیاز به احراز هویت مجدد فراهم کنند.";
+$_LANG['sso']['disablenotice'] = "در صورت دسترسی به هر یک از برنامه های شخص ثالث خود برای کاربرانی که مایل به دسترسی به حساب صورت حساب خود نیستند ، ممکن است بخواهید این قابلیت را غیرفعال کنید";
+$_LANG['sso']['enabled'] = "ورود به سیستم تنها در حال حاضر برای حساب شما مجاز است";
+$_LANG['sso']['disabled'] = "Single Sign-On در حال حاضر برای حساب شما غیرفعال شده است";
+$_LANG['sso']['redirectafterlogin'] = "پس از ورود به سیستم هدایت می شوید";
 
 $_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please contact support.";
-$_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
+$_LANG['oauth']['permAccessNameAndEmail'] = "به نام و آدرس ایمیل خود دسترسی پیدا کنید";
 
 $_LANG['errorButTryAgain'] = "یک خطا رخ داده است ، لطفا دوباره تلاش کنید.";
 $_LANG['emailSent'] = "ایمیل ارسال شد";
 $_LANG['resendEmail'] = "ارسال مجدد ایمیل تاییدیه";
 
 // Markdown Editor Help
-$_LANG['markdown']['title'] = "Markdown Guide";
+$_LANG['markdown']['title'] = "راهنمای Markdown";
 $_LANG['markdown']['emphasis'] = "تاکید";
 $_LANG['markdown']['bold'] = "کلفت";
 $_LANG['markdown']['italics'] = "کج";
@@ -2061,18 +2068,18 @@ $_LANG['markdown']['smallHeader'] = "سربرگ کوچک";
 $_LANG['markdown']['tinyHeader'] = "سربرگ ریز";
 $_LANG['markdown']['lists'] = "لیست ها";
 $_LANG['markdown']['genericListItem'] = "ایجاد لیست آیتم ها";
-$_LANG['markdown']['numberedListItem'] = "Numbered list item";
+$_LANG['markdown']['numberedListItem'] = "مورد لیست شماره گذاری شده";
 $_LANG['markdown']['links'] = "لینک ها";
 $_LANG['markdown']['textToDisplay'] = "متن برای نمایش";
 $_LANG['markdown']['exampleLink'] = "http://www.example.com";
 $_LANG['markdown']['quotes'] = "نقل قول ها";
 $_LANG['markdown']['thisIsAQuote'] = "این یک نقل قول است";
-$_LANG['markdown']['quoteMultipleLines'] = "It can span multiple lines!";
+$_LANG['markdown']['quoteMultipleLines'] = "می تواند چندین خط را پوشش دهد";
 $_LANG['markdown']['tables'] = "جدول ها";
 $_LANG['markdown']['columnOne'] = "ستون 1";
 $_LANG['markdown']['columnTwo'] = "ستون 2";
 $_LANG['markdown']['columnThree'] = "ستون 3";
-$_LANG['markdown']['withoutAligning'] = "Or without aligning the columns...";
+$_LANG['markdown']['withoutAligning'] = "...یا بدون تراز کردن ستون ها";
 $_LANG['markdown']['john'] = "John";
 $_LANG['markdown']['doe'] = "Doe";
 $_LANG['markdown']['male'] = "Male";
@@ -2080,7 +2087,7 @@ $_LANG['markdown']['mary'] = "Mary";
 $_LANG['markdown']['smith'] = "Smith";
 $_LANG['markdown']['female'] = "Female";
 $_LANG['markdown']['displayingCode'] = "نوع نمایش";
-$_LANG['markdown']['spanningMultipleLines'] = "Or spanning multiple lines...";
+$_LANG['markdown']['spanningMultipleLines'] = "...یا چندین خط را در بر می گیرد";
 $_LANG['markdown']['saved'] = "ذخیره شد";
 $_LANG['markdown']['saving'] = "ذخیره اتوماتیک";
 
@@ -2091,11 +2098,11 @@ $_LANG['oauth']['currentlyLoggedInAs'] = "شما وارد شدید با اطلا
 $_LANG['oauth']['notYou'] = "شما نیستید؟";
 $_LANG['oauth']['returnToApp'] = "بازگشت به :appName";
 $_LANG['oauth']['copyrightFooter'] = "Copyright &copy; :dateYear :companyName. All Rights Reserved.";
-$_LANG['oauth']['loginToGrantApp'] = "Login to grant :appName<br />access to your account";
+$_LANG['oauth']['loginToGrantApp'] = "Login to grant :appName<br />دسترسی به حساب شما";
 $_LANG['oauth']['redirectDescriptionOne'] = "در حال انتقال شما به اپلیکیشن هستیم. لطفا صبر کنید";
 $_LANG['oauth']['redirectDescriptionTwo'] = "اگر مرورگر شما را اتوماتیک منتقل نکرد، لطفا ";
 $_LANG['oauth']['redirectDescriptionThree'] = "برای ادامه کلیک کنید";
-$_LANG['downloadLoginRequiredTagline'] = "Please login to access the requested file download";
+$_LANG['downloadLoginRequiredTagline'] = "لطفاً برای دسترسی به بارگیری فایل درخواستی وارد شوید";
 
 $_LANG['orderForm']['year'] = "سال";
 $_LANG['orderForm']['years'] = "سال";
@@ -2112,12 +2119,12 @@ $_LANG['orderForm']['exploreNow'] = "پکیج ها را بررسی کن";
 $_LANG['orderForm']['transferToUs'] = "دامنه خود را به سیستم ما انتقال دهید";
 $_LANG['orderForm']['transferExtend'] = "همینک دامنه خود را انتقال دهید تا یک سال نیز تمدید گردد!";
 $_LANG['orderForm']['transferDomain'] = "انتقال یک دامنه";
-$_LANG['orderForm']['extendExclusions'] = "Excludes certain TLDs and recently renewed domains";
+$_LANG['orderForm']['extendExclusions'] = "شامل برخی از تی ال دی ها و دامنه های اخیراً تمدید شده نمی شود";
 $_LANG['orderForm']['singleTransfer'] = "انتقال یک عدد دامنه";
 $_LANG['orderForm']['enterDomain'] = "لطفا نام دامنه خود را وارد کنید";
 $_LANG['orderForm']['authCode'] = "کد انتقال";
 $_LANG['orderForm']['authCodePlaceholder'] = "Epp Code / Auth Code";
-$_LANG['orderForm']['authCodeTooltip'] = "To initiate a transfer you will need to obtain the authorization code from your current registrar. These can often be referred to as either the epp code or auth code. They act as a password and are unique to the domain name.";
+$_LANG['orderForm']['authCodeTooltip'] = "برای شروع انتقال ، باید کد مجوز را از ثبت کننده فعلی خود دریافت کنید. اغلب می توان از آنها به عنوان کد ایی پی پی یا کد نویسنده نام برد. آنها به عنوان رمز عبور عمل می کنند و منحصر به نام دامنه هستند";
 $_LANG['orderForm']['help'] = "کمک";
 $_LANG['orderForm']['required'] = "ضروری";
 
@@ -2129,103 +2136,103 @@ $_LANG['orderForm']['transferUnlockBeforeContinuing'] = "لطفا قبل از ا
 $_LANG['orderForm']['transferNotEligible'] = "روند انتقال قابل انجام نیست";
 $_LANG['orderForm']['transferNotRegistered'] = "دامنه وارد شده، اصلا ثبت نشده است !";
 $_LANG['orderForm']['trasnferRecentlyRegistered'] = "اگر دامنه اخیرا ثبت شده است، لطفا چند روز دیگر مجدد برای انتقال تلاش کنید.";
-$_LANG['orderForm']['transferAlternativelyRegister'] = "Alternatively, you can perform a search to register this domain.";
+$_LANG['orderForm']['transferAlternativelyRegister'] = "روش دیگر ، می توانید جستجویی را برای ثبت این دامنه انجام دهید";
 $_LANG['orderForm']['domainInvalid'] = "نام دامنه وارد شده، نامعتبر است";
 $_LANG['orderForm']['domainInvalidCheckEntry'] = "لطفا مقادیر وارد شده را مجدد بررسی کنید";
 $_LANG['orderForm']['domainPriceRegisterLabel'] = "ادامه جهت ثبت دامنه برای";
-$_LANG['orderForm']['domainPriceTransferLabel'] = "Transfer to us and extend by 1 year* for";
+$_LANG['orderForm']['domainPriceTransferLabel'] = "انتقال به ما و تمدید 1 سال* برای";
 
 $_LANG['change'] = "تغییر";
 
-$_LANG['filemanagement']['nofileuploaded'] = "No file uploaded.";
-$_LANG['filemanagement']['invalidname'] = "Valid filenames contain only alpha-numeric, dot, hyphen and underscore characters.";
-$_LANG['filemanagement']['couldNotSaveFile'] = "Could not save uploaded file.";
-$_LANG['filemanagement']['checkPermissions'] = "Please check permissions.";
-$_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available disk space.";
-$_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
-$_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
+$_LANG['filemanagement']['nofileuploaded'] = "فایلی بارگذاری نشد";
+$_LANG['filemanagement']['invalidname'] = "نام فایلهای معتبر فقط شامل کاراکترهای عددی آلفا ، نقطه ، خط فاصله و زیر خط هستند";
+$_LANG['filemanagement']['couldNotSaveFile'] = "فایل بارگذاری شده ذخیره نشد";
+$_LANG['filemanagement']['checkPermissions'] = "لطفاً مجوزها را بررسی کنید";
+$_LANG['filemanagement']['checkAvailableDiskSpace'] = "لطفاً فضای دیسک موجود را بررسی کنید";
+$_LANG['filemanagement']['fileAlreadyExists'] = "فایل مورد نظر از قبل وجود دارد";
+$_LANG['filemanagement']['noUniqueName'] = "نام فایل منحصر به فرد پیدا نشد";
 
 $_LANG['cartSimpleCaptcha'] = "لطفا کد نمایش داده شده را وارد نمایید";
 
-$_LANG['clientHomePanels']['showingRecent100'] = "Showing the most recent 100 records";
-$_LANG['orderForm']['domainLetterOrNumber'] = "Domains must begin with a letter or a number";
-$_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
+$_LANG['clientHomePanels']['showingRecent100'] = "نمایش 100 رکورد اخیر";
+$_LANG['orderForm']['domainLetterOrNumber'] = "دامنه ها باید با حرف یا عدد شروع شوند";
+$_LANG['orderForm']['domainLengthRequirements'] = " و بین <span class=\"min-length\"></span> و <span class=\"max-length\"></span>طول شخصیت ها";
 
-$_LANG['clientareatransferredaway'] = "Transferred Away";
-$_LANG['clientareacompleted'] = "Completed";
-$_LANG['domainContactUs'] = "Contact Us";
+$_LANG['clientareatransferredaway'] = "به دور منتقل شد";
+$_LANG['clientareacompleted'] = "تکمیل شد";
+$_LANG['domainContactUs'] = "تماس با ما";
 
 $_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
 $_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
 
-$_LANG['domainCheckerSalesGroup']['sale'] = "Sale";
-$_LANG['domainCheckerSalesGroup']['hot'] = "Hot";
-$_LANG['domainCheckerSalesGroup']['new'] = "New";
+$_LANG['domainCheckerSalesGroup']['sale'] = "فروش";
+$_LANG['domainCheckerSalesGroup']['hot'] = "داغ";
+$_LANG['domainCheckerSalesGroup']['new'] = "جدید";
 
-$_LANG['pricing']['browseExtByCategory'] = "Browse extensions by category";
-$_LANG['pricing']['register'] = "New Price";
-$_LANG['pricing']['transfer'] = "Transfer";
-$_LANG['pricing']['renewal'] = "Renewal";
-$_LANG['pricing']['selectExtCategory'] = "Please choose a category from above.";
-$_LANG['pricing']['noExtensionsDefined'] = "No extensions available";
+$_LANG['pricing']['browseExtByCategory'] = "مرور افزونه ها بر اساس دسته";
+$_LANG['pricing']['register'] = "قیمت جدید";
+$_LANG['pricing']['transfer'] = "انتقال";
+$_LANG['pricing']['renewal'] = "بازسازی";
+$_LANG['pricing']['selectExtCategory'] = "لطفاً یک دسته را از بالا انتخاب کنید";
+$_LANG['pricing']['noExtensionsDefined'] = "هیچ افزونه ای در دسترس نیست";
 
-$_LANG['navStore'] = "Store";
-$_LANG['navBrowseProductsServices'] = "Browse All";
+$_LANG['navStore'] = "فروشگاه";
+$_LANG['navBrowseProductsServices'] = "مشاهده همه";
 
-$_LANG['navWebsiteSecurity'] = "Website & Security";
+$_LANG['navWebsiteSecurity'] = "وب سایت و امنیت";
 $_LANG['navMarketConnectService']['symantec'] = "SSL Certificates";
-$_LANG['navMarketConnectService']['weebly'] = "Website Builder";
-$_LANG['navMarketConnectService']['spamexperts'] = "E-mail Services";
+$_LANG['navMarketConnectService']['weebly'] = "وب سایت ساز";
+$_LANG['navMarketConnectService']['spamexperts'] = "خدمات پست الکترونیکی";
 
-$_LANG['store']['emailServices']['title'] = "E-mail Services";
+$_LANG['store']['emailServices']['title'] = "خدمات پست الکترونیکی";
 $_LANG['store']['ssl']['title'] = "SSL Certificates";
-$_LANG['store']['ssl']['dv']['title'] = "Domain Validated SSL";
-$_LANG['store']['ssl']['ov']['title'] = "Organization Validation SSL";
-$_LANG['store']['ssl']['ev']['title'] = "Extended Validation SSL";
+$_LANG['store']['ssl']['dv']['title'] = "SSL معتبر دامنه";
+$_LANG['store']['ssl']['ov']['title'] = "SSL اعتبارسنجی سازمان";
+$_LANG['store']['ssl']['ev']['title'] = "SSL اعتبار سنجی گسترده";
 $_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL";
-$_LANG['store']['websiteBuilder']['title'] = "Website Builder";
-$_LANG['store']['configure']['configureProduct'] = "Configure Product";
+$_LANG['store']['websiteBuilder']['title'] = "وب سایت ساز";
+$_LANG['store']['configure']['configureProduct'] = "پیکربندی محصول";
 
-$_LANG['store']['ssl']['dv']['tagline'] = "Secure your website in just a few minutes!";
+$_LANG['store']['ssl']['dv']['tagline'] = "فقط در چند دقیقه وب سایت خود را ایمن کنید";
 $_LANG['store']['ssl']['dv']['descriptionTitle'] = "What is Standard DV SSL?";
-$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
+$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>گواهی های اعتبار دامنه راهی مقرون به صرفه و سریع برای پیاده سازی اس اس ال در وب سایت شما ارائه می دهد. گواهینامه های تأیید شده دامنه تأیید می کنند که شما مالک دامنه هستید ، اما هیچگونه تأیید اعتبار اضافی در سطح سازمان انجام نمی دهید</p><p>گواهینامه های تأیید شده دامنه برای وب سایت های شخصی ، وبلاگ ها و رسانه های اجتماعی یا هر سایتی که اطلاعات خصوصی و محرمانه را منتقل نمی کند ایده آل است. گواهی تأیید شده دامنه قفل مرورگر را فعال می کند و استفاده از اج تی تی پی اس را برای اطمینان از بازدیدکنندگان وب سایت و مشتریان شما امکان پذیر می کند که حریم خصوصی آنها را جدی می گیرید.</p>";
 
-$_LANG['store']['ssl']['ov']['tagline'] = "High assurance SSL shows website visitors your authenticated identity";
+$_LANG['store']['ssl']['ov']['tagline'] = "SSL با اطمینان بالا به بازدیدکنندگان وب سایت هویت معتبر شما را نشان می دهد";
 $_LANG['store']['ssl']['ov']['descriptionTitle'] = "What is Organization Validation SSL?";
 $_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organization Validated SSL Certificates provide instant identity confirmation and strong SSL protection for your website and business.</p><p>OV SSL is an organization validated certificate that gives your website a step up in credibility over domain validated SSL Certificates. It activates the browser padlock and https, shows your corporate identity, and assures your customers that you take security very seriously. Site visitors can verify that the website is operated by a legitimate company and is not an imposter site.</p>";
 
-$_LANG['store']['ssl']['ev']['tagline'] = "Activate the green address bar for the highest trust and conversions";
+$_LANG['store']['ssl']['ev']['tagline'] = "نوار آدرس سبز را برای بالاترین اعتماد و تبدیل فعال کنید";
 $_LANG['store']['ssl']['ev']['descriptionTitle'] = "What is Extended Validation SSL?";
 $_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL is an Extended Validation Certificate, the highest class of SSL available today and gives more credibility and trust to your website compared to using an organization or domain validated SSL Certificate.</p><p>Extended Validation SSL will in most cases display your company or site name in green. This prominent visual verification provides visitors added confidence that steps were taken to confirm the identity of the website and business they're visiting, increasing user trust in your website and its credibility – this is why most large companies and organizations choose EV certificates.</p>";
 
-$_LANG['store']['ssl']['wildcard']['tagline'] = "Secure unlimited subdomains on a single certificate.";
+$_LANG['store']['ssl']['wildcard']['tagline'] = "زیر دامنه های نامحدود را در یک گواهینامه امن کنید";
 $_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "What is a Wildcard SSL Certificate?";
 $_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>Wildcard SSL allows you to secure an unlimited number of subdomains on a single certificate. It’s a great solution for anyone who hosts or manages multiple sites or pages that exist on the same domain. The one-time cost of the certificate covers you for additional subdomains you may add in the future.</p><p>Unlike a standard SSL Certificate that is issued to a single Fully Qualified Domain Name only, e.g. www.example.com, which means it can only be used to secure the exact domain to which it has been issued, a Wildcard SSL Certificate is issued to *.example.com, where the asterisk represents all possible subdomains.</p><p>Wildcard SSL is an option available for DV and OV SSL Certificates.</p>";
 
-$_LANG['store']['websiteBuilder']['headline'] = "Building a Website Has Never Been Easier";
-$_LANG['store']['websiteBuilder']['tagline'] = "Create the perfect site with powerful drag and drop tools";
+$_LANG['store']['websiteBuilder']['headline'] = "ساختن یک وب سایت هرگز آسان تر نبوده است";
+$_LANG['store']['websiteBuilder']['tagline'] = "با ابزارهای کشیدن و رها کردن قدرتمند ، یک سایت عالی ایجاد کنید";
 $_LANG['store']['websiteBuilder']['introduction'] = "Weebly’s drag and drop website builder makes it easy to create a powerful, professional website without any technical skills. Over 40 million entrepreneurs and small businesses have already used Weebly to build their online presence with a website, blog or store.";
 
-$_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
-$_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
-$_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
+$_LANG['store']['emailServices']['headline'] = "امنیت ایمیل ، ساخته شده برای شما";
+$_LANG['store']['emailServices']['tagline'] = "کنترل صندوق دریافت خود را دوباره در دست گیرید";
+$_LANG['store']['emailServices']['blockSpamHeadline'] = "تقریباً 100٪ ویروس ها ، بدافزارها و هرزنامه ها را قبل از رسیدن به صندوق ورودی شما مسدود کنید";
 
-$_LANG['store']['sitelock']['features']['malwareScanning'] = "Daily Malware Scanning";
-$_LANG['store']['sitelock']['features']['numberOfPages'] = "Number of Pages";
-$_LANG['store']['sitelock']['features']['dailyBlacklistMonitoring'] = "Daily Blacklist Monitoring";
-$_LANG['store']['sitelock']['features']['sitelockRiskScore'] = "SiteLock Risk Score";
-$_LANG['store']['sitelock']['features']['websiteAppScan'] = "Website Application Scan";
+$_LANG['store']['sitelock']['features']['malwareScanning'] = "اسکن روزانه بدافزار";
+$_LANG['store']['sitelock']['features']['numberOfPages'] = "تعدادی از صفحات";
+$_LANG['store']['sitelock']['features']['dailyBlacklistMonitoring'] = "نظارت روزانه بر لیست سیاه";
+$_LANG['store']['sitelock']['features']['sitelockRiskScore'] = "نمره خطر SiteLock";
+$_LANG['store']['sitelock']['features']['websiteAppScan'] = "اسکن برنامه وب سایت";
 $_LANG['store']['sitelock']['features']['sqlInjectionScan'] = "SQL Injection Scan";
-$_LANG['store']['sitelock']['features']['xssScan'] = "Cross Site (XSS) Scan";
-$_LANG['store']['sitelock']['features']['trustSeal'] = "Sitelock&trade; Trust Seal";
-$_LANG['store']['sitelock']['features']['dailySmartScans'] = "Daily SMART Scans";
-$_LANG['store']['sitelock']['features']['autoMalwareRemoval'] = "Automatic Malware Removal";
+$_LANG['store']['sitelock']['features']['xssScan'] = "اسکن Cross Site (XSS)";
+$_LANG['store']['sitelock']['features']['trustSeal'] = "Sitelock ™ مهر اعتماد";
+$_LANG['store']['sitelock']['features']['dailySmartScans'] = "اسکن روزانه SMART";
+$_LANG['store']['sitelock']['features']['autoMalwareRemoval'] = "حذف خودکار بدافزارها";
 $_LANG['store']['sitelock']['features']['trueshieldProtection'] = "TrueShield Protection";
 $_LANG['store']['sitelock']['features']['wordPressScan'] = "WordPress Scan";
 $_LANG['store']['sitelock']['features']['spamBlacklistMonitoring'] = "Spam Blacklist Monitoring";
-$_LANG['store']['sitelock']['features']['waf'] = "Web Application Firewall";
+$_LANG['store']['sitelock']['features']['waf'] = "فایروال برنامه وب";
 $_LANG['store']['sitelock']['features']['globalCdn'] = "Global CDN";
-$_LANG['store']['sitelock']['features']['contentAcceleration'] = "Content Acceleration";
+$_LANG['store']['sitelock']['features']['contentAcceleration'] = "سرعت بخشیدن به محتوا";
 
 $_LANG['pricingCycleShort']['monthly'] = "mo";
 $_LANG['pricingCycleShort']['quarterly'] = "3mo";
@@ -2233,113 +2240,125 @@ $_LANG['pricingCycleShort']['semiannually'] = "6mo";
 $_LANG['pricingCycleShort']['annually'] = "yr";
 $_LANG['pricingCycleShort']['biennially'] = "2yrs";
 $_LANG['pricingCycleShort']['triennially'] = "3yrs";
-$_LANG['pricingCycleLong']['monthly'] = "1 Month";
-$_LANG['pricingCycleLong']['quarterly'] = "3 Months";
-$_LANG['pricingCycleLong']['semiannually'] = "6 Months";
-$_LANG['pricingCycleLong']['annually'] = "1 Year";
-$_LANG['pricingCycleLong']['biennially'] = "2 Years";
-$_LANG['pricingCycleLong']['triennially'] = "3 Years";
+$_LANG['pricingCycleLong']['monthly'] = "ماه";
+$_LANG['pricingCycleLong']['quarterly'] = "سه ماه";
+$_LANG['pricingCycleLong']['semiannually'] = "شش ماه";
+$_LANG['pricingCycleLong']['annually'] = "یکساله";
+$_LANG['pricingCycleLong']['biennially'] = "دو ساله";
+$_LANG['pricingCycleLong']['triennially'] = "سه ساله";
 
-$_LANG['navManageSsl'] = "Manage SSL Certificates";
-$_LANG['almostDone'] = "Almost Done";
+$_LANG['navManageSsl'] = "مدیریت گواهینامه های SSL";
+$_LANG['almostDone'] = "تقریبا انجام شد";
 
-$_LANG['invoicesPaymentPending'] = "Payment Pending";
+$_LANG['invoicesPaymentPending'] = "پرداخت در انتظار";
 
-$_LANG['ssl']['changeApproverEmail'] = "Change Approver Email";
-$_LANG['ssl']['reissueCertificate'] = "Reissue Certificate";
-$_LANG['ssl']['retrieveCertificate'] = "Retrieve Certificate";
-$_LANG['ssl']['selectValidation'] = "Select a Validation Method";
+$_LANG['ssl']['changeApproverEmail'] = "تغییر ایمیل تأیید کننده";
+$_LANG['ssl']['reissueCertificate'] = "صدور مجدد گواهینامه";
+$_LANG['ssl']['retrieveCertificate'] = "بازیابی گواهینامه";
+$_LANG['ssl']['selectValidation'] = "یک روش اعتبار سنجی را انتخاب کنید";
 $_LANG['ssl']['dnsMethod'] = "DNS";
-$_LANG['ssl']['emailMethod'] = "Email";
+$_LANG['ssl']['emailMethod'] = "ایمیل";
 $_LANG['ssl']['fileMethod'] = "HTTP File";
-$_LANG['ssl']['emailMethodDescription'] = "Validation will be performed by the Certificate Authority, sending an email with further instructions to the address chosen below.";
-$_LANG['ssl']['dnsMethodDescription'] = "The Certificate Authority will inspect the DNS records of the domain, looking for a specific record with a unique value. Make certain you have access to administer DNS settings for the domain to complete this setup. DNS record information will be provided upon successful configuration.";
+$_LANG['ssl']['emailMethodDescription'] = "اعتبار سنجی توسط مرجع صدور گواهینامه انجام می شود و یک ایمیل با دستورالعمل های بیشتر به آدرس انتخاب شده در زیر ارسال می کند";
+$_LANG['ssl']['dnsMethodDescription'] = "مرجع صدور گواهینامه ، پرونده های دی ان اس دامنه را بررسی می کند و به دنبال یک رکورد خاص با ارزش منحصر به فرد است. اطمینان حاصل کنید که برای تکمیل این تنظیمات به مدیریت تنظیمات دی ان اس دامنه دسترسی دارید. اطلاعات پیکربندی دی ان اس با پیکربندی موفق ارائه می شود";
 $_LANG['ssl']['fileMethodDescription'] = "The Certificate Authority will make an HTTP request to a path hosted within the domain, expecting the response to contain a unique value. The path and value will be provided upon successful configuration.";
-$_LANG['ssl']['selectEmail'] = "Select an Email Address";
-$_LANG['ssl']['nextSteps'] = "What's Next";
-$_LANG['ssl']['emailSteps'] = "The Certificate Authority will send an email to the email address chosen. It will contain further instructions needed to validate domain ownership. Once those steps are complete, the Certificate will be issued.";
-$_LANG['ssl']['fileSteps'] = "The Certificate Authority will now begin making requests to the URL below to validate the response is the value provided. Once a response with the specified value is detected, the Certificate will be issued.";
-$_LANG['ssl']['dnsSteps'] = "The Certificate Authority will now begin querying the domain's DNS records for a record matching the information below. Access your domain's DNS settings and create the record. Once the record is discovered, the Certificate will be issued.";
-$_LANG['ssl']['url'] = "URL";
-$_LANG['ssl']['value'] = "Value";
-$_LANG['ssl']['type'] = "Type";
+$_LANG['ssl']['selectEmail'] = "آدرس ایمیل را انتخاب کنید";
+$_LANG['ssl']['nextSteps'] = "بعدی چیست";
+$_LANG['ssl']['emailSteps'] = "مرجع صدور گواهینامه یک ایمیل به آدرس ایمیل انتخاب شده ارسال می کند. این شامل دستورالعمل های بیشتری است که برای تأیید مالکیت دامنه مورد نیاز است. پس از اتمام مراحل ، گواهینامه صادر می شود";
+$_LANG['ssl']['fileSteps'] = "اکنون مرجع صدور گواهینامه درخواست خود را برای نشانی اینترنتی زیر شروع می کند تا اعتبار مقدار ارائه شده را تأیید کند. هنگامی که پاسخی با مقدار مشخص شده تشخیص داده شود ، گواهی صادر می شود";
+$_LANG['ssl']['dnsSteps'] = "اکنون مرجع صدور گواهی ، سوابق دی ان اس دامنه را برای رکوردی مطابق با اطلاعات زیر آغاز می کند. به تنظیمات دی ان اس دامنه خود دسترسی داشته باشید و رکورد را ایجاد کنید. پس از کشف رکورد ، گواهی صادر می شود";
+$_LANG['ssl']['url'] = "آدرس";
+$_LANG['ssl']['value'] = "مقدار";
+$_LANG['ssl']['type'] = "نوع";
 $_LANG['ssl']['host'] = "Host";
 $_LANG['ssl']['dnsRecordInformation'] = "DNS Record Information";
-$_LANG['ssl']['fileInformation'] = "File Information";
-$_LANG['ssl']['emailInformation'] = "Email Information";
-$_LANG['ssl']['dcv'] = "Domain Control Validation";
+$_LANG['ssl']['fileInformation'] = "اطلاعات فایل";
+$_LANG['ssl']['emailInformation'] = "اطلاعات ایمیل";
+$_LANG['ssl']['dcv'] = "اعتبار سنجی دامنه";
+$_LANG['ssl']['defaultcontacts'] = "Default Domain Contacts";
+$_LANG['ssl']['reissueInfo1'] = "If you have lost your certificate, need to move servers, or had a problem with the installation, you can reissue your certificate to generate a new one.";
+$_LANG['ssl']['reissueInfo2'] = "When reissuing a certificate, you cannot change the domain name and it must remain exactly the same.";
+$_LANG['ssl']['reissueSuccess'] = "Reissue request submitted successfully!";
+$_LANG['ssl']['reissueSuccessInfo'] = "<p>Your request to reissue your certificate has been submitted to the certificate authority.</p><p>You will receive an email shortly to <em>:approverEmail</em> to approve the certificate.</p><p>If you do not receive the email, please check any spam filters and virus protection folders in case the email has been quarantined. If you are still unable to find it, please <a href=\"submitticket.php\">contact support</a>.</p>";
+$_LANG['ssl']['approverEmailUpdateSuccess'] = "Approver email updated successfully!";
+$_LANG['ssl']['approverEmailUpdateInfo'] = "<p>You will receive an email shortly to <em>:newApproverEmail</em> to approve the certificate.</p><p>If you do not receive the email, please check any spam filters and virus protection folders in case the email has been quarantined. If you are still unable to find it, please <a href=\"submitticket.php\">contact support</a>.</p>";
+$_LANG['ssl']['disableWhoisPrivacy'] = "Please disable any WHOIS privacy services before proceeding.";
+$_LANG['ssl']['selectDcvEmail'] = "Select an active email address from the list below. You will receive an email to approve the SSL certificate.";
+$_LANG['ssl']['approverEmailProcess'] = "<h4>About the Approver Email Process</h4><p>In order to issue an SSL certificate, the Certificate Authority has to validate the certificate order's authenticity to ensure that the request is legitimate and comes from an authorized owner of the domain.</p><p>Email-based domain validation is the most common certificate validation mechanism for certificate orders. The certificate authority compiles a list of approved email addresses using common administrative email addresses (for example, admin or webmaster) in combination with the public WHOIS data for the domain. You can only use one of these email addresses to confirm ownership.</p>";
 
-$_LANG['upgradeCredit'] = "Upgrade Credit";
+
+
+$_LANG['upgradeCredit'] = "اعتبار را ارتقا دهید";
 $_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused days of :totalDays totals days in the current billing cycle.";
 
-$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Your domain is not supported for transfer to us at this time. Please try another domain.";
-$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Your domain is not eligible for transfer to us. Please try another domain.";
+$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "در حال حاضر دامنه شما برای انتقال به ما پشتیبانی نمی شود. لطفاً دامنه دیگری را امتحان کنید";
+$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "دامنه شما واجد شرایط انتقال به ما نیست. لطفاً دامنه دیگری را امتحان کنید";
 
-$_LANG['remoteAuthn']['success'] = "Success!";
-$_LANG['remoteAuthn']['errorExclamation'] = "Error!";
-$_LANG['remoteAuthn']['error'] = "Error";
-$_LANG['remoteAuthn']['linkInitiated'] = "Link Initiated!";
-$_LANG['remoteAuthn']['areYouSure'] = "Are you sure?";
-$_LANG['remoteAuthn']['yesUnlinkIt'] = "Yes, unlink it!";
-$_LANG['remoteAuthn']['unlinked'] = "Unlinked!";
-$_LANG['remoteAuthn']['unavailable'] = "is unavailable at this time. Please try again later.";
-$_LANG['remoteAuthn']['connectError'] = "We were unable to connect your account. Please contact your system administrator.";
-$_LANG['remoteAuthn']['completeSignIn'] = "Please complete sign in with your chosen service provider.";
-$_LANG['remoteAuthn']['redirecting'] = "Automatic sign-in successful! Redirecting...";
-$_LANG['remoteAuthn']['accountNowLinked'] = "Your account is now linked with your :displayName account.";
-$_LANG['remoteAuthn']['oneTimeAuthRequired'] = "Please complete sign in to associate this service with your existing account. You will only have to do this once.";
-$_LANG['remoteAuthn']['completeRegistrationForm'] = "Please complete the registration form below.";
-$_LANG['remoteAuthn']['completeNewAccountForm'] = "Please complete your new account information.";
-$_LANG['remoteAuthn']['linkedToAnotherClient'] = "This account is already connected to an existing account with us. Please choose a different account at the third party authentication provider.";
-$_LANG['remoteAuthn']['alreadyLinkedToYou'] = "This account is already connected to your account with us. Please choose a different account at the third party authentication provider.";
-$_LANG['remoteAuthn']['saveTimeByLinking'] = "Save time by signing up using an existing account with any of the services below.";
-$_LANG['remoteAuthn']['unlinkDesc'] = "This permanently unlinks the authorized account.";
-$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = "Connect your account with any of the services below to simplify your sign-in experience. We only use this information to verify your account and will never post on your behalf.";
-$_LANG['remoteAuthn']['titleSignUpVerb'] = "Sign Up";
-$_LANG['remoteAuthn']['titleOr'] = "Or";
-$_LANG['remoteAuthn']['titleLinkedAccounts'] = "Linked Accounts";
-$_LANG['remoteAuthn']['provider'] = "Provider";
-$_LANG['remoteAuthn']['name'] = "Name";
-$_LANG['remoteAuthn']['emailAddress'] = "Email Address";
-$_LANG['remoteAuthn']['actions'] = "Actions";
-$_LANG['remoteAuthn']['noLinkedAccounts'] = "No linked accounts found";
-$_LANG['remoteAuthn']['signInWith'] = "Sign in with :provider";
-$_LANG['remoteAuthn']['connectWith'] = "Connect with :provider";
-$_LANG['remoteAuthn']['signUpWith'] = "Sign Up with :provider";
+$_LANG['remoteAuthn']['success'] = "!موفقیت";
+$_LANG['remoteAuthn']['errorExclamation'] = "!خطا";
+$_LANG['remoteAuthn']['error'] = "خطا";
+$_LANG['remoteAuthn']['linkInitiated'] = "!پیوند آغاز شد";
+$_LANG['remoteAuthn']['areYouSure'] = "مطمئنی؟";
+$_LANG['remoteAuthn']['yesUnlinkIt'] = "بله ، پیوند آن را لغو کنید";
+$_LANG['remoteAuthn']['unlinked'] = "!پیوند قطع شد";
+$_LANG['remoteAuthn']['unavailable'] = "در حال حاضر در دسترس نیست لطفاً بعداً دوباره امتحان کنید";
+$_LANG['remoteAuthn']['connectError'] = "ما نتوانستیم حساب شما را وصل کنیم. لطفا با سرپرست سیستم خود تماس بگیرید";
+$_LANG['remoteAuthn']['completeSignIn'] = "لطفاً با ارائه دهنده خدمات انتخابی خود وارد سیستم شوید";
+$_LANG['remoteAuthn']['redirecting'] = "ورود خودکار با موفقیت انجام شد! تغییر مسیر ";
+$_LANG['remoteAuthn']['accountNowLinked'] = "اکنون حساب شما با حساب شما پیوند خورده است :displayName حساب.";
+$_LANG['remoteAuthn']['oneTimeAuthRequired'] = "لطفاً برای ارتباط این سرویس با حساب موجود خود ، ورود به سیستم را کامل کنید. شما فقط باید یک بار این کار را انجام دهید";
+$_LANG['remoteAuthn']['completeRegistrationForm'] = "لطفا فرم ثبت نام زیر را تکمیل کنید";
+$_LANG['remoteAuthn']['completeNewAccountForm'] = "لطفاً اطلاعات حساب جدید خود را تکمیل کنید";
+$_LANG['remoteAuthn']['linkedToAnotherClient'] = "این حساب قبلاً با ما به یک حساب موجود متصل شده است. لطفاً حساب دیگری را در ارائه دهنده احراز هویت شخص ثالث انتخاب کنید";
+$_LANG['remoteAuthn']['alreadyLinkedToYou'] = "این حساب قبلاً با ما به حساب شما متصل شده است. لطفاً حساب دیگری را در ارائه دهنده احراز هویت شخص ثالث انتخاب کنید";
+$_LANG['remoteAuthn']['saveTimeByLinking'] = "با ثبت نام با استفاده از حساب موجود با هر یک از خدمات زیر ، در وقت خود صرفه جویی کنید";
+$_LANG['remoteAuthn']['unlinkDesc'] = "با این کار پیوند پیوسته حساب مجاز قطع می شود";
+$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = "برای ساده کردن تجربه ورود به سیستم ، حساب خود را با هر یک از خدمات زیر متصل کنید. ما فقط از این اطلاعات برای تأیید حساب شما استفاده می کنیم و هرگز از طرف شما پست نمی دهیم";
+$_LANG['remoteAuthn']['titleSignUpVerb'] = "ثبت نام";
+$_LANG['remoteAuthn']['titleOr'] = "یا";
+$_LANG['remoteAuthn']['titleLinkedAccounts'] = "حساب های مرتبط";
+$_LANG['remoteAuthn']['provider'] = "تامین کننده";
+$_LANG['remoteAuthn']['name'] = "نام";
+$_LANG['remoteAuthn']['emailAddress'] = "آدرس ایمیل";
+$_LANG['remoteAuthn']['actions'] = "عملیات";
+$_LANG['remoteAuthn']['noLinkedAccounts'] = "هیچ حساب پیوندی یافت نشد";
+$_LANG['remoteAuthn']['signInWith'] = "ورود به سیستم با:provider";
+$_LANG['remoteAuthn']['connectWith'] = "ارتباط با :provider";
+$_LANG['remoteAuthn']['signUpWith'] = "ثبت نام با :provider";
 
-$_LANG['unlink'] = "Unlink";
+$_LANG['unlink'] = "لغو پیوند";
 
-$_LANG['invoicePaymentSuccessAwaitingNotify'] = "Thank you for completing the payment process. We are awaiting notification to confirm the payment you just made. We will send you an email confirmation as soon as this has been received.";
+$_LANG['invoicePaymentSuccessAwaitingNotify'] = "با تشکر از شما برای تکمیل مراحل پرداخت. ما منتظر اطلاع رسانی برای تأیید پرداختی هستیم که تازه انجام داده اید. به محض دریافت این ایمیل ، تأییدیه ای را برای شما ارسال می کنیم";
 
-$_LANG['errorPage']['404']['title'] = "Oops!";
-$_LANG['errorPage']['404']['subtitle'] = "We couldn't find that page";
-$_LANG['errorPage']['404']['description'] = "Please try navigating using the options below.";
-$_LANG['errorPage']['404']['home'] = "Homepage";
-$_LANG['errorPage']['404']['submitTicket'] = "Contact Support";
+$_LANG['errorPage']['404']['title'] = "!اوه";
+$_LANG['errorPage']['404']['subtitle'] = "ما نتوانستیم آن صفحه را پیدا کنیم";
+$_LANG['errorPage']['404']['description'] = "برای رفتن به صفحات دیگر از گزینه های زیر استفاده کنید";
+$_LANG['errorPage']['404']['home'] = "صفحه اصلی";
+$_LANG['errorPage']['404']['submitTicket'] = "با پشتیبانی تماس بگیرید";
 
-$_LANG['creditCard']['removeDescription'] = "Are you sure you wish to remove your credit card details?";
+$_LANG['creditCard']['removeDescription'] = "آیا مطمئن هستید که می خواهید مشخصات کارت اعتباری خود را حذف کنید؟";
 
-$_LANG['marketConnect']['weebly']['ftpHost'] = "FTP Host";
-$_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Username";
-$_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Password";
-$_LANG['marketConnect']['weebly']['ftpPath'] = "FTP Path";
-$_LANG['marketConnect']['weebly']['updateFtp'] = "Update FTP Credentials";
-$_LANG['marketConnect']['weebly']['manage'] = "Login to Weebly";
+$_LANG['marketConnect']['websiteBuilder']['ftpHost'] = "FTP Host";
+$_LANG['marketConnect']['websiteBuilder']['ftpUsername'] = "FTP نام کاربری";
+$_LANG['marketConnect']['websiteBuilder']['ftpPassword'] = "FTP رمزعبور";
+$_LANG['marketConnect']['websiteBuilder']['ftpPath'] = "FTP Path";
+$_LANG['marketConnect']['websiteBuilder']['updateFtp'] = " را بروز کنیدFTPاطلاعات";
+$_LANG['marketConnect']['websiteBuilder']['manage'] = "Login to Weebly";
 
-$_LANG['domainChecker']['contactSupport'] = "Contact Support to Purchase";
+$_LANG['domainChecker']['contactSupport'] = "برای خرید با پشتیبانی تماس بگیرید";
 
-$_LANG['cart']['availableCreditBalance'] = "Your available credit balance is :amount.";
-$_LANG['cart']['applyCreditAmount'] = "Apply <span>:amount</span> from my credit balance to this order and I will pay the remaining amount via the payment method selected below.";
-$_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Apply <span>:amount</span> from my credit balance to this order. No further payment will be due.";
-$_LANG['cart']['applyCreditSkip'] = "Do not apply any credit from my credit balance to this order. I will pay for it using the payment method selected below.";
+$_LANG['cart']['availableCreditBalance'] = "موجودی اعتبار موجود شما می باشد :amount.";
+$_LANG['cart']['applyCreditAmount'] = "درخواست دادن <span>:amount</span>از موجودی اعتباری من تا این سفارش و مبلغ باقی مانده را از طریق روش پرداختی که در زیر انتخاب شده پرداخت می کنم";
+$_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "درخواست دادن <span>:amount</span> از موجودی اعتباری من تا این سفارش. هیچ گونه پرداخت دیگری پرداخت نمی شود";
+$_LANG['cart']['applyCreditSkip'] = "هیچ اعتباری از موجودی اعتبار من به این سفارش اعمال نکنید. هزینه آن را با استفاده از روش پرداختی که در زیر انتخاب شده است ، پرداخت می کنم";
 
-$_LANG['dateTime']['monday'] = "Monday";
-$_LANG['dateTime']['tuesday'] = "Tuesday";
-$_LANG['dateTime']['wednesday'] = "Wednesday";
-$_LANG['dateTime']['thursday'] = "Thursday";
-$_LANG['dateTime']['friday'] = "Friday";
-$_LANG['dateTime']['saturday'] = "Saturday";
-$_LANG['dateTime']['sunday'] = "Sunday";
+$_LANG['dateTime']['monday'] = "دوشنبه";
+$_LANG['dateTime']['tuesday'] = "سه شنبه";
+$_LANG['dateTime']['wednesday'] = "چهارشنبه";
+$_LANG['dateTime']['thursday'] = "پنج شنبه";
+$_LANG['dateTime']['friday'] = "حمعه";
+$_LANG['dateTime']['saturday'] = "شنبه";
+$_LANG['dateTime']['sunday'] = "یک شنبه";
 $_LANG['dateTime']['mon'] = "Mon";
 $_LANG['dateTime']['tue'] = "Tue";
 $_LANG['dateTime']['wed'] = "Wed";
@@ -2385,130 +2404,130 @@ $_LANG['dateTime']['hours'] = "Hours";
 $_LANG['dateTime']['minute'] = "Minute";
 $_LANG['dateTime']['minutes'] = "Minutes";
 
-$_LANG['emailMarketing']['joinOurMailingList'] = "Join our mailing list";
+$_LANG['emailMarketing']['joinOurMailingList'] = "به خبرنامه  ما بپیوندید";
 
-$_LANG['edit'] = "Edit";
-$_LANG['thankYou'] = "Thank You";
+$_LANG['edit'] = "ویرایش";
+$_LANG['thankYou'] = "متشکرم";
 $_LANG['na'] = "N/A";
 
-$_LANG['domainGracePeriodFeeInvoiceItem'] = "Domain Renewal Fee in Grace Period for :domainName";
+$_LANG['domainGracePeriodFeeInvoiceItem'] = "هزینه تمدید دامنه در دوره گریس برای :domainName";
 $_LANG['domainRedemptionPeriodFeeInvoiceItem'] = "Domain Renewal Fee in Redemption Grace Period for :domainName";
-$_LANG['gracePeriod'] = "Grace Period";
+$_LANG['gracePeriod'] = "مهلت";
 $_LANG['redemptionPeriod'] = "Redemption Period";
-$_LANG['domainsExpiringSoon'] = "Expiring Soon";
-$_LANG['expiresToday'] = "Expires Today";
-$_LANG['clientareagrace'] = "Grace Period (Expired)";
-$_LANG['clientarearedemption'] = "Redemption Period (Expired)";
-$_LANG['domainRenewal']['availablePeriods'] = "Available Renewal Periods";
-$_LANG['domainRenewal']['unavailable'] = "Domain Renewal Unavailable";
-$_LANG['domainRenewal']['renewingDomains'] = "Renew Your Domains";
-$_LANG['domainRenewal']['graceFee'] = "Grace Period Fee";
-$_LANG['domainRenewal']['redemptionFee'] = "Redemption Period Fee";
-$_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "Domains enter the Grace Period upon expiry. Once in this status, the domain may only be renewed for a maximum of the minimum registration period term.";
-$_LANG['domainRenewal']['hasExpired'] = "This domain has expired.";
-$_LANG['domainRenewal']['expiringIn'] = "Expiring in :days days";
-$_LANG['domainRenewal']['expiredDaysAgo'] = "Expired :days days ago";
-$_LANG['domainRenewal']['noDomains'] = "You do not currently have any domains that are eligible for renewal";
-$_LANG['domainRenewal']['showingDomains'] = "Showing :showing of :totalCount domains";
-$_LANG['domainRenewal']['showAll'] = "Show All";
-$_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maximum Advance Renewal is :days Day(s)";
+$_LANG['domainsExpiringSoon'] = "به زودی منقضی می شود";
+$_LANG['expiresToday'] = "امروز منقضی می شود";
+$_LANG['clientareagrace'] = "مهلت (منقضی شده)";
+$_LANG['clientarearedemption'] = "دوره بازخرید (منقضی شده)";
+$_LANG['domainRenewal']['availablePeriods'] = "دوره های تمدید موجود";
+$_LANG['domainRenewal']['unavailable'] = "تمدید دامنه در دسترس نیست";
+$_LANG['domainRenewal']['renewingDomains'] = "دامنه های خود را تمدید کنید";
+$_LANG['domainRenewal']['graceFee'] = "هزینه مهلت";
+$_LANG['domainRenewal']['redemptionFee'] = "کارمزد دوره بازخرید";
+$_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "دامنه ها پس از انقضا وارد دوره  هزینه بازخرید می شوند. هنگامی که در این وضعیت قرار گرفتید ، دامنه فقط برای حداکثر مدت دوره ثبت نام قابل تمدید است.";
+$_LANG['domainRenewal']['hasExpired'] = "این دامنه منقضی شده است";
+$_LANG['domainRenewal']['expiringIn'] = "انقضا در :days days";
+$_LANG['domainRenewal']['expiredDaysAgo'] = "منقضی شده :days days ago";
+$_LANG['domainRenewal']['noDomains'] = "شما در حال حاضر هیچ دامنه ای ندارید که واجد شرایط تمدید باشد";
+$_LANG['domainRenewal']['showingDomains'] = "نمایش :showing از :totalCount دامنه";
+$_LANG['domainRenewal']['showAll'] = "نمایش همه";
+$_LANG['domainRenewal']['maximumAdvanceRenewal'] = "حداکثر تمدید پیش فرض است :days روز";
 
-$_LANG['navMarketConnectService']['sitelock'] = "Website Security";
-$_LANG['store']['sitelock']['title'] = "SiteLock Website Security";
-$_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for malware and protect online reputation";
-$_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
-$_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your business’ reputation.";
-$_LANG['store']['sitelock']['plansAndPricing'] = "Plans & Pricing";
-$_LANG['store']['sitelock']['featuresLink'] = "Features";
-$_LANG['store']['sitelock']['websiteHacked'] = "Website Hacked?";
-$_LANG['store']['sitelock']['faq'] = "FAQ";
-$_LANG['store']['sitelock']['contentHeadline'] = "Website security & malware protection for your website";
-$_LANG['store']['sitelock']['contentBodyParagraph1'] = "SiteLock&trade;, the global leader in website security, protects your website to give you peace of mind.";
-$_LANG['store']['sitelock']['contentBodyParagraph2'] = "SiteLock's Daily Malware Scanning identifies vulnerabilities and known malicious code and automatically removes it from your website to protect your website and visitors against threats.";
+$_LANG['navMarketConnectService']['sitelock'] = "امنیت وب سایت";
+$_LANG['store']['sitelock']['title'] = "SiteLock امنیت وب سایت";
+$_LANG['store']['sitelock']['tagline'] = "وب سایت خود را بطور خودکار برای بدافزار اسکن کرده و از اعتبار آنلاین محافظت کنید";
+$_LANG['store']['sitelock']['manageService'] = " خود را مدیریت کنیدSiteLock سرویس ";
+$_LANG['store']['sitelock']['cartShortDescription'] = " طیف وسیعی از ویژگی ها را برای محافظت از وب سایت شما و اعتبار کسب و کار شما ارائه می دهدSiteLock";
+$_LANG['store']['sitelock']['plansAndPricing'] = "پلن ها و قیمت گذاری";
+$_LANG['store']['sitelock']['featuresLink'] = "امکانات";
+$_LANG['store']['sitelock']['websiteHacked'] = "وب سایت هک شده؟";
+$_LANG['store']['sitelock']['faq'] = "سوالات متداول";
+$_LANG['store']['sitelock']['contentHeadline'] = "امنیت وب سایت و حفاظت از بدافزار برای وب سایت شما";
+$_LANG['store']['sitelock']['contentBodyParagraph1'] = "رهبر جهانی در امنیت وب سایت ، از وب سایت شما محافظت می کند تا به شما آرامش بدهد SiteLock leader ";
+$_LANG['store']['sitelock']['contentBodyParagraph2'] = "آسیب پذیری ها و کد مخرب شناخته شده را شناسایی می کند و به طور خودکار آن را از وب سایت شما حذف می کند تا از وب سایت و بازدیدکنندگان شما در برابر تهدیدها محافظت کندSiteLockاسکن روزانه بدافزار";
 $_LANG['store']['sitelock']['contentBodyParagraph3'] = "Plus you get the SiteLock Trust Seal which builds customer confidence and is proven to increase sales and conversion rates.";
 $_LANG['store']['sitelock']['comparePlans'] = "Compare SiteLock Plans";
-$_LANG['store']['sitelock']['comparePlansSubtitle'] = "Professional security features for your website";
-$_LANG['store']['sitelock']['featuresTitle'] = "SiteLock Features";
-$_LANG['store']['sitelock']['featuresHeadline'] = "Provides a range of features designed to protect both your website and your business’ reputation:";
-$_LANG['store']['sitelock']['featuresMalwareTitle'] = "Malware Scan";
-$_LANG['store']['sitelock']['featuresMalwareContent'] = "Proactively monitors for and alerts you about any malware that is detected on your website.";
-$_LANG['store']['sitelock']['featuresMalwareRemovalTitle'] = "Automatic malware removal";
+$_LANG['store']['sitelock']['comparePlansSubtitle'] = "ویژگی های امنیتی حرفه ای برای وب سایت شما";
+$_LANG['store']['sitelock']['featuresTitle'] = "ویژگی های SiteLock";
+$_LANG['store']['sitelock']['featuresHeadline'] = "طیف وسیعی از ویژگی های طراحی شده برای محافظت از وب سایت و اعتبار کسب و کار شما را ارائه می دهد";
+$_LANG['store']['sitelock']['featuresMalwareTitle'] = "اسکن بدافزار";
+$_LANG['store']['sitelock']['featuresMalwareContent'] = "هرگونه بدافزاری که در وب سایت شما شناسایی شده است را بطور فعال رصد کرده و به شما هشدار می دهد";
+$_LANG['store']['sitelock']['featuresMalwareRemovalTitle'] = "حذف خودکار بدافزارها";
 $_LANG['store']['sitelock']['featuresMalwareRemovalContent'] = "If a scan finds anything, SiteLock will safely remove any known malware automatically.";
-$_LANG['store']['sitelock']['featuresVulnerabilityTitle'] = "Vulnerability Scan";
-$_LANG['store']['sitelock']['featuresVulnerabilityContent'] = "Automatically checks your applications to ensure they're up-to-date and secured against known vulnerabilities.";
+$_LANG['store']['sitelock']['featuresVulnerabilityTitle'] = "اسکن آسیب پذیری";
+$_LANG['store']['sitelock']['featuresVulnerabilityContent'] = "به طور خودکار برنامه های خود را بررسی می کند تا از به روز بودن و ایمن بودن آنها در برابر آسیب پذیری های شناخته شده اطمینان حاصل کند";
 $_LANG['store']['sitelock']['featuresOWASPTitle'] = "OWASP Protection";
 $_LANG['store']['sitelock']['featuresOWASPContent'] = "Get protection against the top 10 web app security flaws as recognised by OWASP, the Open Web Application Security Project.";
 $_LANG['store']['sitelock']['featuresTrustSealTitle'] = "SiteLock&trade; Trust Seal";
-$_LANG['store']['sitelock']['featuresTrustSealContent'] = "Give your visitors added confidence by showing your website is protected by SiteLock.";
-$_LANG['store']['sitelock']['featuresFirewallTitle'] = "Firewall";
+$_LANG['store']['sitelock']['featuresTrustSealContent'] = " با نشان دادن محافظت از وب سایت خود ، به بازدیدکنندگان خود اطمینان بیشتری دهیدSiteLock.";
+$_LANG['store']['sitelock']['featuresFirewallTitle'] = "فایروال";
 $_LANG['store']['sitelock']['featuresFirewallContent'] = "The TrueShield&trade; Web Application Firewall protects your website against hackers and attacks.";
-$_LANG['store']['sitelock']['featuresReputationTitle'] = "Protect your reputation";
-$_LANG['store']['sitelock']['featuresReputationContent'] = "Daily scans help detect malware early before search engines have a chance to find it and blacklist your site.";
-$_LANG['store']['sitelock']['featuresSetupTitle'] = "Fast automated setup";
-$_LANG['store']['sitelock']['featuresSetupContent'] = "Instant and fully automated setup gives you protection immediately without anything to install.";
-$_LANG['store']['sitelock']['featuresCDNTitle'] = "Content Delivery Network (CDN)";
-$_LANG['store']['sitelock']['featuresCDNContent'] = "Speed up your website by distributing it globally and serving it to your visitors from the closest location for faster page load speeds wherever they are.";
-$_LANG['store']['sitelock']['emergencyPlanTitle'] = "Website Hacked?";
+$_LANG['store']['sitelock']['featuresReputationTitle'] = "از شهرت خود محافظت کنید";
+$_LANG['store']['sitelock']['featuresReputationContent'] = "اسکن روزانه به تشخیص بدافزار کمک می کند قبل از اینکه موتورهای جستجو فرصتی برای یافتن آن پیدا کرده و سایت شما را در لیست سیاه قرار دهند";
+$_LANG['store']['sitelock']['featuresSetupTitle'] = "راه اندازی خودکار سریع";
+$_LANG['store']['sitelock']['featuresSetupContent'] = "راه اندازی فوری و کاملاً خودکار بدون نیاز به نصب ، بلافاصله از شما محافظت می کند";
+$_LANG['store']['sitelock']['featuresCDNTitle'] = "شبکه تحویل محتوا (CDN)";
+$_LANG['store']['sitelock']['featuresCDNContent'] = "وب سایت خود را با توزیع در سطح جهانی و ارائه آن به بازدیدکنندگان از نزدیکترین مکان برای سرعت بیشتر بارگذاری صفحه در هر کجا که هستید ، افزایش دهید";
+$_LANG['store']['sitelock']['emergencyPlanTitle'] = "وب سایت هک شده؟";
 $_LANG['store']['sitelock']['emergencyPlanHeadline'] = "Fix it now with SiteLock Emergency Response";
 $_LANG['store']['sitelock']['emergencyPlanBody'] = "If your website has been attacked and compromised get immediate emergency assistance to quickly recover your site. Here's how SiteLock Emergency Response helps:";
-$_LANG['store']['sitelock']['emergencyPlanResponseTitle'] = "Immediate response";
-$_LANG['store']['sitelock']['emergencyPlanResponseContent'] = "Get our fastest response time with analysis and work to recover your site started within 30 minutes.";
-$_LANG['store']['sitelock']['emergencyPlanMalwareTitle'] = "Complete malware removal";
-$_LANG['store']['sitelock']['emergencyPlanMalwareContent'] = "If our automatic technology is unable to remove the malicious content we'll perform manual cleaning.";
+$_LANG['store']['sitelock']['emergencyPlanResponseTitle'] = "ریسپانسیو فوری";
+$_LANG['store']['sitelock']['emergencyPlanResponseContent'] = "سریعترین زمان پاسخگویی ما را با تجزیه و تحلیل دریافت کنید و برای بازیابی سایت خود در مدت 30 دقیقه کار کنید";
+$_LANG['store']['sitelock']['emergencyPlanMalwareTitle'] = "حذف کامل بدافزار";
+$_LANG['store']['sitelock']['emergencyPlanMalwareContent'] = "اگر فناوری خودکار ما نتواند محتوای مخرب را حذف کند ، ما تمیز کردن دستی را انجام می دهیم";
 $_LANG['store']['sitelock']['emergencyPlanPriorityTitle'] = "Priority treatment";
-$_LANG['store']['sitelock']['emergencyPlanPriorityContent'] = "With the emergency package you get fast tracked straight to the top of the queue.";
-$_LANG['store']['sitelock']['emergencyPlanAftercareTitle'] = "7 day aftercare";
-$_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "Track progress with our real-time updates throughout the process of cleaning and recovering your site.";
-$_LANG['store']['sitelock']['emergencyPlanUpdatesTitle'] = "Real-time updates";
-$_LANG['store']['sitelock']['emergencyPlanUpdatesContent'] = "Track progress with our real-time updates throughout the process of cleaning and recovering your site.";
-$_LANG['store']['sitelock']['emergencyPlanPaymentTitle'] = "One-off payment";
-$_LANG['store']['sitelock']['emergencyPlanPaymentContent'] = "The emergency service is available for a single one-off fee, there's no recurring fees or subscription.";
-$_LANG['store']['sitelock']['emergencyPlanOnlyCost'] = "Only :price for 7 days of protection";
-$_LANG['store']['sitelock']['buyNow'] = "Buy Now";
-$_LANG['store']['sitelock']['faqTitle'] = "Frequently Asked Questions";
-$_LANG['store']['sitelock']['faqOneTitle'] = "What is SiteLock?";
+$_LANG['store']['sitelock']['emergencyPlanPriorityContent'] = "با بسته اضطراری سریعاً به بالای صف ردیابی می شوید";
+$_LANG['store']['sitelock']['emergencyPlanAftercareTitle'] = "7 روز مراقبت بعد";
+$_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "در طول فرآیند پاکسازی و بازیابی سایت خود ، پیشرفت را با به روزرسانی های زمان واقعی ما پیگیری کنید";
+$_LANG['store']['sitelock']['emergencyPlanUpdatesTitle'] = "به روز رسانی در زمان واقعی";
+$_LANG['store']['sitelock']['emergencyPlanUpdatesContent'] = "در طول فرآیند پاکسازی و بازیابی سایت خود ، پیشرفت را با به روزرسانی های زمان واقعی ما پیگیری کنید";
+$_LANG['store']['sitelock']['emergencyPlanPaymentTitle'] = "پرداخت یکجا";
+$_LANG['store']['sitelock']['emergencyPlanPaymentContent'] = "خدمات اورژانس با هزینه یکبار در دسترس است ، هیچ هزینه یا اشتراک مشترکی وجود ندارد";
+$_LANG['store']['sitelock']['emergencyPlanOnlyCost'] = "فقط :price  برای 7 روز محافظت";
+$_LANG['store']['sitelock']['buyNow'] = "هم اکنون خریداری کنید";
+$_LANG['store']['sitelock']['faqTitle'] = "سوالات متداول";
+$_LANG['store']['sitelock']['faqOneTitle'] = "SiteLock چیست؟";
 $_LANG['store']['sitelock']['faqOneBody'] = "SiteLock provides simple, fast and affordable website security to websites of all sizes. Founded in 2008, the company protects over 12 million websites worldwide. The SiteLock cloud-based suite of products offers automated website vulnerability detection and malware removal, DDoS protection, website acceleration, website risk assessments, and PCI compliance.";
 $_LANG['store']['sitelock']['faqOneBodyLearnMore'] = "To learn more about SiteLock, :learnMoreLink";
 $_LANG['store']['sitelock']['faqOneBodyLearnLinkText'] = "watch the 'How SiteLock Works' video by clicking here";
-$_LANG['store']['sitelock']['faqTwoTitle'] = "What does SiteLock do?";
+$_LANG['store']['sitelock']['faqTwoTitle'] = "?SiteLock چه کاری انجام می دهد";
 $_LANG['store']['sitelock']['faqTwoBody'] = "SiteLock provides comprehensive website security. It performs website daily scans to identify vulnerabilities or malware. When vulnerabilities or malware are found, you will be alerted immediately. Based on your SiteLock scanner, it will automatically remove any malware on your website.  For content management system (CMS) websites, SiteLock can automatically patch found vulnerabilities.";
-$_LANG['store']['sitelock']['faqThreeTitle'] = "What types of issues does SiteLock scan for?";
-$_LANG['store']['sitelock']['faqThreeBody'] = "SiteLock has the technology to perform a comprehensive website scan that encompasses:";
-$_LANG['store']['sitelock']['faqThreeBodyList1Title'] = "File-based Malware Scanning and Removal";
+$_LANG['store']['sitelock']['faqThreeTitle'] = "SiteLock برای چه نوع مسائلی اسکن می کند؟";
+$_LANG['store']['sitelock']['faqThreeBody'] = ":SiteLock دارای فناوری انجام اسکن جامع وب سایت است که شامل می شود";
+$_LANG['store']['sitelock']['faqThreeBodyList1Title'] = "اسکن و حذف بدافزارهای مبتنی بر فایل";
 $_LANG['store']['sitelock']['faqThreeBodyList1'] = "SiteLock performs daily scans of a website's files for malware. If malware is found, the website owner is alerted immediately. SiteLock also offers comprehensive scans to automatically remove the malware.";
-$_LANG['store']['sitelock']['faqThreeBodyList2Title'] = "Vulnerability Scanning";
+$_LANG['store']['sitelock']['faqThreeBodyList2Title'] = "اسکن آسیب پذیری";
 $_LANG['store']['sitelock']['faqThreeBodyList2'] = "SiteLock performs scans of website applications for common vulnerabilities that could lead to a compromise.";
-$_LANG['store']['sitelock']['faqThreeBodyList3Title'] = "Application Security and Vulnerability Patching";
+$_LANG['store']['sitelock']['faqThreeBodyList3Title'] = "امنیت برنامه و وصله آسیب پذیری";
 $_LANG['store']['sitelock']['faqThreeBodyList3'] = "SiteLock has the technology to automatically patch vulnerabilities in content management systems (CMS).";
-$_LANG['store']['sitelock']['faqFourTitle'] = "What are vulnerabilities and malware?";
+$_LANG['store']['sitelock']['faqFourTitle'] = "آسیب پذیری ها و بدافزارها چیست؟";
 $_LANG['store']['sitelock']['faqFourBodyParagraph1'] = "A :vulnerabilityStrong is a weakness or misconfiguration in a website or web application code that allows an attacker to gain some level of control of the site, and possibly the hosting server. Most vulnerabilities are exploited through automated means, such as vulnerability scanners and botnets.";
-$_LANG['store']['sitelock']['websiteVulnerability'] = "website vulnerability";
+$_LANG['store']['sitelock']['websiteVulnerability'] = "آسیب پذیری وب سایت";
 $_LANG['store']['sitelock']['faqFourBodyParagraph2'] = ":malwareStrong. short for malicious software, is used to gather sensitive data, gain unauthorized access to websites and even hijack computers.";
-$_LANG['store']['sitelock']['malware'] = "Malware";
+$_LANG['store']['sitelock']['malware'] = "بد افزار";
 $_LANG['store']['sitelock']['faqFiveTitle'] = "Will SiteLock impact website performance?";
 $_LANG['store']['sitelock']['faqFiveBody'] = "No. During a website scan, SiteLock downloads the relevant files to a secure server and performs scans there. There is no impact to the website content, code, bandwidth or server resources on the website.";
 $_LANG['store']['sitelock']['faqSixTitle'] = "What is the SiteLock Trust Seal?";
 $_LANG['store']['sitelock']['faqSixBody'] = "The SiteLock Trust Seal is a widely-recognized security badge you can display on your website. It is a clear indication that your website is secure and malware-free. To add the seal to your website, simply include the code snippet that SiteLock provides in the footer area of your website.";
 
-$_LANG['learnmore'] = "Learn more";
-$_LANG['category'] = "Category";
-$_LANG['changeCurrency'] = "Change Currency";
+$_LANG['learnmore'] = "اطلاعات بیشتر";
+$_LANG['category'] = "دسته بندی";
+$_LANG['changeCurrency'] = "تغییر ارز";
 
-$_LANG['store']['ssl']['competitiveUpgrade'] = "Competitive Upgrade";
-$_LANG['store']['ssl']['competitiveUpgradeBannerMsg'] = "Your domain <em>:domain</em> has been successfully validated. Please choose a certificate type to continue and complete the checkout process.";
-$_LANG['store']['ssl']['competitiveUpgradeQualified'] = "Qualified for Competitive Upgrade";
+$_LANG['store']['ssl']['competitiveUpgrade'] = "ارتقاء رقابتی";
+$_LANG['store']['ssl']['competitiveUpgradeBannerMsg'] = "دامنه شما <em>:domain</em> با موفقیت تأیید شده است لطفاً برای ادامه و تکمیل مراحل پرداخت ، نوع گواهی را انتخاب کنید";
+$_LANG['store']['ssl']['competitiveUpgradeQualified'] = "واجد شرایط ارتقاء رقابتی";
 
-$_LANG['dismiss'] = "Dismiss";
+$_LANG['dismiss'] = "رد";
 
 $_LANG['store']['emailServices']['manageService'] = "Login to SpamExperts Control Panel";
 
-$_LANG['noDomain'] = "No Domain";
+$_LANG['noDomain'] = "بدون دامنه";
 
-$_LANG['upgradeService']['serviceBeingUpgraded'] = "Service being upgraded";
-$_LANG['upgradeService']['chooseNew'] = "Choose New Product/Plan";
-$_LANG['upgradeService']['currentProduct'] = "Your Current Product";
-$_LANG['upgradeService']['recommended'] = "Recommended";
-$_LANG['upgradeService']['select'] = "Select";
+$_LANG['upgradeService']['serviceBeingUpgraded'] = "سرویس در حال ارتقا است";
+$_LANG['upgradeService']['chooseNew'] = "انتخاب محصول /طرح جدید";
+$_LANG['upgradeService']['currentProduct'] = "محصول فعلی شما";
+$_LANG['upgradeService']['recommended'] = "توصیه شده";
+$_LANG['upgradeService']['select'] = "انتخاب";
 
 $_LANG['feeds']['itemsInBasket'] = "You have <b>:count</b> items in your basket";
 
@@ -2569,98 +2588,98 @@ $_LANG['validation']['timezone'] = "The :attribute must be a valid zone.";
 $_LANG['validation']['unique'] = "The :attribute has already been taken.";
 $_LANG['validation']['url'] = "The :attribute format is invalid.";
 
-$_LANG['orderErrorServerHostnameInvalid'] = "The hostname for your server is invalid.";
+$_LANG['orderErrorServerHostnameInvalid'] = "نام هاست سرور شما معتبر نیست";
 $_LANG['orderErrorServerNameserversInvalid'] = "The nameserver prefix is invalid.";
 
-$_LANG['toggleNav'] = "Toggle navigation";
-$_LANG['checkAll'] = "Check All";
-$_LANG['uncheckAll'] = "Uncheck All";
+$_LANG['toggleNav'] = "تغییر وضعیت ناوبری";
+$_LANG['checkAll'] = "بررسی  همه";
+$_LANG['uncheckAll'] = "خارج کردن از حالت انتخاب همه";
 
-$_LANG['maxmind']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
+$_LANG['maxmind']['manualReview'] = "سفارش شما برای بررسی دستی نگه داشته شده است<br /><br />اگر احساس می کنید این پیام را به اشتباه دریافت کرده اید ، لطفاً عذرخواهی ما را بپذیرید و <a href=\"submitticket.php\"> یک تیکت پشتیبانی ارسال کنید</a>  به تیم خدمات مشتری ما. متشکرم";
 
-$_LANG['nodomain'] = "No domain specified";
+$_LANG['nodomain'] = "دامنه ای مشخص نشده است";
 
-$_LANG['store']['symantec']['cartTitle'] = "Protect your site with SSL";
-$_LANG['store']['symantec']['cartShortDescription'] = "Add SSL to your web hosting to give visitors confidence that your website is safe and secure and help build trust.";
+$_LANG['store']['symantec']['cartTitle'] = "از سایت خود با اس اس ال محافظت کنید";
+$_LANG['store']['symantec']['cartShortDescription'] = "SSL را به میزبانی وب خود اضافه کنید تا به بازدیدکنندگان اطمینان دهید که وب سایت شما ایمن و ایمن است و به ایجاد اعتماد کمک می کند";
 
-$_LANG['store']['weebly']['cartTitle'] = "Powerful Website Builder";
+$_LANG['store']['weebly']['cartTitle'] = "وب سایت ساز قدرتمند";
 $_LANG['store']['weebly']['cartShortDescription'] = "Add Weebly's drag and drop website builder to your hosting to allow you to create an awesome looking website, store or blog.";
 
-$_LANG['store']['spamexperts']['cartTitle'] = "SpamExperts Email Security";
-$_LANG['store']['spamexperts']['cartShortDescription'] = "Add professional email security and archiving to your domain to protect and secure your email against attacks and malware.";
+$_LANG['store']['spamexperts']['cartTitle'] = "امنیت ایمیل SpamExperts";
+$_LANG['store']['spamexperts']['cartShortDescription'] = "برای محافظت و ایمن سازی ایمیل خود در برابر حملات و بدافزارها ، امنیت و بایگانی ایمیل حرفه ای را به دامنه خود اضافه کنید";
 
-$_LANG['store']['sitelock']['cartTitle'] = "SiteLock Website Security";
+$_LANG['store']['sitelock']['cartTitle'] = "SiteLock امنیت وب سایت";
 
-$_LANG['store']['symantec']['promo']['sidebar']['title'] = "Add SSL to your website";
-$_LANG['store']['symantec']['promo']['sidebar']['body'] = "Activate the padlock icon and protect user privacy";
+$_LANG['store']['symantec']['promo']['sidebar']['title'] = "SSL را به وب سایت خود اضافه کنید";
+$_LANG['store']['symantec']['promo']['sidebar']['body'] = "نماد قفل را فعال کرده و از حریم خصوصی کاربر محافظت کنید";
 
 $_LANG['store']['weebly']['promo']['sidebar']['title'] = "Powerful Site Builder";
 $_LANG['store']['weebly']['promo']['sidebar']['body'] = "Create a stunning website faster than ever with Weebly";
 
-$_LANG['store']['spamexperts']['promo']['sidebar']['title'] = "Get Spam Protection";
-$_LANG['store']['spamexperts']['promo']['sidebar']['body'] = "Stop spam in its tracks with professional spam filtering";
+$_LANG['store']['spamexperts']['promo']['sidebar']['title'] = "دریافت محافظت از هرزنامه ها";
+$_LANG['store']['spamexperts']['promo']['sidebar']['body'] = "با فیلترینگ حرفه ای هرزنامه ، هرزنامه ها را در مسیر خود متوقف کنید";
 
-$_LANG['store']['sitelock']['promo']['sidebar']['title'] = "Malware Protection";
-$_LANG['store']['sitelock']['promo']['sidebar']['body'] = "Automatically find malware and protect your online reputation";
+$_LANG['store']['sitelock']['promo']['sidebar']['title'] = "حفاظت از بدافزارها";
+$_LANG['store']['sitelock']['promo']['sidebar']['body'] = "بدافزارها را بطور خودکار پیدا کنید و از اعتبار آنلاین خود محافظت کنید";
 
-$_LANG['store']['recommendedForYou'] = "Recommended for you";
-$_LANG['store']['lastChance'] = "Last Chance";
+$_LANG['store']['recommendedForYou'] = "توصیه شده برای شما";
+$_LANG['store']['lastChance'] = "آخرین شانس";
 
-$_LANG['domains']['importantReminder'] = "Important Reminder";
+$_LANG['domains']['importantReminder'] = "یادآوری مهم";
 $_LANG['domains']['irtpNotice'] = "The changes you have made will enable the IRTP Transfer Lock for this domain.";
-$_LANG['domains']['optOut'] = "Opt-out of Transfer Lock (if available)";
-$_LANG['domains']['optOutReason'] = "Reason for Opt-Out (Optional)";
-$_LANG['domains']['contactChangePending'] = "Contact Change Pending";
-$_LANG['domains']['verificationRequired'] = "Verification Required";
-$_LANG['domains']['contactsChanged'] = "A request to change WHOIS information has triggered the contact verification process. An email has been sent to the registered domain owner to approve the changes.";
+$_LANG['domains']['optOut'] = "انصراف از قفل انتقال (در صورت وجود)";
+$_LANG['domains']['optOutReason'] = "دلیل انصراف (اختیاری)";
+$_LANG['domains']['contactChangePending'] = "تماس در انتظار تغییر";
+$_LANG['domains']['verificationRequired'] = "تأیید مورد نیاز است";
+$_LANG['domains']['contactsChanged'] = "درخواست تغییر اطلاعات  دامین فرآیند تأیید تماس را آغاز کرده است. ایمیلی به مالک دامنه ثبت شده ارسال شده است تا تغییرات را تأیید کند";
 $_LANG['domains']['contactsChangedDate'] = "A request to change WHOIS information has triggered the contact verification process. An email has been sent to the registered domain owner to approve the changes. This action must be completed by :date.";
-$_LANG['domains']['newRegistration'] = "An email has been sent to the registered domain owner. The verification must be completed to avoid suspension.";
+$_LANG['domains']['newRegistration'] = "یک ایمیل به مالک دامنه ثبت شده ارسال شده است. برای جلوگیری از تعلیق ، تأیید باید تکمیل شود";
 $_LANG['domains']['newRegistrationDate'] = "An email has been sent to the registered domain owner. The verification must be completed by :date to avoid suspension.";
 $_LANG['domains']['irtpLockEnabled'] = "IRTP Transfer Lock Enabled";
-$_LANG['domains']['irtpLockDescription'] = "This domain is currently locked for transfer due to a contact change or new registration.";
+$_LANG['domains']['irtpLockDescription'] = "این دامنه در حال حاضر به دلیل تغییر مخاطب یا ثبت نام جدید برای انتقال قفل شده است";
 $_LANG['domains']['irtpLockDescriptionDate'] = "This domain is currently locked for transfer due to a contact change or new registration. This will expire on :date.";
-$_LANG['domains']['resendNotification'] = "Resend Verification Email";
-$_LANG['domains']['resendNotificationQuestion'] = "Are you sure you wish to resend the email?";
-$_LANG['domains']['resendNotificationSuccess'] = "The verification email has been resent.";
-$_LANG['domains']['modifyPending'] = "Verification Required";
-$_LANG['domains']['changePending'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email to apply the changes.";
+$_LANG['domains']['resendNotification'] = "ارسال مجدد ایمیل تایید";
+$_LANG['domains']['resendNotificationQuestion'] = "?آیا مطمئن به ارسال مجدد ایمیل هستید";
+$_LANG['domains']['resendNotificationSuccess'] = "ایمیل تأیید مجددا ارسال شد";
+$_LANG['domains']['modifyPending'] = "تأیید مورد نیاز است";
+$_LANG['domains']['changePending'] = "تغییر درخواستی شما فرآیند تأیید مخاطب را آغاز کرده است. یک ایمیل تأیید مالکیت به آدرس ایمیل ارسال شده است. برای اعمال تغییرات روی پیوند موجود در ایمیل کلیک کنید";
 $_LANG['domains']['changePendingDate'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email within :days days to apply the changes.";
 $_LANG['domains']['changePendingFormRequired'] = "Your change of Registrant contact information was submitted successfully. In order to complete the process, you are required to complete a <strong>Change of Registrant</strong> form. Please visit :form, complete the form following the instructions and return it to us to finalize the process.";
 
-$_LANG['getStartedNow'] = "Get Started Now";
-$_LANG['notificationsnew'] = "NEW";
+$_LANG['getStartedNow'] = " شروع در حال حاضر";
+$_LANG['notificationsnew'] = "جدید";
 
-$_LANG['store']['websiteBuilder']['tab']['overview'] = "Overview";
-$_LANG['store']['websiteBuilder']['tab']['features'] = "Features";
-$_LANG['store']['websiteBuilder']['tab']['pricing'] = "Pricing";
-$_LANG['store']['websiteBuilder']['tab']['faq'] = "FAQ";
+$_LANG['store']['websiteBuilder']['tab']['overview'] = "بررسی اجمالی";
+$_LANG['store']['websiteBuilder']['tab']['features'] = "ویژگی ها";
+$_LANG['store']['websiteBuilder']['tab']['pricing'] = "قیمت گذاری";
+$_LANG['store']['websiteBuilder']['tab']['faq'] = "سوالات متداول";
 $_LANG['store']['websiteBuilder']['ddEditor'] = "Drag & Drop Builder";
-$_LANG['store']['websiteBuilder']['ddEditorDescription'] = "The easy drag & drop builder allows you to create a professional website with no technical skills required. Choose different elements to add photos, maps or videos by just dragging and dropping them into place, right from your web browser.";
-$_LANG['store']['websiteBuilder']['features']['builder'] = "Builder";
-$_LANG['store']['websiteBuilder']['features']['builderDescription'] = "Create the perfect website with powerful drag and drop tools";
+$_LANG['store']['websiteBuilder']['ddEditorDescription'] = "سازنده آسان کشیدن و رها کردن به شما امکان می دهد یک وب سایت حرفه ای بدون نیاز به مهارت های فنی ایجاد کنید. عناصر مختلف را برای افزودن عکس ها ، نقشه ها یا فیلم ها فقط با کشیدن و رها کردن آنها در محل ، درست از مرورگر وب خود انتخاب کنید";
+$_LANG['store']['websiteBuilder']['features']['builder'] = "سازنده";
+$_LANG['store']['websiteBuilder']['features']['builderDescription'] = "یک وب سایت عالی با ابزارهای کشیدن و رها کردن قدرتمند ایجاد کنید";
 $_LANG['store']['websiteBuilder']['features']['ecommerce'] = "E-Commerce";
-$_LANG['store']['websiteBuilder']['features']['ecommerceDescription'] = "Complete e-commerce solution to grow your business online";
-$_LANG['store']['websiteBuilder']['features']['forms'] = "Forms";
-$_LANG['store']['websiteBuilder']['features']['formsDescription'] = "Create custom contact forms, RSVP lists and surveys";
-$_LANG['store']['websiteBuilder']['features']['templates'] = "Templates";
-$_LANG['store']['websiteBuilder']['features']['templatesDescription'] = "Professionally designed website templates with full customisation";
-$_LANG['store']['websiteBuilder']['features']['gallery'] = "Photos";
-$_LANG['store']['websiteBuilder']['features']['galleryDescription'] = "Create galleries, slideshows and custom backgrounds";
-$_LANG['store']['websiteBuilder']['features']['blogging'] = "Blogging";
-$_LANG['store']['websiteBuilder']['features']['bloggingDescription'] = "Make an amazing blog in minutes";
-$_LANG['store']['websiteBuilder']['features']['video'] = "Video";
-$_LANG['store']['websiteBuilder']['features']['videoDescription'] = "Embed video from popular services or host your own";
+$_LANG['store']['websiteBuilder']['features']['ecommerceDescription'] = "راه حل کامل تجارت الکترونیک برای توسعه آنلاین کسب و کار شما";
+$_LANG['store']['websiteBuilder']['features']['forms'] = "فرمها";
+$_LANG['store']['websiteBuilder']['features']['formsDescription'] = "ایجاد فرم های تماس سفارشی ، لیست پاسخ دهید و نظرسنجی ها";
+$_LANG['store']['websiteBuilder']['features']['templates'] = "قالب ها";
+$_LANG['store']['websiteBuilder']['features']['templatesDescription'] = "قالب وب سایت حرفه ای با سفارشی سازی کامل طراحی شده است";
+$_LANG['store']['websiteBuilder']['features']['gallery'] = "عکس ها";
+$_LANG['store']['websiteBuilder']['features']['galleryDescription'] = "گالری ، نمایش اسلاید و پس زمینه سفارشی ایجاد کنید";
+$_LANG['store']['websiteBuilder']['features']['blogging'] = "وبلاگ نویسی";
+$_LANG['store']['websiteBuilder']['features']['bloggingDescription'] = "در عرض چند دقیقه یک وبلاگ شگفت انگیز بسازید";
+$_LANG['store']['websiteBuilder']['features']['video'] = "ویدیو";
+$_LANG['store']['websiteBuilder']['features']['videoDescription'] = "ویدیو را از سرویس های محبوب جاسازی کنید یا سرویس خود را میزبانی کنید";
 $_LANG['store']['websiteBuilder']['features']['seo'] = "SEO";
-$_LANG['store']['websiteBuilder']['features']['seoDescription'] = "Powerful SEO tools to help search engines find you";
-$_LANG['store']['websiteBuilder']['pricing']['free']['headline'] = "Try Weebly";
-$_LANG['store']['websiteBuilder']['pricing']['free']['tagline'] = "Everything you need to create a website";
-$_LANG['store']['websiteBuilder']['pricing']['idealFor'] = "Ideal for :for";
-$_LANG['store']['websiteBuilder']['pricing']['siteFeatures'] = "Site Features";
-$_LANG['store']['websiteBuilder']['pricing']['eCommerceFeatures'] = "eCommerce Features";
+$_LANG['store']['websiteBuilder']['features']['seoDescription'] = "ابزارهای قدرتمند سئو برای کمک به موتورهای جستجو برای یافتن شما";
+$_LANG['store']['websiteBuilder']['pricing']['free']['headline'] = "Weebly را امتحان کنید";
+$_LANG['store']['websiteBuilder']['pricing']['free']['tagline'] = "هر آنچه برای ایجاد وب سایت نیاز دارید";
+$_LANG['store']['websiteBuilder']['pricing']['idealFor'] = "مناسب برای :for";
+$_LANG['store']['websiteBuilder']['pricing']['siteFeatures'] = "ویژگی های سایت";
+$_LANG['store']['websiteBuilder']['pricing']['eCommerceFeatures'] = "ویژگی های تجارت الکترونیک";
 $_LANG['store']['websiteBuilder']['pricing']['features']['ddBuilder'] = "Drag & Drop Builder";
-$_LANG['store']['websiteBuilder']['pricing']['features']['pages'] = "Unlimited Pages";
+$_LANG['store']['websiteBuilder']['pricing']['features']['pages'] = "صفحات نامحدود";
 $_LANG['store']['websiteBuilder']['pricing']['features']['noAds'] = "No Weebly Ads";
-$_LANG['store']['websiteBuilder']['pricing']['features']['search'] = "Site Search";
+$_LANG['store']['websiteBuilder']['pricing']['features']['search'] = "جستجوی سایت";
 $_LANG['store']['websiteBuilder']['pricing']['features']['passwords'] = "Password Protection";
 $_LANG['store']['websiteBuilder']['pricing']['features']['backgrounds'] = "Video Backgrounds";
 $_LANG['store']['websiteBuilder']['pricing']['features']['hdVideo'] = "HD Video & Audio";
@@ -2712,55 +2731,56 @@ $_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "No active Weebly plan
 $_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "You are currently logged in as :email";
 $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Logout/switch user";
 
-$_LANG['tax']['taxLabel'] = "Tax ID";
-$_LANG['tax']['vatLabel'] = "VAT Number";
-$_LANG['tax']['errorInvalid'] = "The supplied :taxLabel is not valid";
+$_LANG['tax']['taxLabel'] = "شناسه مالیاتی";
+$_LANG['tax']['vatLabel'] = "شماره مالیات بر ارزش افزوده";
+$_LANG['tax']['errorInvalid'] = "ارائه شده  :taxLabel معتبر نیست";
+$_LANG['tax']['errorService'] = "The :taxLabel verification service is not available. Try again later.";
 
-$_LANG['fraud']['checkConfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
-$_LANG['fraud']['title'] = "Fraud Check";
-$_LANG['fraud']['error'] = "Error";
-$_LANG['fraud']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
-$_LANG['fraud']['highFraudRiskScore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
-$_LANG['fraud']['countryMismatch'] = "The country of your IP address did not match the billing address country you entered so we cannot accept your order";
-$_LANG['fraud']['highRiskCountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
-$_LANG['fraud']['anonymousProxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
+$_LANG['fraud']['checkConfiguration'] = "هنگام بررسی تقلب خطایی روی داد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['fraud']['title'] = "بررسی تقلب";
+$_LANG['fraud']['error'] = "خظا";
+$_LANG['fraud']['manualReview'] = "سفارش شما برای بررسی دستی نگه داشته شده است<br /><br />اگر احساس می کنید این پیام را به اشتباه دریافت کرده اید ، لطفاً عذرخواهی ما را بپذیرید و <a href=\"submitticket.php\">یک تیکت پشتیبانی ارسال کنید</a>به تیم خدمات مشتری ما متشکرم";
+$_LANG['fraud']['highFraudRiskScore'] = "سفارش شما به عنوان خطر بالقوه پرچم گذاری شده است و بنابراین برای بررسی دستی نگه داشته شده است<br /><br />اگر احساس می کنید این پیام را به اشتباه دریافت کرده اید ، لطفاً عذرخواهی ما را بپذیرید و <a href=\"submitticket.php\">یک تیکت پشتیبانی ارسال کنید</a>به تیم خدمات مشتری ما متشکرم";
+$_LANG['fraud']['countryMismatch'] = "کشور آدرس آیپی  شما با کشور آدرس صورتحسابی که وارد کرده اید مطابقت ندارد بنابراین نمی توانیم سفارش شما را بپذیریم";
+$_LANG['fraud']['highRiskCountry'] = "متأسفانه ما نمی توانیم سفارش شما را بپذیریم زیرا اقدامات تقلب زیادی از سوی کشور شما انجام شده است. اگر می خواهید روش دیگری برای پرداخت ترتیب دهید ، لطفاً با ما تماس بگیرید";
+$_LANG['fraud']['anonymousProxy'] = "ما اجازه نمی دهیم سفارشات با استفاده از پراکسی ناشناس ثبت شوند";
 
-$_LANG['fraud']['userVerification'] = "User Verification";
-$_LANG['fraud']['furtherVal'] = "Further verification is required to process your order. Click the button and follow the steps for the secure submission process. You'll be done in less than a minute.";
-$_LANG['fraud']['furtherValShort'] = "Further verification is required. Click the button and follow the steps provided.";
-$_LANG['fraud']['submitDocs'] = "Submit Documents";
-$_LANG['fraud']['submitSuccessMsg'] = "Thank you! Documentation has been provided, and will be manually reviewed by our team.";
-$_LANG['fraud']['status']['notRequested'] = "Not Requested";
-$_LANG['fraud']['status']['notReviewed'] = "Requested";
-$_LANG['fraud']['status']['reviewRequested'] = "Submitted";
-$_LANG['fraud']['status']['failed'] = "Failed";
-$_LANG['fraud']['status']['validated'] = "Verified";
+$_LANG['fraud']['userVerification'] = "تأیید صحت کاربر";
+$_LANG['fraud']['furtherVal'] = "برای پردازش سفارش شما به تأیید بیشتر نیاز است. روی دکمه کلیک کنید و مراحل مربوط به ارسال ایمن را دنبال کنید. کار شما در کمتر از یک دقیقه به پایان می رسد";
+$_LANG['fraud']['furtherValShort'] = "تأیید بیشتر مورد نیاز است. روی دکمه کلیک کرده و مراحل ارائه شده را دنبال کنید";
+$_LANG['fraud']['submitDocs'] = "ارسال مدارک";
+$_LANG['fraud']['submitSuccessMsg'] = "متشکرم! اسناد ارائه شده است ، و به صورت دستی توسط تیم ما بررسی می شود";
+$_LANG['fraud']['status']['notRequested'] = "درخواست نشده";
+$_LANG['fraud']['status']['notReviewed'] = "درخواست کرد";
+$_LANG['fraud']['status']['reviewRequested'] = "ارسال شده";
+$_LANG['fraud']['status']['failed'] = "ناموفق";
+$_LANG['fraud']['status']['validated'] = "تأیید شد";
 
-$_LANG['navMarketConnectService']['codeguard'] = "Website Backup";
-$_LANG['store']['codeguard']['cartTitle'] = "CodeGuard Backup";
-$_LANG['store']['codeguard']['cartShortDescription'] = "The fastest, most reliable website backup service, which tracks all of your changes daily.";
-$_LANG['store']['codeGuard']['title'] = "CodeGuard Backup";
+$_LANG['navMarketConnectService']['codeguard'] = "پشتیبان گیری از وب سایت";
+$_LANG['store']['codeguard']['cartTitle'] = "پشتیبان گیری CodeGuard";
+$_LANG['store']['codeguard']['cartShortDescription'] = "سریعترین و معتبرترین سرویس پشتیبان گیری وب سایت ، که همه تغییرات شما را روزانه پیگیری می کند";
+$_LANG['store']['codeGuard']['title'] = "پشتیبان گیری CodeGuard";
 $_LANG['store']['codeGuard']['headline'] = "Protect <span>your website</span> with daily automated backups";
-$_LANG['store']['codeGuard']['tagline'] = "Get protection against viruses, hackers and even your own code accidentally breaking your site with CodeGuard Website Backup.";
-$_LANG['store']['codeGuard']['tab']['overview'] = "Overview";
-$_LANG['store']['codeGuard']['tab']['pricing'] = "Pricing";
-$_LANG['store']['codeGuard']['tab']['features'] = "Features";
-$_LANG['store']['codeGuard']['tab']['faq'] = "FAQ";
+$_LANG['store']['codeGuard']['tagline'] = "با پشتیبان گیری وب سایت کدگارد در برابر ویروس ها ، هکرها و حتی کد شخصی خود که به طور تصادفی سایت شما را خراب می کند ، محافظت کنید";
+$_LANG['store']['codeGuard']['tab']['overview'] = "بررسی اجمالی";
+$_LANG['store']['codeGuard']['tab']['pricing'] = "قیمت گذاری";
+$_LANG['store']['codeGuard']['tab']['features'] = "امکانات";
+$_LANG['store']['codeGuard']['tab']['faq'] = "سوالات متداول";
 $_LANG['store']['codeGuard']['leadTitle'] = "<strong><em>Every 0.65 seconds</em></strong>, a new web page is infected with malware.";
 $_LANG['store']['codeGuard']['leadText1'] = "Protect your site from <strong>data loss and corruption</strong>, as well as against threats from <strong>viruses, hackers and malware</strong> with Daily Automated Website Backups from CodeGuard.";
 $_LANG['store']['codeGuard']['leadText2'] = "With CodeGuard Website Backup, your website is backed up daily and if disaster strikes, you can restore your site to a previous point in time at the click of a button.";
-$_LANG['store']['codeGuard']['dailyBackup'] = "Automatic Daily Backups";
-$_LANG['store']['codeGuard']['malwareProtection'] = "Malware Detection and Restore";
-$_LANG['store']['codeGuard']['timeMachine'] = "Website Time Machine";
+$_LANG['store']['codeGuard']['dailyBackup'] = "پشتیبان گیری روزانه خودکار";
+$_LANG['store']['codeGuard']['malwareProtection'] = "تشخیص و بازیابی بدافزار";
+$_LANG['store']['codeGuard']['timeMachine'] = "وب سایت ماشین زمان";
 $_LANG['store']['codeGuard']['wpPlugin'] = "WordPress Plugin Updates";
-$_LANG['store']['codeGuard']['changeAlerts'] = "File Change Alert Monitoring";
-$_LANG['store']['codeGuard']['features']['dailyBackup'] = "Daily Automatic Website Backups";
-$_LANG['store']['codeGuard']['features']['dailyBackupDescription'] = "Secure your website with automated daily backups stored offsite with built-in redundancy.";
-$_LANG['store']['codeGuard']['features']['unlimitedFiles'] = "Unlimited Files & Databases";
-$_LANG['store']['codeGuard']['features']['unlimitedFilesDescription'] = "Backup an unlimited number of files and databases - you are restricted only by the storage space you use.";
-$_LANG['store']['codeGuard']['features']['oneClickRestore'] = "One-Click Restores";
-$_LANG['store']['codeGuard']['features']['oneClickRestoreDescription'] = "A simple restore process makes it easy to rollback a single file or your entire website to a previous version.";
-$_LANG['store']['codeGuard']['features']['malwareMonitoring'] = "Malware Monitoring";
+$_LANG['store']['codeGuard']['changeAlerts'] = "نظارت بر تغییر هشدار فایل";
+$_LANG['store']['codeGuard']['features']['dailyBackup'] = "پشتیبان گیری روزانه خودکار وب سایت";
+$_LANG['store']['codeGuard']['features']['dailyBackupDescription'] = "وب سایت خود را با پشتیبان گیری روزانه خودکار ذخیره شده در خارج از سایت با افزونگی داخلی ایمن کنید";
+$_LANG['store']['codeGuard']['features']['unlimitedFiles'] = "فایلها و پایگاههای داده نامحدود";
+$_LANG['store']['codeGuard']['features']['unlimitedFilesDescription'] = "از تعداد نامحدودی از فایل ها و پایگاه های داده پشتیبان تهیه کنید - فقط توسط فضای ذخیره سازی مورد استفاده محدود می شوید";
+$_LANG['store']['codeGuard']['features']['oneClickRestore'] = "بازیابی با یک کلیک";
+$_LANG['store']['codeGuard']['features']['oneClickRestoreDescription'] = "یک فرآیند بازیابی ساده باعث می شود که یک فایل یا کل وب سایت خود را به نسخه قبلی برگردانید";
+$_LANG['store']['codeGuard']['features']['malwareMonitoring'] = "نظارت بر بدافزارها";
 $_LANG['store']['codeGuard']['features']['malwareMonitoringDescription'] = "Rest easy knowing CodeGuard is diligently checking your site for changes every day.";
 $_LANG['store']['codeGuard']['features']['wp'] = "Automatic WordPress Updates";
 $_LANG['store']['codeGuard']['features']['wpDescription'] = "Automatically update WordPress and its plugins to keep it secure with auto recovery in case of problems.";
@@ -2797,9 +2817,9 @@ $_LANG['store']['codeGuard']['adminPreview'] = "CodeGuard plans you activate wil
 $_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Add Website Backup";
 $_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Protect your website with daily automated backups";
 
-$_LANG['marketConnect']['codeguard']['manage'] = "Log in to CodeGuard Control Panel";
+$_LANG['marketConnect']['codeGuard']['manage'] = "Log in to CodeGuard Control Panel";
 
-$_LANG['sslState']['sslInactive'] = "No SSL Detected. Click here to browse SSL options";
+$_LANG['sslState']['sslInactive'] = "اس اس ال شناسایی نشد برای مرور گزینه های اس اس ال اینجا را کلیک کنید";
 $_LANG['sslState']['sslActive'] = "Valid SSL Detected. Expires :expiry";
 $_LANG['sslState']['sslUnknown'] = "Unable to validate SSL status";
 $_LANG['sslState']['validSsl'] = "Valid SSL Detected";
@@ -2811,104 +2831,104 @@ $_LANG['sslState']['expiryDate'] = "SSL Expiry Date";
 $_LANG['sslState']['issuerName'] = "SSL Issuer Name";
 $_LANG['sslState']['sslStatus'] = "SSL Status";
 
-$_LANG['generatePassword']['btnLabel'] = "Generate Password";
-$_LANG['generatePassword']['btnShort'] = "Generate";
-$_LANG['generatePassword']['title'] = "Generate Password";
-$_LANG['generatePassword']['lengthValidationError'] = "Please enter a number between 8 and 64 for the password length";
-$_LANG['generatePassword']['pwLength'] = "Password Length";
-$_LANG['generatePassword']['generatedPw'] = "Generated Password";
-$_LANG['generatePassword']['generateNew'] = "Generate new password";
-$_LANG['generatePassword']['copyAndInsert'] = "Copy to clipboard and Insert";
+$_LANG['generatePassword']['btnLabel'] = "ایجاد گذرواژه";
+$_LANG['generatePassword']['btnShort'] = "تولید";
+$_LANG['generatePassword']['title'] = "ایجاد گذرواژه";
+$_LANG['generatePassword']['lengthValidationError'] = "لطفاً برای طول گذرواژه عددی بین 8 تا 64 وارد کنید";
+$_LANG['generatePassword']['pwLength'] = "طول رمز عبور";
+$_LANG['generatePassword']['generatedPw'] = "رمز عبور ایجاد شده";
+$_LANG['generatePassword']['generateNew'] = "ایجاد رمز عبور جدید";
+$_LANG['generatePassword']['copyAndInsert'] = "در کلیپ بورد کپی و درج کنید";
 
-$_LANG['setupMandate'] = "Setup Mandate for Payment";
+$_LANG['setupMandate'] = "دستور راه اندازی برای پرداخت";
 
-$_LANG['invoicePaymentPendingCleared'] = "Your payment is being processed and will apply automatically when cleared.";
-$_LANG['invoicePaymentAutoWhenDue'] = "Your payment will be requested automatically when due.";
+$_LANG['invoicePaymentPendingCleared'] = "پرداخت شما در حال پردازش است و هنگام ترخیص به صورت خودکار اعمال می شود";
+$_LANG['invoicePaymentAutoWhenDue'] = "پرداخت شما به صورت خودکار در موعد مقرر درخواست می شود";
 
-$_LANG['support']['attachmentsRemoved'] = "Removed due to ticket inactivity";
-$_LANG['unpaidInvoiceAlert'] = "You have an unpaid invoice. Pay it now to avoid interruption in service.";
-$_LANG['overdueInvoiceAlert'] = "You have an overdue invoice.";
-$_LANG['payInvoice'] = "Pay Invoice";
+$_LANG['support']['attachmentsRemoved'] = "به دلیل عدم فعالیت تیکت حذف شد";
+$_LANG['unpaidInvoiceAlert'] = "شما یک فاکتور پرداخت نشده دارید. برای جلوگیری از وقفه در سرویس ، اکنون آن را پرداخت کنید";
+$_LANG['overdueInvoiceAlert'] = "فاکتور پرداخت نشده دارید";
+$_LANG['payInvoice'] = "پرداخت فاکتور";
 
-$_LANG['close'] = "Close";
-$_LANG['submit'] = "Submit";
-$_LANG['finish'] = "Finish";
+$_LANG['close'] = "بستن";
+$_LANG['submit'] = "ارسال";
+$_LANG['finish'] = "تمام";
 
-$_LANG['twofanowenabled'] = "Two-Factor Authentication is now enabled";
-$_LANG['twofacurrently'] = "Two-factor authentication is currently";
-$_LANG['enabled'] = "Enabled";
-$_LANG['disabled'] = "Disabled";
+$_LANG['twofanowenabled'] = "احراز هویت دو عاملی در حال حاضر فعال";
+$_LANG['twofacurrently'] = " احراز هویت دو عامل در حال حاضر";
+$_LANG['enabled'] = "فعال";
+$_LANG['disabled'] = "غیرفعال";
 
-$_LANG['copyrightFooterNotice'] = "Copyright &copy; :year :company. All Rights Reserved.";
+$_LANG['copyrightFooterNotice'] = "تمامی حقوق برای  &copy; :year :company. محفوط می باشد.";
 
-$_LANG['paymentMethods']['title'] = "Payment Methods";
-$_LANG['paymentMethods']['intro'] = "An overview of your payment methods and settings.";
-$_LANG['paymentMethods']['description'] = "Description";
-$_LANG['paymentMethods']['cardDescription'] = "Card Description";
-$_LANG['paymentMethods']['descriptionInput'] = "Enter a name for this card";
-$_LANG['paymentMethods']['fieldRequired'] = "This field is required.";
-$_LANG['paymentMethods']['close'] = "Close";
-$_LANG['paymentMethods']['saveChanges'] = "Save Changes";
+$_LANG['paymentMethods']['title'] = "روش های پرداخت";
+$_LANG['paymentMethods']['intro'] = "مروری بر روش ها و تنظیمات پرداخت شما";
+$_LANG['paymentMethods']['description'] = "شرح";
+$_LANG['paymentMethods']['cardDescription'] = "توضیحات کارت";
+$_LANG['paymentMethods']['descriptionInput'] = "نامی برای این کارت وارد کنید";
+$_LANG['paymentMethods']['fieldRequired'] = "این فیلد الزامی است";
+$_LANG['paymentMethods']['close'] = "بستن";
+$_LANG['paymentMethods']['saveChanges'] = "ذخیره تغییرات";
 
-$_LANG['paymentMethods']['addedSuccess'] = "Payment method added successfully";
-$_LANG['paymentMethods']['addFailed'] = "Payment method failed to create successfully. Please try again.";
-$_LANG['paymentMethods']['updateSuccess'] = "Payment method updated successfully";
-$_LANG['paymentMethods']['saveFailed'] = "Payment method failed to save changes. Please try again.";
-$_LANG['paymentMethods']['defaultUpdateSuccess'] = "Default payment method updated successfully";
-$_LANG['paymentMethods']['defaultUpdateFailed'] = "Unable to update the default payment method. Please try again.";
-$_LANG['paymentMethods']['deleteSuccess'] = "The payment method was deleted successfully";
-$_LANG['paymentMethods']['deleteFailed'] = "Failed to delete the selected payment method. Please try again.";
-$_LANG['paymentMethods']['addNewCC'] = "Add New Credit Card";
-$_LANG['paymentMethods']['addNewBank'] = "Add New Bank Account";
-$_LANG['paymentMethods']['name'] = "Name";
-$_LANG['paymentMethods']['status'] = "Status";
-$_LANG['paymentMethods']['actions'] = "Actions";
-$_LANG['paymentMethods']['default'] = "Default";
-$_LANG['paymentMethods']['setAsDefault'] = "Set as default";
-$_LANG['paymentMethods']['edit'] = "Edit";
-$_LANG['paymentMethods']['delete'] = "Delete";
-$_LANG['paymentMethods']['noPaymentMethodsCreated'] = "No payment methods have been created yet";
-$_LANG['paymentMethods']['areYouSure'] = "Are you sure?";
-$_LANG['paymentMethods']['deletePaymentMethodConfirm'] = "Are you sure you want to delete this payment method? This action cannot be undone.";
-$_LANG['paymentMethods']['type'] = "Type";
-$_LANG['paymentMethods']['requestCancelled'] = "Payment method request cancelled";
-$_LANG['paymentMethods']['retry'] = "Retry";
-$_LANG['paymentMethods']['creditCardChangesWontBeReflected'] = "Changes you make here will be saved but not all changes will be reflected when viewing the payment method within our client area.";
+$_LANG['paymentMethods']['addedSuccess'] = "روش پرداخت با موفقیت اضافه شد";
+$_LANG['paymentMethods']['addFailed'] = "روش پرداخت با موفقیت ایجاد نشد. لطفا دوباره تلاش کنید";
+$_LANG['paymentMethods']['updateSuccess'] = "روش پرداخت با موفقیت به روز شد";
+$_LANG['paymentMethods']['saveFailed'] = "روش پرداخت تغییرات را ذخیره نکرد. لطفا دوباره تلاش کنید";
+$_LANG['paymentMethods']['defaultUpdateSuccess'] = "روش پرداخت پیش فرض با موفقیت به روز شد";
+$_LANG['paymentMethods']['defaultUpdateFailed'] = "روش پیش فرض پرداخت را نمی توان به روز کرد. لطفا دوباره تلاش کنید";
+$_LANG['paymentMethods']['deleteSuccess'] = "روش پرداخت با موفقیت حذف شد";
+$_LANG['paymentMethods']['deleteFailed'] = "روش پرداخت انتخابی حذف نشد. لطفا دوباره تلاش کنید";
+$_LANG['paymentMethods']['addNewCC'] = "افزودن کارت اعتباری جدید";
+$_LANG['paymentMethods']['addNewBank'] = "افزودن حساب بانکی جدید";
+$_LANG['paymentMethods']['name'] = "نام";
+$_LANG['paymentMethods']['status'] = "وضعیت";
+$_LANG['paymentMethods']['actions'] = "عملیات";
+$_LANG['paymentMethods']['default'] = "پیشفرض";
+$_LANG['paymentMethods']['setAsDefault'] = "تنظیم به عنوان پیشفرض";
+$_LANG['paymentMethods']['edit'] = "ویرایش";
+$_LANG['paymentMethods']['delete'] = "حذف";
+$_LANG['paymentMethods']['noPaymentMethodsCreated'] = "هنوز هیچ روش پرداختی ایجاد نشده است";
+$_LANG['paymentMethods']['areYouSure'] = "مطمئنی؟";
+$_LANG['paymentMethods']['deletePaymentMethodConfirm'] = "آیا مطمئن هستید که می خواهید این روش پرداخت را حذف کنید؟ این عملکرد قابل واگرد نیست";
+$_LANG['paymentMethods']['type'] = "نوع";
+$_LANG['paymentMethods']['requestCancelled'] = "درخواست روش پرداخت لغو شد ";
+$_LANG['paymentMethods']['retry'] = "دوباره امتحان کنید";
+$_LANG['paymentMethods']['creditCardChangesWontBeReflected'] = "تغییراتی که در اینجا ایجاد می کنید ذخیره می شود اما هنگام مشاهده روش پرداخت در محدوده مشتری ما ، همه تغییرات منعکس نمی شوند";
 
-$_LANG['paymentMethodsManage']['editPaymentMethod'] = "Edit Payment Method";
-$_LANG['paymentMethodsManage']['addPaymentMethod'] = "Add New Payment Method";
-$_LANG['paymentMethodsManage']['invalidCardDetails'] = "The card number you entered appears to be invalid. Please try again.";
-$_LANG['paymentMethodsManage']['creditCard'] = "Credit Card";
-$_LANG['paymentMethodsManage']['bankAccount'] = "Bank Account";
-$_LANG['paymentMethodsManage']['optional'] = "(Optional)";
-$_LANG['paymentMethodsManage']['cardNumberNotValid'] = "The card number you entered does not appear to be valid.";
-$_LANG['paymentMethodsManage']['expiryDateNotValid'] = "The expiry date you entered does not appear to be valid.";
-$_LANG['paymentMethodsManage']['cvcNumberNotValid'] = "The CVC number you entered does not appear to be valid.";
-$_LANG['paymentMethodsManage']['accountType'] = "Account Type";
-$_LANG['paymentMethodsManage']['checking'] = "Checking";
-$_LANG['paymentMethodsManage']['savings'] = "Savings";
-$_LANG['paymentMethodsManage']['accountHolderName'] = "Account Holder Name";
-$_LANG['paymentMethodsManage']['bankName'] = "Bank Name";
-$_LANG['paymentMethodsManage']['sortCodeRoutingNumber'] = "Sort Code/Routing Number";
-$_LANG['paymentMethodsManage']['routingNumberNotValid'] = "The routing number you entered does not appear to be valid.";
-$_LANG['paymentMethodsManage']['accountNumber'] = "Account Number";
-$_LANG['paymentMethodsManage']['accountNumberNotValid'] = "The bank account number you entered does not appear to be valid.";
-$_LANG['paymentMethodsManage']['addNewAddress'] = "Add a new address";
-$_LANG['paymentMethodsManage']['addNewBillingAddress'] = "Add new billing address";
-$_LANG['paymentMethodsManage']['unsupportedCardType'] = "We are unable to accept the card type you entered. Please use a different card.";
+$_LANG['paymentMethodsManage']['editPaymentMethod'] = "ویرایش روش پرداخت";
+$_LANG['paymentMethodsManage']['addPaymentMethod'] = "افزودن روش پرداخت جدید";
+$_LANG['paymentMethodsManage']['invalidCardDetails'] = "به نظر می رسد شماره کارتی که وارد کرده اید نامعتبر است. لطفاً دوباره امتحان کنید";
+$_LANG['paymentMethodsManage']['creditCard'] = "کارت اعتباری";
+$_LANG['paymentMethodsManage']['bankAccount'] = "حساب بانکی";
+$_LANG['paymentMethodsManage']['optional'] = "(اختیاری)";
+$_LANG['paymentMethodsManage']['cardNumberNotValid'] = "به نظر می رسد شماره کارتی که وارد کرده اید معتبر نیست";
+$_LANG['paymentMethodsManage']['expiryDateNotValid'] = "به نظر نمی رسد تاریخ انقضی که وارد کرده اید معتبر باشد";
+$_LANG['paymentMethodsManage']['cvcNumberNotValid'] = "به نظر نمی رسد شماره  سی وی سی وارد شده معتبر باشد";
+$_LANG['paymentMethodsManage']['accountType'] = "نوع حساب";
+$_LANG['paymentMethodsManage']['checking'] = "چک کردن";
+$_LANG['paymentMethodsManage']['savings'] = "پس انداز";
+$_LANG['paymentMethodsManage']['accountHolderName'] = "نام صاحب حساب";
+$_LANG['paymentMethodsManage']['bankName'] = "نام بانک";
+$_LANG['paymentMethodsManage']['sortCodeRoutingNumber'] = "مرتب سازی کد/شماره مسیریابی";
+$_LANG['paymentMethodsManage']['routingNumberNotValid'] = "به نظر نمی رسد شماره مسیریابی که وارد کرده اید معتبر باشد";
+$_LANG['paymentMethodsManage']['accountNumber'] = "شماره حساب";
+$_LANG['paymentMethodsManage']['accountNumberNotValid'] = "به نظر می رسد شماره حساب بانکی که وارد کرده اید معتبر نیست";
+$_LANG['paymentMethodsManage']['addNewAddress'] = "یک آدرس جدید اضافه کنید";
+$_LANG['paymentMethodsManage']['addNewBillingAddress'] = "آدرس صورتحساب جدید اضافه کنید";
+$_LANG['paymentMethodsManage']['unsupportedCardType'] = "ما نمی توانیم نوع کارتی را که وارد کرده اید بپذیریم. لطفاً از کارت دیگری استفاده کنید";
 
-$_LANG['store']['ssl']['shared']['pricing'] = "Certificate Pricing";
-$_LANG['store']['ssl']['shared']['encryption256'] = "256-Bit Encryption";
-$_LANG['store']['ssl']['shared']['issuanceTime'] = "Issuance Time";
-$_LANG['store']['ssl']['shared']['greatFor'] = "Great For";
-$_LANG['store']['ssl']['shared']['warrantyValue'] = "Warranty Value";
-$_LANG['store']['ssl']['shared']['freeReissues'] = "Free Reissues";
-$_LANG['store']['ssl']['shared']['browserSupport'] = "Browser Support";
-$_LANG['store']['ssl']['shared']['price'] = "Price";
+$_LANG['store']['ssl']['shared']['pricing'] = "گواهی قیمت گذاری";
+$_LANG['store']['ssl']['shared']['encryption256'] = "رمزگذاری 256 بیتی";
+$_LANG['store']['ssl']['shared']['issuanceTime'] = "زمان صدور";
+$_LANG['store']['ssl']['shared']['greatFor'] = "عالی برای";
+$_LANG['store']['ssl']['shared']['warrantyValue'] = "ارزش گارانتی";
+$_LANG['store']['ssl']['shared']['freeReissues'] = "تجدید چاپ مجدد";
+$_LANG['store']['ssl']['shared']['browserSupport'] = "پشتیبانی از مرورگر";
+$_LANG['store']['ssl']['shared']['price'] = "قیمت";
 $_LANG['store']['ssl']['shared']['noProducts'] = "SSL Certificate products you activate will be displayed here";
-$_LANG['store']['ssl']['shared']['helpMeChoose'] = "Not sure which to choose? Let us help you decide";
-$_LANG['store']['ssl']['shared']['ev']['visualVerification'] = "Prominent Visual Identity";
-$_LANG['store']['ssl']['shared']['ev']['visualVerificationDescription'] = "Increase trust and confidence in your website with full identity verification and prominent visual features.";
+$_LANG['store']['ssl']['shared']['helpMeChoose'] = "مطمئن نیستید کدام را انتخاب کنید؟ اجازه دهید ما در تصمیم گیری به شما کمک کنیم";
+$_LANG['store']['ssl']['shared']['ev']['visualVerification'] = "هویت بصری برجسته";
+$_LANG['store']['ssl']['shared']['ev']['visualVerificationDescription'] = "با تأیید هویت کامل و ویژگی های برجسته بصری ، اعتماد و اطمینان خود را در وب سایت خود افزایش دهید";
 $_LANG['store']['ssl']['shared']['ev']['warranty'] = "$1.5m Warranty";
 $_LANG['store']['ssl']['shared']['ev']['warrantyDescription'] = "EV Certificates come with a $1.5m warranty that covers data breaches caused due to a certificate flaw.";
 $_LANG['store']['ssl']['shared']['ev']['issuance'] = "Issued in 2-3 Days";
@@ -3048,46 +3068,46 @@ $_LANG['store']['ssl']['landingPage']['faq']['a3'] = "There are 3 different leve
 $_LANG['store']['ssl']['landingPage']['faq']['q4'] = "What is a Wildcard SSL Certificate";
 $_LANG['store']['ssl']['landingPage']['faq']['a4'] = "A Wildcard SSL certificate provides the same encryption and authentication features as other SSL certificates but can also be applied to an unlimited number of subdomains of a website. A Wildcard SSL certificate supports the root domain (example.com) as well as its subdomains.";
 $_LANG['store']['ssl']['landingPage']['faq']['q5'] = "What are the advantages of an EV SSL Certificate?";
-$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "EV, or Extended Validation, is the highest class of SSL available today and gives more credibility and trust to your website than other SSL Certificates. They include features such as the green address bar and display of your company name that have been proven to boost trust and consumer confidence.";
+$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "EV or Extended Validation certificates are the highest class of SSL available and give the most credibility and trust to your website. EV assures consumers that their personal and financial information is protected at the highest levels of authentication. Additional verifications are performed, such as corporate agency record checks, applicant contact info, and whether the business has existed for a minimum of 3 years. EV certificates are best suited for business-critical webpages.";
 $_LANG['store']['ssl']['landingPage']['faq']['q6'] = "What if I already have an SSL Certificate?";
 $_LANG['store']['ssl']['landingPage']['faq']['a6'] = "You can switch to us at any time.  We offer highly competitive pricing and if you already have an existing certificate, we'll add any remaining validity that you have on your existing competitor SSL Certificate up to a maximum of an additional 12 months.";
 
-$_LANG['creditCardStore'] = "Save card for faster checkout in future";
+$_LANG['creditCardStore'] = "کارت را برای تسویه سریعتر در آینده ذخیره کنید";
 
-$_LANG['support']['ccRecipients'] = "CC Recipients";
-$_LANG['support']['addCcRecipients'] = "Enter Email Address";
-$_LANG['support']['removeRecipient'] = "Remove Recipient";
+$_LANG['support']['ccRecipients'] = "گیرندگان CC";
+$_LANG['support']['addCcRecipients'] = "آدرس ایمیل را وارد کن";
+$_LANG['support']['removeRecipient'] = "حذف گیرنده";
 $_LANG['support']['successDelete'] = "The cc recipient :email has been removed";
 $_LANG['support']['deleteEmailNotExisting'] = "The email :email is not a cc recipient";
 $_LANG['support']['addEmailExists'] = "The email :email is already a cc recipient";
 $_LANG['support']['successAdd'] = "The cc recipient :email has been added";
-$_LANG['support']['clientEmail'] = "Client email address cannot be added as a cc recipient";
+$_LANG['support']['clientEmail'] = "آدرس ایمیل مشتری را نمی توان به عنوان گیرنده سی سی اضافه کرد";
 $_LANG['support']['emailNotPossible'] = "It is not possible to add :email as a cc recipient";
-$_LANG['support']['invalidEmail'] = "Invalid email address entered.";
-$_LANG['support']['ipAddress'] = "IP Address";
+$_LANG['support']['invalidEmail'] = "آدرس ایمیل نامعتبر وارد شده است";
+$_LANG['support']['ipAddress'] = "آدرس آیپی";
 $_LANG['support']['ticketError'] = "We cannot process your ticket request at this time. Please try again later.";
 
-$_LANG['confirmAndPay'] = "Confirm & Pay";
-$_LANG['paymentPreApproved'] = "Payment pre-approved with :gateway";
-$_LANG['expressCheckoutInfo'] = "Your payment is pending confirmation. It usually only takes a couple of minutes for payments to complete. If you do not receive an email receipt within a few minutes, please contact support.";
-$_LANG['expressCheckoutError'] = "Something went wrong processing your payment. Please contact support.";
+$_LANG['confirmAndPay'] = "تأیید و پرداخت";
+$_LANG['paymentPreApproved'] = "پرداخت از پیش تأیید شده با :gateway";
+$_LANG['expressCheckoutInfo'] = "پرداخت شما در انتظار تأیید است. معمولاً فقط چند دقیقه طول می کشد تا پرداخت ها تکمیل شود. اگر ظرف چند دقیقه رسید ایمیل دریافت نکردید ، لطفاً با پشتیبانی تماس بگیرید.";
+$_LANG['expressCheckoutError'] = "هنگام پردازش پرداخت شما مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
 
-$_LANG['subscription']['active'] = "You have an active subscription";
-$_LANG['subscription']['manual'] = "You may still make a manual payment but this may result in an overpayment.";
-$_LANG['subscription']['moreDetails'] = "More Details";
-$_LANG['subscription']['makePayment'] = "Make a Payment";
-$_LANG['subscription']['paypalDetails'] = "PayPal Subscription Details";
-$_LANG['subscription']['subscriptionWarning'] = "Any active subscriptions below will be applied to this invoice automatically. If a subscription payment results in an overpayment, you will receive a credit that will be automatically applied to your next invoice.";
-$_LANG['subscription']['subscriptionid'] = "Subscription ID";
-$_LANG['subscription']['status'] = "Subscription Status";
-$_LANG['subscription']['lastpayment'] = "Last Payment";
-$_LANG['subscription']['nextpaymentdate'] = "Next Payment Date";
-$_LANG['subscription']['subscriptionstartdate'] = "Subscription Start Date";
-$_LANG['subscription']['failedpaymentscount'] = "Failed Payments Count";
-$_LANG['subscription']['errorFetchingDetails'] = "An error occurred while attempting to get the subscription information. Please contact support.";
+$_LANG['subscription']['active'] = "شما یک اشتراک فعال دارید";
+$_LANG['subscription']['manual'] = "ممکن است هنوز پرداخت دستی انجام دهید اما ممکن است منجر به اضافه پرداخت شود";
+$_LANG['subscription']['moreDetails'] = "جزئیات بیشتر";
+$_LANG['subscription']['makePayment'] = "ایجاد یک پرداخت";
+$_LANG['subscription']['paypalDetails'] = "جزئیات اشتراک PayPal";
+$_LANG['subscription']['subscriptionWarning'] = "هرگونه اشتراک فعال زیر به صورت خودکار بر روی این فاکتور اعمال می شود. اگر پرداخت اشتراک منجر به اضافه پرداخت شود ، اعتباری دریافت خواهید کرد که به صورت خودکار در صورتحساب بعدی شما اعمال می شود";
+$_LANG['subscription']['subscriptionid'] = "شناسه اشتراک";
+$_LANG['subscription']['status'] = "وضعیت اشتراک";
+$_LANG['subscription']['lastpayment'] = "آخرین پرداخت";
+$_LANG['subscription']['nextpaymentdate'] = "تاریخ پرداخت بعدی";
+$_LANG['subscription']['subscriptionstartdate'] = "تاریخ شروع اشتراک";
+$_LANG['subscription']['failedpaymentscount'] = "تعداد پرداخت های ناموفق";
+$_LANG['subscription']['errorFetchingDetails'] = "هنگام تلاش برای به دست آوردن اطلاعات اشتراک خطایی روی داد. لطفاً با پشتیبانی تماس بگیرید";
 
 $_LANG['navMarketConnectService']['sitelockvpn'] = "VPN";
-$_LANG['store']['sitelockvpn']['tagline'] = "Get unlimited access to an Internet free of privacy concerns, content restrictions or data caps.";
+$_LANG['store']['sitelockvpn']['tagline'] = "بدون محدودیت های مربوط به حریم خصوصی ، محدودیت های محتوا یا محدودیت داده ها ، به اینترنت دسترسی نامحدود داشته باشید";
 $_LANG['store']['sitelockvpn']['manageService'] = "Manage your SiteLock VPN Service";
 $_LANG['store']['sitelockvpn']['cartShortDescription'] = "SiteLock VPN allows anonymous, encrypted browsing sessions over any network connection.";
 $_LANG['store']['sitelockvpn']['cartTitle'] = "SiteLock VPN";
@@ -3145,92 +3165,93 @@ $_LANG['store']['sitelockvpn']['world']['features']['countries'] = "countries";
 $_LANG['store']['sitelockvpn']['world']['features']['unlimited'] = "Unlimited";
 $_LANG['store']['sitelockvpn']['world']['features']['bandwidth'] = "bandwidth";
 
-$_LANG['store']['noDomain'] = "No Domain Required";
-$_LANG['store']['noDomainRequired'] = "No domain is required for this product";
-$_LANG['back'] = "Back";
+$_LANG['store']['noDomain'] = "بدون نیاز به دامنه";
+$_LANG['store']['noDomainRequired'] = "هیچ دامنه ای برای این محصول مورد نیاز نیست";
+$_LANG['back'] = "بازگشت";
 
-$_LANG['errors']['badRequest'] = "Bad Request";
-$_LANG['errors']['badRequestTryAgain'] = "An Error Occurred. Please try again.";
+$_LANG['errors']['badRequest'] = "درخواست بد";
+$_LANG['errors']['badRequestTryAgain'] = "خطایی روی داد. لطفا دوباره تلاش کنید";
+$_LANG['errors']['tryAgainOrSupport'] = "Please try again later or <a href=\"submitticket.php\">contact support</a>.";
 
 $_LANG['paymentMethods']['iban'] = "IBAN";
 $_LANG['paymentMethods']['mandateAcceptance'] = "By providing your IBAN and confirming this payment, you are authorizing :companyName and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.";
 
-$_LANG['metrics']['title'] = "Metrics";
-$_LANG['metrics']['explanation'] = "This product has usage-based billing charges in addition to the base price. Usage metrics and their pricing information are displayed below.";
-$_LANG['metrics']['from'] = "From";
-$_LANG['metrics']['to'] = "To";
-$_LANG['metrics']['startingQuantity'] = "Starting Quantity";
-$_LANG['metrics']['unit'] = "Unit";
-$_LANG['metrics']['pricePerUnit'] = "Price Per Unit";
-$_LANG['metrics']['pricePer'] = "Price Per";
-$_LANG['metrics']['viewPricing'] = "View Pricing";
-$_LANG['metrics']['pricing'] = "Pricing";
-$_LANG['metrics']['startingFrom'] = "Starting from";
-$_LANG['metrics']['pricingschema']['simple']['info'] = "This item has a singular pricing structure";
-$_LANG['metrics']['pricingschema']['simple']['detail'] = "The per unit price is consistent regardless of volume.";
-$_LANG['metrics']['pricingschema']['grad']['info'] = "This item has a graduated pricing structure.";
-$_LANG['metrics']['pricingschema']['grad']['detail'] = "The per unit price is per consumption range. The total charge is the sum of the range calculations.";
-$_LANG['metrics']['pricingschema']['flat']['info'] = "This item has a flat volume pricing structure.";
-$_LANG['metrics']['pricingschema']['flat']['detail'] = "The per unit price is determined by the total volume consumed.";
-$_LANG['metrics']['previousUsage'] = "Previous Usage";
-$_LANG['metrics']['currentUsage'] = "Current Usage";
-$_LANG['metrics']['lastUpdated'] = "Last Update";
-$_LANG['metrics']['metric'] = "Metric";
-$_LANG['metrics']['billing'] = "Billing";
-$_LANG['metrics']['includedNotCounted'] = "Included";
-$_LANG['metrics']['includedInBase'] = "included in the base price";
+$_LANG['metrics']['title'] = "متریک ها";
+$_LANG['metrics']['explanation'] = "این محصول علاوه بر قیمت پایه دارای هزینه های صورتحساب مبتنی بر استفاده است. معیارهای استفاده و اطلاعات قیمت آنها در زیر نشان داده شده است";
+$_LANG['metrics']['from'] = "فرم";
+$_LANG['metrics']['to'] = "به";
+$_LANG['metrics']['startingQuantity'] = "مقدار شروع";
+$_LANG['metrics']['unit'] = "واحد";
+$_LANG['metrics']['pricePerUnit'] = "قیمت هر واحد";
+$_LANG['metrics']['pricePer'] = "قیمت هر";
+$_LANG['metrics']['viewPricing'] = "مشاهده قیمت گذاری";
+$_LANG['metrics']['pricing'] = "قیمت گذاری";
+$_LANG['metrics']['startingFrom'] = "شروع از";
+$_LANG['metrics']['pricingschema']['simple']['info'] = "این مورد دارای ساختار قیمت گذاری منحصر به فرد است";
+$_LANG['metrics']['pricingschema']['simple']['detail'] = "قیمت هر واحد بدون در نظر گرفتن حجم ثابت است";
+$_LANG['metrics']['pricingschema']['grad']['info'] = "این مورد دارای ساختار قیمت گذاری درجه بندی شده است";
+$_LANG['metrics']['pricingschema']['grad']['detail'] = "قیمت هر واحد در محدوده مصرف است. کل هزینه مجموع محاسبات محدوده است";
+$_LANG['metrics']['pricingschema']['flat']['info'] = "این مورد دارای ساختار قیمت گذاری حجم مسطح است";
+$_LANG['metrics']['pricingschema']['flat']['detail'] = "واحد قیمت با کل حجم مصرف تعیین می شود";
+$_LANG['metrics']['previousUsage'] = "استفاده قبلی";
+$_LANG['metrics']['currentUsage'] = "مصرف کنونی";
+$_LANG['metrics']['lastUpdated'] = "اخرین بروزرسانی";
+$_LANG['metrics']['metric'] = "متریک";
+$_LANG['metrics']['billing'] = "صورتحساب";
+$_LANG['metrics']['includedNotCounted'] = "مشمول";
+$_LANG['metrics']['includedInBase'] = "در قیمت پایه گنجانده شده است";
 
 $_LANG['metrics']['invoiceitem']['perunit'] = ":consumed :metricname @ :price Per :perUnitName";
 $_LANG['metrics']['invoiceitem']['included'] = ":included :metricname Included";
 
-$_LANG['bankPaymentDeclined'] = "The bank account details you entered were declined. Please try a different account or contact support.";
-$_LANG['invoicePaymentInitiated'] = "Thank You! Your payment has been initiated successfully. You will receive a confirmation email once the payment has been completed.";
-$_LANG['genericPaymentDeclined'] = "Your payment was declined. Please try again or contact support.";
+$_LANG['bankPaymentDeclined'] = "اطلاعات حساب بانکی که وارد کرده اید رد شد. لطفاً حساب دیگری را امتحان کنید یا با پشتیبانی تماس بگیرید";
+$_LANG['invoicePaymentInitiated'] = "متشکرم! پرداخت شما با موفقیت شروع شد پس از اتمام پرداخت ، ایمیل تأیید دریافت خواهید کرد";
+$_LANG['genericPaymentDeclined'] = "پرداخت شما رد شد. لطفاً دوباره امتحان کنید یا با پشتیبانی تماس بگیرید";
 
 $_LANG['sitelockvpn']['loginPanelText'] = "Login to setup and manage your VPN user credentials and download the VPN clients.";
 $_LANG['store']['save'] = "Save :saving%";
-$_LANG['marketConnect']['codeguard']['manageBackup'] = "Manage Backups";
-$_LANG['store']['chooseExistingDomain'] = "Choose Existing Domain";
-$_LANG['store']['choosePaymentTerm'] = "Choose Payment Term";
-$_LANG['store']['chooseDomain'] = "Choose Domain";
-$_LANG['store']['subOfExisting'] = "Subdomain of an Existing Domain";
-$_LANG['store']['domainAlreadyOwned'] = "A domain I already own";
+$_LANG['marketConnect']['codeGuard']['manageBackup'] = "پشتیبان گیری را مدیریت کنید";
+$_LANG['store']['chooseExistingDomain'] = "دامنه موجود را انتخاب کنید";
+$_LANG['store']['choosePaymentTerm'] = "شرایط پرداخت را انتخاب کنید";
+$_LANG['store']['chooseDomain'] = "انتخاب دامنه";
+$_LANG['store']['subOfExisting'] = "زیر دامنه یک دامنه موجود";
+$_LANG['store']['domainAlreadyOwned'] = "دامنه ای که قبلاً مالک آن هستم";
 $_LANG['store']['eligible'] = "Eligible";
-$_LANG['store']['login'] = "Login";
-$_LANG['store']['addToExistingPackage'] = "to add this to an existing hosting package.";
+$_LANG['store']['login'] = "ورود";
+$_LANG['store']['addToExistingPackage'] = "این را به بسته میزبانی موجود اضافه کنید";
 
-$_LANG['marketConnect']['sitelock']['manageSecurity'] = "Manage Your Security";
+$_LANG['marketConnect']['sitelock']['manageSecurity'] = "امنیت خود را مدیریت کنید";
 $_LANG['marketConnect']['sitelock']['ftpHost'] = "FTP Host";
-$_LANG['marketConnect']['sitelock']['ftpUsername'] = "FTP Username";
-$_LANG['marketConnect']['sitelock']['ftpPassword'] = "FTP Password";
+$_LANG['marketConnect']['sitelock']['ftpUsername'] = "FTP نام کاربری";
+$_LANG['marketConnect']['sitelock']['ftpPassword'] = "FTP رمز عبور";
 $_LANG['marketConnect']['sitelock']['ftpPath'] = "FTP Path";
 $_LANG['marketConnect']['sitelock']['updateFtp'] = "Update FTP Credentials";
 $_LANG['marketConnect']['sitelock']['manage'] = "Log in to SiteLock";
 $_LANG['marketConnect']['sitelockvpn']['manageVPN'] = "Manage Your VPN";
-$_LANG['marketConnect']['spamexperts']['manageEmail'] = "Manage Your Email";
-$_LANG['marketConnect']['spamexperts']['manage'] = "Log in to SpamExperts";
+$_LANG['marketConnect']['emailServices']['manageEmail'] = "مدیریت ایمیل l";
+$_LANG['marketConnect']['emailServices']['manage'] = "Log in to SpamExperts";
 $_LANG['marketConnect']['sitelockvpn']['manage'] = "Log in to SiteLock VPN";
-$_LANG['marketConnect']['weebly']['buildWebsite'] = "Build Your Website";
+$_LANG['marketConnect']['websiteBuilder']['buildWebsite'] = "Build Your Website";
 
-$_LANG['creditCardHolderName'] = "Card Holder Name";
+$_LANG['creditCardHolderName'] = "نام دارنده کارت";
 
-$_LANG['redirectingToCompleteCheckout'] = "Redirecting you to complete checkout. Please wait...";
+$_LANG['redirectingToCompleteCheckout'] = "شما را به تکمیل پرداخت نهایی هدایت می کند. لطفا صبر کنید";
 $_LANG['paypalEmailAddress'] = "PayPal Email Address";
 
-$_LANG['fromJust'] = "from just";
-$_LANG['forJust'] = "for just";
-$_LANG['remoteTransError'] = "Remote Transaction Failure. Please Contact Support.";
+$_LANG['fromJust'] = "از فقط";
+$_LANG['forJust'] = "فقط برای";
+$_LANG['remoteTransError'] = "شکست معامله از راه دور. لطفا با پشتیبانی تماس بگیرید.";
 
-$_LANG['imageUnavailable'] = "Image Unavailable";
+$_LANG['imageUnavailable'] = "تصویر در دسترس نیست";
 
-$_LANG['emailPreferences']['affiliate'] = "Affiliate Emails - Receive Affiliate Notifications";
-$_LANG['emailPreferences']['domain'] = "Domain Emails - Registration/Transfer Confirmation &amp; Renewal Notices";
-$_LANG['emailPreferences']['general'] = "General Emails - All account related emails";
-$_LANG['emailPreferences']['invoice'] = "Invoice Emails - New Invoices, Reminders, &amp; Overdue Notices";
-$_LANG['emailPreferences']['product'] = "Product Emails - Welcome Emails, Suspensions & Other Lifecycle Notifications";
-$_LANG['emailPreferences']['support'] = "Support Emails - Receive a CC of all Support Ticket Communications";
+$_LANG['emailPreferences']['affiliate'] = "ایمیل های  همکاری در فروش - اعلان های همکاری در فروش را دریافت کنید";
+$_LANG['emailPreferences']['domain'] = "ایمیل های دامنه - اعلامیه ثبت و انتقال و تمدید";
+$_LANG['emailPreferences']['general'] = "ایمیل های عمومی - همه ایمیل های مربوط به حساب";
+$_LANG['emailPreferences']['invoice'] = "ایمیل های فاکتور - فاکتورهای جدید ، یادآوری ها و اطلاعیه های تعلیق";
+$_LANG['emailPreferences']['product'] = "ایمیل سرویس ها - ایمیل های راه اندازی سرویس، انسداد و ...";
+$_LANG['emailPreferences']['support'] = "ایمیل های پشتیبانی - یک نسخه  از همه ارتباطات پشتیبانی تیکت ها دریافت کنید";
 
-$_LANG['navMarketConnectService']['marketgoo'] = "SEO Tools";
+$_LANG['navMarketConnectService']['marketgoo'] = "SEO ابزار";
 $_LANG['store']['marketgoo']['title'] = "Marketgoo SEO Tools";
 $_LANG['store']['marketgoo']['headline'] = "Improve your Site's traffic";
 $_LANG['store']['marketgoo']['tagline'] = "and <em>Grow your Business</em> with marketgoo";
@@ -3267,10 +3288,10 @@ $_LANG['store']['marketgoo']['faqs']['a3'] = "You work on your SEO in order to i
 $_LANG['store']['marketgoo']['adminPreview'] = "Marketgoo plans you activate will be displayed here";
 $_LANG['store']['marketgoo']['labelBestValue'] = "Best value!";
 
-$_LANG['upTo'] = "Up to :num";
-$_LANG['weekly'] = "Weekly";
-$_LANG['daily'] = "Daily";
-$_LANG['limited'] = "Limited";
+$_LANG['upTo'] = "تا :num";
+$_LANG['weekly'] = "هفتگی";
+$_LANG['daily'] = "روزانه";
+$_LANG['limited'] = "محدود";
 
 $_LANG['marketConnect']['marketgoo']['manageSEO'] = "Marketgoo SEO";
 $_LANG['marketConnect']['marketgoo']['manage'] = "Log in to Dashboard";
@@ -3282,17 +3303,17 @@ $_LANG['store']['marketgoo']['promo']['sidebar']['title'] = "Marketgoo SEO Tools
 $_LANG['store']['marketgoo']['promo']['sidebar']['body'] = "Improve your site's traffic and grow your business";
 
 $_LANG['emailPreferences']['oneRequired'] = "You must have at least one email address enabled to receive domain related notifications as required by ICANN.";
-$_LANG['emailPreferences']['domainContactRequired'] = "To disable domain notifications, please enable domain notifications for the primary account holder or another contact.";
-$_LANG['emailPreferences']['domainClientRequired'] = "To disable domain notifications, please create an alternative contact that is set to receive them.";
+$_LANG['emailPreferences']['domainContactRequired'] = "برای غیرفعال کردن اعلان های دامنه ، لطفاً اعلان های دامنه را برای دارنده حساب اصلی یا مخاطب دیگری فعال کنید";
+$_LANG['emailPreferences']['domainClientRequired'] = "برای غیرفعال کردن اعلان های دامنه ، لطفاً یک مخاطب جایگزین ایجاد کنید که برای دریافت آنها تنظیم شده است";
 
 $_LANG['twoFactor']['duosecurity']['friendlyName'] = "Duo Security";
 $_LANG['twoFactor']['duosecurity']['description'] = "Get codes via Duo Push, SMS or Phone Callback.";
-$_LANG['twoFactor']['totp']['friendlyName'] = "Time Based Tokens";
+$_LANG['twoFactor']['totp']['friendlyName'] = "نشانه های زمان محور";
 $_LANG['twoFactor']['totp']['description'] = "Get codes from an app like Google Authenticator or Duo.";
 $_LANG['twoFactor']['yubico']['friendlyName'] = "Yubico";
-$_LANG['twoFactor']['yubico']['description'] = "Generate codes using a YubiKey hardware device.";
+$_LANG['twoFactor']['yubico']['description'] = "تولید کدها با استفاده از دستگاه سخت افزاری YubiKey";
 
-$_LANG['orderForm']['selectCategory'] = "Please choose a category from the sidebar menu";
+$_LANG['orderForm']['selectCategory'] = "لطفاً یک دسته را از منوی نوار کناری انتخاب کنید";
 
 $_LANG['marketConnect']['ox']['manage'] = "Log in to OX App Suite";
 
@@ -3384,123 +3405,123 @@ $_LANG['domainDns']['mxe'] = "MXE (Mail Easy)";
 $_LANG['domainDns']['mx'] = "MX (Mail)";
 $_LANG['domainDns']['cname'] = "CNAME (Alias)";
 $_LANG['domainDns']['txt'] = "SPF (txt)";
-$_LANG['domainDns']['url'] = "URL Redirect";
-$_LANG['domainDns']['frame'] = "URL Frame";
+$_LANG['domainDns']['url'] = "تغییر مسیر لینک";
+$_LANG['domainDns']['frame'] = " قاب نشانی وب";
 
-$_LANG['navContacts'] = "Contacts";
-$_LANG['navUserManagement'] = "User Management";
-$_LANG['navSwitchAccount'] = "Switch Account";
-$_LANG['navAccountSecurity'] = "Account Security";
+$_LANG['navContacts'] = "تماسها/حسابهای فرعی";
+$_LANG['navUserManagement'] = "مدیریت کاربر";
+$_LANG['navSwitchAccount'] = "تعویض حساب";
+$_LANG['navAccountSecurity'] = "امنیت حساب";
 
-$_LANG['never'] = "Never";
+$_LANG['never'] = "هرگز";
 
-$_LANG['yourProfile'] = "Your Profile";
+$_LANG['yourProfile'] = "مشخصات شما";
 $_LANG['verifyEmailAddress'] = "لطفا ایمیل خود را چک کنید و مراحل تایید ایمیل را انجام دهید.";
 
-$_LANG['emailVerification']['title'] = "Email Verification";
-$_LANG['emailVerification']['success'] = "Your email address has been verified";
-$_LANG['emailVerification']['expired'] = "Your email verification link has expired";
-$_LANG['emailVerification']['notFound'] = "Sorry, we couldn't find a pending verification matching your request.";
-$_LANG['emailVerification']['loginToRequest'] = "Please log in to request a new email verification link.";
+$_LANG['emailVerification']['title'] = "تأیید ایمیل";
+$_LANG['emailVerification']['success'] = "آدرس ایمیل شما تأیید شده است";
+$_LANG['emailVerification']['expired'] = "پیوند تأیید ایمیل شما منقضی شده است";
+$_LANG['emailVerification']['notFound'] = "متأسفانه ، ما نتوانستیم تأییدیه معلق مطابق با درخواست شما پیدا کنیم";
+$_LANG['emailVerification']['loginToRequest'] = "لطفاً برای درخواست پیوند تأیید ایمیل جدید وارد شوید";
 
-$_LANG['switchAccount']['title'] = "Choose Account";
-$_LANG['switchAccount']['choose'] = "Choose account to login and manage";
-$_LANG['switchAccount']['noneFound'] = "No accounts found.";
-$_LANG['switchAccount']['createInstructions'] = "To create a new account, you will need to place a new order.";
-$_LANG['switchAccount']['noLongerActive'] = "This account is no longer active";
-$_LANG['switchAccount']['invalidChooseAnother'] = "Invalid account requested. Please choose another.";
-$_LANG['switchAccount']['cancelAndReturn'] = "Cancel and return to homepage";
-$_LANG['switchAccount']['forcedSwitchRequest'] = "The URL you have attempted to access requires you to be logged in as a different client.";
+$_LANG['switchAccount']['title'] = "انتخاب حساب";
+$_LANG['switchAccount']['choose'] = "انتخاب برای ورود و مدیریت حساب";
+$_LANG['switchAccount']['noneFound'] = "هیچ حسابی یافت نشد";
+$_LANG['switchAccount']['createInstructions'] = "برای ایجاد یک حساب جدید ، باید یک سفارش جدید ثبت کنید";
+$_LANG['switchAccount']['noLongerActive'] = "این حساب دیگر فعال نیست";
+$_LANG['switchAccount']['invalidChooseAnother'] = "حساب نامعتبر درخواست شد. لطفاً دیگری را انتخاب کنید";
+$_LANG['switchAccount']['cancelAndReturn'] = "لغو و بازگشت به صفحه اصلی";
+$_LANG['switchAccount']['forcedSwitchRequest'] = "نشانی اینترنتی که سعی کرده اید به آن دسترسی داشته باشید نیاز دارد که به عنوان یک سرویس گیرنده دیگر وارد سیستم شوید";
 
-$_LANG['shopNow'] = "Shop Now";
-$_LANG['clientOwner'] = "Owner";
+$_LANG['shopNow'] = "همین حالا بخرید";
+$_LANG['clientOwner'] = "مالک";
 
-$_LANG['userManagement']['title'] = "User Management";
-$_LANG['userManagement']['managePermissions'] = "Manage Permissions";
-$_LANG['userManagement']['permissions'] = "Permissions";
-$_LANG['userManagement']['usersFound'] = ":count Users Found";
-$_LANG['userManagement']['userDescriptor'] = "Email Address / Last Login";
-$_LANG['userManagement']['lastLogin'] = "Last Login";
-$_LANG['userManagement']['actions'] = "Actions";
-$_LANG['userManagement']['emailAddress'] = "Email Address";
-$_LANG['userManagement']['removeAccess'] = "Remove Access";
-$_LANG['userManagement']['pendingInvites'] = "Pending Invites";
-$_LANG['userManagement']['inviteSent'] = "Invite Sent";
-$_LANG['userManagement']['resendInvite'] = "Resend Invite";
-$_LANG['userManagement']['cancelInvite'] = "Cancel Invite";
-$_LANG['userManagement']['accountOwnerPermissionsInfo'] = "Account owners always have full permissions over a client account.";
-$_LANG['userManagement']['inviteNewUser'] = "Invite New User";
-$_LANG['userManagement']['inviteEmail'] = "Invite Email";
-$_LANG['userManagement']['inviteNewUserDescription'] = "Inviting a new user allows you to invite a new user to your account. If the invitee already has an existing user account, they will be able to access your account using their existing login credentials. If the user does not yet have a user account, they will be able to create one.";
-$_LANG['userManagement']['allPermissions'] = "All Permissions";
-$_LANG['userManagement']['choosePermissions'] = "Choose Permissions";
-$_LANG['userManagement']['sendInvite'] = "Send Invite";
-$_LANG['userManagement']['removeAccessSure'] = "Are you sure you wish to remove this users access?";
-$_LANG['userManagement']['removeAccessInfo'] = "They will no longer be able to access or administer this account.";
-$_LANG['userManagement']['cancelInviteSure'] = "Are you sure you wish to cancel this invite?";
-$_LANG['userManagement']['cancelInviteInfo'] = "The user will not be notified of this cancellation.";
-$_LANG['userManagement']['permissionsUpdateSuccess'] = "Permissions updated successfully!";
-$_LANG['userManagement']['userRemoveSuccess'] = "User removed successfully!";
-$_LANG['userManagement']['inviteSentSuccess'] = "Invite sent successfully!";
-$_LANG['userManagement']['alreadyLinked'] = "The email address entered is already a user of this account";
-$_LANG['userManagement']['alreadyInvited'] = "The email address you entered already has an active invitation.";
-$_LANG['userManagement']['inviteResendSuccess'] = "Invite resent successfully!";
-$_LANG['userManagement']['inviteCancelled'] = "Invite cancelled successfully!";
-$_LANG['userManagement']['settings'] = "The following security settings apply to your user account.";
+$_LANG['userManagement']['title'] = "مدیریت کاربر";
+$_LANG['userManagement']['managePermissions'] = "مدیریت مجوزها";
+$_LANG['userManagement']['permissions'] = "مجوزها";
+$_LANG['userManagement']['usersFound'] = ":count کاربر یافت شد";
+$_LANG['userManagement']['userDescriptor'] = "آدرس ایمیل / آخرین ورود";
+$_LANG['userManagement']['lastLogin'] = "آخرین ورود";
+$_LANG['userManagement']['actions'] = "عملیات";
+$_LANG['userManagement']['emailAddress'] = "آدرس ایمیل";
+$_LANG['userManagement']['removeAccess'] = "حذف دسترسی";
+$_LANG['userManagement']['pendingInvites'] = "در انتظار دعوت";
+$_LANG['userManagement']['inviteSent'] = "ارسال دعوت";
+$_LANG['userManagement']['resendInvite'] = "ارسال مجدد دعوت";
+$_LANG['userManagement']['cancelInvite'] = "لغو دعوت";
+$_LANG['userManagement']['accountOwnerPermissionsInfo'] = "صاحبان حسابها همیشه مجوزهای کاملی برای حساب مشتری دارند";
+$_LANG['userManagement']['inviteNewUser'] = "دعوت کاربر جدید";
+$_LANG['userManagement']['inviteEmail'] = "دعوت از ایمیل";
+$_LANG['userManagement']['inviteNewUserDescription'] = "دعوت از یک کاربر جدید به شما امکان می دهد تا یک کاربر جدید را به حساب خود دعوت کنید. اگر دعوت کننده قبلاً حساب کاربری فعلی دارد ، می تواند با استفاده از اطلاعات ورود به سیستم موجود به حساب شما دسترسی پیدا کند. اگر کاربر هنوز حساب کاربری نداشته باشد ، می تواند یک حساب کاربری ایجاد کند";
+$_LANG['userManagement']['allPermissions'] = "همه مجوزها";
+$_LANG['userManagement']['choosePermissions'] = "انتخاب مجوز ";
+$_LANG['userManagement']['sendInvite'] = "ارسال دعوتنامه";
+$_LANG['userManagement']['removeAccessSure'] = "آیا مطمئن هستید که می خواهید این دسترسی کاربران را حذف کنید؟";
+$_LANG['userManagement']['removeAccessInfo'] = "آنها دیگر نمی توانند به این حساب دسترسی داشته باشند یا مدیریت کنند";
+$_LANG['userManagement']['cancelInviteSure'] = "آیا مطمئن هستید که می خواهید این دعوت را لغو کنید؟";
+$_LANG['userManagement']['cancelInviteInfo'] = "این لغو به کاربر اطلاع داده نخواهد شد";
+$_LANG['userManagement']['permissionsUpdateSuccess'] = "مجوزها با موفقیت به روز شد";
+$_LANG['userManagement']['userRemoveSuccess'] = "کاربر با موفقیت حذف شد";
+$_LANG['userManagement']['inviteSentSuccess'] = "دعوت با موفقیت ارسال شد";
+$_LANG['userManagement']['alreadyLinked'] = "آدرس ایمیل وارد شده از قبل کاربر این حساب است";
+$_LANG['userManagement']['alreadyInvited'] = "آدرس ایمیلی که وارد کرده اید قبلاً دعوت نامه فعال دارد";
+$_LANG['userManagement']['inviteResendSuccess'] = "دعوت مجدد با موفقیت ارسال شد";
+$_LANG['userManagement']['inviteCancelled'] = "دعوت با موفقیت لغو شد";
+$_LANG['userManagement']['settings'] = "تنظیمات امنیتی زیر برای حساب کاربری شما اعمال می شود";
 
-$_LANG['userProfile']['profile'] = "Profile";
-$_LANG['userProfile']['changeEmail'] = "Change Email Address";
-$_LANG['userProfile']['notVerified'] = "Email Not Verified";
-$_LANG['userProfile']['verified'] = "Email Verified";
+$_LANG['userProfile']['profile'] = "مشخصات";
+$_LANG['userProfile']['changeEmail'] = "تغییر آدرس ایمیل";
+$_LANG['userProfile']['notVerified'] = "ایمیل تأیید نشده است";
+$_LANG['userProfile']['verified'] = "ایمیل تأییده شده است";
 
-$_LANG['accountInvite']['title'] = "Accept Invite";
-$_LANG['accountInvite']['youHaveBeenInvited'] = "You have been invited to :clientName";
+$_LANG['accountInvite']['title'] = "دعوت را بپذیرید";
+$_LANG['accountInvite']['youHaveBeenInvited'] = "شما به دعوت شده اید :clientName";
 $_LANG['accountInvite']['givenAccess'] = ":ot:senderName:ct has given you access to the :ot:clientName:ct account.";
-$_LANG['accountInvite']['inviteAcceptLoggedIn'] = "To accept the invite, simply click the button below.";
-$_LANG['accountInvite']['inviteAcceptLoggedOut'] = "To accept the invite, please login or register below.";
-$_LANG['accountInvite']['accept'] = "Accept Invite";
-$_LANG['accountInvite']['userAlreadyAssociated'] = "Your user account is already associated with the target invite account";
-$_LANG['accountInvite']['acceptSuccess'] = "Account invite accepted!";
-$_LANG['accountInvite']['emailAlreadyExists'] = "A user already exists with that email address. Please login or use a different email.";
-$_LANG['accountInvite']['notFound'] = "Sorry, we couldn't find a pending invite matching your request.";
-$_LANG['accountInvite']['contactAdministrator'] = "Please contact the account administrator to request a new invite.";
+$_LANG['accountInvite']['inviteAcceptLoggedIn'] = "برای پذیرش دعوت ، کافی است روی دکمه زیر کلیک کنید";
+$_LANG['accountInvite']['inviteAcceptLoggedOut'] = "برای پذیرش دعوت ، لطفاً وارد شوید یا ثبت نام کنید";
+$_LANG['accountInvite']['accept'] = "پذیرش دعوت";
+$_LANG['accountInvite']['userAlreadyAssociated'] = "حساب کاربری شما قبلاً با حساب دعوت هدف مرتبط است";
+$_LANG['accountInvite']['acceptSuccess'] = "دعوت حساب پذیرفته شد";
+$_LANG['accountInvite']['emailAlreadyExists'] = "کاربر قبلاً با آن آدرس ایمیل وجود دارد. لطفاً وارد شوید یا از ایمیل دیگری استفاده کنید";
+$_LANG['accountInvite']['notFound'] = "متأسفیم ، ما نتوانستیم یک دعوت معلق متناسب با درخواست شما پیدا کنیم";
+$_LANG['accountInvite']['contactAdministrator'] = "لطفاً برای درخواست دعوت جدید با سرپرست حساب تماس بگیرید";
 
 $_LANG['clientareanavcontacts'] = "تماسها/حسابهای فرعی";
 
-$_LANG['permissions']['descriptions']['profile'] = "Access and modify the client profile information";
-$_LANG['permissions']['descriptions']['contacts'] = "Access and manage contacts";
-$_LANG['permissions']['descriptions']['products'] = "View access to products, services and addons";
-$_LANG['permissions']['descriptions']['manageproducts'] = "Allow password resets and other actions";
-$_LANG['permissions']['descriptions']['productsso'] = "Allow single sign-on into services";
-$_LANG['permissions']['descriptions']['domains'] = "View access to domain registrations";
-$_LANG['permissions']['descriptions']['managedomains'] = "Allow domain management eg. nameservers/whois/transfers";
-$_LANG['permissions']['descriptions']['invoices'] = "View and payment access to invoices";
-$_LANG['permissions']['descriptions']['quotes'] = "View and acceptance permissions for quotes";
-$_LANG['permissions']['descriptions']['tickets'] = "Access to open, respond and manage support tickets";
-$_LANG['permissions']['descriptions']['affiliates'] = "Access to view and request withdrawals";
-$_LANG['permissions']['descriptions']['emails'] = "Access to view account email history";
-$_LANG['permissions']['descriptions']['orders'] = "Allow placing of new orders";
+$_LANG['permissions']['descriptions']['profile'] = "دسترسی و اصلاح اطلاعات نمایه مشتری";
+$_LANG['permissions']['descriptions']['contacts'] = "دسترسی و مدیریت مخاطبین";
+$_LANG['permissions']['descriptions']['products'] = "مشاهده دسترسی به محصولات ، خدمات و افزونه ها";
+$_LANG['permissions']['descriptions']['manageproducts'] = "اجازه بازنشانی گذرواژه و سایر اقدامات ";
+$_LANG['permissions']['descriptions']['productsso'] = "اجازه ورود به سیستم برای ورود به سرویس ها";
+$_LANG['permissions']['descriptions']['domains'] = "مشاهده دسترسی به ثبت دامنه";
+$_LANG['permissions']['descriptions']['managedomains'] = "اجازه مدیریت دامنه";
+$_LANG['permissions']['descriptions']['invoices'] = "مشاهده و پرداخت دسترسی به صورتحساب ها";
+$_LANG['permissions']['descriptions']['quotes'] = "مشاهده و پذیرش مجوزها برای نقل قول ها";
+$_LANG['permissions']['descriptions']['tickets'] = "دسترسی به باز کردن ، پاسخگویی و مدیریت تیکت های پشتیبانی";
+$_LANG['permissions']['descriptions']['affiliates'] = "دسترسی به مشاهده و درخواست برداشت";
+$_LANG['permissions']['descriptions']['emails'] = "دسترسی به مشاهده سابقه ایمیل حساب";
+$_LANG['permissions']['descriptions']['orders'] = "اجازه ثبت سفارشات جدید را بدهید";
 
-$_LANG['closed'] = "Closed";
-$_LANG['noPermission'] = "No Permission";
+$_LANG['closed'] = "بسته شد";
+$_LANG['noPermission'] = "بدون مجوز";
 
-$_LANG['domainDetails']['error']['getNs'] = "An issue was encountered while retrieving the domain nameservers. Please contact support.";
-$_LANG['domainDetails']['error']['saveNs'] = "An issue was encountered while updating the domain nameservers. Please contact support.";
-$_LANG['domainDetails']['error']['getContact'] = "An issue was encountered while retrieving the domain contact details. Please contact support.";
-$_LANG['domainDetails']['error']['saveContact'] = "An issue was encountered while updating the domain contact details. Please contact support.";
-$_LANG['domainDetails']['error']['getDns'] = "An issue was encountered while retrieving the DNS records. Please contact support.";
-$_LANG['domainDetails']['error']['saveDns'] = "An issue was encountered while updating the DNS records. Please contact support.";
-$_LANG['domainDetails']['error']['getEmailFwd'] = "An issue was encountered while retrieving the email forwarders. Please contact support.";
-$_LANG['domainDetails']['error']['saveEmailFwd'] = "An issue was encountered while updating the email forwarders. Please contact support.";
-$_LANG['domainDetails']['error']['deleteNs'] = "An issue was encountered while deleting the private nameserver. Please contact support.";
-$_LANG['domainDetails']['error']['modifyNs'] = "An issue was encountered while modifying the private nameserver. Please contact support.";
-$_LANG['domainDetails']['error']['registerNs'] = "An issue was encountered while registering the private nameserver. Please contact support.";
-$_LANG['domainDetails']['error']['saveRegLock'] = "An issue was encountered while updating the domain lock status. Please contact support.";
-$_LANG['domainDetails']['error']['releaseDomain'] = "An issue was encountered while releasing the domain. Please contact support.";
-$_LANG['domainDetails']['error']['resendNotification'] = "An issue was encountered while resending the notification email. Please contact support.";
+$_LANG['domainDetails']['error']['getNs'] = "هنگام بازیابی نیم سرور  دامنه ، مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['saveNs'] = "هنگام بروزرسانی  نیم سرورها دامنه مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['getContact'] = "هنگام بازیابی اطلاعات تماس دامنه ، مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['saveContact'] = "هنگام به روز رسانی اطلاعات تماس دامنه ، مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['getDns'] = "هنگام بازیابی پرونده های دی ان اس مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['saveDns'] = "هنگام بروزرسانی سوابق دی ان اس مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['getEmailFwd'] = "هنگام بازیابی فورواردرها با مشکلی روبرو شد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['saveEmailFwd'] = "هنگام بروزرسانی فورواردرهای ایمیل مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['deleteNs'] = "هنگام حذف نیم سرور خصوصی ، مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['modifyNs'] = "هنگام تغییر نیم سرور خصوصی با مشکلی روبرو شد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['registerNs'] = "هنگام ثبت نیم سرور خصوصی مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['saveRegLock'] = "هنگام بروزرسانی وضعیت قفل دامنه ، مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['releaseDomain'] = "هنگام انتشار دامنه مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
+$_LANG['domainDetails']['error']['resendNotification'] = "هنگام ارسال مجدد ایمیل اعلان ، مشکلی پیش آمد. لطفاً با پشتیبانی تماس بگیرید";
 
-$_LANG['idnLanguage']['afr'] = "Afrikaans";
-$_LANG['idnLanguage']['alb'] = "Albanian";
+$_LANG['idnLanguage']['afr'] = "آفریقایی";
+$_LANG['idnLanguage']['alb'] = "آلبانیایی";
 $_LANG['idnLanguage']['ara'] = "Arabic";
 $_LANG['idnLanguage']['arg'] = "Aragonese";
 $_LANG['idnLanguage']['arm'] = "Armenian";
@@ -3612,25 +3633,25 @@ $_LANG['idnLanguage']['uzb'] = "Uzbek";
 $_LANG['idnLanguage']['vie'] = "Vietnamese";
 $_LANG['idnLanguage']['wel'] = "Welsh";
 $_LANG['idnLanguage']['yid'] = "Yiddish";
-$_LANG['cart']['idnLanguageDescription'] = "We detected the domain you entered is an international domain name. In order to continue, please select your desired domain language.";
+$_LANG['cart']['idnLanguageDescription'] = "ما متوجه شدیم دامنه ای که وارد کرده اید یک نام دامنه بین المللی است. برای ادامه ، لطفاً زبان دامنه مورد نظر خود را انتخاب کنید";
 $_LANG['cart']['idnLanguage'] = "Choose IDN Language";
-$_LANG['cart']['selectIdnLanguageForRegister'] = "Please select the language of the domain you wish to register.";
+$_LANG['cart']['selectIdnLanguageForRegister'] = "لطفاً زبان دامنه ای را که مایل به ثبت نام هستید انتخاب کنید";
 
-$_LANG['support']['requestor']['operator'] = "Operator";
-$_LANG['support']['requestor']['owner'] = "Owner";
-$_LANG['support']['requestor']['authorizeduser'] = "Authorized User";
-$_LANG['support']['requestor']['registereduser'] = "Registered User";
-$_LANG['support']['requestor']['subaccount'] = "Sub-account";
-$_LANG['support']['requestor']['guest'] = "Guest";
+$_LANG['support']['requestor']['operator'] = "اپراتور";
+$_LANG['support']['requestor']['owner'] = "مالک";
+$_LANG['support']['requestor']['authorizeduser'] = "کاربر مجاز";
+$_LANG['support']['requestor']['registereduser'] = "کاربر ثبت نام شده";
+$_LANG['support']['requestor']['subaccount'] = "حساب فرعی";
+$_LANG['support']['requestor']['guest'] = "مهمان";
 
-$_LANG['twoFactor']['enabled'] = "Two-Factor Authentication Enabled";
-$_LANG['twoFactor']['disabled'] = "Two-Factor Authentication Disabled";
+$_LANG['twoFactor']['enabled'] = "احراز هویت دو عاملی فعال است";
+$_LANG['twoFactor']['disabled'] = "احراز هویت دو عاملی غیرفعال شده است";
 
-$_LANG['store']['poweredBy'] = "Powered by: :service";
+$_LANG['store']['poweredBy'] = "طراحی شده توسط: :service";
 
-$_LANG['navMarketConnectService']['ox'] = "Professional Email";
+$_LANG['navMarketConnectService']['ox'] = "ایمیل حرفه ای";
 
-$_LANG['store']['ox']['title'] = "Professional Email";
+$_LANG['store']['ox']['title'] = "ایمیل حرفه ای";
 $_LANG['store']['ox']['manage'] = "Manage Accounts";
 $_LANG['store']['ox']['appSuite'] = "OX App Suite";
 $_LANG['store']['ox']['promoHeading'] = "OX App Suite is powerful Email and Productivity Apps built for any-size business (and budget).";
@@ -3777,23 +3798,23 @@ $_LANG['store']['addon']['notFound']['productUnavailableText'] = "This product i
 $_LANG['store']['addon']['notFound']['contactSupport'] = "Contact Support";
 $_LANG['store']['addon']['notFound']['ref'] = "Ref";
 
-$_LANG['ox']['intro'] = "Here, you can create and manage users, mailboxes, and aliases for your OX App Suite subscription.";
+$_LANG['ox']['intro'] = "This is where you can create and manage mailboxes and users for your OX App Suite subscription.";
 $_LANG['ox']['accountCount'] = "You have created <span class=\"number\">:number</span> of <span class=\"limit\">:limit</span> available accounts.";
-$_LANG['ox']['refresh'] = "Refresh";
-$_LANG['ox']['emailActions'] = "Email Management";
-$_LANG['ox']['createUser'] = "Create User";
-$_LANG['ox']['emailAccounts'] = "Email Accounts";
-$_LANG['ox']['emailAddress'] = "Email Address";
-$_LANG['ox']['mailboxSize'] = "Mailbox Size";
-$_LANG['ox']['setPassword'] = "Set Password";
-$_LANG['ox']['delete'] = "Delete";
-$_LANG['ox']['noAccounts'] = "No Existing Accounts";
-$_LANG['ox']['accountRequired'] = "Account field is required";
-$_LANG['ox']['passwordRequired'] = "Password field is required";
-$_LANG['ox']['deleteAccount'] = "Delete account <span class=\"email\"></span>?";
-$_LANG['ox']['manageAccount'] = "Manage account <span class=\"email\"></span>";
-$_LANG['ox']['setPasswordFor'] = "Set Password for <span class=\"email\"></span>";
-$_LANG['ox']['deleteAccountQuestion'] = "Are you sure you want to delete this account?";
+$_LANG['ox']['refresh'] = "تازه کردن";
+$_LANG['ox']['emailActions'] = "مدیریت ایمیل";
+$_LANG['ox']['createUser'] = "ایجاد کاربر";
+$_LANG['ox']['emailAccounts'] = "ایمیل حساب";
+$_LANG['ox']['emailAddress'] = "آدرس ایمیل";
+$_LANG['ox']['mailboxSize'] = "اندازه صندوق پستی";
+$_LANG['ox']['setPassword'] = "گذاشتن رمز عبور";
+$_LANG['ox']['delete'] = "جذف";
+$_LANG['ox']['noAccounts'] = "بدون حساب موجود";
+$_LANG['ox']['accountRequired'] = "فیلد حساب الزامی است";
+$_LANG['ox']['passwordRequired'] = "فیلد گذرواژه الزامی است";
+$_LANG['ox']['deleteAccount'] = "جذف جساب <span class=\"email\"></span>?";
+$_LANG['ox']['manageAccount'] = "مدیریت <span class=\"email\"></span>";
+$_LANG['ox']['setPasswordFor'] = "تنظیم رمز عبور برای <span class=\"email\"></span>";
+$_LANG['ox']['deleteAccountQuestion'] = "آیا مطمئن هستید که می خواهید این حساب را حذف کنید؟";
 $_LANG['ox']['deleteAccountWithAliasesQuestion'] = "Are you sure you want to delete this account and any aliases?";
 $_LANG['ox']['settings']['retrieval'] = "Retrieval Settings";
 $_LANG['ox']['settings']['retrievalIntro'] = "To configure your email account within an email application, use the information below.";
@@ -3833,65 +3854,65 @@ $_LANG['ox']['alias']['deleteSuccess'] = "Alias deleted successfully.";
 $_LANG['ox']['alias']['createButton'] = "Create";
 $_LANG['ox']['alias']['createSuccess'] = "Alias created successfully.";
 
-$_LANG['orderForm']['upgradeQuantityCannotBeLowerThanMinimum'] = "The quantity of the service cannot be changed below the minimum (:minimum).";
-$_LANG['orderForm']['upgradeQuantityMustChange'] = "You must choose a plan upgrade or change the quantity.";
-$_LANG['orderForm']['downgradeNotPossible'] = "It is not possible to downgrade this product. Please place a new order for this service instead.";
-$_LANG['unavailable'] = "Unavailable";
-$_LANG['orderForm']['idnNotEnabled'] = "We do not support international domain names at this time. Please try a different domain name.";
+$_LANG['orderForm']['upgradeQuantityCannotBeLowerThanMinimum'] = "مقدار خدمات را نمی توان کمتر از حداقل تغییر داد (:minimum).";
+$_LANG['orderForm']['upgradeQuantityMustChange'] = "شما باید برنامه ارتقاء را انتخاب کنید یا مقدار را تغییر دهید";
+$_LANG['orderForm']['downgradeNotPossible'] = "امکان کاهش رتبه این محصول وجود ندارد. لطفاً در عوض سفارش جدیدی برای این سرویس ثبت کنید";
+$_LANG['unavailable'] = "غیر قابل دسترسی";
+$_LANG['orderForm']['idnNotEnabled'] = "ما در حال حاضر از نام دامنه های بین المللی پشتیبانی نمی کنیم. لطفاً نام دامنه دیگری را امتحان کنید";
 
 $_LANG['store']['ssl']['landingPage']['secureInMinutes'] = "Secure your site in minutes with our fully automated provisioning and deployment";
 $_LANG['store']['fromJust'] = "from just";
 $_LANG['store']['forJust'] = "for just";
 
 $_LANG['goCardless']['paymentPending'] = "A payment has been submitted that will clear your bank on :date. <br>A payment confirmation email will be sent when the payment clears.";
-$_LANG['goCardless']['automaticPayment'] = "There is an automatic payment setup for this account. No manual payment is required.";
+$_LANG['goCardless']['automaticPayment'] = "برای این حساب راه اندازی پرداخت خودکار وجود دارد. نیازی به پرداخت دستی نیست";
 
-$_LANG['contactDetails'] = "Contact Details";
-$_LANG['createNewSupportRequest'] = "Create new Support Request";
+$_LANG['contactDetails'] = "اطلاعات تماس";
+$_LANG['createNewSupportRequest'] = "ایجاد درخواست پشتیبانی جدید";
 
-$_LANG['nonotifications'] = "No Notifications";
+$_LANG['nonotifications'] = "بدون اعلان";
 $_LANG['apply'] = "Apply";
-$_LANG['admin']['returnToAdmin'] = "Return to admin area";
-$_LANG['searchOurKnowledgebase'] = "Search our knowledgebase";
-$_LANG['browseProducts'] = "Browse Products";
-$_LANG['secureYourDomain'] = "Secure your domain name by registering it today";
-$_LANG['secureYourDomainShort'] = "Secure your domain name";
-$_LANG['transferYourDomain'] = "Transfer Your Domain";
-$_LANG['transferExtend'] = "Transfer now to extend your domain by 1 year";
-$_LANG['howCanWeHelp'] = "How can we help today";
-$_LANG['homepage']['submitTicket'] = "Submit a Ticket";
-$_LANG['homepage']['manageServices'] = "Manage Services";
-$_LANG['homepage']['manageDomains'] = "Manage Domains";
-$_LANG['homepage']['supportRequests'] = "Support Requests";
-$_LANG['homepage']['makeAPayment'] = "Make a Payment";
-$_LANG['homepage']['yourAccount'] = "Your Account";
+$_LANG['admin']['returnToAdmin'] = "بازگشت به پنل مدیریت";
+$_LANG['searchOurKnowledgebase'] = "جستجو پایگاه دانش";
+$_LANG['browseProducts'] = "مرور محصولات";
+$_LANG['secureYourDomain'] = "با ثبت نام امروز دامنه خود را ایمن کنید";
+$_LANG['secureYourDomainShort'] = "نام دامنه خود را ایمن کنید";
+$_LANG['transferYourDomain'] = "دامنه خود را انتقال دهید";
+$_LANG['transferExtend'] = "اکنون انتقال دهید تا دامنه خود را 1 سال تمدید کنید";
+$_LANG['howCanWeHelp'] = "چگونه می توانیم امروز کمک کنیم";
+$_LANG['homepage']['submitTicket'] = "ارسال تیکت";
+$_LANG['homepage']['manageServices'] = "مدیریت سرویس";
+$_LANG['homepage']['manageDomains'] = "مدیریت دامنه ها";
+$_LANG['homepage']['supportRequests'] = "درخواست های پشتیبانی";
+$_LANG['homepage']['makeAPayment'] = "ایجاد یک پرداخت";
+$_LANG['homepage']['yourAccount'] = "حساب شما";
 
 $_LANG['downloads']['numDownload'] = ":num File";
 $_LANG['downloads']['numDownloads'] = ":num Files";
 $_LANG['knowledgebase']['numArticle'] = ":num Article";
 $_LANG['knowledgebase']['numArticles'] = ":num Articles";
 
-$_LANG['userLogin']['createAccount'] = "Create account";
-$_LANG['userLogin']['signInToContinue'] = "Sign in to your account to continue.";
-$_LANG['userLogin']['notRegistered'] = "Not registered?";
+$_LANG['userLogin']['createAccount'] = "ایجاد حساب";
+$_LANG['userLogin']['signInToContinue'] = "برای ادامه به حساب خود وارد شوید";
+$_LANG['userLogin']['notRegistered'] = "ثبت نشده است؟";
 
-$_LANG['networkIssues']['scheduled'] = "There are :count Scheduled Network Impacting Issues.";
+$_LANG['networkIssues']['scheduled'] = "موارد زیر وجود دارد :count مسائل مربوط به تأثیرگذاری شبکه برنامه ریزی شده";
 $_LANG['networkIssues']['http'] = "HTTP";
 $_LANG['networkIssues']['ftp'] = "FTP";
 $_LANG['networkIssues']['pop3'] = "POP3";
-$_LANG['networkIssues']['affectingYou'] = "This issue affects a server that may impact your services";
+$_LANG['networkIssues']['affectingYou'] = "این مشکل بر سروری تأثیر می گذارد که ممکن است خدمات شما را تحت تأثیر قرار دهد";
 
-$_LANG['chooseFile'] = "Choose file";
-$_LANG['support']['postedBy'] = "Posted by :name on :date :requestorType";
+$_LANG['chooseFile'] = "انتخاب فایل";
+$_LANG['support']['postedBy'] = "طراحی شده توسط :name on :date :requestorType";
 
-$_LANG['requestor'] = "Requestor";
+$_LANG['requestor'] = "درخواست کننده";
 
 $_LANG['facebook']['notAuthorized'] = "You did not authorize the use of Facebook for authentication. We can't use it to log you in.";
 
 $_LANG['navMarketConnectService']['siteBuilder'] = "Site Builder";
 $_LANG['marketConnect']['siteBuilder']['ftpHost'] = "FTP Host";
-$_LANG['marketConnect']['siteBuilder']['ftpUsername'] = "FTP Username";
-$_LANG['marketConnect']['siteBuilder']['ftpPassword'] = "FTP Password";
+$_LANG['marketConnect']['siteBuilder']['ftpUsername'] = "FTP نام کاربری";
+$_LANG['marketConnect']['siteBuilder']['ftpPassword'] = "FTP رمز عبور";
 $_LANG['marketConnect']['siteBuilder']['ftpPath'] = "FTP Path";
 $_LANG['marketConnect']['siteBuilder']['updateFtp'] = "Update FTP Credentials";
 $_LANG['marketConnect']['siteBuilder']['manage'] = "Log in to Site Builder";
@@ -3928,8 +3949,8 @@ $_LANG['store']['siteBuilder']['features']['essentials']['3'] = "Pre-designed Bu
 $_LANG['store']['siteBuilder']['features']['essentials']['4'] = "Built-in Mobile-Friendly";
 $_LANG['store']['siteBuilder']['features']['essentials']['5'] = "Stock Photos Integration";
 $_LANG['store']['siteBuilder']['features']['essentials']['6'] = "Auto Save & Backup";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['1'] = "The Drag & Drop Editor lets customers add and arrange website features directly on the page with predictive highlighting of areas for placement.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['2'] = "You can use ready-made layout elements like text, buttons, photos, or icons to build any custom professional-looking website layout.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['1'] = "ویرایشگر کشیدن و رها کردن به مشتریان امکان می دهد ویژگی های وب سایت را مستقیماً در صفحه با برجسته سازی پیش بینی کننده مناطق برای قرار دادن اضافه و ترتیب دهند";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['2'] = "می توانید از عناصر چیدمان آماده مانند متن ، دکمه ها ، عکس ها یا نمادها برای ایجاد هر گونه طرح وب سایت سفارشی با ظاهر حرفه ای استفاده کنید";
 $_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['3'] = "You don’t have to waste time manipulating content layouts. A collection of 350+ content blocks helps them build professional websites without any technical skills.";
 $_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['4'] = "Websites will look great on any device. Templates are 100% responsive to all devices, including smartphones, tablets and desktops.";
 $_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['5'] = "Empower your website with a selection of over 200,000 professional premium photos in high-resolution. Our Site Builder also includes Embedded Videos and Image Optimization.";
@@ -4061,22 +4082,22 @@ $_LANG['store']['siteBuilder']['templates']['home-decor'] = "Home Decor";
 $_LANG['store']['siteBuilder']['templates']['toy-store'] = "Toy Store";
 $_LANG['store']['siteBuilder']['templates']['tyre-repairs'] = "Tyre Repairs";
 
-$_LANG['marketConnect']['siteBuilder']['buildWebsite'] = "Build Your Website";
+$_LANG['marketConnect']['siteBuilder']['buildWebsite'] = "وب سایت خود را بسازید";
 $_LANG['store']['siteBuilder']['cartTitle'] = "Responsive site builder";
 $_LANG['store']['siteBuilder']['cartShortDescription'] = "Add our site builder to your order to create an awesome looking website, store or blog.";
 
-$_LANG['clickHere'] = "Click here";
-$_LANG['buy'] = "Buy";
-$_LANG['viewMore'] = "View More...";
+$_LANG['clickHere'] = "اینجا کلیک کنید";
+$_LANG['buy'] = "خرید";
+$_LANG['viewMore'] = "مشاهده بیشتر.";
 
 $_LANG['store']['siteBuilder']['promo']['sidebar']['title'] = "Add Site Builder";
 $_LANG['store']['siteBuilder']['promo']['sidebar']['body'] = "Create your website fast with Site Builder";
 
 $_LANG['cPanel']['wptk'] = "WordPress Toolkit";
 
-$_LANG['wptk']['goToWebsite'] = "Go to Website";
-$_LANG['wptk']['goToAdmin'] = "Admin";
-$_LANG['wptk']['createNew'] = "Create New";
+$_LANG['wptk']['goToWebsite'] = "به وب سایت بروید";
+$_LANG['wptk']['goToAdmin'] = "ادمین";
+$_LANG['wptk']['createNew'] = "ایجاد جدید";
 $_LANG['wptk']['installationSuccess'] = "<strong>Success!</strong> <a href=\"\" target=\"_blank\" id=\"newWordPressLink\">Visit</a> your new WordPress® install, or go to the <a href=\"\" target=\"_blank\" id=\"newWordPressAdminLink\">Admin Area</a>.";
 $_LANG['wptk']['installWordPress'] = "Install WordPress®";
 $_LANG['wptk']['installWordPressShort'] = "Install";
@@ -4089,9 +4110,9 @@ $_LANG['plesk']['statistics'] = "Statistics";
 $_LANG['plesk']['users'] = "Users";
 $_LANG['plesk']['manageDomains'] = "Manage Domains";
 
-$_LANG['contactCreated'] = "Contact created successfully!";
-$_LANG['contactUpdated'] = "Contact updated successfully!";
-$_LANG['contactDeleted'] = "Contact deleted successfully!";
+$_LANG['contactCreated'] = "!مخاطب با موفقیت ایجاد شد";
+$_LANG['contactUpdated'] = "!مخاطب با موفقیت به روز شد";
+$_LANG['contactDeleted'] = "!مخاطب با موفقیت حذف شد";
 $_LANG['recommended'] = "Recommended";
 
 $_LANG['ssl']['siteSeal'] = "Site Seal";
@@ -4112,6 +4133,17 @@ $_LANG['ssl']['installing'] = "Installing Your Certificate";
 $_LANG['ssl']['howToInstall'] = "To install your certificate, upload the certificate above to your server or control panel. The method to do this depends on your hosting environment.";
 $_LANG['ssl']['installFurtherInfo'] = "For more information, see the :anchorRapidSSL Installation Support:endAnchor page.";
 
+$_LANG['recommendations']['title']['generic'] = "Recommendations";
+$_LANG['recommendations']['title']['addedTo'] = "Added to Cart";
+$_LANG['recommendations']['title']['yourOrder'] = "Based on Your Order";
+$_LANG['recommendations']['title']['yourProducts'] = "Based on Your Products";
+$_LANG['recommendations']['explain']['generic'] = "Based on your order, we recommend:";
+$_LANG['recommendations']['explain']['product'] = "Based on this product, we recommend:";
+$_LANG['recommendations']['explain']['ordered'] = "Because you ordered <strong>:productName</strong>, we recommend:";
+$_LANG['recommendations']['learnMore'] = "Click to learn more.";
+$_LANG['recommendations']['productAdded'] = "Product Added";
+$_LANG['recommendations']['taglinePlaceholder'] = "A description (tagline) is not available for this product.";
+
 $_LANG['copyToClipboard'] = "Copy to Clipboard";
 
 $_LANG['usagebilling']['metric']['diskSpace'] = "Disk Space";
@@ -4129,4 +4161,120 @@ $_LANG['idna']['labelTooLong'] = "The domain label has exceeded the maximum leng
 $_LANG['idna']['domainTooLong'] = "The domain has exceeded the maximum length.";
 $_LANG['idna']['invalidDomain'] = "The domain is invalid.";
 $_LANG['idna']['unknownError'] = "An unknown error occurred.";
+
+$_LANG['domains']['europeanDomainTerms'] = "Important Information Regarding Your Contact Data: We are contractually obligated to share your personal information with the registry for this TLD. We will transfer your personal information to the registry, which may publish it to WHOIS publicly. For details on why we share your personal information, review our privacy policy and the domain registration agreement.";
+
+
+$_LANG['store']['ssl']['shared']['oneYearPrice'] = "1 Year";
+$_LANG['store']['ssl']['shared']['twoYearPrice'] = "2 Years";
+$_LANG['store']['ssl']['shared']['threeYearPrice'] = "3 Years";
+
+$_LANG['store']['ssl']['landingPage']['multiYear']['title'] = "Multi-Year SSL Certificates";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p1'] = "Multi-year certificates allow you to pay a single discounted price for two or three years of SSL certificate coverage. When you purchase a multi-year SSL certificate, you lock in a single price for up to 3 years of coverage.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p2'] = "Initially, you will receive a certificate that is valid for the Certificate Authority Browser Forum's maximum allowed term (1 year and 1 month) with the right to unlimited certificate reissues during the order period.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p3'] = "Automated reissuance will occur automatically throughout the term to ensure continued protection for your website.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p4'] = "For example, a 2-year SSL certificate order works as follows:";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p5'] = "SSL certificates must be revalidated periodically. The maximum certificate lifetime is 13 months, requiring revalidation annually.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['title'] = "Benefits";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b1'] = "Enjoy increasing discounts for each year of coverage that you purchase.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b2'] = "Remove the hassle of annual billing.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b3'] = "Annual validation. Yearly validation of identity in shorter validity certificates prevents potential fraud and spoofing.";
+$_LANG['navMarketConnectService']['cpanelseo'] = "cPanel SEO";
+$_LANG['marketConnect']['cPanelSEO']['manage'] = "Log in to cPanel SEO";
+$_LANG['store']['cPanelSEO']['title'] = "cPanel SEO";
+$_LANG['store']['cPanelSEO']['tagline'] = "Be Found Online With :lineBreak cPanel SEO";
+$_LANG['store']['cPanelSEO']['getStarted'] = "Get Started";
+$_LANG['store']['cPanelSEO']['productTourTitle'] = "Product Tour";
+$_LANG['store']['cPanelSEO']['measureResultsTitle'] = "Measurable Results at Your Fingertips";
+$_LANG['store']['cPanelSEO']['measureResults1'] = "Let's say you want to grow your business in the next year. You could start by investing some money in an SEO agency, but that seems like an overwhelming task for someone who doesn't have technical skills!";
+$_LANG['store']['cPanelSEO']['measureResults2'] = ":startBold Luckily, there is an easier way :endBold: let us ensure that people are finding out what makes YOUR company great from their searches online using cPanel SEO.";
+$_LANG['store']['cPanelSEO']['features']['keywords']['title'] = "Keywords";
+$_LANG['store']['cPanelSEO']['features']['advisor']['title'] = "Advisor";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['title'] = "Rank Tracker";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['title'] = "Site Audit";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['title'] = "Text Optimizer";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['title'] = "Benchmarking";
+$_LANG['store']['cPanelSEO']['features']['keywords']['line1'] = "A 53M+ keyword database for research and inspiration";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet1'] = "Get comprehensive keyword data";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet2'] = "Find out which keywords your website's ranking for";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet3'] = "Identify promising keywords for better traffic";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet4'] = "Analyze your competition's keywords and rankings";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet5'] = "Compare international markets";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet6'] = "Profit from a 53M+ keyword database";
+$_LANG['store']['cPanelSEO']['features']['advisor']['line1'] = "Receive, manage, and solve tasks to improve your website";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet1'] = "Kanban-style Task Manager";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet2'] = "Customized and prioritized tasks";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet3'] = "Detailed instructions and additional information";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet4'] = "No expert knowledge needed";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet5'] = "Updated weekly";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['line1'] = "Monitor your rankings and those of your competitors";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet1'] = "Track essential rankings weekly or daily";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet2'] = "Local rankings for brick-and-mortar businesses";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet3'] = "International rankings for global companies";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet4'] = "Keep an eye on your competition";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet5'] = "Track keyword rankings or dedicated pages";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['line1'] = "Check the technical foundation of your website";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet1'] = "Automated weekly site audits";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet2'] = "Technical website check";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet3'] = "Prioritized results";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet4'] = "Shows improvements";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet5'] = "Translated results to advisor tasks";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['line1'] = "Improve your rankings with data-driven content optimization";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet1'] = "Compare your text to Amazon™'s and Google™'s top 10 results";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet2'] = "Increase the content quality in a guided manner";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet3'] = "Add, increase, or reduce keywords as instructed";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['line1'] = "Analyse competitors, compare performance and improve your SEO";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet1'] = "Discover domains that share rankings for the same keywords";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet2'] = "Identify your niche's leader";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet3'] = "Compare keyword rankings of two or more domains";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet4'] = "Track and compare your competition's rankings for important keywords";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet5'] = "Track and compare visibility scores";
+$_LANG['store']['cPanelSEO']['audience']['freelancersTitle'] = "Freelancers";
+$_LANG['store']['cPanelSEO']['audience']['freelancersDesc'] = "cPanel SEO was designed to provide immediate value for your personal website or your clients’ sites, from an initial site audit through recommendations to improve your search engine results.";
+$_LANG['store']['cPanelSEO']['audience']['smbizTitle'] = "Small and Medium-sized Businesses";
+$_LANG['store']['cPanelSEO']['audience']['smbizDesc'] = "You don't have to be an SEO expert to improve your business's Google rankings. cPanel SEO will identify the best keywords for your business while also keeping an eye on the performance of your competitors.";
+$_LANG['store']['cPanelSEO']['moneyBackGuarantee'] = "Flexible Pricing Options With :guaranteeStart 30 Day Money Back Guarantee :guaranteeEnd";
+$_LANG['store']['cPanelSEO']['featurematrix']['1'] = "Projects";
+$_LANG['store']['cPanelSEO']['featurematrix']['2'] = "Full-Access Accounts";
+$_LANG['store']['cPanelSEO']['featurematrix']['3'] = "Read-Only Accounts";
+$_LANG['store']['cPanelSEO']['featurematrix']['4'] = "Competitor Benchmarking";
+$_LANG['store']['cPanelSEO']['featurematrix']['5'] = "Competitors per project";
+$_LANG['store']['cPanelSEO']['featurematrix']['6'] = "Keyword Research";
+$_LANG['store']['cPanelSEO']['featurematrix']['7'] = "Rank Tracker";
+$_LANG['store']['cPanelSEO']['featurematrix']['8'] = "Keyword crawls";
+$_LANG['store']['cPanelSEO']['featurematrix']['9'] = "Keyword check";
+$_LANG['store']['cPanelSEO']['featurematrix']['10'] = "Site Audit";
+$_LANG['store']['cPanelSEO']['featurematrix']['11'] = "Pages to crawl";
+$_LANG['store']['cPanelSEO']['featurematrix']['12'] = "SEO Advisor";
+$_LANG['store']['cPanelSEO']['featurematrix']['13'] = "SEO Text Optimizer";
+$_LANG['store']['cPanelSEO']['faqTitle'] = "Frequently Asked Questions";
+$_LANG['store']['cPanelSEO']['faq1'] = "What is SEO?";
+$_LANG['store']['cPanelSEO']['faq1ans'] = "<p>SEO is an acronym for Search Engine Optimization. It is an essential online marketing strategy dedicated to driving prospective customers to your website. Its goal is to optimize a website to gain top positions for selected keywords on search engines. This goal is achieved by strategically employing measures to improve the website's technical setup and contents and obtaining backlinks from other domains.</p><p>SEO is divided into three general categories:</p><ol><li>Keywords and rankings</li><li>On-page SEO</li><li>Off-page SEO</li></ol><p>SEO specialists apply measures to meet the search engine's ranking factors for each category. Search engines use ranking factors to determine the position in which it lists a website in search results.</p>";
+$_LANG['store']['cPanelSEO']['faq2'] = "Why Do I Need SEO?";
+$_LANG['store']['cPanelSEO']['faq2ans'] = "<p>Every day, millions of people use search engines to find information or services from all aspects of life: Recipes, guides, products, flights, navigation, tickets, entertainment, and more. Most people navigate the web using search engines to find answers to their questions and solutions to their challenges.</p><p>A study shows that 68% of the web's traffic comes from search engines. 53% of this traffic has its origins in organic search—search results that are not ads (paid search) and can be improved through SEO.</p><img src=\":image1\"><p>In other words, organic search (SEO) and paid search (SEA, ads in search results) make up the lion's share of traffic on the web.</p><p>Even where we go offline is significantly influenced by search engines: We use Google and Apple Maps and local search results to find places and nearby services like hairdressers, supermarkets, restaurants, and doctors. We choose our destination based on online reviews. And we instruct search engine-based services to guide us there, be it by car, public transportation, or on foot.</p><p>Now, imagine if your business, products, and services are not listed in search results. Imagine people can't find you online to buy your products or find their way to your brick-and-mortar business. Instead, they will most likely choose your competition.</p>";
+$_LANG['store']['cPanelSEO']['faq3'] = "What Can SEO Do For Me?";
+$_LANG['store']['cPanelSEO']['faq3ans'] = "<p>With the help of SEO, users can find your business, products, and services online—and buy them. As mentioned, that means that people can find you online and much easier offline, too.</p><p>SEO maximizes your chances to be listed in top positions for keywords crucial to your business. The better your position, the more people will find their way to your website—preferably on the first page (or top ten) of search results.</p><p><strong>Why Page One?</strong></p><p>Good question. Studies have shown that 31.7% of users click on the first organic search result (position one); a whopping 75.1% of all clicks go to the top three search results. After that, the number of clicks shrinks rapidly with every following position.</p><img src=\":image2\"><p>This behavior shows that users rarely look at page two or lower results, let alone click on any of them.</p><img src=\":image3\"><p>That's why businesses need to be present on the first page of search results, at least for relevant keywords.</p><p>In short: It's crucial for freelancers and business owners to</p><ol><li>Own a website or any kind of online presence, even if they offer their products or services offline</li><li>Perform SEO to make sure they rank on page one for relevant keywords</li></ol>";
+$_LANG['store']['cPanelSEO']['faq4'] = "Why Are Keywords Important?";
+$_LANG['store']['cPanelSEO']['faq4ans'] = "<p><em>Keyword</em> is a technical term for search queries (words, phrases, sentences, and questions). With their help, users find content that answers their questions and provides solutions. Put simply, a keyword is the link between users and your website. Search engines compare keywords with websites, looking for content with the highest relevance.</p><p>A big part of SEO lies in identifying keywords that have the potential to drive relevant traffic to your website—in other words, bringing in prospective customers. To do that, you need to identify search terms (or keywords) people use when searching for offers like yours. This process is called keyword research. Ideally, keyword research provides you with a list of keywords covering search queries across the entire customer journey.</p>";
+$_LANG['store']['cPanelSEO']['faq5'] = "What Is Keyword Optimization?";
+$_LANG['store']['cPanelSEO']['faq5ans'] = "<p>So we know that relevance is a crucial factor for a top position in search results. To create relevant content, you want to deal with the topics and questions around a keyword on an individual subpage or URL. Then, make sure your keyword appears in crucial spots on your page.</p><p>Let's say you are in the ice cream business. One of your keywords is <em>s'mores ice cream sandwich</em>. Now you focus on everything that has to do with a <em>s'mores ice cream sandwich</em>.</p><p>What you want to do is create a recipe page for a <em>s'mores ice cream sandwich</em> where users find an easy-to-follow recipe, pictures or videos, and answers to questions they might have. <em>S'mores ice cream sandwich</em> is your focus keyword that should appear in your page's URL, title, headlines, and more.</p><p>Providing a dedicated and keyword-optimized page makes it easy for search engines—and users, too—to determine what your page is all about. That way, they can list it in good positions in related search results.</p>";
+$_LANG['store']['cPanelSEO']['faq6'] = "How to use the Advisor";
+$_LANG['store']['cPanelSEO']['faq6ans'] = "<p>First, check out the advisor's board by clicking Advisor in the top navigation bar. It is a Kanban board helping you organize your tasks by status. Your tasks are color coded by importance:</p><ul><li><strong>Red:</strong> High. Solve ASAP.</li><li><strong>Yellow:</strong> Medium. Tackle those soon.</li><li><strong>Blue:</strong> Low. Keep them in mind and solve them when you can.</li></ul><img src=\":image1\"><p>You can drag and drop as you complete tasks, assign tasks to other users (depending on your plan), and filter by the assignee.</p><p>As mentioned above, tasks are a mix of standard basic SEO measures and issues found in weekly automated audits of your website.</p>";
+$_LANG['store']['cPanelSEO']['faq7'] = "I want an advisor for other websites. How do I get it?";
+$_LANG['store']['cPanelSEO']['faq7ans'] = "<p>Keep in mind that you do need a <em>Project</em> for the Advisor feature to work. Also, most of the Advisor's tasks are tailored to a Project's website (usually yours or your client's). If you manage more than one website, you'll need to create an extra Project for each of them.</p><p>To add or switch to another project, click the <em>Projects</em> menu in the top navigation bar. Depending on your plan, you might need to upgrade it to add another Project.</p>";
+$_LANG['store']['cPanelSEO']['faq8'] = "How do I assign tasks to other users?";
+$_LANG['store']['cPanelSEO']['faq8ans'] = "<p>To assign a task to other users, you'll need a plan that allows additional users. If your plan includes additional users, you'll find the Assignee menu in your Advisor and tasks. Simply choose a user to assign a task or filter the Advisor by. To add a new user, click on your profile avatar and then click <em>Users</em>. If your plan does not include additional users, you won't see the <em>Assignee</em> menu in your Advisor or tasks. Upgrade your plan to add users.</p>";
+$_LANG['store']['cPanelSEO']['faq9'] = "There are tasks I've already covered. Why do they pop up?";
+$_LANG['store']['cPanelSEO']['faq9ans'] = "<p>There are two reasons why you might see tasks you've already solved or covered. As mentioned above, tasks are a mix of basic SEO measures and issues found in weekly automated audits of your website.</p><p>First, the tasks covering basic SEO measures are the same for everyone and are not tailored to your website or business. For example, we don't know whether you created a Google account for your business and set up Search Console or if you installed SEO plugins. If you already did—great work! Simply flag those tasks as Done.</p><p>The second reason is that the Advisor is automatically updated based on the results of automated weekly Site Audits. In other words, if a Site Audit identifies any issues concerning a task you completed in the past, it will automatically be updated and pop up in the Open section.</p>";
+$_LANG['store']['cPanelSEO']['faq10'] = "What is Project Visibility?";
+$_LANG['store']['cPanelSEO']['faq10ans'] = "<p>Maybe you already stopped to think, “Wait, but I don't care about my visibility for keywords that have nothing to do with my business.” And you are right. While Visibility is a great score to get an idea of your overall performance and compare websites in general, it's not tailored to your specific keyword set.</p><p>That's why we provide <em>Project Visibility</em>. This metric is calculated the same way as Visibility, but instead of using 500,000 cross-industry keywords, Project Visibility is exclusively based on keywords in your Rank Tracker.</p><p>In other words, Project Visibility is a custom visibility score for the unique set of keywords relevant to your business.</p><p>You'll find Project Visibility here: <em>Projects → Rank Tracker → Visibility</em>.</p><p>As you might already know, you can also track your competitors' rankings in your Rank Tracker. That way, you'll get Project Visibility for them, too, allowing for a much more realistic comparison. So, even if they have a slightly different product or service portfolio, Project Visibility accounts exclusively for keywords you actually share.</p>";
+$_LANG['store']['cPanelSEO']['faq11'] = "Why is Visibility score useful?";
+$_LANG['store']['cPanelSEO']['faq11ans'] = "<p>Use your Visibility score as an indicator of your overall SEO performance, problems, and potential for optimization.</p><p><strong>1. Get An Idea of Your Overall SEO Performance</strong></p><p>You can track rankings for single keywords and know which position you rank on. It's an important thing to do. However, rank tracking does not give you a bird's eye view perspective of the overall improvement of your rankings—but Visibility does. When your SEO measures are effective and rankings improve, so does your Visibility score.</p><p><strong>2. Diagnose SEO Problems</strong></p><p>A sudden drop in your Visibility indicates problems in your SEO performance. Use Visibility like an alert. If it drops significantly, start digging for what happened. Here's a list of common reasons:</p><ul><li>You were hit with a <strong>Google Penalty</strong>. Check Search Console for notifications. Make sure to follow <a href=\":googleWebmasterGuidelinesUrl\" target=\"_blank\">Google's Webmaster Guidelines</a>.</li><li>There are ramifications from a recent change in Google's algorithm. Inquire about recent <strong>Google Updates</strong> and what they entail.</li><li>Your competitors optimized their websites and content, and now they out-compete you. Compare their (historical) <strong>Visibility</strong> with yours. Use the <a href=\":waybackMachineUrl\" target=\"_blank\">Wayback Machine</a> to compare how their content changed.</li><li>You relaunched your site without SEO in mind. For example, check <em>robots.txt</em> and <em>.htaccess</em> for accidentally blocked pages, increased 404 status codes, faulty 301-redirects, and internal links.<br><br>You changed your content in a way that didn't help your rankings. Consider reversing the changes.<br><br>Your website has technical issues. Run a <em>Site Audit</em> or check your <strong><em>Advisor</em></strong> for open technical tasks. Check your backend for outdated, recently updated, or incompatible <strong>plugins</strong> that may cause havoc.<br><br>Hosting issues are the cause. Inquire whether your host made recent changes, has been hacked, moved their servers, or experienced technical difficulties. See if your server has issues.</li></ul><p>Keep in mind that this list is not exhaustive. One or more of those reasons can apply simultaneously, or there could be other reasons altogether.</p><p><strong>3. Competitor Comparison</strong></p><p>Visibility is a great metric for a quick comparison of two or more websites. Check your Visibility against theirs. Who is out-competing who? Has a competitor outperformed you in the past or vice versa? Who's leading the field, and how big is the gap between you and your fiercest competitor? Answering those questions will help you develop an SEO strategy to come out (and stay) at the top of your niche.</p><p><strong>4. Track Visibility Development Over Time With Historical Data</strong></p><p>Want to know how a website fared over time? We provide historical data going all the way back to 2009, free of seasonal fluctuations. That way, you can track and compare historic Visibility and see their development over long periods of time.</p>";
+$_LANG['store']['cPanelSEO']['faq12'] = "How Can I Improve My Visibility Score?";
+$_LANG['store']['cPanelSEO']['faq12ans'] = "<p>Short answer: Don't make improving Visibility a goal in your SEO strategy.</p><p>Long answer: Visibility <em>reflects</em> the quality of your rankings in a single metric; it won't lead to better rankings. Make it your goal to improve your rankings for relevant keywords that prospective customers actually use to find products and services like yours. Improving your rankings will improve your Visibility, too. But it's your rankings that really matter.</p><p>As a rule of thumb, your Visibility score will be higher if</p><ul><li>Your domain's URLs rank in good positions</li><li>You have a high number of indexed URLs with good rankings</li><li>You rank well for keywords with a high search volume</li></ul>";
+$_LANG['store']['cPanelSEO']['promo']['sidebar']['title'] = "SEO Tools";
+$_LANG['store']['cPanelSEO']['promo']['sidebar']['body'] = "Improve your site performance with accurate, reliable, and easy-to-use site rankings, keywords, and an advisor.";
+$_LANG['store']['cPanelSEO']['cartTitle'] = "SEO Tools";
+$_LANG['store']['cPanelSEO']['cartShortDescription'] = "Improve your site performance with accurate, reliable, and easy-to-use site rankings, keywords, and an advisor.";
+
 ////////// End of farsi language file.  Do not place any translation strings below this line!

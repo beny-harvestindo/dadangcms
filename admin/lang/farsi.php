@@ -33,7 +33,7 @@ $_ADMINLANG['global']['-any-'] = "- همه -";
 $_ADMINLANG['global']['newmessage'] = "متن جدید";
 $_ADMINLANG['global']['sendmessage'] = "ارسال";
 $_ADMINLANG['global']['addnew'] = "اضافه نمودن";
-$_ADMINLANG['global']['optional'] = "انتخابی";
+$_ADMINLANG['global']['optional'] = "اختیاری";
 $_ADMINLANG['global']['ticktoenable'] = "فعال";
 $_ADMINLANG['global']['savechanges'] = "ذخیره";
 $_ADMINLANG['global']['cancelchanges'] = "لغو تغییرات";
@@ -121,7 +121,7 @@ $_ADMINLANG['global']['ctrlclickmultiselection'] = "برای انتخاب گزی
 $_ADMINLANG['global']['signupNow'] = "Signup Now";
 $_ADMINLANG['global']['adminArea'] = "منطقه مدیر";
 $_ADMINLANG['global']['cart'] = "سبد خرید";
-$_ADMINLANG['global']['typeToSearchClients'] = "برای جستجوی مشتری ها تایپ را شروع کنید";
+$_ADMINLANG['global']['typeToSearchClients'] = "برای جستجوی مشتری نام مشتری را تایپ کنید";
 $_ADMINLANG['global']['emailAddressNotVerified'] = "مالک این حساب هنوز مالکیت آدرس ایمیل خود را تأیید نکرده است";
 $_ADMINLANG['global']['emailSent'] = "ایمیل ارسال شد";
 $_ADMINLANG['global']['resendEmail'] = "ایمیل تایید را دوباره بفرست";
@@ -199,7 +199,7 @@ $_ADMINLANG['global']['deletedUser'] = "کاربر حذف شده";
 $_ADMINLANG['global']['idnDomain'] = "دامنه IDN";
 $_ADMINLANG['global']['userSystem'] = "سیستم / خودکار";
 $_ADMINLANG['global']['never'] = "هرگز";
-$_ADMINLANG['global']['typeToSearchUsersAndContacts'] = "تایپ کردن را برای افزودن یا انتخاب گیرنده شروع کنید";
+$_ADMINLANG['global']['typeToSearchUsersAndContacts'] = "تایپ کردن برای افزودن یا انتخاب گیرنده";
 $_ADMINLANG['global']['chooseMessage'] = "انتخاب پیام";
 $_ADMINLANG['global']['openInNewWindow'] = "باز کردن در پنجره جدید";
 $_ADMINLANG['global']['saving'] = "صرفه جویی در...";
@@ -213,12 +213,18 @@ $_ADMINLANG['global']['emptied'] = "Emptied";
 $_ADMINLANG['global']['deleteConfirmation'] = "Are you sure that you want to delete the :itemToDelete?";
 $_ADMINLANG['global']['method'] = "Method";
 $_ADMINLANG['global']['navigation'] = "Navigation Menu";
+$_ADMINLANG['global']['searchResultsFor'] = "نتایج جستجو برای";
+$_ADMINLANG['global']['all'] = "همه";
+$_ADMINLANG['global']['asc'] = "صعودی";
+$_ADMINLANG['global']['desc'] = "نزولی";
+$_ADMINLANG['global']['seeformore'] = "For more information, see :subject.";
+$_ADMINLANG['global']['recentlyVisited'] = "Recently Visited";
 
 # Errors
-$_ADMINLANG['error']['connection'] = "Connection Error";
-$_ADMINLANG['error']['authentication'] = "Authentication Error";
-$_ADMINLANG['error']['widgetError'] = "Widget Loading Error";
-$_ADMINLANG['error']['balanceWidgetError'] = "Balance unable to be retrieved";
+$_ADMINLANG['error']['connection'] = "خطای اتصال";
+$_ADMINLANG['error']['authentication'] = "خطا احراز هویت";
+$_ADMINLANG['error']['widgetError'] = "خطای بارگیری ویجت";
+$_ADMINLANG['error']['balanceWidgetError'] = "موجودی قابل بازیابی نیست";
 $_ADMINLANG['error']['balanceWidgetDescription'] = "Please reference the :moduleName Documentation and check the :moduleName module configuration.";
 
 # Home
@@ -353,7 +359,7 @@ $_ADMINLANG['clients']['disablemarketingemails'] = "غیرفعال کردن خب
 $_ADMINLANG['clients']['overrideautoclose'] = "بروزرسانی وضعیت";
 $_ADMINLANG['clients']['overrideautocloseinfo'] = "غیرفعال کردن بروزرسانی وضعیت خودکار";
 $_ADMINLANG['clients']['invalidemail'] = "آدرس ایمیل وارد شده تا معتبر است";
-$_ADMINLANG['clients']['2faenabled'] = "فعال - برای غیرفعال شدن تیکت را بردارید";
+$_ADMINLANG['clients']['2faenabled'] = "فعال - برای غیرفعال شدن تیک را بردارید";
 $_ADMINLANG['clients']['ccstoredisabled'] = "ذخیره اطلاعات کارت اعتباری غیرفعال است";
 $_ADMINLANG['clients']['terminationdateinvalid'] = ".تاریخ خاتمه نادیده گرفته می شود زیرا فقط برای محصولات در وضعیت لغو یا فسخ شده قابل تنظیم است";
 $_ADMINLANG['clients']['allowSSO'] = "Allow Single Sign-On";
@@ -432,7 +438,7 @@ $_ADMINLANG['clientsummary']['deleteclient'] = "حذف اکانت";
 $_ADMINLANG['clientsummary']['export'] = "خروجی گرفتن داده های مشتری";
 $_ADMINLANG['clientsummary']['currentquotes'] = "پیش‌فاکتورهای معتبر";
 $_ADMINLANG['clientsummary']['massupdateitems'] = "بروزرسانی جمعی";
-$_ADMINLANG['clientsummary']['createproratainvoice'] = "ایجاد فاکتور پروراتا";
+$_ADMINLANG['clientsummary']['createproratainvoice'] = "ایجاد فاکتور تناسبی";
 $_ADMINLANG['clientsummary']['invoiceselected'] = "ایجاد فاکتور برای سرویس انتخاب شده";
 $_ADMINLANG['clientsummary']['deleteselected'] = "حذف سرویس انتخاب شده";
 $_ADMINLANG['clientsummary']['deletesuccess'] = "سرویس انتخاب شده حذف شد";
@@ -446,7 +452,7 @@ $_ADMINLANG['clientsummary']['settingautocc'] = "پردازش خودکار کا�
 $_ADMINLANG['clientsummary']['settingreminders'] = "ارسال ایمیل دیرکرد پرداخت";
 $_ADMINLANG['clientsummary']['settinglatefees'] = "اعمال جریمه دیرکرد";
 $_ADMINLANG['clientsummary']['settingtoggle'] = "تغییر وضعیت";
-$_ADMINLANG['clientsummary']['stickynotescheck'] = "مهم کردن";
+$_ADMINLANG['clientsummary']['stickynotescheck'] = "مهم بودن";
 $_ADMINLANG['clientsummary']['statusfilter'] = "وضعیت فیلتر ";
 $_ADMINLANG['clientsummary']['cannotEditAmount'] = ".مقدار قابل ویرایش نیست";
 $_ADMINLANG['clientsummary']['useButtonsToAffectAmount'] = ".برای تأثیرگذاری بر میزان ، از دکمه های افزودن یا حذف اعتبار استفاده کنید";
@@ -497,7 +503,7 @@ $_ADMINLANG['services']['createsuccess'] = "سرویس ایجاد شد";
 $_ADMINLANG['services']['renewsuccess'] = "خدمات با موفقیت تمدید شد";
 $_ADMINLANG['services']['suspendsuccess'] = "سرویس مسدود شد";
 $_ADMINLANG['services']['unsuspendsuccess'] = "سرویس از حالت مسدود خارج شد";
-$_ADMINLANG['services']['terminatesuccess'] = "سرویس حذف شذ";
+$_ADMINLANG['services']['terminatesuccess'] = "سرویس حذف شد";
 $_ADMINLANG['services']['updownsuccess'] = "تغییر پلن انجام شد";
 $_ADMINLANG['services']['changepwsuccess'] = "Service Password Changed Successfully";
 $_ADMINLANG['services']['customsuccess'] = "با موفقیت انجام شد";
@@ -660,7 +666,7 @@ $_ADMINLANG['domains']['eppcode'] = "کد انتقال";
 $_ADMINLANG['domains']['addons'] = "افزونه‌های دامنه";
 $_ADMINLANG['domains']['dnsmanagement'] = "مدیریت DNS";
 $_ADMINLANG['domains']['emailforwarding'] = "فوروارد دامنه";
-$_ADMINLANG['domains']['idprotection'] = "محافظت از کیست";
+$_ADMINLANG['domains']['idprotection'] = "حفاظت از شناسه";
 $_ADMINLANG['domains']['idprotectioncontrolna'] = "حفاظت از شناسه را نمی توان به طور خودکار با ماژول ثبت کننده انتخاب شده مدیریت کرد. هرگونه تغییر مستقیماً باید در سازمان ثبت انجام شود.";
 $_ADMINLANG['domains']['checkingavailability'] = "کنترل امکان ثبت دامنه ...";
 $_ADMINLANG['domains']['viewwhois'] = "مشاهده WHOIS";
@@ -777,7 +783,7 @@ $_ADMINLANG['domains']['sale'] = "فروش";
 $_ADMINLANG['domains']['addSpotlight'] = "کانون توجه را اضافه کنید";
 $_ADMINLANG['domains']['priceOverride'] = "نادیده گرفتن هزینه ثبت نام";
 $_ADMINLANG['domains']['renewOverride'] = "نادیده گرفتن تجدید هزینه";
-$_ADMINLANG['domains']['priceOverrideWarning'] = " (فقط ورود دستی ، نادیده گرفتن از قیمت گذاری به طور پیش فرض)";
+$_ADMINLANG['domains']['priceOverrideWarning'] = " (تنظیم قیمت دلخواه ، نادیده گرفتن قیمت  پیش فرض)";
 $_ADMINLANG['domains']['enablePremiumDomainFailure'] = ".درخواست فعال کردن دامنه های برتر انجام نشد. لطفا صفحه را مجددا بارگذاری کنید و دوباره تلاش کنید";
 $_ADMINLANG['domains']['premiumLevelsTitle'] = "پیکربندی سطح دامنه حق بیمه";
 $_ADMINLANG['domains']['levelUnique'] = "سطح قیمت گذاری باید منحصر به فرد باشد";
@@ -943,7 +949,7 @@ $_ADMINLANG['orders']['availableactions'] = "اقدامات قابل انجام"
 $_ADMINLANG['orders']['anotherproduct'] = "افزودن محصول جدید";
 $_ADMINLANG['orders']['anotherdomain'] = "افزودن دامنه جدید";
 $_ADMINLANG['orders']['noselections'] = "نمی توان سفارشی ایجاد کرد زیرا هیچ کالایی یا موارد ثبت دامنه انتخاب نشده است";
-$_ADMINLANG['orders']['priceoverridedesc'] = "(فقط وارد کردن دستی / نادیده گرفتن قیمت گذاری پیشفرض محصول)";
+$_ADMINLANG['orders']['priceoverridedesc'] = " (تنظیم  مبلغ دلخواه / نادیده گرفتن قیمت گذاری پیشفرض محصول)";
 $_ADMINLANG['orders']['settings'] = "تنظیمات سفارش";
 $_ADMINLANG['orders']['orderconfirmation'] = "تایید سفارش";
 $_ADMINLANG['orders']['geninvoice'] = "ایجاد فاکتور";
@@ -954,7 +960,7 @@ $_ADMINLANG['orders']['toplacenew'] = "برای ایجاد سفارش جدید."
 $_ADMINLANG['orders']['vieworder'] = "مشاهده سفارش";
 $_ADMINLANG['orders']['ordertype'] = "نوع سفارش";
 $_ADMINLANG['orders']['createorder'] = "ایجاد سفارش";
-$_ADMINLANG['orders']['createpromo'] = "تبلیغات سفارشی ایجاد کنید";
+$_ADMINLANG['orders']['createpromo'] = "ایجاد کد تخفیف";
 $_ADMINLANG['orders']['createpromoinfo'] = " در اینجا برای همه موارد یک سفارش اعمال می شود\"on the fly\" تخفیف های تبلیغاتی ایجاد شده";
 $_ADMINLANG['orders']['createPromoNeedPerms'] = "  باید مجوز سرپرست را داشته باشید\"Use Any Promotion Code on Order\"برای اینکه بتوانید یک کد تبلیغات سفارشی برای این سفارش ایجاد کنید .";
 $_ADMINLANG['orders']['sendMessage'] = "آیا مطمئن هستید که می خواهید برای این سفارشات پیامی ارسال کنید؟";
@@ -984,13 +990,13 @@ $_ADMINLANG['orders']['errors']['requiredDomainFieldsTitle'] = "قسمتهای �
 $_ADMINLANG['orders']['errors']['requiredDomainFieldsMsg'] = ".یک یا چند فیلد دامنه مورد نیاز خالی مانده است. این اطلاعات از دست رفته ممکن است باعث از بین رفتن ثبت دامنه شود";
 $_ADMINLANG['orders']['errors']['requiredDomainFieldsAction'] = "کلیک کنید'Submit Order'اگر می خواهید بدون توجه به این اخطار ، سفارش را ادامه دهید ، بر روی دکمه.";
 $_ADMINLANG['orders']['placedBy'] = "سفارش تعیین شده توسط";
-$_ADMINLANG['orders']['productUpgrade'] = "Product Upgrade";
-$_ADMINLANG['orders']['optionsUpgrade'] = "Options Upgrade";
-$_ADMINLANG['orders']['addonUpgrade'] = "Addon Upgrade";
+$_ADMINLANG['orders']['productUpgrade'] = "ارتقاء محصول";
+$_ADMINLANG['orders']['optionsUpgrade'] = "بروزرسانی گزینه ها";
+$_ADMINLANG['orders']['addonUpgrade'] = "بروزرسانی افزونه ها";
 $_ADMINLANG['orders']['addonFeature'] = "ویژگی افزودنی";
-$_ADMINLANG['orders']['invalidAffiliate'] = "Invalid affiliate.";
-$_ADMINLANG['orders']['selfReferral'] = "Self-referrals are invalid.";
-$_ADMINLANG['orders']['referralSuccess'] = "Affiliate has been successfully assigned.";
+$_ADMINLANG['orders']['invalidAffiliate'] = ".همکاری در فروش  نامعتبر است";
+$_ADMINLANG['orders']['selfReferral'] = ".خودارجاعی نامعتبر است";
+$_ADMINLANG['orders']['referralSuccess'] = ".بازاریابی با موفقیت تخصیص یافت";
 
 
 # Billing Cycles
@@ -1082,7 +1088,7 @@ $_ADMINLANG['invoices']['addcredit'] = "افزودن پرداخت";
 $_ADMINLANG['invoices']['removecredit'] = "حذف اعتبار برای فاکتور";
 $_ADMINLANG['invoices']['creditavailable'] = "در دسترس";
 $_ADMINLANG['invoices']['refundtype'] = "نوع بازگشت وجه	";
-$_ADMINLANG['invoices']['refundtypegateway'] = "بازگشت وجه به وسیله دروازه پرداخت (در صورت پشتیبانی برنامه پرداخت)";
+$_ADMINLANG['invoices']['refundtypegateway'] = "بازگشت وجه به وسیله دروازه پرداخت (در صورت پشتیبانی درگاه  پرداخت)";
 $_ADMINLANG['invoices']['refundtypecredit'] = "فقط ثبت (بازگشت وجه به صورت دستی انجام می شود)";
 $_ADMINLANG['invoices']['refundtypemanual'] = "افزودن به موجودی اعتبار مشتری";
 $_ADMINLANG['invoices']['items'] = "موارد فاکتور";
@@ -1101,7 +1107,7 @@ $_ADMINLANG['invoices']['masspayconfirm'] = "آیا مطمئن هستید که �
 $_ADMINLANG['invoices']['masspaysuccess'] = "!فاکتور پرداخت انبوه با موفقیت ایجاد شد";
 $_ADMINLANG['invoices']['notransactions'] = "هنوز هیچ تراکنشی  در این فاکتور اعمال نشده است";
 $_ADMINLANG['invoices']['paidstatuscredit'] = "فاکتور در وضعیت پرداخت شده";
-$_ADMINLANG['invoices']['paidstatuscreditdesc'] = "از آنجا که این فاکتور قبلاً علامت گذاری شده پرداخت شده است ، هرگونه پرداخت بعدی اعمال شده منجر به اعتبار مشتری می شود";
+$_ADMINLANG['invoices']['paidstatuscreditdesc'] = "از آنجا که این فاکتور قبلاً  پرداخت شده است ، هرگونه پرداخت بعدی اعمال شده منجر به اضافه  شدن  مبلغ به  اعتبار مشتری می شود";
 $_ADMINLANG['invoices']['notransapplied'] = "هیچ  تراکنشی اعمال نشده است";
 $_ADMINLANG['invoices']['fullypaidcredit'] = "کاملاً اعتباری پرداخت شده است";
 $_ADMINLANG['invoices']['partialcredit'] = "اعتباری جزئی";
@@ -1115,7 +1121,7 @@ $_ADMINLANG['invoices']['exceedTotal'] = "نمی توانید اعتبار بی�
 $_ADMINLANG['invoices']['exceedTotalRemove'] = "نمی توانید اعتبار بیشتری نسبت به فاکتور اعمال شده حذف کنید";
 $_ADMINLANG['invoices']['creditApplySuccess'] = "%s credit was successfully added to the invoice";
 $_ADMINLANG['invoices']['creditRemoveSuccess'] = "%s credit was successfully removed from the invoice";
-$_ADMINLANG['invoices']['markPaidSuccess'] = "٪ d فاکتور با موفقیت به روز شد.";
+$_ADMINLANG['invoices']['markPaidSuccess'] = "%d فاکتور آپدیت شد";
 $_ADMINLANG['invoices']['markPaidError'] = "فاکتور  های زیر به عنوان پرداخت علامت گذاری نشد: %s.";
 $_ADMINLANG['invoices']['markPaidErrorInfo'] = ".این می تواند بدین معنا باشد که فاکتور در وضعیتی است که قابل پرداخت نیست یا بدهکاری وجود ندارد";
 $_ADMINLANG['invoices']['existingCreditTitle'] = "اعتبار وجود دارد";
@@ -1157,7 +1163,7 @@ $_ADMINLANG['billableitems']['itemsdeleteddesc'] = "موارد ها انتخاب
 $_ADMINLANG['billableitems']['itemsdeletequestion'] = "آیا مطمئن هستید که می خواهید این مورد قابل پرداخت را حذف کنید؟";
 $_ADMINLANG['billableitems']['additem'] = "اضافه کردن موارد قابل پرداخت";
 $_ADMINLANG['billableitems']['itemsinvoiced'] = "موارد های انتخاب شده اکنون در صورتحساب صورت گرفته است";
-$_ADMINLANG['billableitems']['addtimebilling'] = "اضافه کردن مدت زمان مطالب حسابداری";
+$_ADMINLANG['billableitems']['addtimebilling'] = "اضافه کردن ورودی های صورتحساب زمانی";
 $_ADMINLANG['billableitems']['dontinvoice'] = "فاکتور نیست";
 $_ADMINLANG['billableitems']['dontinvoicefornow'] = " فاکتور نکردن برای این مورد";
 $_ADMINLANG['billableitems']['nextcronrun'] = "بعدی کرون را اجرا کنید";
@@ -1213,12 +1219,12 @@ $_ADMINLANG['quotes']['stagedelivered'] = "تحویل داده شده";
 $_ADMINLANG['quotes']['stageonhold'] = "در انتظار";
 $_ADMINLANG['quotes']['stageaccepted'] = "پذیرفته شده";
 $_ADMINLANG['quotes']['stagelost'] = "کم شده";
-$_ADMINLANG['quotes']['stagedead'] = "مرده";
+$_ADMINLANG['quotes']['stagedead'] = "منسوخ";
 $_ADMINLANG['quotes']['validityperiod'] = "دوره اعتبار";
 $_ADMINLANG['quotes']['emailexists'] = "آدرس ایمیل در حال استفاده";
 $_ADMINLANG['quotes']['emailexistsmsg'] = "آدرس ایمیلی که وارد کرده اید در حال حاضر توسط مشتری دیگری استفاده می شود ، بنابراین باید آن را به گزینه دیگری تغییر دهید";
 $_ADMINLANG['quotes']['quoteduplicated'] = "نقل قول کپی";
-$_ADMINLANG['quotes']['quoteduplicatedmsg'] = "نقل قول با موفقیت تکرار شد - نقل قول جدید # نقل قول با موفقیت تکرار شد - نقل قول جدید #";
+$_ADMINLANG['quotes']['quoteduplicatedmsg'] = "نقل قول با موفقیت کپی شد - نقل قول جدید#";
 $_ADMINLANG['quotes']['quotedelivered'] = "نقل شده تحویل داده شده";
 $_ADMINLANG['quotes']['quotedeliveredmsg'] = "پیشنهاد با موفقیت از طریق ایمیل برای مشتری ارسال شد";
 $_ADMINLANG['quotes']['generalinfo'] = "اطلاعات عمومی";
@@ -1238,7 +1244,7 @@ $_ADMINLANG['quotes']['notes'] = "یادداشت";
 $_ADMINLANG['quotes']['proposaltext'] = "متن پیشنهاد";
 $_ADMINLANG['quotes']['proposaltextmsg'] = "(نمایش در بالای نقل قول)";
 $_ADMINLANG['quotes']['customernotes'] = "یادداشت های مشتری";
-$_ADMINLANG['quotes']['customernotesmsg'] = "(به عنوان پاورقی برای نقل قول نمایش داده می شودس)";
+$_ADMINLANG['quotes']['customernotesmsg'] = "(به عنوان پاورقی برای نقل قول نمایش داده می شود)";
 $_ADMINLANG['quotes']['adminonlynotes'] = "مدیر تنها یادداشت ها";
 $_ADMINLANG['quotes']['adminonlynotesmsg'] = "(یادداشت های خصوصی)";
 $_ADMINLANG['quotes']['viewPdf'] = "مشاهده PDF";
@@ -1299,13 +1305,13 @@ $_ADMINLANG['support']['clientsonlyinfo'] = "این کادر را علامت ب�
 $_ADMINLANG['support']['productdl'] = "بارگیری محصول";
 $_ADMINLANG['support']['productdlinfo'] = "اگر این بارگیری فقط پس از خرید محصول یا خرید افزونه در دسترس است ، این کادر را علامت بزنید";
 $_ADMINLANG['support']['downloadlink'] = "لینک دانلود";
-$_ADMINLANG['support']['notoplevel'] = "نمی توانید بارگیری را به دسته سطح بالا اضافه کنید";
+$_ADMINLANG['support']['notoplevel'] = "شما نمی توانید هیچ دانلودی را در دسته بندی اصلی اضافه کنید";
 $_ADMINLANG['support']['dlhome'] = "بارگیری صفحه اصلی";
 $_ADMINLANG['support']['categories'] = "دسته‌بنده‌ها";
 $_ADMINLANG['support']['parentcat'] = "دسته‌ی مادر";
 $_ADMINLANG['support']['toplevel'] = "سطح بالا";
 $_ADMINLANG['support']['hiddeninfo'] = "این کادر را علامت بزنید تا از قسمت مشتری پنهان شوید";
-$_ADMINLANG['support']['youarehere'] = "You are here";
+$_ADMINLANG['support']['youarehere'] = "شما اینجا هستید";
 $_ADMINLANG['support']['ticktohide'] = "مخفی شود";
 $_ADMINLANG['support']['category'] = "دسته بندی";
 $_ADMINLANG['support']['filename'] = "نام فایل";
@@ -1313,7 +1319,7 @@ $_ADMINLANG['support']['kbdelsure'] = "آیا مطمئن هستید که می خ
 $_ADMINLANG['support']['kbcatdelsure'] = ".آیا مطمئن هستید که می خواهید این گروه  را حذف کنید؟ با این کار همه مقالات این گروه حذف می شوند";
 $_ADMINLANG['support']['addarticle'] = "ایجاد مقاله";
 $_ADMINLANG['support']['articlename'] = "نام مقاله";
-$_ADMINLANG['support']['kbnotoplevel'] = "نمی توانید مقاله ای را به گروه سطح بالا اضافه کنید";
+$_ADMINLANG['support']['kbnotoplevel'] = "شما نمی توانید مقاله را در دسته بندی اصلی اضافه کنید";
 $_ADMINLANG['support']['browsebycategory'] = "مرور بر اساس دسته بندی";
 $_ADMINLANG['support']['browsebytag'] = "مرور بر اساس برچسب";
 $_ADMINLANG['support']['noTags'] = "هیچ برچسبی یافت نشد";
@@ -1500,10 +1506,10 @@ $_ADMINLANG['support']['requestor']['authorizeduser'] = "کاربر مجاز";
 $_ADMINLANG['support']['requestor']['registereduser'] = "کاربر ثبت نام شده";
 $_ADMINLANG['support']['requestor']['subaccount'] = "حساب فرعی";
 $_ADMINLANG['support']['requestor']['guest'] = "مهمان";
-$_ADMINLANG['support']['noReplySelected'] = "You must move at least one reply into the new ticket.";
-$_ADMINLANG['support']['unimportedReplies'] = "Unimported Replies";
-$_ADMINLANG['support']['ticketCreationFailed'] = "Ticket Creation Failed: :error";
-$_ADMINLANG['support']['errorUnableToCreateTicketNumber'] = "The system could not generate a ticket number because it reached the maximum number of attempts.";
+$_ADMINLANG['support']['noReplySelected'] = ".شما باید حداقل یک پاسخ را به تیکت  جدید منتقل کنید";
+$_ADMINLANG['support']['unimportedReplies'] = "پاسخ های ایمپورت شده";
+$_ADMINLANG['support']['ticketCreationFailed'] = "ایجاد تیکت ناموفق بود: :error";
+$_ADMINLANG['support']['errorUnableToCreateTicketNumber'] = ".این سیستم نتوانست شماره تیکت ایجاد کند زیرا به حداکثر تعداد تلاش رسیده است";
 
 # Network Issues
 $_ADMINLANG['networkissues']['title'] = "مشکلات شبکه";
@@ -1545,7 +1551,7 @@ $_ADMINLANG['networkIssues']['fieldOther'] = "سیستم / دیگر";
 $_ADMINLANG['networkIssues']['fieldTitle'] = "عنوان";
 $_ADMINLANG['networkIssues']['none'] = "هیچ یک";
 $_ADMINLANG['networkIssues']['reopen'] = "دوباره باز کنید";
-$_ADMINLANG['networkIssues']['close'] = "یستن";
+$_ADMINLANG['networkIssues']['close'] = "بستن";
 $_ADMINLANG['networkIssues']['newIssueSaved'] = ".شماره شبکه با موفقیت ایجاد شد";
 $_ADMINLANG['networkIssues']['existingIssueSaved'] = ".شماره شبکه با موفقیت به روز شد";
 
@@ -1582,12 +1588,14 @@ $_ADMINLANG['affiliates']['title'] = "همکاری در فروش";
 $_ADMINLANG['affiliates']['id'] = "شناسه همکاری در فروش";
 $_ADMINLANG['affiliates']['manage'] = "مدیریت همکاری در فروش";
 $_ADMINLANG['affiliates']['deletesure'] = "آیا مطمئن هستید که می خواهید همکاری در فروش  حذف کنید؟";
+$_ADMINLANG['affiliates']['deletesuccess'] = "سیستم همکاری در فروش  انتخاب شده را با موفقیت حذف شد";
+$_ADMINLANG['affiliates']['notfound'] = "سیستم نتوانست همکاری در فروش  را پیدا کند";
 $_ADMINLANG['affiliates']['visitorsref'] = "بازدید کنندگان ارجاع شده";
 $_ADMINLANG['affiliates']['greaterthan'] = "بزرگتر از";
 $_ADMINLANG['affiliates']['lessthan'] = "کمتر از";
-$_ADMINLANG['affiliates']['withdrawn'] = "پس گرفته شده";
+$_ADMINLANG['affiliates']['withdrawn'] = "دریافتی";
 $_ADMINLANG['affiliates']['signupdate'] = "تاریخ عضویت";
-$_ADMINLANG['affiliates']['signups'] = "ثبت نام کنید";
+$_ADMINLANG['affiliates']['signups'] = "ثبت نام شده";
 $_ADMINLANG['affiliates']['paymentfailed'] = "پرداخت شرکتی ناموفق بود";
 $_ADMINLANG['affiliates']['paymentsuccess'] = "موفقیت در پرداخت سهامداران";
 $_ADMINLANG['affiliates']['paymentsuccessdetail'] = "این کمیسیون به موجودی شرکت های وابسته اضافه شده و آخرین تاریخ پرداخت شده به روز شده است";
@@ -1629,9 +1637,9 @@ $_ADMINLANG['affiliates']['transactiontoclient'] = "ایجاد معامله با
 $_ADMINLANG['affiliates']['transactiontoclientinfo'] = "فقط برای نوع پرداخت تراکنش اعمال می شود";
 $_ADMINLANG['affiliates']['addtocredit'] = "مبلغی را به موجودی اعتبار اضافه کنید";
 $_ADMINLANG['affiliates']['withdrawalsonly'] = "ثبت فقط در برداشت";
-$_ADMINLANG['affiliates']['reverseCommissionTitle'] = "Reverse Affiliate Commission";
+$_ADMINLANG['affiliates']['reverseCommissionTitle'] = "کمیسیون همکاری در فروش  معکوس";
 $_ADMINLANG['affiliates']['reverseCommissionBody'] = "This invoice is associated with an existing affiliate commission. Do you want to reverse this commission during the refund process?";
-$_ADMINLANG['affiliates']['reverseCommissionButton'] = "Reverse Commission";
+$_ADMINLANG['affiliates']['reverseCommissionButton'] = "کمیسیون معکوس";
 $_ADMINLANG['affiliates']['reverseCommissionSuccess'] = "The related affiliate commission has been reversed.";
 $_ADMINLANG['affiliates']['pendingCommissionWillClear'] = "If the associated service is active, this pending commission will become available on :clearDate.";
 
@@ -1663,12 +1671,12 @@ $_ADMINLANG['utilities']['tldImport'] = "ثبت نام TLD همگام سازی";
 $_ADMINLANG['utilities']['adminlog'] = "ورود مدیر";
 $_ADMINLANG['utilities']['emaillog'] = "گزارش پیام ایمیل";
 $_ADMINLANG['utilities']['ticketmaillog'] = "گزارش واردات نامه تیکت";
-$_ADMINLANG['utilities']['ticketMailLog']['messageContent'] = "Message Content";
-$_ADMINLANG['utilities']['ticketMailLog']['importResult'] = "Import Result";
-$_ADMINLANG['utilities']['ticketMailLog']['footer']['imported'] = "This email was successfully imported.";
+$_ADMINLANG['utilities']['ticketMailLog']['messageContent'] = "محتوای پیام";
+$_ADMINLANG['utilities']['ticketMailLog']['importResult'] = "نتیجه واردکردن";
+$_ADMINLANG['utilities']['ticketMailLog']['footer']['imported'] = ".این ایمیل با موفقیت ایمپورت شد";
 $_ADMINLANG['utilities']['ticketMailLog']['footer']['importIntoExisting'] = "You can import this email into ticket :ticket.";
-$_ADMINLANG['utilities']['ticketMailLog']['footer']['importNew'] = "You can import this email into a new ticket.";
-$_ADMINLANG['utilities']['ticketMailLog']['ticketAlert'] = "The following replies were blocked and are not visible in this ticket:";
+$_ADMINLANG['utilities']['ticketMailLog']['footer']['importNew'] = ".می توانید این ایمیل را در یک تیکت جدید وارد کنید";
+$_ADMINLANG['utilities']['ticketMailLog']['ticketAlert'] = ":پاسخ‌های زیر مسدود شده‌اند و در این تیکت قابل مشاهده نیستند";
 $_ADMINLANG['utilities']['whoislog'] = "WHOIS گزارش جستجو";
 $_ADMINLANG['utilities']['phpcompat'] = "سازگاری نسخه PHP";
 $_ADMINLANG['utilities']['linkTracking']['title'] = "پیگیری پیوند";
@@ -1857,9 +1865,9 @@ $_ADMINLANG['setup']['title'] = "پیکربندی";
 $_ADMINLANG['setup']['config'] = "پیکربندی";
 $_ADMINLANG['setup']['general'] = "تنظیمات عمومی";
 $_ADMINLANG['setup']['appsAndIntegrations'] = "برنامه ها و یکپارچه سازی";
-$_ADMINLANG['setup']['automation'] = "تنظیم اعمال خودکار";
-$_ADMINLANG['setup']['marketconnect'] = "اتصال فروشگاه";
-$_ADMINLANG['setup']['emailtpls'] = "ایمیل‌های پیش فرض";
+$_ADMINLANG['setup']['automation'] = "تنظیمات اتوماسیون";
+$_ADMINLANG['setup']['marketconnect'] = "مارکت";
+$_ADMINLANG['setup']['emailtpls'] = "سفارشی سازی متن  ایمیل";
 $_ADMINLANG['setup']['fraud'] = "محافظت در برابر تقلب";
 $_ADMINLANG['setup']['clientgroups'] = "گروه کاربری";
 $_ADMINLANG['setup']['customclientfields'] = "زمینه های مشتری سفارشی";
@@ -1897,15 +1905,27 @@ $_ADMINLANG['setup']['applicationLinks'] = "پیوندهای برنامه";
 $_ADMINLANG['setup']['openIdConnect'] = "OpenID اتصال";
 $_ADMINLANG['setup']['signInIntegrations'] = "ادغام های ورود به سیستم";
 $_ADMINLANG['setup']['tasks'] = "تنظیمات وظایف";
+$_ADMINLANG['setup']['tasksClickToView'] = "برای مشاهده وظایف راه اندازی اینجا را کلیک کنید";
+$_ADMINLANG['setup']['tasksProgressSummary'] = "تعداد :completed عدد از:total  تکمیل شده";
 $_ADMINLANG['setup']['notifications'] = "اطلاعیه";
 $_ADMINLANG['setup']['roles'] = "نقشها و مجوزهای مدیر";
 $_ADMINLANG['setup']['promotions'] = "تخفیفات و کوپن ها";
 $_ADMINLANG['setup']['storage'] = "تنظیمات ذخیره سازی";
 $_ADMINLANG['setup']['tldImport'] = "واردات و قیمت گذاری TLD همگام سازی";
 
+$_ADMINLANG['setup']['systemSettingsTagline'] = "Setup and configure your WHMCS installation";
+
+$_ADMINLANG['setup']['categories']['all'] = "همه تنظیمات";
+$_ADMINLANG['setup']['categories']['system'] = "سیستم";
+$_ADMINLANG['setup']['categories']['apps'] = "برنامه ها و ادغام ها";
+$_ADMINLANG['setup']['categories']['users'] = "مدیریت کاربر";
+$_ADMINLANG['setup']['categories']['products'] = "محصولات و خدمات";
+$_ADMINLANG['setup']['categories']['support'] = "پشتیبانی";
+$_ADMINLANG['setup']['categories']['api'] = "ای پی ای و  امنیت";
+
 $_ADMINLANG['setupDescription']['general'] = "تنظیمات و پیکربندی عمومی";
 $_ADMINLANG['setupDescription']['automation'] = "تنظیم زمان و اتوماسیون";
-$_ADMINLANG['setupDescription']['signInIntegrations'] = "ورود به سیستم را با گوگل ، فیسبوگ و توییتر راه اندازی کنید";
+$_ADMINLANG['setupDescription']['signInIntegrations'] = "Setup sign-in with Google, Facebook and Twitter";
 $_ADMINLANG['setupDescription']['marketconnect'] = "فروش مجدد خدمات پیشرو در بازار";
 $_ADMINLANG['setupDescription']['notifications'] = ".اعلان ها را با Slack و موارد دیگر تنظیم کنید";
 $_ADMINLANG['setupDescription']['admins'] = "اعضای مدیران را تنظیم و مدیریت کنید";
@@ -1973,7 +1993,7 @@ $_ADMINLANG['help']['setupWizard'] = "جادوگر راه اندازی";
 # Fields
 $_ADMINLANG['fields']['id'] = "شناسه";
 $_ADMINLANG['fields']['date'] = "تاریخ";
-$_ADMINLANG['fields']['datetime'] = "زمان قرار";
+$_ADMINLANG['fields']['datetime'] = "تاریخ  و ساعت";
 $_ADMINLANG['fields']['paymentmethod'] = "روش پرداخت";
 $_ADMINLANG['fields']['result'] = "نتیجه";
 $_ADMINLANG['fields']['clientname'] = "نام کاربر";
@@ -2078,6 +2098,7 @@ $_ADMINLANG['fields']['ipaddress'] = "آدرس آی پی";
 $_ADMINLANG['fields']['ipaddressorrange'] = "آدرس IP / محدوده";
 $_ADMINLANG['fields']['ipaddressorrangeinfo'] = ".محدوده های IP نیز ممکن است در علامت گذاری CIDR ارائه شوند";
 $_ADMINLANG['fields']['mb'] = "MB";
+$_ADMINLANG['fields']['microsoftappid'] = "Application (client) ID";
 $_ADMINLANG['fields']['clientid'] = "شناسه کاربر";
 $_ADMINLANG['fields']['clientsecret'] = "راز مشتری";
 $_ADMINLANG['fields']['connectiontoken'] = "توکن اتصال";
@@ -2170,6 +2191,7 @@ $_ADMINLANG['fields']['addonType'] = "نوع افزونه";
 $_ADMINLANG['fields']['gateway'] = "Gateway";
 $_ADMINLANG['fields']['createdAt'] = "Created At";
 $_ADMINLANG['fields']['respondBy'] = "Respond By";
+$_ADMINLANG['fields']['popularity'] = "محبوبیت";
 
 # Contact Permissions
 $_ADMINLANG['contactpermissions']['permprofile'] = "نمایه حساب اصلی را تغییر دهید";
@@ -2184,7 +2206,7 @@ $_ADMINLANG['contactpermissions']['permaffiliates'] = "حساب همکاری د�
 $_ADMINLANG['contactpermissions']['permemails'] = "مشاهده ایمیل ها";
 $_ADMINLANG['contactpermissions']['permorders'] = "سفارشات جدید / بروزرسانی ها / لغوها را انجام دهید";
 $_ADMINLANG['contactpermissions']['permquotes'] = "مشاهده و پذیرش نقل قول ها";
-$_ADMINLANG['contactpermissions']['permproductsso'] = "Allow Single Signon";
+$_ADMINLANG['contactpermissions']['permproductsso'] = "اجازه ورود به سیستم";
 
 
 # Statuses
@@ -2216,7 +2238,7 @@ $_ADMINLANG['status']['delivered'] = "تحویل داده شده";
 $_ADMINLANG['status']['onhold'] = "معلق";
 $_ADMINLANG['status']['accepted'] = "تایید شده";
 $_ADMINLANG['status']['lost'] = "کم شده";
-$_ADMINLANG['status']['dead'] = "مرده";
+$_ADMINLANG['status']['dead'] = "منسوخ";
 $_ADMINLANG['status']['uninvoiced'] = "بدون فاکتور";
 $_ADMINLANG['status']['invoiced'] = "صورتحساب";
 $_ADMINLANG['status']['recurring'] = "دوره‌ای";
@@ -2302,9 +2324,9 @@ $_ADMINLANG['permissions']['89'] = "مشاهده موارد قابل پرداخ�
 $_ADMINLANG['permissions']['90'] = "مدیریت موارد قابل پرداخت";
 $_ADMINLANG['permissions']['37'] = "پردازش کارت اعتباری آفلاین";
 $_ADMINLANG['permissions']['32'] = "مشاهده گزارش دروازه";
-$_ADMINLANG['permissions']['155'] = "List Disputes";
-$_ADMINLANG['permissions']['156'] = "Manage Disputes";
-$_ADMINLANG['permissions']['157'] = "Close Disputes";
+$_ADMINLANG['permissions']['155'] = "لیست اختلافات";
+$_ADMINLANG['permissions']['156'] = "مدیریت اختلافات";
+$_ADMINLANG['permissions']['157'] = "بستن اختلافات";
 $_ADMINLANG['permissions']['85'] = "مدیریت پیشنهادها";
 $_ADMINLANG['permissions']['38'] = "خلاصه مرکز پشتیبانی";
 $_ADMINLANG['permissions']['39'] = "مدیریت اطلاعیه ها";
@@ -2412,7 +2434,7 @@ $_ADMINLANG['addonmodules']['moduledeactivated'] = "ماژول  غیرفعال �
 $_ADMINLANG['addonmodules']['deactivatesure'] = "آیا مطمئن هستید که می خواهید این ماژول را غیرفعال کنید؟";
 $_ADMINLANG['addonmodules']['changesuccess'] = "!تغییرات با موفقیت ذخیره شد";
 $_ADMINLANG['addonmodules']['changesuccessinfo'] = "تغییراتی که ایجاد کردید با موفقیت ذخیره شد";
-$_ADMINLANG['addonmodules']['description'] = "This is where you can activate and manage addon modules in your WHMCS installation. Older legacy modules will still allow you to activate/deactivate and configure access rights, but will not be able to show any configuration options, version or author information.";
+$_ADMINLANG['addonmodules']['description'] = "اینجا  می توانید ماژول های افزونه را در نصب WHMCS خود فعال و مدیریت کنید. ماژول‌های قدیمی‌تر همچنان به شما امکان می‌دهند حقوق دسترسی را فعال/غیرفعال و پیکربندی کنید، اما نمی‌توانند هیچ گونه گزینه پیکربندی، اطلاعات نسخه یا نویسنده را نشان دهند";
 $_ADMINLANG['addonmodules']['module'] = "ماژول";
 $_ADMINLANG['addonmodules']['author'] = "نویسنده";
 $_ADMINLANG['addonmodules']['activate'] = "فعال کنید";
@@ -2604,7 +2626,7 @@ $_ADMINLANG['transactions']['amountInLessThanZero'] = ".نمی تواند کمت
 $_ADMINLANG['transactions']['amountOutLessThanZero'] = ".نمی تواند کمتر از صفر باشدoutمقدار";
 $_ADMINLANG['transactions']['invoiceIdOrDescriptionRequired'] = "شناسه فاکتور یا توضیحات لازم است.";
 $_ADMINLANG['transactions']['amountOrFeeRequired'] = ".مبلغ یا هزینه لازم است";
-$_ADMINLANG['transactions']['amountInOutOrFeeRequired'] = ".مقدار ورودی ، مقدار خارج یا هزینه لازم است";
+$_ADMINLANG['transactions']['amountInOutOrFeeRequired'] = ".مقدار ورودی ، مقدار خروجی یا هزینه لازم است";
 $_ADMINLANG['transactions']['feeMustBeLessThanAmountIn'] = ".حق الزحمه وارد شده باید کمتر از مقدار ارزش آن باشد";
 $_ADMINLANG['transactions']['amountOrFeeInvalidFormat'] = ".مقدار یا هزینه باید به صورت اعشاری باشد";
 $_ADMINLANG['transactions']['amountInFeeMustBePositive'] = ".هزینه برای مبلغ در معامله باید یک مقدار مثبت باشد";
@@ -2693,12 +2715,19 @@ $_ADMINLANG['products']['tabsdetails'] = "جزئیات";
 $_ADMINLANG['products']['tabsmodulesettings'] = "تنظیمات ماژول";
 $_ADMINLANG['products']['tabsupgrades'] = "ارتقا";
 $_ADMINLANG['products']['tabsfreedomain'] = "دامنه رایگان";
+$_ADMINLANG['products']['tabsRecommendations'] = "فروش متقابل";
 $_ADMINLANG['products']['tabslinks'] = "لینک ها";
 $_ADMINLANG['products']['productdesc'] = "توضیحات محصول";
 $_ADMINLANG['products']['htmlallowed'] = "در این زمینه استفاده کنیدHTMLشما می توانید از";
 $_ADMINLANG['products']['htmlnewline'] = "خط جدید";
 $_ADMINLANG['products']['htmlbold'] = "پررنگ";
 $_ADMINLANG['products']['htmlitalics'] = "کج";
+$_ADMINLANG['products']['productShortDesc'] = "توضیحات کوتاه محصول";
+$_ADMINLANG['products']['productShortDescLimitRec'] = "توصیه می کنیم این توضیحات را به 50 کلمه محدود کنید";
+$_ADMINLANG['products']['productTagline'] = "عنوان محصول";
+$_ADMINLANG['products']['productUsedForCrossSells'] = "از این تنظیم برای فروش متقابل محصول توصیه ها در سبد خرید استفاده کنید";
+$_ADMINLANG['products']['productColor'] = "رنگ محصول";
+$_ADMINLANG['products']['productColorInfo'] = "The system may alter color brightness during rendering in order to ensure legibility.";
 $_ADMINLANG['products']['requiredomain'] = "ضروری بودن دامنه";
 $_ADMINLANG['products']['domainregoptionstick'] = "برای نمایش گزینه های دامنه این قسمت را تیک بزنید";
 $_ADMINLANG['products']['stockcontrol'] = "کنترل موجودی کالا";
@@ -2738,6 +2767,11 @@ $_ADMINLANG['products']['freedomainfreerenew'] = "پیشنهاد انتقال / 
 $_ADMINLANG['products']['freedomainpayterms'] = "روش پرداخت دامنه رایگان";
 $_ADMINLANG['products']['selectfreedomainpayterms'] = "مدت های پرداخت محصول را برای دریافت دامنه رایگان انتخاب کنید";
 $_ADMINLANG['products']['freedomaintlds'] = "نوع دامنه رایگان";
+$_ADMINLANG['products']['productRecommendations'] = "محصولات متقابل فروش";
+$_ADMINLANG['products']['productRecommendationsDesc'] = "این لیست محصولاتی را که هنگام سفارش این محصول به صورت متقابل توصیه‌ها نمایش می‌دهند کنترل می‌کند";
+$_ADMINLANG['products']['infoNoRecommendations'] = "شما هیچ توصیه‌ای برای فروش متقابل انتخاب نکرده‌اید";
+$_ADMINLANG['products']['infoClickSave'] = "برای انجام تغییرات روی ذخیره تغییرات کلیک کنید";
+$_ADMINLANG['products']['infoStartTyping'] = "برای جستجوی محصولات شروع به تایپ کنید";
 $_ADMINLANG['products']['customaffiliatepayout'] = "روش پرداخت بازاریاب دلخواه";
 $_ADMINLANG['products']['subdomainoptions'] = "تنظیمات ساب دامین";
 $_ADMINLANG['products']['subdomainoptionsdesc'] = " (در صورت تمایل برای چند گزینه می توانید از کاما بین هر کدام استفاده نمایید)example.comبا این روش وارد نمایید";
@@ -2979,7 +3013,7 @@ $_ADMINLANG['automation']['changeOfDailyCronHourHelpText'] = "شما برای ا
 $_ADMINLANG['automation']['dataRetentionSettings'] = "تنظیمات ذخیره اطلاعات";
 $_ADMINLANG['automation']['dataRetentionNever'] = "هرگز";
 $_ADMINLANG['automation']['autoDeleteInactiveClients'] = "حذف مشتریان غیر فعال به صورت خودکار";
-$_ADMINLANG['automation']['autoDeleteInactiveClientsAfter'] = "After no invoice payment has occurred for the inactive or closed client in the following number of months";
+$_ADMINLANG['automation']['autoDeleteInactiveClientsAfter'] = "پس از اینکه هیچ فاکتوری برای مشتری غیرفعال یا بسته در چند ماه بعد پرداخت نشد";
 $_ADMINLANG['automation']['warning'] = "هشدار";
 $_ADMINLANG['automation']['warningRemoveCustomerData'] = "این به طور غیرقابل برگشت تمام اطلاعات مشتری را پاک می کند";
 $_ADMINLANG['automation']['inactiveClientExplanation'] = "یک مشتری غیرفعال به عنوان یک مشتری بدون هیچ محصول فعال، خدمات، افزونه یا دامنه تعریف شده است.";
@@ -3004,6 +3038,9 @@ $_ADMINLANG['gateways']['displayname'] = "نام";
 $_ADMINLANG['gateways']['currencyconvert'] = "تبدیل برای پردازش";
 $_ADMINLANG['gateways']['activate'] = "فعال";
 $_ADMINLANG['gateways']['deactivate'] = "غیرفعال";
+$_ADMINLANG['gateways']['move'] = "Move";
+$_ADMINLANG['gateways']['moveDesc'] = "Drag and drop to rearrange gateway order.";
+$_ADMINLANG['gateways']['configureDesc'] = "Click to configure gateway.";
 $_ADMINLANG['gateways']['activatemodule'] = "فعال کردن ماژول ";
 $_ADMINLANG['gateways']['deactivatemodule'] = "غیرفعال کردن ماژول";
 $_ADMINLANG['gateways']['deactivatemoduleinfo'] = ".برای غیرفعال کردن این ماژول دروازه ، ابتدا باید گزینه دیگری را برای محصولات و فاکتورهایی که در حال حاضر به آن اختصاص داده شده است انتخاب کنید تا به";
@@ -3012,18 +3049,21 @@ $_ADMINLANG['gateways']['activatesuccess'] = "درگاه پرداخت انتخا
 $_ADMINLANG['gateways']['deactivatesuccess'] = "درگاه پرداخت انتخاب شده اکنون غیرفعال شده است";
 $_ADMINLANG['gateways']['sortchangesuccess'] = "مرتب سازی درگاه پرداخت به روز شده است";
 $_ADMINLANG['gateways']['savesuccess'] = "تغییرات در تنظیمات درگاه پرداخت ذخیره شده است";
-$_ADMINLANG['gateways']['nonesetup'] = "هیچ روش پرداختی راه اندازی نشده است بنابراین نمی توانید ادامه دهید. لطفا حداقل یک ماژول دروازه را در<a href=\"configgateways.php\">صفحه پیکربندی دروازه پرداخت</a> and then try again.";
+$_ADMINLANG['gateways']['nonesetup'] = "No payment methods are currently available. Activate at least one payment gateway app in the <a href=\":paymentGatewayURI\">Payments section in Apps & Integrations</a> and try again";
 $_ADMINLANG['gateways']['noGatewaysActive'] = ":درگاه پرداخت بدون پرداخت فعال است";
 $_ADMINLANG['gateways']['activateGatewayFirst'] = ".حداقل یک ماژول درگاه پرداخت را قبل از اقدام به پیکربندی آن در اینجا فعال کنید";
 $_ADMINLANG['gateways']['moduleunavailable'] = "به احتمال زیاد این ماژول راه حل پرداخت بارگیری نمی شود ، زیرا حذف شده است. اکنون باید آن را غیرفعال کنید.";
 $_ADMINLANG['gateways']['changesUnsaved'] = ".تغییرات شما ذخیره نشده است";
 $_ADMINLANG['gateways']['noConfigFound'] = "<strong>:خطای ماژول دروازه</strong> در این مورد یافت نشد (_config)  عملکرد پیکربندی <br>";
+$_ADMINLANG['gateways']['visitAppsIntegrationsDesc'] = "Looking to activate a new payment gateway? Visit <strong>Apps & Integrations</strong> for a full list of our payment gateway integrations.";
+$_ADMINLANG['gateways']['visitAppsIntegrationsButton'] = "Visit Apps & Integrations";
+$_ADMINLANG['gateways']['visitMarketplaceDesc'] = "Many more payment gateways, while not included in WHMCS by default, have modules for WHMCS. You can find them in the <a href=\":marketplaceURI\" target=\"_blank\">WHMCS Marketplace</a>.";
 
 # Backups
 $_ADMINLANG['backups']['title'] = "پشتیبان گیری از پایگاه داده";
 $_ADMINLANG['backups']['changesuccess'] = "!تغییرات با موفقیت ذخیره شد";
 $_ADMINLANG['backups']['changesuccessinfo'] = ".تغییرات در تنظیمات پشتیبان با موفقیت ذخیره شد";
-$_ADMINLANG['backups']['description'] = "پایگاه داده جایی است که تمام داده های  شما ذخیره می شود و بنابراین بسیار مهم است. بنابراین توصیه می شود که به طور منظم از آن پشتیبان تهیه کنید. 2 راه حل برای پشتیبان گیری از پایگاه داده با استفاده از کرون روزانه وجود دارد - یکی ایمیل و دیگری پشتیبان گیری اف تی پی در یک سرور از راه دور. در زیر می توانید این موارد را پیکربندی کنید";
+$_ADMINLANG['backups']['description'] = "We recommend taking regular backups to protect against data loss. WHMCS can perform daily automated backups of the database via one or more of the following methods. As a precautionary measure, you should make your own backups as-well.";
 $_ADMINLANG['backups']['dailyemail'] = "پشتیبان گیری از ایمیل روزانه";
 $_ADMINLANG['backups']['emailinfo'] = "ایمیل را وارد کنید تا پرونده پشتیبان به آن ارسال شود";
 $_ADMINLANG['backups']['blanktodisable'] = "خالی بگذارید تا غیرفعال شود";
@@ -3120,8 +3160,8 @@ $_ADMINLANG['system']['dldbbackup'] = "بارگیری پشتیبان پایگا�
 $_ADMINLANG['system']['emailmessagelog'] = "سیستم گزارش پیام ایمیلب";
 $_ADMINLANG['system']['recipient'] = "گیرنده";
 $_ADMINLANG['system']['integrationcode'] = "کد یکپارچه سازی";
-$_ADMINLANG['system']['integrationinfo'] = ". شما یکپارچه سازی شودWHMCSزیر را می توان به وب سایت شما اضافه کرد تا با سیستمHTMLقطعه های کد";
-$_ADMINLANG['system']['widgetsinfo'] = "ابزارک ها ابزار مفیدی هستند که ما در اختیار شما قرار می دهیم تا بتوانید از WHMCS بصورت زنده خروجی پویا به وب سایت خود اضافه کنید. به عنوان مثال از این موارد می توان برای نمایش توصیفات محصول و قیمت گذاری استفاده کرد که در صورت ایجاد تغییرات از طریق WHMCS ، به روز رسانی خودکار در سایت شما انجام می شود. برای اطلاعات بیشتر ، لطفا مراجعه کنید";
+$_ADMINLANG['system']['integrationinfo'] = "قطعه کد HTML زیر را می توان به وب سایت شما اضافه کرد تا با سیستم WHMCS شما یکپارچه شود";
+$_ADMINLANG['system']['widgetsinfo'] = "ابزارک ها ابزار مفید دیگری است که ما ارائه می کنیم تا به شما امکان می دهد خروجی پویا را به صورت زنده از WHMCS به وب سایت خود اضافه کنید. به عنوان مثال، می‌توان از این موارد برای نمایش توضیحات محصول و قیمت‌هایی استفاده کرد که به‌روزرسانی خودکار در سایت شما در صورت ایجاد تغییرات از طریق WHMCS. برای اطلاعات بیشتر لطفا ببینید";
 $_ADMINLANG['system']['intclientlogin'] = "ورود مشتریان";
 $_ADMINLANG['system']['intclientlogininfo'] = "ایجاد می شود WHMCSبا افزودن این کد فرم ورود مشتریان مستقیما به ناحیه کاربری";
 $_ADMINLANG['system']['intdalookup'] = "جستجوی در دسترس بودن دامنه";
@@ -3138,7 +3178,7 @@ $_ADMINLANG['system']['ticketimportblockloop'] = "حلقه ایمیل احتما
 $_ADMINLANG['system']['ticketimportdeptnotfound'] = "بخش یافت نشد";
 $_ADMINLANG['system']['ticketimporttidnotfound'] = "شناسه تیکت یافت نشد";
 $_ADMINLANG['system']['ticketimportunregistered'] = "آدرس ایمیل ثبت نشده";
-$_ADMINLANG['system']['ticketimportunregisteredopen'] = "افتتاح نیکت مسدود شده توسط کاربر ثبت نشده";
+$_ADMINLANG['system']['ticketimportunregisteredopen'] = "افتتاح تیکت مسدود شده توسط کاربر ثبت نشده";
 $_ADMINLANG['system']['ticketimportrepliesonly'] = "فقط پاسخ ها از طریق ایمیل مجاز است";
 $_ADMINLANG['system']['ignoreimport'] = "نادیده گرفتن خطا و وارد کردن";
 $_ADMINLANG['system']['phpinfo'] = "PHPاطلاعات";
@@ -3200,6 +3240,8 @@ $_ADMINLANG['license']['forceLicenseUpdateSuccess'] = "به روزرسانی م�
 $_ADMINLANG['license']['invalidkey'] = "کلید مجوز نامعتبر است";
 
 # Banned Emails
+$_ADMINLANG['bans']['domainaddfail'] = "دامنه ای که وارد کردید نامعتبر است";
+$_ADMINLANG['bans']['domainexistsfail'] = "دامنه ای که وارد کردید قبلاً ممنوع است";
 $_ADMINLANG['bans']['emailtitle'] = "دامنه های ایمیل ممنوع";
 $_ADMINLANG['bans']['emailaddsuccess'] = "!ایمیل ممنوع اضافه شده است";
 $_ADMINLANG['bans']['emailaddsuccessinfo'] = "!آدرس ایمیل ممنوع جدید با موفقیت اضافه شد";
@@ -3484,7 +3526,7 @@ $_ADMINLANG['general']['defaultcountry'] = "کشور پیشفرض";
 $_ADMINLANG['general']['defaultlanguage'] = "زبان پیشفرض";
 $_ADMINLANG['general']['languagemenu'] = "فعال بودن منوی زبان ها";
 $_ADMINLANG['general']['languagechange'] = "اجازه به کاربران برای انتخاب زبان سیستم";
-$_ADMINLANG['general']['enableTranslations'] = "ترجمه های میدانی پویا";
+$_ADMINLANG['general']['enableTranslations'] = "ترجمه های  پویا";
 $_ADMINLANG['general']['enableTranslationsDescription'] = "محلی سازی مقادیر فیلد پایگاه داده پشتیبانی شده را به چندین زبان فعال کنید";
 
 $_ADMINLANG['general']['utf8mb4cut'] = " UTF-8حذف کاراکتر اضافی";
@@ -3518,6 +3560,19 @@ $_ADMINLANG['general']['randomuser'] = "فعال کردن نام کاربری ا
 $_ADMINLANG['general']['randomuserinfo'] = "برای ایجاد نام کاربری اتفاقی با استفاده از 9حرف اول دامنه این قسمت را تیک بزنید";
 $_ADMINLANG['general']['prorataanniversary'] = "ثبت تاریخچه صورت حساب تناسبی";
 $_ADMINLANG['general']['prorataanniversaryinfo'] = "صورت حساب تناسبی محصول به مشتریان تاریخ ثبت نام سالگرد اگر صورت حساب تناسبی فعال باشد یعنی همه موارد به دلیل در همان روز در مشتری یا به عبارت دیگر مثلا اگر محصولی 30 روزه باشد و مشتری در روز پنجم سفارش خود را ثبت کند تنها هزینه  بیست و پنج روز باقیمانده را پرداخت میکند و سرویس نیز بیست و پنج روز برای مشتری ثبت خواهد شد";
+$_ADMINLANG['general']['recommendationEnable'] = "فروش متقابل محصول را فعال کنید";
+$_ADMINLANG['general']['recommendationEnableInfo'] = "علامت بزنید تا فروش متقابل محصول در سبد خرید نمایش داده شود";
+$_ADMINLANG['general']['recommendationLocation'] = "مکان های فروش متقابل محصول";
+$_ADMINLANG['general']['recommendationLocationAfterAdd'] = "نمایش در هنگام افزودن محصول به سبد خرید";
+$_ADMINLANG['general']['recommendationLocationViewCart'] = "نمایش در صفحه <strong> بررسی و پرداخت</strong>";
+$_ADMINLANG['general']['recommendationLocationCheckout'] = "نمایش در صفحه  <strong>پرداخت</strong>";
+$_ADMINLANG['general']['recommendationLocationComplete'] = "نمایش در صفحه <strong>تایید سفارش</strong>";
+$_ADMINLANG['general']['recommendationCount'] = "تعداد فروش متقابل";
+$_ADMINLANG['general']['recommendationCountInfo'] = "تعداد فروش متقابل برای نمایش به مشتری در تجربه سبد خرید";
+$_ADMINLANG['general']['recommendationExisting'] = "در تأیید سفارش، خدمات موجود را توصیه کنید";
+$_ADMINLANG['general']['recommendationExistingInfo'] = "رای ارائه خدماتی که قبلاً خریداری کرده‌اند در صفحه تأیید سفارش، فروش متقابل محصول را برای مشتریانی که وارد سیستم شده‌اند علامت بزنید.";
+$_ADMINLANG['general']['recommendationStyle'] = "سبک فروش متقابل محصول";
+$_ADMINLANG['general']['recommendationStyleInfo'] = "بررسی کنید تا به مشتریان توضیح دهید که چرا فروش متقابل خاص ارائه شده است";
 $_ADMINLANG['general']['domainoptions'] = "گزینه های ثبت دامنه";
 $_ADMINLANG['general']['domainoptionsreg'] = "اجازه به کاربران برای ثبت دامنه";
 $_ADMINLANG['general']['domainoptionstran'] = "اجازه به کاربران برای انتقال دامنه";
@@ -3581,10 +3636,10 @@ $_ADMINLANG['general']['smtpssltype'] = "SMTP SSL نوع";
 $_ADMINLANG['general']['smtpssl'] = "SSL";
 $_ADMINLANG['general']['smtptls'] = "TLS";
 $_ADMINLANG['general']['mailsignature'] = "امضای ایمیل";
-$_ADMINLANG['general']['emailcsscode'] = "ایمیل هاCSSکد";
-$_ADMINLANG['general']['emailClientHeader'] = "هدر ایمیل";
+$_ADMINLANG['general']['emailcsscode'] = "کد استایل ایمیل";
+$_ADMINLANG['general']['emailClientHeader'] = "سربرگ ایمیل";
 $_ADMINLANG['general']['emailClientHeaderInfo'] = "هر متنی که شما در انجا وارد کنید ، در پایین تمامی قالب های ایمیل مشتریان نمایش داده میشود ، میتوانید از کد های اچ تی ام ال هم استفاده کنید";
-$_ADMINLANG['general']['emailClientFooter'] = "فوتر ایمیل";
+$_ADMINLANG['general']['emailClientFooter'] = "پاورقی ایمیل";
 $_ADMINLANG['general']['emailClientFooterInfo'] = "هر متنی که در اینجا وارد کنید به پایین همه الگوهای ایمیل مشتری ارسال شده توسط سیستم اضافه می شود";
 $_ADMINLANG['general']['systemfromname'] = "نام ایمیل های ارسالی توسط سیستم";
 $_ADMINLANG['general']['systemfromemail'] = "ایمیل مورد نظر برای ارسال ایمیل های سیستم";
@@ -3690,10 +3745,10 @@ $_ADMINLANG['general']['captchaoffloggedin'] = "هنگامی که مشتری و�
 $_ADMINLANG['general']['captchaoff'] = "همیشه خاموش";
 $_ADMINLANG['general']['captchatype'] = "نوع کپچا";
 $_ADMINLANG['general']['captchadefault'] = "پیشفرض(6 کد تایید شخصیت)";
-$_ADMINLANG['general']['captcharecaptcha'] = "ریکپچا (سرویس ریکپچا گوگل)";
-$_ADMINLANG['general']['captchainvisible'] = "ریکپچا نامرئی";
-$_ADMINLANG['general']['recaptchaprivatekey'] = "کلید مخفی ریکپچا";
-$_ADMINLANG['general']['recaptchapublickey'] = "ریکپچا کلید سایت";
+$_ADMINLANG['general']['captcharecaptcha'] = "reCAPTCHA v2 (Google's reCAPTCHA system)";
+$_ADMINLANG['general']['captchainvisible'] = "Invisible reCAPTCHA";
+$_ADMINLANG['general']['recaptchaprivatekey'] = "reCAPTCHA Secret Key";
+$_ADMINLANG['general']['recaptchapublickey'] = "reCAPTCHA Site Key";
 $_ADMINLANG['general']['recaptchaforms'] = "Captcha برای فرم های انتخاب شده";
 $_ADMINLANG['general']['recaptchaform-checkoutCompletion'] = "پرداخت سبد خرید";
 $_ADMINLANG['general']['recaptchaform-domainChecker'] = "جستجوگر دامنه";
@@ -3721,15 +3776,15 @@ $_ADMINLANG['general']['disablesessionip'] = "غیرفعال کردن بررسی
 $_ADMINLANG['general']['disablesessionipinfo'] = "این قسمت برای امنیت در برابر دزدیده شدن کوکی ها استفاده می شود اما ممکن است برای کاربران با آی پی های داینامیک مشکل ساز شود";
 $_ADMINLANG['general']['bannedsubdomainprefixes'] = "پيشوند هايي غيرمجاز براي ساب دامين";
 $_ADMINLANG['general']['apirestriction'] = "API محدود کردن آی پی برای دسترسی به";
-$_ADMINLANG['general']['apirestrictioninfo'] = "- هرکدام از آی پی های مجاز را برای اتصال به API در یک خط وارد نمایید";
+$_ADMINLANG['general']['apirestrictioninfo'] = "IP Addresses allowed to connect to the WHMCS API";
 $_ADMINLANG['general']['twitterint'] = "نام کاربری توییتر";
-$_ADMINLANG['general']['twitterintinfo'] = "نام کاربری توییتر خود را برای فعال کردن یکپارچه سازی وارد کنید";
+$_ADMINLANG['general']['twitterintinfo'] = "Enter your Twitter Username here to Enable Integration";
 $_ADMINLANG['general']['twitterannouncementstweet'] = "اطلاعیه ها توییت";
 $_ADMINLANG['general']['twitterannouncementstweetinfo'] = "فعال کردن توییت در اطلاعیه";
-$_ADMINLANG['general']['facebookannouncementsrecommend'] = "فیس بوک";
-$_ADMINLANG['general']['facebookannouncementsrecommendinfo'] = "فعال کردن فیس بوک در اطلاعیه";
-$_ADMINLANG['general']['facebookannouncementscomments'] = "نظرات فیس بوک";
-$_ADMINLANG['general']['facebookannouncementscommentsinfo'] = "فعال کردن ارسال نظر فیس بوک در اطلاعیه ها";
+$_ADMINLANG['general']['facebookannouncementsrecommend'] = "Facebook Recommend";
+$_ADMINLANG['general']['facebookannouncementsrecommendinfo'] = "Enable Facebook Recommend/Send on Announcements";
+$_ADMINLANG['general']['facebookannouncementscomments'] = "Facebook Comments";
+$_ADMINLANG['general']['facebookannouncementscommentsinfo'] = "Enable Facebook Comments on Announcements";
 $_ADMINLANG['general']['adminclientformat'] = "فرمت نمایش مشتریان در ادمین";
 $_ADMINLANG['general']['showfirstlast'] = "نمایش نام / نام خانوادگی";
 $_ADMINLANG['general']['showcompanyfirstlast'] = "نمایش نام تجاری در صورتی که تنظیم شده باشد، در غیر اینصورت نام / نام خانوداگی";
@@ -3761,10 +3816,10 @@ $_ADMINLANG['general']['errorreportinglevel_inherit'] = "رث می برند از
 $_ADMINLANG['general']['enablesafeinclude'] = "بارگذاری رمزگذاری شده";
 $_ADMINLANG['general']['enablesafeincludeyes'] = "کدگذاری شده اند بارگیری نمی شود php برای اهداف ناشناخته  ionCube  فایل هایی که با";
 $_ADMINLANG['general']['enablesafeincludeno'] = "تلاش برای بارگذاری تمام فایل ها";
-$_ADMINLANG['general']['eventHandlingMode'] = "Event Handling";
-$_ADMINLANG['general']['eventHandlingModeAsync'] = "Concurrent (Launch an asynchronous request.)";
-$_ADMINLANG['general']['eventHandlingModeInline'] = "Inline (Handle events within the same request.)";
-$_ADMINLANG['general']['eventHandlingModeCron'] = "Cron (Defer events until the next cron run.)";
+$_ADMINLANG['general']['eventHandlingMode'] = "مدیریت رویداد";
+$_ADMINLANG['general']['eventHandlingModeAsync'] = "همزمان (یک درخواست ناهمزمان را راه اندازی کنید.)";
+$_ADMINLANG['general']['eventHandlingModeInline'] = "درون خطی (رویدادها را در همان درخواست مدیریت کنید.)";
+$_ADMINLANG['general']['eventHandlingModeCron'] = "Cron (رویدادها را تا اجرای cron بعدی به تعویق بیندازید.)";
 $_ADMINLANG['general']['displayerrors'] = "نمایش خطا";
 $_ADMINLANG['general']['displayerrorsinfo'] = " این قسمت را تیکت بزنید. (این قسمت را برای سایت در حال فعالیت، فعال نکنید) php برای فعال کردن نمایش خطاهای";
 $_ADMINLANG['general']['logerrors'] = "خطاهای ورود";
@@ -3791,7 +3846,7 @@ $_ADMINLANG['general']['csrftoken_ns_WHMCS_ns_defaultinfo'] = " برای تما�
 $_ADMINLANG['general']['csrftoken_ns_WHMCS_ns_domainchecker'] = "نشانه: جستجوگر دامنه CSRF";
 $_ADMINLANG['general']['csrftoken_ns_WHMCS_ns_domaincheckerinfo'] = "برای فرم جستجوگر دامنه می کند  CSRF تیک را قادر به استفاده از نشانه";
 $_ADMINLANG['general']['allowsmartyphptags'] = " php اجازه دادن به استفاده از تگ های";
-$_ADMINLANG['general']['allowsmartyphptagsinfo'] = "تیکت زدن این گزینه به شما اجازه استفاده از تگ های پی اچ پی  را در قالب میدهد ، این را مد نظر داشته باشید که اگر در این خصوص اطلاعاتی ندارید بهتر است تیک را برندارید ، چرا که ممکن است برای شما خطرات امنیتی داشته باشد";
+$_ADMINLANG['general']['allowsmartyphptagsinfo'] = "Check to allow use of the Smarty {php} tag in templates. This is considered a security risk.";
 $_ADMINLANG['general']['ticketEmailLimit'] = "محدود سازی ارسال با ایمیل	";
 $_ADMINLANG['general']['ticketEmailLimitInfo'] = "ارسال ایمیل حداکثردر هر 15 دقیقه";
 $_ADMINLANG['general']['limitNotNumeric'] = "حد ایمیل پاسخ بلیط باید عددی و بیشتر از صفر باشد";
@@ -3803,7 +3858,7 @@ $_ADMINLANG['general']['addtrustedproxy'] = "افزودن پروکسی مورد 
 $_ADMINLANG['general']['logapiauthentication'] = "  احراز هویتAPI ورود";
 $_ADMINLANG['general']['logapiauthenticationinfo'] = " در محیط مدیریت تیک بزنید API برای ثبت احراز هویت موفق ";
 $_ADMINLANG['general']['autoCancelSubscriptions'] = "مدیریت اشتراک به صورت خودکار";
-$_ADMINLANG['general']['autoCancelSubscriptionsInfo'] = "تیک به صورت خودکار لغو موافقتنامه های اشتراک موجود (به عنوان مثال. پی پال اشتراک) در ارتقا و یا لغو";
+$_ADMINLANG['general']['autoCancelSubscriptionsInfo'] = "Check to auto-cancel existing subscription agreements (eg. PayPal Subscriptions) on Upgrade or Cancellation.";
 $_ADMINLANG['general']['sequentialPaidNumberValidationFail'] = "فقط درج خودکار برچسب ها و نویسه ها است{}!@€#£$&()-=+[]شخصیت های خاص مجاز هستند";
 $_ADMINLANG['general']['preventEmailReopeningTicket'] = "جلوگیری از ایمیل بازگشایی";
 $_ADMINLANG['general']['preventEmailReopeningTicketDescription'] = "تیک برای جلوگیری از پاسخ ایمیل از تیکت دوباره باز بسته و یک ایمیل به مشاوره برای باز کردن یک تیکت جدید یا به روز رسانی تیکت های موجود برای مشتریان برای ارسال";
@@ -3829,7 +3884,7 @@ $_ADMINLANG['general']['discover'] = "دیسکاورکارت";
 $_ADMINLANG['general']['americanexpress'] = "آمریکن اکسپرس";
 $_ADMINLANG['general']['jcb'] = "JCB";
 $_ADMINLANG['general']['dinersclub'] = "Diners Club";
-$_ADMINLANG['general']['maestro'] = "استاد";
+$_ADMINLANG['general']['maestro'] = "Maestro";
 $_ADMINLANG['general']['dankort'] = "Dankort";
 $_ADMINLANG['general']['forbrugsforeningen'] = "Forbrugsforeningen";
 $_ADMINLANG['general']['unionpay'] = "UnionPay";
@@ -3837,7 +3892,7 @@ $_ADMINLANG['general']['acceptedCardTypes'] = "انواع کارت اعتبار�
 $_ADMINLANG['general']['acceptedCardTypesInfo'] = " استفاده کنید Ctrl+Clickبرای انتخاب چند نوع کارت ، از";
 $_ADMINLANG['general']['disableEmailSending'] = "ارسال ایمیل را غیرفعال کنید";
 $_ADMINLANG['general']['disableEmailSendingHelp'] = ".همه ایمیل های خروجی موجود  را غیرفعال می کند.";
-$_ADMINLANG['general']['disableRfc3834'] = "را غیرفعال کنیدRFC3834 هدرهای";
+$_ADMINLANG['general']['disableRfc3834'] = "غیرفعال کردن سربرگ RFC3834";
 $_ADMINLANG['general']['disableRfc3834Help'] = ".ایمیل های پشتیبانی خروجی دارای یک سرصفحه هستند که از پاسخ های دایره ای بین پاسخ دهندگان خودکار جلوگیری می کند . این گزینه آن رفتار را غیرفعال می کند";
 
 $_ADMINLANG['general']['clientEmailPreferences'] = "تنظیمات برگزیده ایمیل مشتری";
@@ -3850,10 +3905,10 @@ $_ADMINLANG['general']['orderformIncompatWarning'] = "فرمهای سفارش ن
 $_ADMINLANG['general']['moreDetails'] = "جزئیات بیشتر";
 $_ADMINLANG['general']['orderformIncompatAssigned'] = ".فرم های سفارش زیر ناسازگار هستند اما در حال حاضر اختصاص داده شده اند";
 $_ADMINLANG['general']['orderformChangingTo'] = ".با ذخیره این موضوع فرم سفارش ':name' اختصاص داده می شود";
-$_ADMINLANG['general']['supportAllowInsecureImport'] = "Allow Insecure Imports";
-$_ADMINLANG['general']['supportAllowInsecureImportDescription'] = "Tick to allow imports into existing tickets where the sender is unregistered, not added as a CC recipient or not associated with the Client.";
-$_ADMINLANG['general']['supportReopenTicketOnFailedImport'] = "Reopen Existing Tickets if Importing Fails";
-$_ADMINLANG['general']['supportReopenTicketOnFailedImportDescription'] = "Tick to allow reopening of existing tickets when an unimported reply is received. A notice will be provided in the ticket.";
+$_ADMINLANG['general']['supportAllowInsecureImport'] = "مجاز به ایمپورت  ناامن";
+$_ADMINLANG['general']['supportAllowInsecureImportDescription'] = ".برای مجاز کردن ایمپورت به تیکت های  موجود در جایی که فرستنده ثبت نام نشده است، به عنوان گیرنده CC اضافه نشده است یا با مشتری مرتبط نیست، علامت بزنید.";
+$_ADMINLANG['general']['supportReopenTicketOnFailedImport'] = "در صورت عدم موفقیت، تیکت های موجود را دوباره باز کنید";
+$_ADMINLANG['general']['supportReopenTicketOnFailedImportDescription'] = ".برای اجازه بازگشایی تیکت های موجود در صورت دریافت پاسخ ایمپورت، علامت بزنید. یک اطلاعیه در تیکت ارائه می شود";
 
 
 # Config Tax
@@ -3975,11 +4030,12 @@ $_ADMINLANG['supportticketdepts']['mailproviderstandard'] = "POP3/IMAP";
 $_ADMINLANG['supportticketdepts']['pop3port'] = "پورت سرور ایمیل";
 $_ADMINLANG['supportticketdepts']['pop3user'] = "آدرس ایمیل";
 $_ADMINLANG['supportticketdepts']['pop3pass'] = "رمزعبور ایمیل";
-$_ADMINLANG['supportticketdepts']['pop3testconnection'] = "تست اتصال";
+$_ADMINLANG['supportticketdepts']['pop3testconfiguration'] = "Test Configuration";
 $_ADMINLANG['supportticketdepts']['pop3connectiontestinprogress'] = "تلاش برای اتصال...";
 $_ADMINLANG['supportticketdepts']['pop3testconnectionsuccess'] = "آزمون دریافت ایمیل موفقیت آمیز بود";
 $_ADMINLANG['supportticketdepts']['pop3testconnectionerror'] = "آزمون دریافت ایمیل ناموفق بود";
-$_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Google'] = "<h1>Google OAuth Setup Guide</h1><p>1. Login to the <a href=\"https://console.developers.google.com/\" target=\"_blank\">Google Developer Console</a>.</p><p>2. Choose an existing or create a new project.</p><p>3. Create OAuth Credentials using the <i>Redirect URI</i> provided.</p><p>4. Enter the <strong>Client ID/Secret</strong> generated for you into the provided fields.</p><p>5. Click <strong>&quot;Connect&quot;</strong> to generate the Connection Token.</p><p>6. Click <strong>&quot;Test Connection&quot;</strong> to verify your setup.</p>";
+$_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Google'] = "<h1>Google OAuth Setup Guide</h1><p>1. Login to the <a href=\"https://console.developers.google.com/\" target=\"_blank\">Google Developer Console</a>.</p><p>2. Choose an existing or create a new project.</p><p>3. Create OAuth Credentials using the <i>Redirect URI</i> provided.</p><p>4. Enter the <strong>Client ID/Secret</strong> generated for you into the provided fields.</p><p>5. Click <strong>&quot;Connect&quot;</strong> to generate the Connection Token.</p><p>6. Click <strong>&quot;Test Configuration&quot;</strong> to verify your setup.</p>";
+$_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Microsoft'] = "<h1>Microsoft® OAuth Setup Guide</h1><p>1. Log in to the <a href=\"https://portal.azure.com/\" target=\"_blank\">Microsoft Azure® Console</a>.</p><p>2. Choose <strong>Azure Active Directory</strong>.</p><p>3. Create a new app registration using the displayed <strong>Redirect URI</strong>.</p><p>4. Enter the generated <strong>Client ID</strong> and <strong>Client Secret</strong>.</p><p>5. Click <strong>Connect</strong> to generate the connection token.</p><p>6. Click <strong>&quot;Test Configuration&quot;</strong> to verify your setup.</p>";
 $_ADMINLANG['supportticketdepts']['feedbackRequest'] = "درخواست بازخورد";
 $_ADMINLANG['supportticketdepts']['feedbackRequestDescription'] = "ارسال امتیاز بازخورد تیکت / درخواست بررسی در نزدیکی تیکت";
 $_ADMINLANG['supportticketdepts']['emailCannotBeAdmin'] = ".آدرس ایمیل از قبل توسط کاربر اداری در حال استفاده است. لطفا یک آدرس ایمیل دیگر را وارد کنید";
@@ -4056,7 +4112,7 @@ $_ADMINLANG['sendmessage']['noreceiptients'] = "گیرنده ندارد";
 $_ADMINLANG['sendmessage']['noreceiptientsdesc'] = "معیارهای انتخاب شده برای این ایمیل منجر به دریافت هیچ گیرنده ای نشده است ، به این معنی که نمی توان آن را ارسال کرد";
 $_ADMINLANG['sendmessage']['emailsentindividually1'] = "ایمیل ها به صورت جداگانه ارسال می شوند";
 $_ADMINLANG['sendmessage']['emailsentindividually2'] = "بنابراین آدرس های ایمیل توسط دیگران دیده نمی شود";
-$_ADMINLANG['sendmessage']['commaseparateemails'] = "ایمیل های جدا شده با کاما";
+$_ADMINLANG['sendmessage']['commaseparateemails'] = "ایمیل ها با کاما جدا شوند";
 $_ADMINLANG['sendmessage']['entersavename'] = "تیک ذخیره و وارد کردن نام ذخیره را بزنید";
 $_ADMINLANG['sendmessage']['massmailsettings'] = "تنظیمات ایمیل انبوه";
 $_ADMINLANG['sendmessage']['massmailsetting1'] = "ارسال";
@@ -4131,11 +4187,11 @@ $_ADMINLANG['securityquestionconfig']['delsuccessinfo'] = ".سوال امنیت�
 # Gateway Log
 $_ADMINLANG['gatewaytranslog']['gatewaytranslogtitle'] = "گزارش تراکنش دروازه";
 $_ADMINLANG['gatewaytranslog']['gateway'] = "دروازه";
-$_ADMINLANG['gatewaytranslog']['debugdata'] = "ااطلاعات دیباگ";
+$_ADMINLANG['gatewaytranslog']['debugdata'] = "اطلاعات دیباگ";
 $_ADMINLANG['gatewaytranslog']['filter'] = "فیلتر";
 
 # Mass Mail
-$_ADMINLANG['massmail']['pagedesc'] = ".کنیدCtrl+Clickاین ابزار ارسال انبوه به شما امکان می دهد برای گروه های انتخابی از مشتریان خود ایمیل ارسال کنید. نوع ایمیلی که برای ارسال انتخاب می کنید تعیین می کند که چه زمینه های ادغامی را می توانید در آن قرار دهید. به عنوان مثال ، ارسال نامه الکترونیکی مربوط به محصول / خدمات به شما امکان می دهد موارد خاص محصول مانند دامنه ، نام کاربری ، سرور ، تاریخ سررسید بعدی و غیره را در آن بگنجانید ... برای انجام چندین انتخاب از";
+$_ADMINLANG['massmail']['pagedesc'] = "این ابزار ایمیل انبوه به شما امکان می دهد برای گروه های انتخابی مشتریان خود ایمیل ارسال کنید. نوع ایمیلی که برای ارسال انتخاب می‌کنید تعیین می‌کند که چه فیلدهای ادغامی را می‌توانید در آن قرار دهید. به عنوان مثال، ارسال یک ایمیل مرتبط با محصول/خدمت به شما امکان می‌دهد موارد خاص محصول مانند دامنه، نام‌های کاربری، سرور، تاریخ سررسید بعدی و غیره را اضافه کنید... از Ctrl+Click برای انتخاب چندگانه استفاده کنید.";
 $_ADMINLANG['massmail']['messagetype'] = "نوع پیام";
 $_ADMINLANG['massmail']['emailtype'] = "نوع ایمیل";
 $_ADMINLANG['massmail']['clientstatus'] = "وضعیت مشتری";
@@ -4472,7 +4528,7 @@ $_ADMINLANG['whmcsConnect']['whmcsConnectName'] = "WHMCS اتصال";
 $_ADMINLANG['whmcsConnect']['returnToWhmcs'] = "WHMCSبازگشت به ";
 $_ADMINLANG['whmcsConnect']['noServerGroup'] = "سرور دسته بندی نشده";
 $_ADMINLANG['whmcsConnect']['typeToFilterList'] = "تایپ کنید تا لیست فیلتر شود";
-$_ADMINLANG['whmcsConnect']['helperTypeToFilter'] = ".برای فیلتر کردن لیست سرورها ، اینجا را تایپ کنید";
+$_ADMINLANG['whmcsConnect']['helperTypeToFilter'] = ".برای فیلتر کردن لیست سرورها ، اینجا  تایپ کنید";
 $_ADMINLANG['whmcsConnect']['helperMinimiseSidebar'] = ".در هر زمان می توانید نوار کناری را به حداقل برسانید";
 $_ADMINLANG['whmcsConnect']['helperReturnToWhmcs'] = ".در اینجا مراجعه کنیدWHMCSو می توانید به";
 
@@ -4483,8 +4539,8 @@ $_ADMINLANG['fields']['proformaInvoiceNum'] = "پیش فاکتور";
 $_ADMINLANG['general']['noActivityLogForClient'] = ".نمایش فعالیتهای ارسال تیکت مهمان امکان پذیر نیست";
 
 $_ADMINLANG['healthCheck']['title'] = "وضعیت سلامت سیستم";
-$_ADMINLANG['healthCheck']['exportAsJson'] = "Export As Json";
-$_ADMINLANG['healthCheck']['exportAsText'] = "Export As Text";
+$_ADMINLANG['healthCheck']['exportAsJson'] = "خروجی گرفتن به صورت  فایل جیسون";
+$_ADMINLANG['healthCheck']['exportAsText'] = "خروجی گرفتن بصورت فایل متنی";
 $_ADMINLANG['healthCheck']['allChecksPassed'] = "All :count health checks passed!";
 $_ADMINLANG['healthCheck']['checksPassed'] = ":count health check(s) passed";
 $_ADMINLANG['healthCheck']['checksNeedAttention'] = ":count health check(s) need your attention";
@@ -4528,7 +4584,7 @@ $_ADMINLANG['healthCheck']['popCronTicketImportFailure'] = "Your ticket import c
 $_ADMINLANG['healthCheck']['updateNews'] = "Update News";
 $_ADMINLANG['healthCheck']['permissionCheck'] = "بررسی اجازه مجوز";
 $_ADMINLANG['healthCheck']['permissionCheckSuccess'] = ".مجوزهای شما به طور مناسب محدود کننده هستند";
-$_ADMINLANG['healthCheck']['permissionCheckConfigFileWritable'] = ".پرونده پیکربندی شما قابل نوشتن است. این یک خطر امنیتی برای سیستم های مشترک است ";
+$_ADMINLANG['healthCheck']['permissionCheckConfigFileWritable'] = "پرونده پیکربندی شما قابل نوشتن است. این یک خطر امنیتی برای سیستم های مشترک است پرمیشن  فایل پیکربندی خود را به 400 تغییر دهید ";
 $_ADMINLANG['healthCheck']['permissionCheckUnownedDirectories'] = ":را اجرا می کندWHMCSفهرستهای زیر متعلق به کاربر دیگری است و سپس";
 $_ADMINLANG['healthCheck']['permissionCheckUnownedDirectories2'] = "در این مورد می توانید اطلاعات بیشتری کسب کنید <a :href>documentation</a>.";
 $_ADMINLANG['healthCheck']['configFileVariableValue'] = "Review your configuration file ':var' variable for accuracy.";
@@ -4644,7 +4700,7 @@ $_ADMINLANG['appLinks']['configAppLinks'] = "پیوندهای برنامه را 
 
 $_ADMINLANG['openid']['newApiSuccess'] = "جدید با موفقیت تولید شد API مجموعه اعتبارنامه ";
 $_ADMINLANG['openid']['newSecretSuccess'] = ".راز مشتری جدید با موفقیت تولید شد";
-$_ADMINLANG['openid']['apiCredDeleted'] = " حذف شذ API اعتبارنامه";
+$_ADMINLANG['openid']['apiCredDeleted'] = "حذف شد API اعتبارنامه";
 $_ADMINLANG['openid']['apiCredDeletedMsg'] = ".اعتبار حذف شد و دیگر نمی تواند مورد استفاده قرار گیرد";
 $_ADMINLANG['openid']['apiCredDeleteFailed'] = "حذف نشد APIشناسه ";
 $_ADMINLANG['openid']['sslNotDetected'] = "SSL شناسایی نشد";
@@ -4688,6 +4744,9 @@ $_ADMINLANG['healthCheck']['sensitiveDirsAccessible'] = "<p>One or more sensitiv
 $_ADMINLANG['healthCheck']['phpTimezone'] = "PHP منطقه زمانی ";
 $_ADMINLANG['healthCheck']['phpTimezoneOk'] = ".شما از یک منطقه زمانی معتبر استفاده می کندPHPمحیط";
 $_ADMINLANG['healthCheck']['phpTimezoneNotSet'] = "Your PHP environment does not have a valid timezone setting. Please set date.timezone in php.ini to ensure correct date and time processing. If date.timezone is set in php.ini and this warning is still shown, please check the spelling of the timezone identifier. Please refer to our <a href=\":href\" class=\"autoLinked\">documentation</a> for more information.";
+
+$_ADMINLANG['healthCheck']['moduleLogEnabled']['title'] = "گزارش اشکال زدایی ماژول";
+$_ADMINLANG['healthCheck']['moduleLogEnabled']['isEnabled'] = "Module debugging is currently enabled. We recommend that you disable this when you finish debugging. Continuous use may degrade performance. For more information, see our <a href=\":href\">documentation</a>.";
 
 $_ADMINLANG['system']['errorSendingEmail'] = ":هنگام تحویل ایمیل شما خطایی روی داد";
 
@@ -4861,16 +4920,25 @@ $_ADMINLANG['wizard']['ssl']['configurationComplete'] = "Configuration Complete"
 $_ADMINLANG['wizard']['ssl']['nextSteps'] = "What's Next";
 $_ADMINLANG['wizard']['ssl']['emailSteps'] = "The Certificate Authority will send further instructions to validate domain ownership to your selected email address. After you complete these steps, the certificate will be issued.";
 $_ADMINLANG['wizard']['ssl']['fileSteps'] = "The Certificate Authority will now make requests to the URL below to validate whether the response is the provided value. After a response with the specified value is detected, the certificate will be issued.";
-$_ADMINLANG['wizard']['ssl']['url'] = "URL";
-$_ADMINLANG['wizard']['ssl']['value'] = "Value";
-$_ADMINLANG['wizard']['ssl']['type'] = "Type";
+$_ADMINLANG['wizard']['ssl']['url'] = "آدرس";
+$_ADMINLANG['wizard']['ssl']['value'] = "مقدار";
+$_ADMINLANG['wizard']['ssl']['type'] = "نوع";
 $_ADMINLANG['wizard']['ssl']['host'] = "Host";
-$_ADMINLANG['wizard']['ssl']['dnsSteps'] = "The Certificate Authority will now query the domain's DNS records for a record that matches the information below. Access your domain's DNS settings and create the record. After the record is found, the certificate will be issued.";
+$_ADMINLANG['wizard']['ssl']['dnsSteps'] = ".اکنون مرجع صدور گواهی، سوابق DNS دامنه را برای سابقه ای که با اطلاعات زیر مطابقت دارد، استعلام می کند. به تنظیمات DNS دامنه خود دسترسی پیدا کنید و رکورد را ایجاد کنید. پس از یافتن سابقه، گواهی صادر خواهد شد";
 $_ADMINLANG['wizard']['ssl']['dnsRecordInformation'] = "DNS Record Information";
-$_ADMINLANG['wizard']['ssl']['fileInformation'] = "File Information";
-$_ADMINLANG['wizard']['ssl']['emailInformation'] = "Email Information";
+$_ADMINLANG['wizard']['ssl']['fileInformation'] = "اطلاعات فایل";
+$_ADMINLANG['wizard']['ssl']['emailInformation'] = "اطلاعات ایمیل";
 
-$_ADMINLANG['ssl']['dcv'] = "Domain Control Validation";
+$_ADMINLANG['ssl']['dcv'] = "اعتبار سنجی کنترل دامنه";
+$_ADMINLANG['ssl']['viewReissues'] = "مشاهده نسخه های مجدد";
+$_ADMINLANG['ssl']['validationMethod']['emailauth'] = "ایمیل";
+$_ADMINLANG['ssl']['validationMethod']['fileauth'] = "HTTP File";
+$_ADMINLANG['ssl']['validationMethod']['dnsauth'] = "DNS";
+$_ADMINLANG['ssl']['reissues']['lastFive'] = "پنج درخواست جدید برای صدور مجدد در اینجا ظاهر می شود";
+$_ADMINLANG['ssl']['reissues']['date'] = "تاریخ انتشار مجدد";
+$_ADMINLANG['ssl']['reissues']['validationMethod'] = "روش اعتبارسنجی";
+$_ADMINLANG['ssl']['reissues']['validationValue'] = "ارزش اعتبارسنجی";
+$_ADMINLANG['ssl']['defaultcontacts'] = "Default Domain Contacts";
 
 $_ADMINLANG['queue']['title'] = "صف ماژول";
 $_ADMINLANG['queue']['clientService'] = "خدمات مشتری";
@@ -4886,7 +4954,7 @@ $_ADMINLANG['queue']['retrySuccess'] = "عملیات با موفقیت انجا�
 $_ADMINLANG['queue']['retryResponse'] = "دوباره امتحان کنید Response: :error";
 $_ADMINLANG['queue']['numberItems'] = ":count موارد در صف";
 $_ADMINLANG['queue']['numberItem'] = ":count مورد در صف است";
-$_ADMINLANG['queue']['noItems'] = "هیچ فعالیت ماژول صف بندی وجود نداردس";
+$_ADMINLANG['queue']['noItems'] = "هیچ فعالیت ماژول صف بندی وجود ندارد";
 
 $_ADMINLANG['apicredentials']['create'] = " جدید ایجاد کنید API اعتبارنامه";
 $_ADMINLANG['apicredentials']['reveal'] = "فاش کردن";
@@ -5048,7 +5116,7 @@ $_ADMINLANG['storage']['s3']['secret'] = "راز دسترسی";
 $_ADMINLANG['storage']['s3']['bucket'] = "سطل";
 $_ADMINLANG['storage']['s3']['region'] = "منطقه";
 $_ADMINLANG['storage']['s3']['endpointUrl'] = "آدرس نقطه پایانی";
-$_ADMINLANG['storage']['s3']['endpointUrlDescription'] = "3خود را وارد کنیدs3آمازون ، آدرس ارائه شده توسط پیاده سازیsهنگام استفاده از سرویس غیر سازگار با";
+$_ADMINLANG['storage']['s3']['endpointUrlDescription'] = "When using a non-Amazon S3-compatible service, enter the URL provided by your S3 implementation.";
 $_ADMINLANG['storage']['migration']['migrate'] = "کوچ کردن";
 $_ADMINLANG['storage']['migration']['switch'] = "تعویض";
 $_ADMINLANG['storage']['migration']['revertChanges'] = "برگرداندن تغییرات";
@@ -5171,7 +5239,6 @@ $_ADMINLANG['mentions']['aNote'] = "A Note for :clientName";
 # PHP Compat Util
 $_ADMINLANG['phpCompatUtil']['title'] = "سازگاری نسخه PHP";
 $_ADMINLANG['phpCompatUtil']['compatUtilDesc'] = "بازرسی می کند و یک گزارش ارزیابی ایجاد می کندionCubeشما را برای پرونده های رمزگذاری شده باWHMCSاین ابزار.<br/>این ارزیابی نمای کلی از سازگاری پی اچ پی  مربوط به پرونده های رمزگذاری شده شما را ارائه می دهد تا بتوانید قبل از به روزرسانی به نسخه پی اچ پی متفاوت ، مشکلات احتمالی را برطرف کنید..";
-$_ADMINLANG['phpCompatUtil']['report'] = "گزارش ارزیابی";
 $_ADMINLANG['phpCompatUtil']['scanError'] = ".هنگام تهیه گزارش ارزیابی خطایی روی داد";
 $_ADMINLANG['phpCompatUtil']['file'] = "فایل";
 $_ADMINLANG['phpCompatUtil']['updated'] = "به روز شده";
@@ -5179,13 +5246,18 @@ $_ADMINLANG['phpCompatUtil']['never'] = "هرگز";
 $_ADMINLANG['phpCompatUtil']['scan'] = "اسکن کردن";
 $_ADMINLANG['phpCompatUtil']['rescan'] = "اسکن مجدد";
 $_ADMINLANG['phpCompatUtil']['clickToScan'] = ".برای تهیه گزارش ارزیابی ، روی اسکن کلیک کنید";
+$_ADMINLANG['phpCompatUtil']['selectPhpDesc'] = "Select the version of PHP that you wish to upgrade to in order to view encoded file compatibility results for that version.";
 $_ADMINLANG['phpCompatUtil']['compatNoDesc'] = " برای نسخه مشخص شده پی اچ پی رمزگشایی نمی شوند. اگر می خواهید از این نسخه پی اچ پی استفاده کنید ، باید با فروشنده اصلی تماس بگیرید و نسخه رمزگذاری شده با سازگاری نسخه مورد نظر پی اچ پی خود را رمزگذاری کنید.ionCube Loader این فایلها توسط";
 $_ADMINLANG['phpCompatUtil']['compatNoTitle'] = "رمزگذاری ناسازگار";
 $_ADMINLANG['phpCompatUtil']['compatUnknownDesc1'] = "محیط های پشتیبانی شده پی اچ پی  برای این فایل های رمزگذاری شده را نمی توان تعیین کرد. اگر این پرونده ها را پس از سپتامبر 2016 به دست آوردید ، احتمالاً با نسخه انتخاب شده پی اچ پی رمزگشایی می شوند. با این حال توصیه می کنیم برای تأیید سازگاری فایل قبل از ارتقا با فروشنده اصلی تماس بگیرید";
 $_ADMINLANG['phpCompatUtil']['compatUnknownDesc2'] = ".فایلهای رمزگذاری شده با استفاده از رمزگذار V9 یا V10 (بدون بسته بندی) قابل تفکیک نیستند و بنابراین تأیید سازگاری برای ما امکان پذیر نیست. اگر این پرونده ها قبل از مارس 2018 به دست آمده باشد ، به احتمال زیاد آنها با استفاده از ionCube V9 یا نسخه های قبلی رمزگذاری شده اند و با نسخه انتخاب شده پی اچ پی سازگاری ندارند ما برای تأیید سازگاری فایل قبل از ارتقا توصیه می کنیم با فروشنده اصلی تماس بگیرید";
 $_ADMINLANG['phpCompatUtil']['compatUnknownTitle'] = "سازگاری رمزگذاری ناشناخته است";
-$_ADMINLANG['phpCompatUtil']['compatYesDesc'] = "این فایلها توسط ionCube Loader برای نسخه مشخص شده پی اچ پی  رمزگشایی می شوند. این امر توسط امضای کدگذاری ionCube یا اطلاعات خاص جاسازی شده در آن تعیین شد.";
+$_ADMINLANG['phpCompatUtil']['compatYesDesc'] = "These files can be decoded by ionCube Loader&reg; for the specified PHP version. This was determined by the ionCube encoding signature or specific information embedded therein.";
 $_ADMINLANG['phpCompatUtil']['compatYesTitle'] = "رمزگذاری سازگار";
+$_ADMINLANG['phpCompatUtil']['currentLoaderVersion'] = "Detected ionCube Loader&reg; Version";
+$_ADMINLANG['phpCompatUtil']['tooltipCurrentPhpVersion'] = "Current PHP version";
+$_ADMINLANG['phpCompatUtil']['updateIonCubeLoader'] = "PHP :php_version requires at least ionCube Loader&reg; :required.";
+$_ADMINLANG['phpCompatUtil']['phpUnsupported'] = "Your WHMCS installation does not support this PHP version.";
 
 $_ADMINLANG['whmimport']['title'] = "Import Domains from cPanel/WHM";
 $_ADMINLANG['whmimport']['desc'] = "This WHM Import Script can save you hours of time.  It will automatically import domains and usernames from your cPanel Server to save you needing to enter them manually into WHMCS.";
@@ -5211,7 +5283,7 @@ $_ADMINLANG['whmimport']['package'] = "بسته بندی";
 $_ADMINLANG['whmimport']['created'] = "ایجاد شده";
 $_ADMINLANG['whmimport']['succeeded'] = "موفق شد";
 $_ADMINLANG['whmimport']['failed'] = "ناموفق";
-$_ADMINLANG['whmimport']['pkgNotFound'] = "(Due to Package Name Not Found in WHMCS)";
+$_ADMINLANG['whmimport']['pkgNotFound'] = "(به دلیل نام بسته در WHMCS یافت نشد)";
 
 $_ADMINLANG['validation']['accepted'] = "The :attribute must be accepted.";
 $_ADMINLANG['validation']['active_url'] = "The :attribute is not a valid URL.";
@@ -5286,9 +5358,9 @@ $_ADMINLANG['maxmind']['manualReview'] = ".سفارش شما برای بررسی
 $_ADMINLANG['maxmind']['panels']['general'] = "عمومی";
 $_ADMINLANG['maxmind']['results']['ip_address']['city']['names']['en'] = "نام شهر";
 $_ADMINLANG['maxmind']['results']['ip_address']['city']['confidence'] = "اعتماد به نفس درست";
-$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions'][0]['iso_code'] = "";
-$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions'][0]['names']['en'] = "";
-$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions'][0]['confidence'] = "";
+$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions']['0']['iso_code'] = "زیربخش ISO";
+$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions']['0']['names']['en'] = "نام بخش فرعی";
+$_ADMINLANG['maxmind']['results']['ip_address']['subdivisions']['0']['confidence'] = "Subdivision Confidence";
 $_ADMINLANG['maxmind']['results']['ip_address']['continent']['code'] = "ISO قاره";
 $_ADMINLANG['maxmind']['results']['ip_address']['continent']['names']['en'] = "نام قاره";
 $_ADMINLANG['maxmind']['results']['ip_address']['country']['confidence'] = "اعتماد به نفس کشور";
@@ -5328,13 +5400,13 @@ $_ADMINLANG['maxmind']['results']['subscores']['phone_number'] = "Phone Number";
 $_ADMINLANG['maxmind']['results']['subscores']['time_of_day'] = "زمان روز";
 $_ADMINLANG['maxmind']['panels']['credit_card'] = "Credit Card Details";
 $_ADMINLANG['maxmind']['results']['credit_card']['issuer']['name'] = "Card Issuer";
-$_ADMINLANG['maxmind']['results']['credit_card']['issuer']['phone_number'] = "Issuer Phone Number";
+$_ADMINLANG['maxmind']['results']['credit_card']['issuer']['phone_number'] = "شماره تلفن صادرکننده";
 $_ADMINLANG['maxmind']['results']['credit_card']['brand'] = "Card Brand";
-$_ADMINLANG['maxmind']['results']['credit_card']['country'] = "Issued Country";
+$_ADMINLANG['maxmind']['results']['credit_card']['country'] = "کشور صادر شده";
 $_ADMINLANG['maxmind']['results']['credit_card']['is_issued_in_billing_address_country'] = "Issued Country Matches Billing Country";
 $_ADMINLANG['maxmind']['results']['credit_card']['is_prepaid'] = "Prepaid Card";
 $_ADMINLANG['maxmind']['results']['credit_card']['is_virtual'] = "Virtual Card";
-$_ADMINLANG['maxmind']['results']['credit_card']['type'] = "Card Type";
+$_ADMINLANG['maxmind']['results']['credit_card']['type'] = "نوع کارت";
 $_ADMINLANG['maxmind']['panels']['custom'] = "Custom Rule Results";
 $_ADMINLANG['maxmind']['results']['disposition']['action'] = "قانون اقدام";
 $_ADMINLANG['maxmind']['results']['disposition']['reason'] = "قاعده دلیل";
@@ -5351,7 +5423,7 @@ $_ADMINLANG['marketConnect']['weebly']['learn']['tab']['about'] = "در باره
 $_ADMINLANG['marketConnect']['weebly']['learn']['tab']['features'] = "امکانات";
 $_ADMINLANG['marketConnect']['weebly']['learn']['tab']['freeplan'] = "برنامه رایگان";
 $_ADMINLANG['marketConnect']['weebly']['learn']['tab']['pricing'] = "قیمت گذاری";
-$_ADMINLANG['marketConnect']['weebly']['learn']['tab']['faq'] = "FAQ";
+$_ADMINLANG['marketConnect']['weebly']['learn']['tab']['faq'] = "سوالات متداول";
 $_ADMINLANG['marketConnect']['weebly']['learn']['headline'] = "Powerful Intuitive Site Builder";
 $_ADMINLANG['marketConnect']['weebly']['learn']['tagline'] = "Empower your customers to build professional looking websites without any technical skills.";
 $_ADMINLANG['marketConnect']['weebly']['learn']['description1'] = "Weebly’s drag and drop website builder makes it easy to create a powerful, professional website without any technical skills.";
@@ -5519,6 +5591,106 @@ $_ADMINLANG['marketConnect']['siteBuilder']['pricing']['pages'] = "Pages";
 $_ADMINLANG['marketConnect']['siteBuilder']['pricing']['products'] = "E-Commerce Products";
 $_ADMINLANG['marketConnect']['siteBuilder']['pricing']['rrp'] = "Recommended Retail Price";
 
+$_ADMINLANG['marketConnect']['cPanelSEO']['offer'] = "Offer cPanel SEO";
+$_ADMINLANG['marketConnect']['cPanelSEO']['learn']['tab']['about'] = "About";
+$_ADMINLANG['marketConnect']['cPanelSEO']['learn']['tab']['features'] = "Features";
+$_ADMINLANG['marketConnect']['cPanelSEO']['learn']['tab']['pricing'] = "Pricing";
+$_ADMINLANG['marketConnect']['cPanelSEO']['learn']['tab']['faq'] = "FAQ";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['h1'] = "cPanel® SEO";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['h2'] = "About cPanel SEO (Product History)";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['p1'] = "Businesses need specific know-how and the right SEO tool to land at the top of Google® search results with their website. Without keyword research, website analysis, and a glance at the competition, creating visibility for products and services is unimaginable.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['p2'] = "With the help of a suitable SEO tool, SMBs can take on these tasks with ease and thus create high-quality content that advances and supports the search engine optimization of their business site.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['p3'] = "cPanel SEO was created with SMBs in mind. As SEO experts ourselves, we have spoken with numerous business owners, assessed the flaws and strengths of numerous business websites, and leveraged our own SEO expertise to design a product that makes the complexities of SEO accessible to everyone.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['p4'] = "cPanel SEO enables SMBs to find relevant keywords, optimize existing content, and write new blog posts without hiring an SEO expert or overextending their budget.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['p5'] = "When your customers decide on cPanel SEO, they decide on a smooth onboarding experience and step-by-step guidance, helping them become more and more visible over time.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['p6'] = "cPanel SEO is the latest addition to the cPanel Extension family. Launched in February 2022, it provides ultramodern keyword, rank tracking, and competitor analysis tools. cPanel, a WebPros company, is a well-established brand in the hosting industry with 23+ years of experience and is a leading web hosting control panel software developer.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['about']['p7'] = "WebPros delivers the most innovative technologies to enable the digital world. WebPros brings together products and solutions to enable businesses to build, operate and grow online; these products help manage servers, websites, billing, and online marketing.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['title'] = "Keywords";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['tag'] = "A 53M+ keyword database for research and inspiration";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['i1'] = "Get comprehensive keyword data";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['i2'] = "Discover the keywords for which any given website is currently ranking";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['i3'] = "Identify promising keywords for better traffic";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['i4'] = "Analyze the keywords and rankings of competitors";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['i5'] = "Compare international markets";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f1']['i6'] = "Profit from a 53M+ keyword database";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f2']['title'] = "Advisor";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f2']['tag'] = "Receive, manage, and solve tasks to improve a website";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f2']['i1'] = "Kanban-style task manager";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f2']['i2'] = "Customized and prioritized tasks";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f2']['i3'] = "Detailed instructions and additional information";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f2']['i4'] = "No expert knowledge needed";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f2']['i5'] = "Updated weekly";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f3']['title'] = "Rank Tracker";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f3']['tag'] = "Monitor your rankings and those of competitors";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f3']['i1'] = "Track essential rankings weekly or daily";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f3']['i2'] = "Local rankings for brick-and-mortar businesses";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f3']['i3'] = "International rankings for global companies";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f3']['i4'] = "Keep an eye on the competition";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f3']['i5'] = "Track keyword rankings or dedicated pages";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f4']['title'] = "Site Audit";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f4']['tag'] = "Check the technical foundation of a website";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f4']['i1'] = "Automated weekly site audits";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f4']['i2'] = "Technical website check";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f4']['i3'] = "Prioritized results";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f4']['i4'] = "Shows improvements";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f4']['i5'] = "Translated results to Advisor tasks";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f5']['title'] = "Text Optimizer";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f5']['tag'] = "Improve rankings with data-driven content optimization";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f5']['i1'] = "Compare text to Amazon®'s and Google's top 10 results";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f5']['i2'] = "Increase the content quality in a guided manner";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f5']['i3'] = "Add, increase, or reduce keywords as instructed";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f6']['title'] = "Competitor Benchmarking";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f6']['tag'] = "Analyze competitors, compare performance, and improve your SEO";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f6']['i1'] = "Discover domains that share rankings for the same keywords";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f6']['i2'] = "Identify the leaders of a given niche";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f6']['i3'] = "Compare keyword rankings of two or more domains";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f6']['i4'] = "Track and compare competitors’ rankings for important keywords";
+$_ADMINLANG['marketConnect']['cPanelSEO']['features']['f6']['i5'] = "Track and compare Visibility scores";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['feature'] = "Feature";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['starter'] = "Starter";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['professional'] = "Professional";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['yourCost'] = "Your Cost: :price";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['RRP'] = "<strong>RRP</strong>: :price";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f1'] = "Projects";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f2'] = "Full-Access Accounts";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f3'] = "Read-Only Accounts";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f4'] = "Competitor Benchmarking";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f5'] = "Competitors per project";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f6'] = "Keyword Research";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f7'] = "Rank Tracker";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f8'] = "Keyword crawls";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f9'] = "Keyword check";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f10'] = "Site Audit";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f11'] = "Pages to crawl";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f12'] = "SEO Advisor";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['f13'] = "SEO Text Optimizer";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['checkStarter'] = "Weekly";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['checkPro'] = "Up to Daily";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['pagesStarter'] = "500 per project";
+$_ADMINLANG['marketConnect']['cPanelSEO']['pricing']['pagesPro'] = "10k per project";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q1'] = "Why should someone use cPanel SEO?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a1a'] = "Alternative SEO products cater to SEO experts and tech-savvy users by providing overwhelming features requiring a highly technical skillset. cPanel SEO was designed for the masses, with the potential to become the website builder equivalent for the search engine optimization industry.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a1b'] = "cPanel SEO is easy to use and understand. It provides guidance with the right set of features and lets customers grow over time. As SMBs are highly cost aware, cPanel SEO comes with a highly competitive pricing to be competitive without losing product quality.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q2'] = "Does it only work with websites on cPanel?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a2a'] = "cPanel SEO is a SaaS solution. Your customers don’t need any other cPanel product, extension, or even their own server to use cPanel SEO. cPanel SEO works entirely independently and can be used for any website hosted anywhere in the world. Your customers can access cPanel SEO from any computer with any browser by simply logging in to their account.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a2b'] = "This also means that you can access cPanel SEO from any computer with any browser by simply logging in to your account.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q3'] = "How does cPanel SEO help my customers?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a3a'] = "Every website owner knows how difficult it is to become visible on the internet. With cPanel SEO, we provide the right features to optimize the visibility of websites. Your customer will be able to research the right keywords for their business by crawling our database, track their rankings weekly or daily (depending on their product level), optimize existing or new content, and check their website for technical issues that may be preventing better Google rankings.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q4'] = "How does support work?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a4a'] = "We fully support resellers and provide them assistance. Your customers should reach out to you, and if you can’t return the satisfying answer, we are 100% there for you to help as fast as possible. Simply reach out to us via the cPanel ticket system, and our support agents are happy to assist.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q5'] = "What is a project?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a5a'] = "A project is based on a specific URL (usually your customer's website) and automatically creates a Site Audit (website scan to identify technical issues). Your customer can set up a project by simply clicking through our onboarding wizard.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q6'] = "What is the difference between full-access and read-only accounts?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a6a'] = "A full-access account has full administrative rights to change, edit, and add new elements, such as keywords, projects, and tasks.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a6b'] = "A read-only account cannot edit but may view all the SEO insights of a project.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q7'] = "What does a site audit do, and how long does it take?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a7a'] = "The Site Audit scans the specified website’s technical implementation to lay the foundations of better rankings with Google and other search engines. The tool allows your customer to analyze up to 10k pages/URLs per project (500 pages per project in the cPanel SEO Starter level). The result of the scan is automatically added to the Advisor tool inside the product and creates precise tasks for each issue.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a7b'] = "The time needed to scan a project strongly depends on the number of pages/URLs. A smaller website is scanned in several minutes; a bigger online store needs up to a few hours to be thoroughly analyzed.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['q8'] = "Who is the product service designed for? Which level of expertise is needed?";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a8a'] = "The product is primarily designed for SEO beginners with no or minor knowledge about search engine optimization. As already mentioned, cPanel SEO was designed with SMBs in mind and tested very positively in this target group.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a8b'] = "With the Professional level, the product provides an option that fits perfectly with smaller agencies.";
+$_ADMINLANG['marketConnect']['cPanelSEO']['faq']['a8c'] = "Due to the feature set and the database of more than 53M keywords, cPanel SEO is an excellent fit for advanced SEO users as well.";
+
 $_ADMINLANG['maxmind']['missingUser'] = "You must set your user ID to use the latest MaxMind API. <a href=\"configfraud.php\" class=\"autoLinked\">Click here</a> to do it now.";
 
 $_ADMINLANG['search']['performingSearch'] = "Performing search...";
@@ -5600,7 +5772,10 @@ $_ADMINLANG['apps']['searchMatchesFound'] = "مسابقات پیدا شد";
 $_ADMINLANG['apps']['searchMinSearchTerm'] = "لطفاً یک عبارت جستجوگر حداقل 3 نویسه یا بیشتر وارد کنید";
 $_ADMINLANG['apps']['searchNoResultsFound'] = "لطفاً کلمه جستجوی خود را گسترش دهید یا یک کلمه کلیدی جایگزین را امتحان کنید";
 $_ADMINLANG['apps']['recommendedTitle'] = "توصیه شده برای شما";
+$_ADMINLANG['apps']['listView'] = "List View";
+$_ADMINLANG['apps']['gridView'] = "Grid View";
 $_ADMINLANG['apps']['categoriesTitle'] = "دسته بندی ها";
+$_ADMINLANG['apps']['additionalApps'] = "Additional apps";
 $_ADMINLANG['apps']['viewAll'] = "مشاهده همه";
 $_ADMINLANG['apps']['noActiveApps'] = "!در حال حاضر هیچ برنامه فعال ندارید";
 
@@ -5620,6 +5795,7 @@ $_ADMINLANG['apps']['info']['useApp'] = "استفاده از برنامه";
 $_ADMINLANG['apps']['info']['getItFrom'] = "آن را از";
 $_ADMINLANG['apps']['info']['buyItNow'] = "الان بخرش";
 $_ADMINLANG['apps']['info']['startFreeTrial'] = "آزمایش رایگان را شروع کنید";
+$_ADMINLANG['apps']['info']['noImage'] = "no image available";
 
 $_ADMINLANG['utilities']['serverSync']['title'] = "همگام سازی سرور";
 $_ADMINLANG['utilities']['serverSync']['results'] = "نتایج زیر occurred:";
@@ -5737,7 +5913,7 @@ $_ADMINLANG['paypalCheckout']['linkSandboxAccount'] = "پیوند دهیدSandbo
 $_ADMINLANG['paypalCheckout']['unlinkSandboxAccount'] = "را لغو کنیدSandboxپیوند حساب";
 $_ADMINLANG['paypalCheckout']['unlinkAccountMsg'] = "<p><strong>** :mode **</strong></p><p>If you proceed, WHMCS will no longer receive payment notifications for any PayPal Subscriptions that have been set up while this account link has been active. As a result, WHMCS will not be aware of successful payments.</p><p>Are you sure you want to continue?</p><p><strong>Warning:</strong> This action is irreversible and cannot be undone.</p>";
 
-$_ADMINLANG['emailPreferences']['affiliate'] = "ایمیل های همکاری در فروش - ارسال ایمیل های مرتبط با همکاری در فروشی";
+$_ADMINLANG['emailPreferences']['affiliate'] = "ایمیل های همکاری در فروش - ارسال ایمیل های مرتبط با همکاری در فروش";
 $_ADMINLANG['emailPreferences']['domain'] = "ایمیل دامنه - اطلاعیه های تمدید تأیید ثبت نام / انتقال";
 $_ADMINLANG['emailPreferences']['general'] = "ایمیل های عمومی - همه ایمیل های مربوط به حساب";
 $_ADMINLANG['emailPreferences']['invoice'] = "ایمیل فاکتور - فاکتورهای جدید ، یادآوری ، اعلامیه های معوق";
@@ -5766,7 +5942,7 @@ $_ADMINLANG['openSidebar'] = "بازکردن نوار کناری";
 $_ADMINLANG['config']['sysLogs'] = "لاگ سیستم";
 $_ADMINLANG['config']['manageAdmins'] = "مدیریت ادمین ها";
 
-$_ADMINLANG['account'] = "Account";
+$_ADMINLANG['account'] = "حساب";
 $_ADMINLANG['searchPlaceholder'] = "...عبارت جستجو را وارد کنید ";
 
 $_ADMINLANG['addNew']['title'] = "اضافه کردن جدید";
@@ -5809,7 +5985,7 @@ $_ADMINLANG['user']['associateInviteUser'] = "همکار یا دعوت از کا
 $_ADMINLANG['user']['chooseUser'] = ".یک کاربر موجود را انتخاب کنید یا یک آدرس ایمیل وارد کنید";
 $_ADMINLANG['user']['anInviteWillBeSent'] = ".از آنجا که آدرس ایمیل با کاربر موجود مرتبط نیست ، سیستم یک دعوت نامه ارسال می کند. گیرنده می تواند کاربر جدیدی ایجاد کند یا وقتی کاربر دعوت را قبول می کند کاربر فعلی را به او مرتبط کند";
 $_ADMINLANG['user']['ownerPermissions'] = "این کاربر مالک حساب است و بنابراین همه مجوزها را دارد";
-$_ADMINLANG['user']['makeOwner'] = "مالک شوید";
+$_ADMINLANG['user']['makeOwner'] = "تغییر مالکیت";
 $_ADMINLANG['user']['makeOwnerDescription'] = "برای انتقال مالکیت ':client' به این کاربر علامت بزنید";
 $_ADMINLANG['user']['passwordReset'] = "تنظیم مجدد رمز عبور";
 $_ADMINLANG['user']['passwordResetSure'] = "آیا مطمئن هستید که می خواهید برای این کاربر تنظیم مجدد رمز عبور را شروع کنید؟";
@@ -5836,6 +6012,9 @@ $_ADMINLANG['mail']['test'] = "پیکربندی تست";
 $_ADMINLANG['mail']['testSuccess'] = ".آزمون پیکربندی ارائه دهنده ایمیل با موفقیت انجام شد";
 $_ADMINLANG['mail']['configuredProvider'] = "ارائه دهنده نامه";
 $_ADMINLANG['mail']['configureProvider'] = "پیکربندی ارائه دهنده نامه";
+$_ADMINLANG['mail']['connectionTokenSuccess'] = "Connection was successful. Click Save to complete configuration.";
+$_ADMINLANG['mail']['debug'] = "Debugging";
+$_ADMINLANG['mail']['debugdescription'] = "Enable verbose logging for sending email";
 $_ADMINLANG['mail']['sparkPost']['accountType'] = "حساب SparkPost";
 $_ADMINLANG['mail']['sparkPost']['EU'] = "SparkPost اتحادیه اروپا";
 $_ADMINLANG['mail']['sparkPost']['nonEU'] = "SparkPost";
@@ -5848,7 +6027,8 @@ $_ADMINLANG['mail']['mailgun']['EU'] = "منطقه اتحادیه اروپا";
 $_ADMINLANG['mail']['mailgun']['nonEU'] = "منطقه آمریکا";
 $_ADMINLANG['mail']['mailgun']['apiKey'] = "Mailgun Private API Key";
 $_ADMINLANG['mail']['mailgun']['sendingDomain'] = "Sending Domain";
-$_ADMINLANG['mail']['error']['systemUrlMissing'] = ".لطفاً یک آدرس سیستم را در تنظیمات عمومی پیکربندی کنید. این تنظیم برای برخی از گزینه های پیکربندی ارائه دهنده نامه الزامی است";
+$_ADMINLANG['mail']['error']['systemUrlMissing'] = "Please configure a System URL at Configuration > System Settings > General Settings. This setting is required for some Mail Provider configuration options.";
+$_ADMINLANG['mail']['error']['friendlyUrlModeInvalid'] = "To use Microsoft® mail services, you must set Friendly URLs at Configuration > System Settings > General Settings to \"Full Friendly Rewrite\" or \"Friendly index.php\".";
 
 $_ADMINLANG['healthCheck']['cronTimeZone'] = "منطقه زمانی کرون پی اچ پی";
 $_ADMINLANG['healthCheck']['cronTimeZoneAligned'] = ".کرون  و مطابقت رابط کاربریWHMCSمنطقه زمانی مورد استفاده توسط اسکریپت";
@@ -5904,6 +6084,8 @@ $_ADMINLANG['customAdminPathWarning']['description'] = ".تصادفی در بر�
 
 $_ADMINLANG['social']['accounts'] = "اکانت های شبکه اجتماعی";
 
+$_ADMINLANG['configOptions']['pageTitle'] = "Configurable Option Groups";
+$_ADMINLANG['configOptions']['pageDescription'] = "Configurable options allow you to offer addons and customisation options with your products. Options are assigned to groups and groups can then be applied to products.";
 $_ADMINLANG['configOptions']['optionGroupDelete'] = "!گروه گزینه با موفقیت حذف شد";
 $_ADMINLANG['configOptions']['optionGroupDuplicated'] = "!گروه گزینه با موفقیت تکثیر شد";
 $_ADMINLANG['configOptions']['optionGroupDuplicate'] = "Duplicate a Group";
@@ -5953,208 +6135,208 @@ $_ADMINLANG['validationCom']['topHalfUtility'] = "نیمی از برنامه ب�
 
 $_ADMINLANG['error']['invalidSystemUrl'] = "The WHMCS System URL setting is invalid or missing. :link to ensure that it is present, valid, and begins with \"https://\".";
 
-$_ADMINLANG['disputes']['title'] = "Disputes";
-$_ADMINLANG['disputes']['description1'] = "A dispute occurs when a customer questions your charge with their card issuer.";
-$_ADMINLANG['disputes']['description2'] = "When this happens, you're given the opportunity to respond to the dispute with evidence that shows that the charge is legitimate.";
-$_ADMINLANG['disputes']['viewDispute'] = "View Dispute";
-$_ADMINLANG['disputes']['listDisputes'] = "List Disputes";
-$_ADMINLANG['disputes']['return'] = "Return to Dispute List";
-$_ADMINLANG['disputes']['disputeId'] = "Dispute ID";
-$_ADMINLANG['disputes']['chooseNew'] = "Choose Evidence to Submit";
-$_ADMINLANG['disputes']['evidenceSubmitted'] = "Evidence Submitted";
-$_ADMINLANG['disputes']['updateEvidence'] = "Update Evidence";
-$_ADMINLANG['disputes']['disputeUpdated'] = "The dispute has been updated successfully.";
-$_ADMINLANG['disputes']['removeEvidenceRow'] = "Remove evidence row";
-$_ADMINLANG['disputes']['manageDispute'] = "Manage Dispute";
-$_ADMINLANG['disputes']['closeDispute'] = "Close Dispute";
-$_ADMINLANG['disputes']['closeDisputeSure1'] = "Closing a dispute indicates that you do not have any evidence to submit and are dismissing the dispute, acknowledging it as lost.";
-$_ADMINLANG['disputes']['closeDisputeSure2'] = "Closing a dispute is irreversible.";
-$_ADMINLANG['disputes']['closeDisputeSure3'] = "Are you sure you wish to close the dispute?";
-$_ADMINLANG['disputes']['closedSuccess'] = "The dispute has been closed.";
-$_ADMINLANG['disputes']['submitDispute'] = "Submit Dispute";
-$_ADMINLANG['disputes']['submitEvidence'] = "Submit Evidence";
-$_ADMINLANG['disputes']['evidenceType'] = "Evidence Type";
-$_ADMINLANG['disputes']['evidenceProvided'] = "Evidence Provided";
-$_ADMINLANG['disputes']['unsubmittedEvidence'] = "Unsubmitted evidence is present. Update the evidence before submitting the dispute for final review.";
-$_ADMINLANG['disputes']['submitDisputeSure1'] = "Submitting the dispute for a charge indicates that you have provided all of the evidence that you wish to submit and that the issuer can now review it.";
-$_ADMINLANG['disputes']['submitDisputeSure2'] = "Submitting a dispute is irreversible.";
-$_ADMINLANG['disputes']['submitDisputeSure3'] = "Are you sure you wish to submit the dispute?";
-$_ADMINLANG['disputes']['submitSuccess'] = "The dispute has been submitted.";
-$_ADMINLANG['disputes']['error']['authenticationFailure'] = "Authentication failed for the following payment gateways: :failedGateways";
-$_ADMINLANG['disputes']['reasons']['bank_cannot_process'] = "The bank cannot process the payment.";
-$_ADMINLANG['disputes']['reasons']['check_returned'] = "The check was returned.";
-$_ADMINLANG['disputes']['reasons']['credit_not_processed'] = "The credit was not processed.";
-$_ADMINLANG['disputes']['reasons']['customer_initiated'] = "The customer initiated the dispute.";
-$_ADMINLANG['disputes']['reasons']['debit_not_authorized'] = "The debit was not authorized.";
-$_ADMINLANG['disputes']['reasons']['duplicate'] = "The customer claims the payment is a duplicate.";
-$_ADMINLANG['disputes']['reasons']['fraudulent'] = "The customer claims the payment is fraudulent.";
-$_ADMINLANG['disputes']['reasons']['general'] = "The dispute reason is unknown. Please contact the customer.";
-$_ADMINLANG['disputes']['reasons']['incorrect_account_details'] = "The account details are incorrect.";
-$_ADMINLANG['disputes']['reasons']['insufficient_funds'] = "There were insufficient funds in the customers account.";
-$_ADMINLANG['disputes']['reasons']['product_not_received'] = "The product was not received.";
-$_ADMINLANG['disputes']['reasons']['product_unacceptable'] = "The product was unacceptable.";
-$_ADMINLANG['disputes']['reasons']['subscription_canceled'] = "The subscription was cancelled.";
-$_ADMINLANG['disputes']['reasons']['unrecognized'] = "The customer claims they do not recognise the payment.";
-$_ADMINLANG['disputes']['reasons']['merchandise_or_service_not_received'] = "The merchandise or service was not received.";
-$_ADMINLANG['disputes']['reasons']['merchandise_or_service_not_as_described'] = "The merchandise or service was not as described.";
-$_ADMINLANG['disputes']['reasons']['unauthorised'] = "The customer claims they did not authorise the payment.";
-$_ADMINLANG['disputes']['reasons']['duplicate_transaction'] = "The transaction is a duplicate.";
-$_ADMINLANG['disputes']['reasons']['incorrect_amount'] = "The charge amount is incorrect.";
-$_ADMINLANG['disputes']['reasons']['payment_by_other_means'] = "Payment has been made using other methods.";
-$_ADMINLANG['disputes']['reasons']['canceled_recurring_billing'] = "Recurring billing was cancelled.";
-$_ADMINLANG['disputes']['reasons']['problem_with_remittance'] = "There was a problem with remittance.";
-$_ADMINLANG['disputes']['reasons']['other'] = "Other";
-$_ADMINLANG['disputes']['statuses']['warning_needs_response'] = "Needs Response";
-$_ADMINLANG['disputes']['statuses']['warning_under_review'] = "Evidence Under Review";
-$_ADMINLANG['disputes']['statuses']['warning_closed'] = "Timed Out (Closed)";
-$_ADMINLANG['disputes']['statuses']['needs_response'] = "New";
-$_ADMINLANG['disputes']['statuses']['charge_refunded'] = "Charge Refunded";
+$_ADMINLANG['disputes']['title'] = "اختلافات";
+$_ADMINLANG['disputes']['description1'] = "اختلاف زمانی رخ می دهد که مشتری هزینه شما را با صادرکننده کارت خود سوال کند";
+$_ADMINLANG['disputes']['description2'] = ".وقتی این اتفاق می‌افتد، به شما این فرصت داده می‌شود که با شواهدی که نشان می‌دهد اتهام مشروع است، به اختلاف پاسخ دهید.";
+$_ADMINLANG['disputes']['viewDispute'] = "مشاهده اختلاف";
+$_ADMINLANG['disputes']['listDisputes'] = "لیست اختلافات";
+$_ADMINLANG['disputes']['return'] = "بازگشت به لیست اختلاف";
+$_ADMINLANG['disputes']['disputeId'] = "شناسه اختلاف";
+$_ADMINLANG['disputes']['chooseNew'] = "شواهدی را برای ارسال انتخاب کنید";
+$_ADMINLANG['disputes']['evidenceSubmitted'] = "مدارک ارائه شده";
+$_ADMINLANG['disputes']['updateEvidence'] = "به روز رسانی شواهد";
+$_ADMINLANG['disputes']['disputeUpdated'] = ".اختلاف با موفقیت به روز شد";
+$_ADMINLANG['disputes']['removeEvidenceRow'] = "ردیف شواهد را حذف کنید";
+$_ADMINLANG['disputes']['manageDispute'] = "مدیریت  اختلاف";
+$_ADMINLANG['disputes']['closeDispute'] = "بستن اختلاف";
+$_ADMINLANG['disputes']['closeDisputeSure1'] = ".بستن یک اختلاف نشان می دهد که شما هیچ مدرکی برای ارائه ندارید و در حال رد کردن اختلاف و تصدیق آن به عنوان از دست رفته هستید.";
+$_ADMINLANG['disputes']['closeDisputeSure2'] = ".خاتمه دادن به اختلاف غیر قابل برگشت است";
+$_ADMINLANG['disputes']['closeDisputeSure3'] = "آیا مطمئنید که می خواهید اختلاف را ببندید؟";
+$_ADMINLANG['disputes']['closedSuccess'] = ".اختلاف بسته شده است";
+$_ADMINLANG['disputes']['submitDispute'] = "ارسال اختلاف";
+$_ADMINLANG['disputes']['submitEvidence'] = "ارائه شواهد";
+$_ADMINLANG['disputes']['evidenceType'] = "نوع مدرک";
+$_ADMINLANG['disputes']['evidenceProvided'] = "شواهد ارائه شده است";
+$_ADMINLANG['disputes']['unsubmittedEvidence'] = ".مدارک ارائه نشده وجود دارد. قبل از ارسال اختلاف برای بررسی نهایی، شواهد را به روز کنید";
+$_ADMINLANG['disputes']['submitDisputeSure1'] = ".ارسال اعتراض برای هزینه نشان می دهد که شما تمام شواهدی را که می خواهید ارائه کنید ارائه کرده اید و اکنون صادر کننده می تواند آن را بررسی کند.";
+$_ADMINLANG['disputes']['submitDisputeSure2'] = ".ارائه یک اختلاف غیر قابل برگشت است";
+$_ADMINLANG['disputes']['submitDisputeSure3'] = "آیا مطمئن هستید که می خواهید اعتراض را ارسال کنید؟";
+$_ADMINLANG['disputes']['submitSuccess'] = ".اختلاف ارائه شده است";
+$_ADMINLANG['disputes']['error']['authenticationFailure'] = " :failedGateways احراز هویت برای درگاه‌های پرداخت زیر انجام نشد";
+$_ADMINLANG['disputes']['reasons']['bank_cannot_process'] = ".بانک نمی تواند پرداخت را پردازش کند";
+$_ADMINLANG['disputes']['reasons']['check_returned'] = ".چک برگشت داده شد";
+$_ADMINLANG['disputes']['reasons']['credit_not_processed'] = ".اعتبار پردازش نشد";
+$_ADMINLANG['disputes']['reasons']['customer_initiated'] = ".مشتری اختلاف را آغاز کرد";
+$_ADMINLANG['disputes']['reasons']['debit_not_authorized'] = ".بدهی مجاز نبود";
+$_ADMINLANG['disputes']['reasons']['duplicate'] = ".مشتری ادعا می کند که پرداخت تکراری است";
+$_ADMINLANG['disputes']['reasons']['fraudulent'] = ".مشتری ادعا می کند که پرداخت تقلبی است";
+$_ADMINLANG['disputes']['reasons']['general'] = ".دلیل اختلاف مشخص نیست. لطفا با مشتری تماس بگیرید";
+$_ADMINLANG['disputes']['reasons']['incorrect_account_details'] = ".جزئیات حساب نادرست است";
+$_ADMINLANG['disputes']['reasons']['insufficient_funds'] = ".وجوه کافی در حساب مشتریان وجود نداشت";
+$_ADMINLANG['disputes']['reasons']['product_not_received'] = ".محصول دریافت نشد";
+$_ADMINLANG['disputes']['reasons']['product_unacceptable'] = ".محصول غیر قابل قبول بود";
+$_ADMINLANG['disputes']['reasons']['subscription_canceled'] = ".اشتراک لغو شد";
+$_ADMINLANG['disputes']['reasons']['unrecognized'] = ".مشتری ادعا می کند که پرداخت را نمی شناسد";
+$_ADMINLANG['disputes']['reasons']['merchandise_or_service_not_received'] = ".کالا یا خدمات دریافت نشد";
+$_ADMINLANG['disputes']['reasons']['merchandise_or_service_not_as_described'] = ".کالا یا خدمات آنطور که توضیح داده شد نبود";
+$_ADMINLANG['disputes']['reasons']['unauthorised'] = ".مشتری ادعا می کند که پرداخت را مجاز نکرده است";
+$_ADMINLANG['disputes']['reasons']['duplicate_transaction'] = ".معامله تکراری است";
+$_ADMINLANG['disputes']['reasons']['incorrect_amount'] = "مبلغ شارژ نادرست است.";
+$_ADMINLANG['disputes']['reasons']['payment_by_other_means'] = ".پرداخت با روش های دیگر انجام شده است";
+$_ADMINLANG['disputes']['reasons']['canceled_recurring_billing'] = ".صورت‌حساب تکراری لغو شد";
+$_ADMINLANG['disputes']['reasons']['problem_with_remittance'] = ".حواله مشکل داشت";
+$_ADMINLANG['disputes']['reasons']['other'] = "سایر";
+$_ADMINLANG['disputes']['statuses']['warning_needs_response'] = "نیاز به پاسخ دارد";
+$_ADMINLANG['disputes']['statuses']['warning_under_review'] = "شواهد در دست بررسی";
+$_ADMINLANG['disputes']['statuses']['warning_closed'] = "زمان تمام شده (بسته)";
+$_ADMINLANG['disputes']['statuses']['needs_response'] = "جدید";
+$_ADMINLANG['disputes']['statuses']['charge_refunded'] = "هزینه بازپرداخت شد";
 $_ADMINLANG['disputes']['statuses']['won'] = "Won";
-$_ADMINLANG['disputes']['statuses']['lost'] = "Lost";
-$_ADMINLANG['disputes']['statuses']['open'] = "Open";
-$_ADMINLANG['disputes']['statuses']['waiting_for_buyer_response'] = "Waiting For Buyer Response";
-$_ADMINLANG['disputes']['statuses']['waiting_for_seller_response'] = "Waiting For Seller Response";
-$_ADMINLANG['disputes']['statuses']['under_review'] = "Under Review";
-$_ADMINLANG['disputes']['statuses']['resolved'] = "Resolved";
-$_ADMINLANG['disputes']['statuses']['other'] = "Other";
-$_ADMINLANG['disputes']['evidence']['access_activity_log'] = "Server or Activity Logs";
-$_ADMINLANG['disputes']['evidence']['billing_address'] = "Customer Billing Address";
-$_ADMINLANG['disputes']['evidence']['cancellation_policy'] = "Cancellation Policy";
-$_ADMINLANG['disputes']['evidence']['cancellation_policy_disclosure'] = "How was the cancellation policy shown?";
-$_ADMINLANG['disputes']['evidence']['cancellation_rebuttal'] = "Why wasn't the subscription cancelled?";
-$_ADMINLANG['disputes']['evidence']['customer_communication'] = "Customer Communication";
-$_ADMINLANG['disputes']['evidence']['customer_email_address'] = "Customer Email Address";
-$_ADMINLANG['disputes']['evidence']['customer_name'] = "Customer Name";
-$_ADMINLANG['disputes']['evidence']['customer_purchase_ip'] = "Customer Purchase IP Address";
-$_ADMINLANG['disputes']['evidence']['customer_signature'] = "Customer Signature";
-$_ADMINLANG['disputes']['evidence']['duplicate_charge_documentation'] = "Duplicate Charge Documentation";
-$_ADMINLANG['disputes']['evidence']['duplicate_charge_explanation'] = "Explanation of Duplicate Charge";
-$_ADMINLANG['disputes']['evidence']['duplicate_charge_id'] = "Duplicate Charge ID";
-$_ADMINLANG['disputes']['evidence']['product_description'] = "Product Description";
-$_ADMINLANG['disputes']['evidence']['receipt'] = "Customer Receipt";
-$_ADMINLANG['disputes']['evidence']['refund_policy'] = "Refund Policy";
-$_ADMINLANG['disputes']['evidence']['refund_policy_disclosure'] = "Method for displaying the refund policy.";
-$_ADMINLANG['disputes']['evidence']['refund_refusal_explanation'] = "Why isn't the customer entitled to a refund?";
-$_ADMINLANG['disputes']['evidence']['service_date'] = "Service Order Date";
-$_ADMINLANG['disputes']['evidence']['service_documentation'] = "Proof of Service";
-$_ADMINLANG['disputes']['evidence']['shipping_address'] = "Customer Shipping Address";
-$_ADMINLANG['disputes']['evidence']['shipping_carrier'] = "Shipping Carrier";
-$_ADMINLANG['disputes']['evidence']['shipping_date'] = "Date of Shipping";
-$_ADMINLANG['disputes']['evidence']['shipping_documentation'] = "Proof of Shipping";
-$_ADMINLANG['disputes']['evidence']['shipping_tracking_number'] = "Shipping Tracking Number";
-$_ADMINLANG['disputes']['evidence']['uncategorized_file'] = "Additional Uncategorized Evidence";
-$_ADMINLANG['disputes']['evidence']['uncategorized_text'] = "Additional Uncategorized Statements";
-$_ADMINLANG['disputes']['evidence']['proof_of_fulfillment'] = "Proof of Fulfillment";
-$_ADMINLANG['disputes']['evidence']['proof_of_refund'] = "Proof of Refund";
-$_ADMINLANG['disputes']['evidence']['proof_of_delivery_signature'] = "Proof of Delivery Signature";
-$_ADMINLANG['disputes']['evidence']['proof_of_receipt_copy'] = "Proof of Receipt Copy";
-$_ADMINLANG['disputes']['evidence']['return_policy'] = "Return Policy";
-$_ADMINLANG['disputes']['evidence']['billing_agreement'] = "Billing Agreement";
-$_ADMINLANG['disputes']['evidence']['proof_of_reshipment'] = "Proof of Reshipment";
-$_ADMINLANG['disputes']['evidence']['item_description'] = "Item Description";
-$_ADMINLANG['disputes']['evidence']['police_report'] = "Police Report";
-$_ADMINLANG['disputes']['evidence']['affidavit'] = "Affidavit";
-$_ADMINLANG['disputes']['evidence']['paid_with_other_method'] = "Paid With Other Method";
-$_ADMINLANG['disputes']['evidence']['copy_of_contract'] = "Copy of Contract";
-$_ADMINLANG['disputes']['evidence']['terminal_atm_receipt'] = "Terminal ATM Receipt";
-$_ADMINLANG['disputes']['evidence']['price_difference_reason'] = "Price Difference Reason";
-$_ADMINLANG['disputes']['evidence']['source_conversion_rate'] = "Source Conversion Rate";
-$_ADMINLANG['disputes']['evidence']['bank_statement'] = "Bank Statement";
-$_ADMINLANG['disputes']['evidence']['credit_due_reason'] = "Credit Due Reason";
-$_ADMINLANG['disputes']['evidence']['request_credit_receipt'] = "Request Credit Receipt";
-$_ADMINLANG['disputes']['evidence']['proof_of_return'] = "Proof of Return";
-$_ADMINLANG['disputes']['evidence']['create'] = "Create";
-$_ADMINLANG['disputes']['evidence']['change_reason'] = "Change Reason";
-$_ADMINLANG['disputes']['evidence']['proof_of_refund_outside_paypal'] = "Proof of Refund Outside of PayPal®";
-$_ADMINLANG['disputes']['evidence']['receipt_of_merchandise'] = "Receipt of Merchandise";
-$_ADMINLANG['disputes']['evidence']['customs_document'] = "Customs Document";
-$_ADMINLANG['disputes']['evidence']['customs_fee_receipt'] = "Customs Fee Receipt";
-$_ADMINLANG['disputes']['evidence']['information_on_resolution'] = "Information on Resolution";
-$_ADMINLANG['disputes']['evidence']['additional_information_of_item'] = "Additional Information of Item";
-$_ADMINLANG['disputes']['evidence']['details_of_purchase'] = "Details of Purchase";
-$_ADMINLANG['disputes']['evidence']['proof_of_significant_difference'] = "Proof of Significant Difference";
-$_ADMINLANG['disputes']['evidence']['proof_of_software_or_service_not_as_described'] = "Proof of Software or Service Is Not As Described";
-$_ADMINLANG['disputes']['evidence']['proof_of_confiscation'] = "Proof of Confiscation";
-$_ADMINLANG['disputes']['evidence']['proof_of_damage'] = "Proof of Damage";
-$_ADMINLANG['disputes']['evidence']['copy_of_law_enforcement_agency_report'] = "Copy of Law Enforcement Agency Report";
-$_ADMINLANG['disputes']['evidence']['additional_proof_of_shipment'] = "Additional Proof of Shipment";
-$_ADMINLANG['disputes']['evidence']['proof_of_denial_by_carrier'] = "Proof of Denial by Carrier";
-$_ADMINLANG['disputes']['evidence']['thirdparty_proof_for_damage_or_significant_difference'] = "Third-Party Proof of Damage or Significant Difference";
-$_ADMINLANG['disputes']['evidence']['valid_supporting_document'] = "Valid Support Document";
-$_ADMINLANG['disputes']['evidence']['legible_supporting_document'] = "Legible Supporting Document";
-$_ADMINLANG['disputes']['evidence']['return_tracking_information'] = "Return Tracking Information";
-$_ADMINLANG['disputes']['evidence']['delivery_receipt'] = "Delivery Receipt";
-$_ADMINLANG['disputes']['evidence']['proof_of_instore_receipt'] = "Proof of In-Store Receipt";
-$_ADMINLANG['disputes']['evidence']['additional_tracking_information'] = "Additional Tracking Information";
-$_ADMINLANG['disputes']['evidence']['proof_of_shipment_postage'] = "Proof of Shipment Postage";
-$_ADMINLANG['disputes']['evidence']['online_tracking_information'] = "Online Tracking Information";
-$_ADMINLANG['disputes']['evidence']['proof_of_instore_refund'] = "Proof of In-Store Refund";
-$_ADMINLANG['disputes']['evidence']['proof_for_software_or_service_delivered'] = "Proof of the Software or Service Delivered";
-$_ADMINLANG['disputes']['evidence']['return_address_for_shipping'] = "Return Address for Shipping";
+$_ADMINLANG['disputes']['statuses']['lost'] = "از دست رفته";
+$_ADMINLANG['disputes']['statuses']['open'] = "باز";
+$_ADMINLANG['disputes']['statuses']['waiting_for_buyer_response'] = "در انتظار پاسخ خریدار";
+$_ADMINLANG['disputes']['statuses']['waiting_for_seller_response'] = "در انتظار پاسخ فروشنده";
+$_ADMINLANG['disputes']['statuses']['under_review'] = "تحت بررسی";
+$_ADMINLANG['disputes']['statuses']['resolved'] = "حل شده";
+$_ADMINLANG['disputes']['statuses']['other'] = "سایر";
+$_ADMINLANG['disputes']['evidence']['access_activity_log'] = "سرور یا گزارش فعالیت";
+$_ADMINLANG['disputes']['evidence']['billing_address'] = "آدرس صورتحساب مشتری";
+$_ADMINLANG['disputes']['evidence']['cancellation_policy'] = "سیاست لغو";
+$_ADMINLANG['disputes']['evidence']['cancellation_policy_disclosure'] = "سیاست لغو چگونه نشان داده شد؟";
+$_ADMINLANG['disputes']['evidence']['cancellation_rebuttal'] = "چرا اشتراک لغو نشد؟";
+$_ADMINLANG['disputes']['evidence']['customer_communication'] = "ارتباط با مشتری";
+$_ADMINLANG['disputes']['evidence']['customer_email_address'] = "آدرس ایمیل مشتری";
+$_ADMINLANG['disputes']['evidence']['customer_name'] = "نام مشتری";
+$_ADMINLANG['disputes']['evidence']['customer_purchase_ip'] = "آدرس آیپی خرید مشتری";
+$_ADMINLANG['disputes']['evidence']['customer_signature'] = "امضای مشتری";
+$_ADMINLANG['disputes']['evidence']['duplicate_charge_documentation'] = "اسناد شارژ تکراری";
+$_ADMINLANG['disputes']['evidence']['duplicate_charge_explanation'] = "توضیح شارژ تکراری";
+$_ADMINLANG['disputes']['evidence']['duplicate_charge_id'] = "شناسه شارژ تکراری";
+$_ADMINLANG['disputes']['evidence']['product_description'] = "توضیحات محصول";
+$_ADMINLANG['disputes']['evidence']['receipt'] = "رسید مشتری";
+$_ADMINLANG['disputes']['evidence']['refund_policy'] = "سیاست بازپرداخت";
+$_ADMINLANG['disputes']['evidence']['refund_policy_disclosure'] = ".روش نمایش سیاست بازپرداخت";
+$_ADMINLANG['disputes']['evidence']['refund_refusal_explanation'] = "چرا مشتری مستحق بازپرداخت نیست؟";
+$_ADMINLANG['disputes']['evidence']['service_date'] = "تاریخ سفارش خدمات";
+$_ADMINLANG['disputes']['evidence']['service_documentation'] = "اثبات خدمات";
+$_ADMINLANG['disputes']['evidence']['shipping_address'] = "آدرس حمل و نقل مشتری";
+$_ADMINLANG['disputes']['evidence']['shipping_carrier'] = "حامل حمل و نقل";
+$_ADMINLANG['disputes']['evidence']['shipping_date'] = "تاریخ ارسال";
+$_ADMINLANG['disputes']['evidence']['shipping_documentation'] = "اثبات حمل و نقل";
+$_ADMINLANG['disputes']['evidence']['shipping_tracking_number'] = "شماره پیگیری حمل و نقل";
+$_ADMINLANG['disputes']['evidence']['uncategorized_file'] = "شواهد دسته بندی نشده اضافی";
+$_ADMINLANG['disputes']['evidence']['uncategorized_text'] = "اظهارات دسته بندی نشده اضافی";
+$_ADMINLANG['disputes']['evidence']['proof_of_fulfillment'] = "اثبات تحقق";
+$_ADMINLANG['disputes']['evidence']['proof_of_refund'] = "اثبات بازپرداخت";
+$_ADMINLANG['disputes']['evidence']['proof_of_delivery_signature'] = "گواهی امضای تحویل";
+$_ADMINLANG['disputes']['evidence']['proof_of_receipt_copy'] = "کپی گواهی رسید";
+$_ADMINLANG['disputes']['evidence']['return_policy'] = "سیاست بازگشت";
+$_ADMINLANG['disputes']['evidence']['billing_agreement'] = "قرارداد صورتحساب";
+$_ADMINLANG['disputes']['evidence']['proof_of_reshipment'] = "اثبات ارسال مجدد";
+$_ADMINLANG['disputes']['evidence']['item_description'] = "توضیحات موارد";
+$_ADMINLANG['disputes']['evidence']['police_report'] = "گزارش پلیس";
+$_ADMINLANG['disputes']['evidence']['affidavit'] = "سوگندنامه";
+$_ADMINLANG['disputes']['evidence']['paid_with_other_method'] = "پرداخت با روش دیگر";
+$_ADMINLANG['disputes']['evidence']['copy_of_contract'] = "کپی قرارداد";
+$_ADMINLANG['disputes']['evidence']['terminal_atm_receipt'] = "رسید ترمینال خودپرداز";
+$_ADMINLANG['disputes']['evidence']['price_difference_reason'] = "دلیل تفاوت قیمت";
+$_ADMINLANG['disputes']['evidence']['source_conversion_rate'] = "نرخ تبدیل منبع";
+$_ADMINLANG['disputes']['evidence']['bank_statement'] = "صورت حساب بانک";
+$_ADMINLANG['disputes']['evidence']['credit_due_reason'] = "دلیل اعتباری";
+$_ADMINLANG['disputes']['evidence']['request_credit_receipt'] = "درخواست رسید اعتبار";
+$_ADMINLANG['disputes']['evidence']['proof_of_return'] = "اثبات بازگشت";
+$_ADMINLANG['disputes']['evidence']['create'] = "ایجاد کردن";
+$_ADMINLANG['disputes']['evidence']['change_reason'] = "تغییر دلیل";
+$_ADMINLANG['disputes']['evidence']['proof_of_refund_outside_paypal'] = "اثبات بازپرداخت خارج از پی پال";
+$_ADMINLANG['disputes']['evidence']['receipt_of_merchandise'] = "رسید کالا";
+$_ADMINLANG['disputes']['evidence']['customs_document'] = "سند گمرکی";
+$_ADMINLANG['disputes']['evidence']['customs_fee_receipt'] = "رسید هزینه گمرکی";
+$_ADMINLANG['disputes']['evidence']['information_on_resolution'] = "اطلاعات در مورد رزولوشن";
+$_ADMINLANG['disputes']['evidence']['additional_information_of_item'] = "اطلاعات اضافی مورد";
+$_ADMINLANG['disputes']['evidence']['details_of_purchase'] = "جزئیات خرید";
+$_ADMINLANG['disputes']['evidence']['proof_of_significant_difference'] = "اثبات تفاوت معنادار";
+$_ADMINLANG['disputes']['evidence']['proof_of_software_or_service_not_as_described'] = "اثبات نرم افزار یا خدمات آنطور که توضیح داده شده نیست";
+$_ADMINLANG['disputes']['evidence']['proof_of_confiscation'] = "اثبات مصادره";
+$_ADMINLANG['disputes']['evidence']['proof_of_damage'] = "اثبات خسارت";
+$_ADMINLANG['disputes']['evidence']['copy_of_law_enforcement_agency_report'] = "کپی گزارش نیروی انتظامی";
+$_ADMINLANG['disputes']['evidence']['additional_proof_of_shipment'] = "مدرک اضافی حمل و نقل";
+$_ADMINLANG['disputes']['evidence']['proof_of_denial_by_carrier'] = "اثبات انکار توسط حامل";
+$_ADMINLANG['disputes']['evidence']['thirdparty_proof_for_damage_or_significant_difference'] = "اثبات خسارت یا تفاوت قابل توجه شخص ثالث";
+$_ADMINLANG['disputes']['evidence']['valid_supporting_document'] = "سند پشتیبانی معتبر";
+$_ADMINLANG['disputes']['evidence']['legible_supporting_document'] = "سند پشتیبان خوانا";
+$_ADMINLANG['disputes']['evidence']['return_tracking_information'] = "اطلاعات ردیابی بازگشت";
+$_ADMINLANG['disputes']['evidence']['delivery_receipt'] = "رسید تحویل";
+$_ADMINLANG['disputes']['evidence']['proof_of_instore_receipt'] = "اثبات رسید در فروشگاه";
+$_ADMINLANG['disputes']['evidence']['additional_tracking_information'] = "اطلاعات ردیابی اضافی";
+$_ADMINLANG['disputes']['evidence']['proof_of_shipment_postage'] = "اثبات حمل و نقل هزینه پست";
+$_ADMINLANG['disputes']['evidence']['online_tracking_information'] = "اطلاعات ردیابی آنلاین";
+$_ADMINLANG['disputes']['evidence']['proof_of_instore_refund'] = "اثبات بازپرداخت در فروشگاه";
+$_ADMINLANG['disputes']['evidence']['proof_for_software_or_service_delivered'] = "اثبات نرم افزار یا خدمات ارائه شده";
+$_ADMINLANG['disputes']['evidence']['return_address_for_shipping'] = "آدرس برگشت برای حمل و نقل";
 $_ADMINLANG['disputes']['evidence']['copy_of_the_eparcel_manifest'] = "Copy of the eParcel Manifest";
 $_ADMINLANG['disputes']['evidence']['copy_of_shipping_manifest'] = "Copy of the Shipping Manifest";
-$_ADMINLANG['disputes']['evidence']['appeal_affidavit'] = "Appeal Affidavit";
-$_ADMINLANG['disputes']['evidence']['receipt_of_replacement'] = "Receipt of Replacement";
-$_ADMINLANG['disputes']['evidence']['copy_of_drivers_license'] = "Copy of Driver's License";
-$_ADMINLANG['disputes']['evidence']['account_change_information'] = "Account Change Information";
-$_ADMINLANG['disputes']['evidence']['delivery_address'] = "Delivery Address";
-$_ADMINLANG['disputes']['evidence']['confirmation_of_resolution'] = "Confirmation of Resolution";
-$_ADMINLANG['disputes']['evidence']['merchant_response'] = "Merchant Response";
-$_ADMINLANG['disputes']['evidence']['permission_description'] = "Permission Description";
-$_ADMINLANG['disputes']['evidence']['status_of_merchandise'] = "Status of Merchandise";
-$_ADMINLANG['disputes']['evidence']['lost_card_details'] = "Lost Card Details";
-$_ADMINLANG['disputes']['evidence']['last_valid_transaction_details'] = "Lost Valid Transaction Details";
-$_ADMINLANG['disputes']['evidence']['additional_proof_of_return'] = "Additional Proof of Return";
-$_ADMINLANG['disputes']['evidence']['other'] = "Other";
-$_ADMINLANG['disputes']['evidence']['label']['date'] = "Date Added";
-$_ADMINLANG['disputes']['evidence']['label']['action'] = "Action";
-$_ADMINLANG['disputes']['evidence']['label']['refundId'] = "Refund ID";
-$_ADMINLANG['disputes']['evidence']['label']['refundIds'] = "Refund IDs";
-$_ADMINLANG['disputes']['evidence']['label']['carrierName'] = "Carrier Name";
-$_ADMINLANG['disputes']['evidence']['label']['trackingNumber'] = "Tracking Number";
-$_ADMINLANG['disputes']['evidence']['label']['notes'] = "Notes";
-$_ADMINLANG['disputes']['evidence']['label']['documents'] = "Documents";
-$_ADMINLANG['disputes']['unableToSubmit'] = "Submission Failed.<br>You must add evidence before submitting the dispute.";
-$_ADMINLANG['disputes']['noSupportedGateways'] = "You have not configured any gateways that support the Disputes feature. :learnMore";
+$_ADMINLANG['disputes']['evidence']['appeal_affidavit'] = "سوگندنامه تجدیدنظر";
+$_ADMINLANG['disputes']['evidence']['receipt_of_replacement'] = "رسید تعویض";
+$_ADMINLANG['disputes']['evidence']['copy_of_drivers_license'] = "کپی گواهینامه رانندگی";
+$_ADMINLANG['disputes']['evidence']['account_change_information'] = "اطلاعات تغییر حساب";
+$_ADMINLANG['disputes']['evidence']['delivery_address'] = "نشانی تحویل";
+$_ADMINLANG['disputes']['evidence']['confirmation_of_resolution'] = "تایید قطعنامه";
+$_ADMINLANG['disputes']['evidence']['merchant_response'] = "پاسخ تاجر";
+$_ADMINLANG['disputes']['evidence']['permission_description'] = "شرح مجوز";
+$_ADMINLANG['disputes']['evidence']['status_of_merchandise'] = "وضعیت کالا";
+$_ADMINLANG['disputes']['evidence']['lost_card_details'] = "جزئیات کارت گم شده";
+$_ADMINLANG['disputes']['evidence']['last_valid_transaction_details'] = "جزئیات تراکنش معتبر از دست رفته است";
+$_ADMINLANG['disputes']['evidence']['additional_proof_of_return'] = "گواهی بازگشت اضافی";
+$_ADMINLANG['disputes']['evidence']['other'] = "سایر";
+$_ADMINLANG['disputes']['evidence']['label']['date'] = "تاریخ اضافه شده";
+$_ADMINLANG['disputes']['evidence']['label']['action'] = "عملیات";
+$_ADMINLANG['disputes']['evidence']['label']['refundId'] = "شناسه بازپرداخت";
+$_ADMINLANG['disputes']['evidence']['label']['refundIds'] = "شناسه های بازپرداخت";
+$_ADMINLANG['disputes']['evidence']['label']['carrierName'] = "نام حامل";
+$_ADMINLANG['disputes']['evidence']['label']['trackingNumber'] = "شماره پیگیری";
+$_ADMINLANG['disputes']['evidence']['label']['notes'] = "یاداشت ها";
+$_ADMINLANG['disputes']['evidence']['label']['documents'] = "مستندات";
+$_ADMINLANG['disputes']['unableToSubmit'] = ".ارسال ناموفق بود<br>.قبل از ارسال اعتراض باید شواهدی را اضافه کنید";
+$_ADMINLANG['disputes']['noSupportedGateways'] = ".شما هیچ دروازه ای را پیکربندی نکرده اید که از ویژگی اختلاف پشتیبانی کند :learnMore";
 
-$_ADMINLANG['wptk']['createCustomField'] = "Create Custom Field";
-$_ADMINLANG['wptk']['visitHomepage'] = "Visit Homepage";
+$_ADMINLANG['wptk']['createCustomField'] = "ایجاد فیلد سفارشی";
+$_ADMINLANG['wptk']['visitHomepage'] = "بازدید از صفحه اصلی";
 $_ADMINLANG['wptk']['manageWordPress'] = "Manage WordPress";
 $_ADMINLANG['wptk']['installWordPress'] = "Install WordPress";
-$_ADMINLANG['wptk']['installWordPressShort'] = "Install";
-$_ADMINLANG['wptk']['disallowAdminInstall'] = "Don't Allow Admin Installation";
-$_ADMINLANG['wptk']['allowAdminInstall'] = "Allow Admin Installation";
-$_ADMINLANG['wptk']['disallowClientInstall'] = "Don't Allow Client Installation";
-$_ADMINLANG['wptk']['allowClientInstall'] = "Allow Client Installation";
-$_ADMINLANG['wptk']['disallowAutomaticInstall'] = "No Automatic Installations";
-$_ADMINLANG['wptk']['allowAutomaticInstall'] = "Install Automatically";
+$_ADMINLANG['wptk']['installWordPressShort'] = "نصب";
+$_ADMINLANG['wptk']['disallowAdminInstall'] = "به نصب ادمین اجازه ندهید";
+$_ADMINLANG['wptk']['allowAdminInstall'] = "اجازه نصب ادمین";
+$_ADMINLANG['wptk']['disallowClientInstall'] = "به کاربر اجازه نصب ندهید";
+$_ADMINLANG['wptk']['allowClientInstall'] = "اجازه نصب به مشتری";
+$_ADMINLANG['wptk']['disallowAutomaticInstall'] = "بدون نصب خودکار";
+$_ADMINLANG['wptk']['allowAutomaticInstall'] = "نصب به صورت خودکار";
 
-$_ADMINLANG['mailImport']['status']['successfulNew'] = "The system imported the ticket successfully.";
-$_ADMINLANG['mailImport']['status']['successfulReply'] = "The system imported the ticket reply successfully.";
-$_ADMINLANG['mailImport']['status']['failedTicketImport'] = "The system could not import the ticket.";
-$_ADMINLANG['mailImport']['status']['blockedEmailLoop'] = "The system blocked a potential email loop.";
-$_ADMINLANG['mailImport']['status']['deptNotFound'] = "The system could not find the department.";
-$_ADMINLANG['mailImport']['status']['ticketNotFound'] = "The system could not find the ticket ID.";
-$_ADMINLANG['mailImport']['status']['unregisteredEmailAddress'] = "The sender's email address is not registered.";
-$_ADMINLANG['mailImport']['status']['senderNotAuthorized'] = "The sender is not authorized to interact with the ticket.";
+$_ADMINLANG['mailImport']['status']['successfulNew'] = ".سیستم تیکت را با موفقیت ایمپورت کرد";
+$_ADMINLANG['mailImport']['status']['successfulReply'] = ".سیستم پاسخ تیکت را با موفقیت ایمپورت کرد";
+$_ADMINLANG['mailImport']['status']['failedTicketImport'] = ".سیستم نمی تواند تیکت را وارد کند";
+$_ADMINLANG['mailImport']['status']['blockedEmailLoop'] = ".سیستم یک حلقه ایمیل احتمالی را مسدود کرد";
+$_ADMINLANG['mailImport']['status']['deptNotFound'] = ".سیستم نتوانست بخش را پیدا کند";
+$_ADMINLANG['mailImport']['status']['ticketNotFound'] = ".سیستم نتوانست شناسه تیکت را پیدا کند";
+$_ADMINLANG['mailImport']['status']['unregisteredEmailAddress'] = ".آدرس ایمیل فرستنده ثبت نشده است";
+$_ADMINLANG['mailImport']['status']['senderNotAuthorized'] = ".فرستنده مجاز به تعامل با تیکت نیست";
 $_ADMINLANG['mailImport']['status']['rateLimited'] = "The sender exceeded the limit of :number tickets within 15 minutes.";
-$_ADMINLANG['mailImport']['status']['unregisteredUser'] = "The system blocked a ticket from an unregistered user from opening.";
-$_ADMINLANG['mailImport']['status']['autoResponder'] = "The system prevented an autoresponder from opening a ticket.";
-$_ADMINLANG['mailImport']['status']['reopenViaEmail'] = "The system stopped a ticket from reopening via email.";
-$_ADMINLANG['mailImport']['status']['missingSender'] = "The system did not import the email due to missing sender data.";
-$_ADMINLANG['mailImport']['status']['abortedByHook'] = "The system did not import the email due to a hook.";
-$_ADMINLANG['mailImport']['status']['spamPhrase'] = "The system did not import the email because it contains a blocked phrase.";
-$_ADMINLANG['mailImport']['status']['spamSubject'] = "The system did not import the email because it blocked the subject.";
-$_ADMINLANG['mailImport']['status']['spamSender'] = "The system did not import the email from a blocked sender.";
-$_ADMINLANG['mailImport']['status']['iterationLimit'] = "The system could not generate a ticket number because it reached the maximum number of attempts.";
-$_ADMINLANG['mailImport']['status']['rejectedByOperator'] = "The system did not import the email because an operator rejected it.";
+$_ADMINLANG['mailImport']['status']['unregisteredUser'] = ".سیستم از باز شدن تیکت یک کاربر ثبت نام نشده جلوگیری کرد";
+$_ADMINLANG['mailImport']['status']['autoResponder'] = ".سیستم از باز کردن یک تیکت توسط یک پاسخگوی خودکار جلوگیری کرد";
+$_ADMINLANG['mailImport']['status']['reopenViaEmail'] = ".سیستم بازگشایی تیکت را از طریق ایمیل متوقف کرد";
+$_ADMINLANG['mailImport']['status']['missingSender'] = ".به دلیل از دست رفتن داده‌های فرستنده، سیستم ایمیل را ایمپورت نکرد";
+$_ADMINLANG['mailImport']['status']['abortedByHook'] = ".سیستم ایمیل را به دلیل هوک ایمپورت نکرد";
+$_ADMINLANG['mailImport']['status']['spamPhrase'] = ".سیستم ایمیل را ایمپورت نکرد زیرا حاوی یک عبارت مسدود شده است";
+$_ADMINLANG['mailImport']['status']['spamSubject'] = ".سیستم ایمیل را ایمپورت نکرد زیرا موضوع را مسدود کرد";
+$_ADMINLANG['mailImport']['status']['spamSender'] = ".سیستم ایمیل را از فرستنده مسدود شده وارد نکرده است";
+$_ADMINLANG['mailImport']['status']['iterationLimit'] = ".این سیستم نتوانست شماره تیکت ایجاد کند زیرا به حداکثر تعداد تلاش رسیده است";
+$_ADMINLANG['mailImport']['status']['rejectedByOperator'] = ".سیستم ایمیل را ایمپورت نکرد زیرا اپراتور آن را رد کرد";
 
-$_ADMINLANG['healthCheck']['asyncJobs']['title'] = "Event Handling";
-$_ADMINLANG['healthCheck']['asyncJobs']['success'] = "Event handling is functioning normally.";
+$_ADMINLANG['healthCheck']['asyncJobs']['title'] = "مدیریت رویداد";
+$_ADMINLANG['healthCheck']['asyncJobs']['success'] = ".مدیریت رویداد به طور عادی کار می کند";
 $_ADMINLANG['healthCheck']['asyncJobs']['staleJobs'] = "One or more event handling jobs have not executed. This may happen due to environment incompatibility. Consider changing the \"Event Handling\" setting to \"Inline\" or \"Cron\".";
 
-$_ADMINLANG['idna']['emptyLabel'] = "The domain name input is empty.";
-$_ADMINLANG['idna']['labelTooLong'] = "The domain label has exceeded the maximum length.";
-$_ADMINLANG['idna']['domainTooLong'] = "The domain has exceeded the maximum length.";
-$_ADMINLANG['idna']['invalidDomain'] = "The domain is invalid.";
-$_ADMINLANG['idna']['unknownError'] = "An unknown error occurred.";
+$_ADMINLANG['idna']['emptyLabel'] = ".ورودی نام دامنه خالی است";
+$_ADMINLANG['idna']['labelTooLong'] = ".طول برچسب دامنه از حداکثر طول بیشتر شده است";
+$_ADMINLANG['idna']['domainTooLong'] = ".دامنه از حداکثر طول فراتر رفته است";
+$_ADMINLANG['idna']['invalidDomain'] = ".دامنه نامعتبر است";
+$_ADMINLANG['idna']['unknownError'] = ".یک خطای ناشناخته رخ داد";

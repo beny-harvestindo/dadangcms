@@ -990,3 +990,25 @@ function reverseCommissionSubmit(reverseCommission = false) {
     }
     form.removeAttr('onsubmit').submit();
 }
+
+function autosizeTextarea(el) {
+    var init = function(el) {
+        var elements = document.querySelectorAll(el)
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.overflowX = "hidden"
+            elements[i].style.height = calcHeight(elements[i])
+            elements[i].addEventListener("input", onInput)
+        }
+    };
+
+    var onInput = function() {
+        this.style.height = "auto"
+        this.style.height = calcHeight(this)
+    };
+
+    var calcHeight = function(el) {
+        return (el.scrollHeight + parseFloat(jQuery(el).css("borderTopWidth")) + parseFloat(jQuery(el).css("borderBottomWidth"))) + "px"
+    };
+
+    init(el)
+}

@@ -27,7 +27,7 @@
                     {/if}
                     {if in_array("Create Invoice", $admin_perms)}
                         <li>
-                            <a href="{routePath('admin-billing-invoice-new')}" class="open-modal" data-modal-title="{lang key='addNew.invoice'}" {if $anyGatewaysActivated}data-btn-submit-id="btnCreateInvoice" data-btn-submit-label="{lang key='invoices.create'}"{/if}>
+                            <a href="{routePath('admin-billing-invoice-new')}" class="open-modal" data-modal-title="{lang key='addNew.invoice'}" {if !empty($anyGatewaysActivated)}data-btn-submit-id="btnCreateInvoice" data-btn-submit-label="{lang key='invoices.create'}"{/if}>
                                 {lang key='addNew.invoice'}
                             </a>
                         </li>
@@ -475,7 +475,11 @@
         </li>
         <li class="bt account has-dropdown">
             <a id="Menu-Account" href="#" onclick="return false;">
-                <img src="https://www.gravatar.com/avatar/{md5(\WHMCS\User\Admin::getAuthenticatedUser()->email)}?s=25&d=mp" class="profile-icon" alt="Gravatar">
+                {assign var="gravatarHash" value=""}
+                {if (!empty(\WHMCS\User\Admin::getAuthenticatedUser()->email))}
+                    {assign var="gravatarHash" value=md5(\WHMCS\User\Admin::getAuthenticatedUser()->email)}
+                {/if}
+                <img src="https://www.gravatar.com/avatar/{$gravatarHash}?s=25&d=mp" class="profile-icon" alt="Gravatar">
                 <span class="visible-sidebar">{$_ADMINLANG.account}</span>
             </a>
             <ul class="slim drop-left">

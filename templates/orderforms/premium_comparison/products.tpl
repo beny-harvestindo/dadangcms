@@ -1,3 +1,6 @@
+<!-- Product Recommendations CSS -->
+<link type="text/css" rel="stylesheet" href="{$BASE_PATH_CSS}/recommendations.min.css" property="stylesheet" />
+<!-- Core CSS -->
 <link rel="stylesheet" type="text/css" href="{assetPath file="style.css"}" property="stylesheet" />
 <script>
 jQuery(document).ready(function () {
@@ -97,7 +100,7 @@ jQuery(document).ready(function () {
                                             {if $product.qty eq "0"}
                                                 <span id="{$idPrefix}-unavailable" class="order-button unavailable">{$LANG.outofstock}</span>
                                             {else}
-                                                <a href="{$product.productUrl}" class="order-button" id="{$idPrefix}-order-button">
+                                                <a href="{$product.productUrl}" class="order-button" id="{$idPrefix}-order-button"{if $product.hasRecommendations} data-has-recommendations="1"{/if}>
                                                     {$LANG.ordernowbutton}
                                                 </a>
                                             {/if}
@@ -143,3 +146,7 @@ jQuery(document).ready(function () {
 
     </div>
 </div>
+
+{include file="orderforms/premium_comparison/recommendations-modal.tpl"}
+
+<script src="{$BASE_PATH_JS}/whmcs/recommendations.min.js"></script>

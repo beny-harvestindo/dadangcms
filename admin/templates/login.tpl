@@ -85,9 +85,9 @@
                         </div>
                     </form>
                 {elseif $step eq "reset"}
-                    <form action="login.php" method="post" id="{if $verify}frmPasswordChange{else}frmResetPassword{/if}">
+                    <form action="login.php" method="post" id="{if !empty($verify)}frmPasswordChange{else}frmResetPassword{/if}">
                         <input type="hidden" name="action" value="reset" />
-                        {if $verify}
+                        {if !empty($verify)}
                             <input type="hidden" name="sub" value="newPassword" />
                             <input type="hidden" name="verify" value="{$verify}" />
                             <div class="form-group">

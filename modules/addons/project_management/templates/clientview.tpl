@@ -65,7 +65,7 @@
                         <tr>
                             <td class="text-center">{$tasknum}</td>
                             <td>
-                                {$task.task}
+                                <span class="task-description">{$task.task}</span>
                                 {if $task.completed}
                                     <span class="label label-danger">{$_lang.completed}</span>
                                 {elseif $task.duein}

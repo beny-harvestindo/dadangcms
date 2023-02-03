@@ -211,6 +211,7 @@ $additionaldomainfields[".net.au"] = $additionaldomainfields[".com.au"];
 $additionaldomainfields[".org.au"] = $additionaldomainfields[".com.au"];
 $additionaldomainfields[".asn.au"] = $additionaldomainfields[".com.au"];
 $additionaldomainfields[".id.au"] = $additionaldomainfields[".com.au"];
+$additionaldomainfields[".au"] = $additionaldomainfields[".com.au"];
 
 // .ASIA
 
@@ -294,19 +295,33 @@ $additionaldomainfields['.nu'][] = array(
 $additionaldomainfields[".quebec"][] = array("Name" => "Intended Use", 'LangVar' => 'quebec_intendeduse', "Type" => "text", "Size" => "50", "Default" => "", "Required" => true);
 $additionaldomainfields[".quebec"][] = array("Name" => "Info", "LangVar" => "quebec_info", "Type" => "display", "Default" =>"Intended Use field limited to 2048 characters by the API.  The contents of the field above will be truncated if longer than that when sent to the registrar.");
 
+// .SCOT
+$additionaldomainfields['.scot'] = $additionaldomainfields['.quebec'];
+$additionaldomainfields['.scot'][] = [
+    'Name' => 'Terms & Conditions',
+    'LangVar' => 'domainsTermsAndConditions',
+    'Type' => 'tickbox',
+    'Required' => true,
+    'Description' => '<sup style="cursor:help; text-align:justify;" title="'
+        . $_LANG['domains']['europeanDomainTerms'] . '">Learn More<sup>',
+];
+
 // .JOBS
 $additionaldomainfields['.jobs'][] = array('Name' => 'Website', 'Type' => 'text', 'Size' => '20', 'Required' => true);
 
 // .TRAVEL
-$travel_id = array (
-    'TRUST|Use Trustee',
-    'UIN|Use My Information (Requires UIN)'
-);
-
-$additionaldomainfields['.travel'][] = array('Name'	=> 'Trustee Service', 'DisplayName'	=> 'Trustee Service <sup style="cursor:help;" title="Trustee service allows you to register domains under the name of the trustee if you do not meet the requiremets.">what\'s this?</sup>', 'Options'	=> implode(',', $travel_id),  'Type'	=> 'dropdown', 'Required' => true);
-$additionaldomainfields['.travel'][] = array('Name'	=> '.TRAVEL UIN Code', 'DisplayName' => '.TRAVEL UIN Code <sup style="cursor:help;" title="Travel UIN Code obtained from http://www.authentication.travel/">what\'s this?</sup>', 'Type'	=> 'text', 'Size' => '30');
-$additionaldomainfields['.travel'][] = array('Name'	=> 'Trustee Service Agreement ', 'Description' => 'I agree to the <a href="http://www.101domain.com/trustee_agreement.htm" target="_BLANK">Trustee Service Agreement</a>', 'Type' => 'tickbox');
-$additionaldomainfields['.travel'][] = array('Name'	=> '.TRAVEL Usage Agreement', 'Description'	=> 'I agree that .travel domains are restricted to those who are primarily active in the travel industry.', 'Type'	=> 'tickbox');
+$additionaldomainfields['.travel'][] = [
+    'Name' => '.TRAVEL UIN Code',
+    'DisplayName' => '.TRAVEL UIN Code <sup style="cursor:help;"'
+        . ' title="Travel UIN Code obtained from https://www.authentication.travel/">what\'s this?</sup>',
+    'Type' => 'text',
+    'Size' => '30',
+];
+$additionaldomainfields['.travel'][] = [
+    'Name' => '.TRAVEL Usage Agreement',
+    'Description' => 'I agree that .travel domains are restricted to those who are primarily active in the travel industry.',
+    'Type' => 'tickbox',
+];
 
 // .RU
 

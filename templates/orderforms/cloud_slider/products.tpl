@@ -6,6 +6,8 @@
 <link type="text/css" rel="stylesheet" href="{$BASE_PATH_CSS}/ion.rangeSlider.css" property="stylesheet" />
 <!-- RangeSlider CSS -->
 <link type="text/css" rel="stylesheet" href="{$BASE_PATH_CSS}/ion.rangeSlider.skinHTML5.css" property="stylesheet" />
+<!-- Product Recommendations CSS -->
+<link type="text/css" rel="stylesheet" href="{$BASE_PATH_CSS}/recommendations.min.css" property="stylesheet" />
 <!-- Core CSS -->
 <link type="text/css" rel="stylesheet" href="{assetPath file="style.css"}" property="stylesheet" />
 
@@ -224,6 +226,8 @@ jQuery(document).ready(function () {
 
         </div>
     </div>
+
+    {include file="orderforms/cloud_slider/recommendations-modal.tpl"}
 {/if}
 <!-- RangeSlider JS -->
 <script type="text/javascript" src="{$BASE_PATH_JS}/ion.rangeSlider.js"></script>
@@ -263,7 +267,8 @@ var allProducts = {
                     {/if}
                 {/foreach}
             },
-            productUrl: '{$product.productUrl}'
+            productUrl: '{$product.productUrl}',
+            hasRecommendations: '{$product.hasRecommendations}'
         },
     {/foreach}
 };
@@ -305,28 +310,27 @@ var rangeSliderValues = {
 
 function updateFeaturesList(data)
 {
-    var featureName = "";
-    var featureMarkup = "";
-    var i = parseInt(data.from);
+    var featureName = "",
+        featureMarkup = "",
+        i = parseInt(data.from);
     if (isNaN(i)) {
         i = 0;
         jQuery(".irs-single").text(sliderProductNames[0]);
         jQuery(".irs-grid-text").text('');
     }
-
-    var pid = allProducts[i].pid;
-    var bid = allProducts[i].bid;
-    var desc = allProducts[i].desc;
-    var features = allProducts[i].features;
-    var featurePercentages = allProducts[i].featurePercentages;
-    var displayCycle = '<br><small>' + allProducts[i].displayCycle + '</small>';
-    var displayPrice = allProducts[i].displayPrice + displayCycle;
-
-    var selectedId = data.input[0].id;
-    var featuresTargetArea = "";
-    var priceTargetArea = "";
-    var orderNowArea = "";
-    var buyLink = allProducts[i].productUrl;
+    var pid = allProducts[i].pid,
+        bid = allProducts[i].bid,
+        desc = allProducts[i].desc,
+        features = allProducts[i].features,
+        featurePercentages = allProducts[i].featurePercentages,
+        displayCycle = '<br><small>' + allProducts[i].displayCycle + '</small>',
+        displayPrice = allProducts[i].displayPrice + displayCycle,
+        selectedId = data.input[0].id,
+        featuresTargetArea = "",
+        priceTargetArea = "",
+        orderNowArea = "",
+        buyLink = allProducts[i].productUrl,
+        hasRecommendations = allProducts[i].hasRecommendations;
 
     if (selectedId == 'scroll-top') {
         if (sliderActivated) {
@@ -353,6 +357,11 @@ function updateFeaturesList(data)
     // Update the href for the Order Now button.
     jQuery("#product-order-button").attr("href", buyLink);
     jQuery("#product-order-button-bottom").attr("href", buyLink);
+
+    // Update data-has-recommendations attribute
+    if (hasRecommendations) {
+        jQuery('#product-order-button').attr('data-has-recommendations', hasRecommendations);
+    }
 
     for (featureName in features) {
         featureMarkup = '<div class="col-md-3 container-with-progress-bar">' +
@@ -381,4 +390,4 @@ jQuery("#scroll-bottom").ionRangeSlider(rangeSliderValues);
 
 sliderActivated = true;
 </script>
-
+<script src="{$BASE_PATH_JS}/whmcs/recommendations.min.js"></script>

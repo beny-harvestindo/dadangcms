@@ -47,7 +47,7 @@
 {/foreach}
 
 <div class="alert alert-info text-center{if !$replyingadmin} hidden{/if}" role="alert" id="replyingAdminMsg">
-    {$replyingadmin.name} {$_ADMINLANG.support.viewedandstarted} @ {$replyingadmin.time}
+    {if isset($replyingadmin.name)}{$replyingadmin.name}{/if} {$_ADMINLANG.support.viewedandstarted} @ {if isset($replyingadmin.time)}{$replyingadmin.time}{/if}
 </div>
 
 <ul class="nav nav-tabs admin-tabs" role="tablist">
@@ -382,7 +382,7 @@
   </div>
 </div>
 
-{if $relatedservices}
+{if !empty($relatedservices)}
     <div class="tablebg" style="margin-bottom:0;">
         <table class="datatable" id="relatedservicestbl" width="100%" border="0" cellspacing="1" cellpadding="3">
             <tr data-original="true">

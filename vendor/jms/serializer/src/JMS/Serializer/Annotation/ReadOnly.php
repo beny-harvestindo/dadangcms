@@ -5,8 +5,10 @@ namespace JMS\Serializer\Annotation;
 /**
  * @Annotation
  * @Target({"CLASS","PROPERTY"})
+ *
+ * @deprecated use `@ReadOnlyProperty` instead
  */
-final class ReadOnly
+final class ReadOnly extends ReadOnlyProperty
 {
     /**
      * @var boolean

@@ -32,7 +32,7 @@
     <div class="well">
         <h4>{lang key='ssl.installing'}</h4>
         <p>{lang key='ssl.howToInstall'}</p>
-        <p>{lang key='ssl.installFurtherInfo' anchor='<a href="https://knowledge.digicert.com/solution/SO16226.html" target="_blank">' endAnchor='</a>'}</p>
+        <p>{lang key='ssl.installFurtherInfo' anchor='<a href="https://www.digicert.com/kb/ssl-certificate-installation.htm" target="_blank">' endAnchor='</a>'}</p>
     </div>
 
 {/if}

@@ -155,7 +155,13 @@
     </div>
     <div class="search-footer">
         <a href="#" class="collapse-toggle" data-lang-collapse="{lang key="global.collapseAll"}" data-lang-expand="{lang key="global.expandAll"}">{lang key="global.collapseAll"}</a>
-        <span class="realtime"><input type="checkbox" id="intelliSearchRealtime" data-size="mini" data-label-text="{lang key="search.autoSearchOnType"}" data-on-color="info" data-url="{routePath('admin-search-intellisearch-settings-autosearch')}"{if $intelligentSearch.autoSearchEnabled} checked{/if}></span>
+        <span class="realtime">
+            <input type="checkbox" id="intelliSearchRealtime" data-size="mini"
+                data-label-text="{lang key="search.autoSearchOnType"}" data-on-color="info"
+                data-url="{routePath('admin-search-intellisearch-settings-autosearch')}"
+                {if isset($intelligentSearch.autoSearchEnabled) && $intelligentSearch.autoSearchEnabled} checked{/if}
+            >
+        </span>
         <span class="hide-inactive"><input type="checkbox" id="intelliSearchHideInactiveSwitch" data-size="mini" data-label-text="{lang key="global.hideInactive"}" checked="checked"></span>
     </div>
     <div class="hidden">

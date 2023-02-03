@@ -33,7 +33,7 @@
     {$headoutput}
 
 </head>
-<body class="{if empty($sidebar)}no-sidebar{/if}{if $globalAdminWarningMsg} has-warning-banner{/if}" data-phone-cc-input="{$phoneNumberInputStyle}">
+<body class="{if empty($sidebar)}no-sidebar{/if}{if !empty($globalAdminWarningMsg)} has-warning-banner{/if}" data-phone-cc-input="{if !empty($phoneNumberInputStyle)}{$phoneNumberInputStyle}{/if}">
 
     {$headeroutput}
 
@@ -57,6 +57,6 @@
         {$_ADMINLANG.openSidebar}
     </a>
 
-    <div class="contentarea{if $minsidebar} sidebar-minimized{/if}" id="contentarea">
+    <div class="{$contentAreaClasses}" id="contentarea">
         <div style="float:left;width:100%;">
             <h1{if $pagetitle == $_ADMINLANG.global.hometitle} class="pull-left"{/if}>{$pagetitle}</h1>

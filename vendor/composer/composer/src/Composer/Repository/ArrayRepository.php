@@ -203,6 +203,7 @@ class ArrayRepository extends BaseRepository
      *
      * @return int Number of packages
      */
+    #[\ReturnTypeWillChange]
     public function count()
     {
         return count($this->packages);

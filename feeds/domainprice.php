@@ -29,7 +29,11 @@ $did = Capsule::table('tbldomainpricing')
     ->where('extension', '=', $tld)
     ->value('id');
 
-$currency = ($currency) ? getCurrency(null ,$currency) : Currency::factoryForClientArea();
+if (!empty($currency)) {
+    $currency = getCurrency(null, $currency);
+} else {
+    $currency = Currency::factoryForClientArea();
+}
 
 $validDomainActionRequests = array('register','transfer','renew');
 
@@ -58,8 +62,14 @@ $pricingColumns = array(
 );
 
 $regperiod = $regperiod - 1;
-$targetProperty = $pricingColumns[$regperiod];
-$price = $data->$targetProperty;
+$price = null;
+if (
+    isset($pricingColumns[$regperiod])
+    && is_object($data)
+    && property_exists($data, $pricingColumns[$regperiod])
+) {
+    $price = $data->{$pricingColumns[$regperiod]};
+}
 
 if ($format) {
     $price = formatCurrency($price);

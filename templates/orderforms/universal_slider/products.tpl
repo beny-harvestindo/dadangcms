@@ -1,3 +1,6 @@
+<!-- Product Recommendations CSS -->
+<link type="text/css" rel="stylesheet" href="{$BASE_PATH_CSS}/recommendations.min.css" property="stylesheet" />
+<!-- Core CSS -->
 <link type="text/css" rel="stylesheet" href="{$BASE_PATH_CSS}/normalize.css" property="stylesheet">
 <link type="text/css" rel="stylesheet" href="{assetPath file="ion.rangeSlider.css"}" property="stylesheet">
 <link type="text/css" rel="stylesheet" href="{assetPath file="ion.rangeSlider.skinHTML5.css"}" property="stylesheet">
@@ -100,7 +103,7 @@
                                                     {$LANG.outofstock}
                                                 </span>
                                             {else}
-                                                <a href="{$product.productUrl}" class="order-button" id="{$idPrefix}-order-button">
+                                                <a href="{$product.productUrl}" class="order-button" id="{$idPrefix}-order-button"{if $product.hasRecommendations} data-has-recommendations="1"{/if}>
                                                     {$LANG.ordernowbutton}
                                                 </a>
                                             {/if}
@@ -148,7 +151,7 @@
                                                 {$LANG.outofstock}
                                             </span>
                                             {else}
-                                                <a href="{$product.productUrl}" class="order-button" id="{$idPrefix}-order-button">
+                                                <a href="{$product.productUrl}" class="order-button" id="{$idPrefix}-order-button"{if $product.hasRecommendations} data-has-recommendations="1"{/if}>
                                                     {$LANG.ordernowbutton}
                                                 </a>
                                             {/if}
@@ -178,6 +181,8 @@
         </div>
     </div>
 </div>
+
+{include file="orderforms/universal_slider/recommendations-modal.tpl"}
 
 <script type="text/javascript" src="{assetPath file="ion.rangeSlider.js"}"></script>
 <script type="text/javascript">
@@ -256,3 +261,4 @@
         });
     });
 </script>
+<script src="{$BASE_PATH_JS}/whmcs/recommendations.min.js"></script>

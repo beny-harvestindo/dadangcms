@@ -32,7 +32,10 @@ class OutputFormatterTest extends TestCase
         $this->assertEquals('foo << bar \\', $formatter->format('foo << bar \\'));
         $this->assertEquals("foo << \033[32mbar \\ baz\033[39m \\", $formatter->format('foo << <info>bar \\ baz</info> \\'));
         $this->assertEquals('<info>some info</info>', $formatter->format('\\<info>some info\\</info>'));
-        $this->assertEquals('\\<info>some info\\</info>', OutputFormatter::escape('<info>some info</info>'));
+        $this->assertEquals('\\<info\\>some info\\</info\\>', OutputFormatter::escape('<info>some info</info>'));
+        // every < and > gets escaped if not already escaped, but already escaped ones do not get escaped again
+        // and escaped backslashes remain as such, same with backslashes escaping non-special characters
+        $this->assertEquals('foo \\< bar \\< baz \\\\< foo \\> bar \\> baz \\\\> \\x', OutputFormatter::escape('foo < bar \\< baz \\\\< foo > bar \\> baz \\\\> \\x'));
 
         $this->assertEquals(
             "\033[33mSymfony\\Component\\Console does work very well!\033[39m",
@@ -159,8 +162,12 @@ class OutputFormatterTest extends TestCase
     /**
      * @dataProvider provideInlineStyleOptionsCases
      */
-    public function testInlineStyleOptions(string $tag, string $expected = null, string $input = null)
+    public function testInlineStyleOptions(string $tag, string $expected = null, string $input = null, bool $truecolor = false)
     {
+        if ($truecolor && 'truecolor' !== getenv('COLORTERM')) {
+            $this->markTestSkipped('The terminal does not support true colors.');
+        }
+
         $styleString = substr($tag, 1, -1);
         $formatter = new OutputFormatter(true);
         $method = new \ReflectionMethod($formatter, 'createStyleFromString');
@@ -189,6 +196,7 @@ class OutputFormatterTest extends TestCase
             ['<fg=green;options=reverse;>', "\033[32;7m<a>\033[39;27m", '<a>'],
             ['<fg=green;options=bold,underscore>', "\033[32;1;4mz\033[39;22;24m", 'z'],
             ['<fg=green;options=bold,underscore,reverse;>', "\033[32;1;4;7md\033[39;22;24;27m", 'd'],
+            ['<fg=#00ff00;bg=#00f>', "\033[38;2;0;255;0;48;2;0;0;255m[test]\033[39;49m", '[test]', true],
         ];
     }
 
@@ -259,6 +267,7 @@ class OutputFormatterTest extends TestCase
             ['<question>some question</question>', 'some question', "\033[30;46msome question\033[39;49m"],
             ['<fg=red>some text with inline style</>', 'some text with inline style', "\033[31msome text with inline style\033[39m"],
             ['<href=idea://open/?file=/path/SomeFile.php&line=12>some URL</>', 'some URL', "\033]8;;idea://open/?file=/path/SomeFile.php&line=12\033\\some URL\033]8;;\033\\"],
+            ['<href=https://example.com/\<woohoo\>>some URL with \<woohoo\></>', 'some URL with <woohoo>', "\033]8;;https://example.com/<woohoo>\033\\some URL with <woohoo>\033]8;;\033\\"],
             ['<href=idea://open/?file=/path/SomeFile.php&line=12>some URL</>', 'some URL', 'some URL', 'JetBrains-JediTerm'],
         ];
     }
@@ -275,7 +284,7 @@ EOF
 <info>
 some text</info>
 EOF
-        ));
+            ));
 
         $this->assertEquals(<<<EOF
 \033[32msome text
@@ -285,7 +294,7 @@ EOF
 <info>some text
 </info>
 EOF
-        ));
+            ));
 
         $this->assertEquals(<<<EOF
 \033[32m
@@ -297,7 +306,7 @@ EOF
 some text
 </info>
 EOF
-        ));
+            ));
 
         $this->assertEquals(<<<EOF
 \033[32m
@@ -311,7 +320,7 @@ some text
 more text
 </info>
 EOF
-        ));
+            ));
     }
 
     public function testFormatAndWrap()
@@ -334,6 +343,7 @@ EOF
         $this->assertSame("pre\nfoo\nbar\nbaz\npos\nt", $formatter->formatAndWrap('pre <error>foo bar baz</error> post', 3));
         $this->assertSame("pre \nfoo \nbar \nbaz \npost", $formatter->formatAndWrap('pre <error>foo bar baz</error> post', 4));
         $this->assertSame("pre f\noo ba\nr baz\npost", $formatter->formatAndWrap('pre <error>foo bar baz</error> post', 5));
+        $this->assertSame('', $formatter->formatAndWrap(null, 5));
     }
 }
 

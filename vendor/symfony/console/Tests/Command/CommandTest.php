@@ -13,7 +13,9 @@ namespace Symfony\Component\Console\Tests\Command;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidOptionException;
 use Symfony\Component\Console\Helper\FormatterHelper;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputDefinition;
@@ -42,7 +44,7 @@ class CommandTest extends TestCase
 
     public function testCommandNameCannotBeEmpty()
     {
-        $this->expectException('LogicException');
+        $this->expectException(\LogicException::class);
         $this->expectExceptionMessage('The command defined in "Symfony\Component\Console\Command\Command" cannot have an empty name.');
         (new Application())->add(new Command());
     }
@@ -115,7 +117,7 @@ class CommandTest extends TestCase
      */
     public function testInvalidCommandNames($name)
     {
-        $this->expectException('InvalidArgumentException');
+        $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage(sprintf('Command name "%s" is invalid.', $name));
 
         $command = new \TestCommand();
@@ -153,7 +155,7 @@ class CommandTest extends TestCase
     public function testGetProcessedHelp()
     {
         $command = new \TestCommand();
-        $command->setHelp('The %command.name% command does... Example: php %command.full_name%.');
+        $command->setHelp('The %command.name% command does... Example: %command.full_name%.');
         $this->assertStringContainsString('The namespace:name command does...', $command->getProcessedHelp(), '->getProcessedHelp() replaces %command.name% correctly');
         $this->assertStringNotContainsString('%command.full_name%', $command->getProcessedHelp(), '->getProcessedHelp() replaces %command.full_name%');
 
@@ -162,7 +164,7 @@ class CommandTest extends TestCase
         $this->assertStringContainsString('description', $command->getProcessedHelp(), '->getProcessedHelp() falls back to the description');
 
         $command = new \TestCommand();
-        $command->setHelp('The %command.name% command does... Example: php %command.full_name%.');
+        $command->setHelp('The %command.name% command does... Example: %command.full_name%.');
         $application = new Application();
         $application->add($command);
         $application->setDefaultCommand('namespace:name', true);
@@ -184,7 +186,8 @@ class CommandTest extends TestCase
         $command = new \TestCommand();
         $command->addOption('foo');
         $command->addArgument('bar');
-        $this->assertEquals('namespace:name [--foo] [--] [<bar>]', $command->getSynopsis(), '->getSynopsis() returns the synopsis');
+        $command->addArgument('info');
+        $this->assertEquals('namespace:name [--foo] [--] [<bar> [<info>]]', $command->getSynopsis(), '->getSynopsis() returns the synopsis');
     }
 
     public function testAddGetUsages()
@@ -207,7 +210,7 @@ class CommandTest extends TestCase
 
     public function testGetHelperWithoutHelperSet()
     {
-        $this->expectException('LogicException');
+        $this->expectException(\LogicException::class);
         $this->expectExceptionMessage('Cannot retrieve helper "formatter" because there is no HelperSet defined.');
         $command = new \TestCommand();
         $command->getHelper('formatter');
@@ -264,7 +267,7 @@ class CommandTest extends TestCase
 
         $tester->execute([], ['interactive' => true]);
 
-        $this->assertEquals('interact called'.PHP_EOL.'execute called'.PHP_EOL, $tester->getDisplay(), '->run() calls the interact() method if the input is interactive');
+        $this->assertEquals('interact called'.\PHP_EOL.'execute called'.\PHP_EOL, $tester->getDisplay(), '->run() calls the interact() method if the input is interactive');
     }
 
     public function testRunNonInteractive()
@@ -273,12 +276,12 @@ class CommandTest extends TestCase
 
         $tester->execute([], ['interactive' => false]);
 
-        $this->assertEquals('execute called'.PHP_EOL, $tester->getDisplay(), '->run() does not call the interact() method if the input is not interactive');
+        $this->assertEquals('execute called'.\PHP_EOL, $tester->getDisplay(), '->run() does not call the interact() method if the input is not interactive');
     }
 
     public function testExecuteMethodNeedsToBeOverridden()
     {
-        $this->expectException('LogicException');
+        $this->expectException(\LogicException::class);
         $this->expectExceptionMessage('You must override the execute() method in the concrete command class.');
         $command = new Command('foo');
         $command->run(new StringInput(''), new NullOutput());
@@ -286,7 +289,7 @@ class CommandTest extends TestCase
 
     public function testRunWithInvalidOption()
     {
-        $this->expectException('Symfony\Component\Console\Exception\InvalidOptionException');
+        $this->expectException(InvalidOptionException::class);
         $this->expectExceptionMessage('The "--bar" option does not exist.');
         $command = new \TestCommand();
         $tester = new CommandTester($command);
@@ -316,7 +319,7 @@ class CommandTest extends TestCase
         $command->setProcessTitle('foo');
         $this->assertSame(0, $command->run(new StringInput(''), new NullOutput()));
         if (\function_exists('cli_set_process_title')) {
-            if (null === @cli_get_process_title() && 'Darwin' === PHP_OS) {
+            if (null === @cli_get_process_title() && 'Darwin' === \PHP_OS) {
                 $this->markTestSkipped('Running "cli_get_process_title" as an unprivileged user is not supported on MacOS.');
             }
             $this->assertEquals('foo', cli_get_process_title());
@@ -332,7 +335,7 @@ class CommandTest extends TestCase
         $this->assertEquals($command, $ret, '->setCode() implements a fluent interface');
         $tester = new CommandTester($command);
         $tester->execute([]);
-        $this->assertEquals('interact called'.PHP_EOL.'from the code...'.PHP_EOL, $tester->getDisplay());
+        $this->assertEquals('interact called'.\PHP_EOL.'from the code...'.\PHP_EOL, $tester->getDisplay());
     }
 
     public function getSetCodeBindToClosureTests()
@@ -357,7 +360,7 @@ class CommandTest extends TestCase
         $command->setCode($code);
         $tester = new CommandTester($command);
         $tester->execute([]);
-        $this->assertEquals('interact called'.PHP_EOL.$expected.PHP_EOL, $tester->getDisplay());
+        $this->assertEquals('interact called'.\PHP_EOL.$expected.\PHP_EOL, $tester->getDisplay());
     }
 
     public function testSetCodeWithStaticClosure()
@@ -367,7 +370,7 @@ class CommandTest extends TestCase
         $tester = new CommandTester($command);
         $tester->execute([]);
 
-        $this->assertEquals('interact called'.PHP_EOL.'bound'.PHP_EOL, $tester->getDisplay());
+        $this->assertEquals('interact called'.\PHP_EOL.'bound'.\PHP_EOL, $tester->getDisplay());
     }
 
     private static function createClosure()
@@ -384,12 +387,59 @@ class CommandTest extends TestCase
         $this->assertEquals($command, $ret, '->setCode() implements a fluent interface');
         $tester = new CommandTester($command);
         $tester->execute([]);
-        $this->assertEquals('interact called'.PHP_EOL.'from the code...'.PHP_EOL, $tester->getDisplay());
+        $this->assertEquals('interact called'.\PHP_EOL.'from the code...'.\PHP_EOL, $tester->getDisplay());
     }
 
     public function callableMethodCommand(InputInterface $input, OutputInterface $output)
     {
         $output->writeln('from the code...');
+    }
+
+    public function testSetCodeWithStaticAnonymousFunction()
+    {
+        $command = new \TestCommand();
+        $command->setCode(static function (InputInterface $input, OutputInterface $output) {
+            $output->writeln(isset($this) ? 'bound' : 'not bound');
+        });
+        $tester = new CommandTester($command);
+        $tester->execute([]);
+
+        $this->assertEquals('interact called'.\PHP_EOL.'not bound'.\PHP_EOL, $tester->getDisplay());
+    }
+
+    /**
+     * @requires PHP 8
+     */
+    public function testCommandAttribute()
+    {
+        $this->assertSame('|foo|f', Php8Command::getDefaultName());
+        $this->assertSame('desc', Php8Command::getDefaultDescription());
+
+        $command = new Php8Command();
+
+        $this->assertSame('foo', $command->getName());
+        $this->assertSame('desc', $command->getDescription());
+        $this->assertTrue($command->isHidden());
+        $this->assertSame(['f'], $command->getAliases());
+    }
+
+    /**
+     * @requires PHP 8
+     */
+    public function testDefaultCommand()
+    {
+        $apl = new Application();
+        $apl->setDefaultCommand(Php8Command::getDefaultName());
+        $property = new \ReflectionProperty($apl, 'defaultCommand');
+        $property->setAccessible(true);
+
+        $this->assertEquals('foo', $property->getValue($apl));
+
+        $apl->setDefaultCommand(Php8Command2::getDefaultName());
+        $property = new \ReflectionProperty($apl, 'defaultCommand');
+        $property->setAccessible(true);
+
+        $this->assertEquals('foo2', $property->getValue($apl));
     }
 }
 
@@ -400,4 +450,14 @@ function createClosure()
     return function (InputInterface $input, OutputInterface $output) {
         $output->writeln($this instanceof Command ? 'bound to the command' : 'not bound to the command');
     };
+}
+
+#[AsCommand(name: 'foo', description: 'desc', hidden: true, aliases: ['f'])]
+class Php8Command extends Command
+{
+}
+
+#[AsCommand(name: 'foo2', description: 'desc2', hidden: true)]
+class Php8Command2 extends Command
+{
 }

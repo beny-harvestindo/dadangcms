@@ -1,3 +1,6 @@
+<!-- Product Recommendations CSS -->
+<link type="text/css" rel="stylesheet" href="{$BASE_PATH_CSS}/recommendations.min.css" property="stylesheet" />
+<!-- Core CSS -->
 <link rel="stylesheet" type="text/css" href="{assetPath file="style.css"}" property="stylesheet" />
 <script>
     jQuery(document).ready(function () {
@@ -130,7 +133,7 @@
                                                 </div>
                                             </div>
                                         {else}
-                                            <a href="{$product.productUrl}" id="{$idPrefix}-order-button">
+                                            <a href="{$product.productUrl}" class="btn-order-now" id="{$idPrefix}-order-button"{if $product.hasRecommendations} data-has-recommendations="1"{/if}>
                                                 <div class="order-now">
                                                     {$LANG.ordernowbutton}
                                                 </div>
@@ -170,3 +173,7 @@
         </div>
     </div>
 </div>
+
+{include file="orderforms/supreme_comparison/recommendations-modal.tpl"}
+
+<script src="{$BASE_PATH_JS}/whmcs/recommendations.min.js"></script>

@@ -43,7 +43,7 @@ class PhpBridgeSessionStorageTest extends TestCase
         session_write_close();
         array_map('unlink', glob($this->savePath.'/*'));
         if (is_dir($this->savePath)) {
-            rmdir($this->savePath);
+            @rmdir($this->savePath);
         }
 
         $this->savePath = null;
@@ -61,12 +61,12 @@ class PhpBridgeSessionStorageTest extends TestCase
     {
         $storage = $this->getStorage();
 
-        $this->assertNotSame(PHP_SESSION_ACTIVE, session_status());
+        $this->assertNotSame(\PHP_SESSION_ACTIVE, session_status());
         $this->assertFalse($storage->isStarted());
 
         session_start();
         $this->assertTrue(isset($_SESSION));
-        $this->assertSame(PHP_SESSION_ACTIVE, session_status());
+        $this->assertSame(\PHP_SESSION_ACTIVE, session_status());
         // PHP session might have started, but the storage driver has not, so false is correct here
         $this->assertFalse($storage->isStarted());
 
@@ -83,10 +83,10 @@ class PhpBridgeSessionStorageTest extends TestCase
         $_SESSION['drak'] = 'loves symfony';
         $storage->getBag('attributes')->set('symfony', 'greatness');
         $key = $storage->getBag('attributes')->getStorageKey();
-        $this->assertEquals($_SESSION[$key], ['symfony' => 'greatness']);
-        $this->assertEquals($_SESSION['drak'], 'loves symfony');
+        $this->assertEquals(['symfony' => 'greatness'], $_SESSION[$key]);
+        $this->assertEquals('loves symfony', $_SESSION['drak']);
         $storage->clear();
-        $this->assertEquals($_SESSION[$key], []);
-        $this->assertEquals($_SESSION['drak'], 'loves symfony');
+        $this->assertEquals([], $_SESSION[$key]);
+        $this->assertEquals('loves symfony', $_SESSION['drak']);
     }
 }

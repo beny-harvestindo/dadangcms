@@ -698,6 +698,7 @@ $_LANG['registerdomainname'] = "Registrer et domenenavn";
 $_LANG['relatedservice'] = "Tilhørende tjenester";
 $_LANG['rssfeed'] = "RSS-feed";
 $_LANG['securityanswerrequired'] = "Du må skrive inn et svar";
+$_LANG['securityquestionrequired'] = "You must select a security question";
 $_LANG['securitybothnotmatch'] = "Svarene er ikke lik i de to feltene";
 $_LANG['securitycurrentincorrect'] = "Ditt svar er ikke korrekt";
 $_LANG['serverchangepassword'] = "Bytt passord";
@@ -1099,6 +1100,7 @@ $_LANG['cartchooseanothercategory'] = "Velg en annen kategori";
 $_LANG['carttryanotherdomain'] = "Prøv et annet domene";
 $_LANG['cartmakedomainselection'] = "Vennligst gi oss domenet du vil bruke med din hosting tjeneste ved å velge et alternativ fra listen nedenfor.";
 $_LANG['cartfraudcheck'] = "Bedrageri sjekk";
+$_LANG['cartapifailedtoloadcart'] = "The system could not load the requested cart. <strong><a href=\"cart.php\">Click here</a></strong> to start a new order.";
 
 $_LANG['newcustomer'] = "Ny kunde";
 $_LANG['existingcustomer'] = "Eksisterende kunde";
@@ -1555,6 +1557,9 @@ $_LANG['maxmind_invalidip'] = "IP adressen er ugyldig eller er en lokal adresse.
 $_LANG['ssounabletologin'] = "Auto-innlogging feilet. Vennligst kontakt oss for hjelp.";
 $_LANG['ssofatalerror'] = "En feil oppstod. Vennligst kontakt oss for hjelp.";
 
+$_LANG['customActionGenericError'] = "Unable to perform action. Please contact support.";
+$_LANG['customActionException'] = "An exception has occurred. Please contact support.";
+
 # Version 6.0
 
 $_LANG['announcementschoosemonth'] = "Velg måned";
@@ -1902,6 +1907,8 @@ $_LANG['cPanel']['emailAccountCreateFailed'] = "Oppretting av e-postkonto feilet
 $_LANG['cPanel']['packageNotActive'] = "Ditt webhotell er nå";
 $_LANG['cPanel']['statusPendingNotice'] = "Du kan ikke begynne å bruke webhotellkontoen før den er aktivert.";
 $_LANG['cPanel']['statusSuspendedNotice'] = " Du kan ikke fortsette å bruke eller administrere dette webhotellet før det er reaktivert.";
+
+$_LANG['wordpress']['invalidPath'] = "The supplied path is invalid.";
 
 $_LANG['billingOverview'] = "Faktureringsoversikt";
 
@@ -2268,6 +2275,18 @@ $_LANG['ssl']['dnsRecordInformation'] = "DNS Record Information";
 $_LANG['ssl']['fileInformation'] = "File Information";
 $_LANG['ssl']['emailInformation'] = "Email Information";
 $_LANG['ssl']['dcv'] = "Domain Control Validation";
+$_LANG['ssl']['defaultcontacts'] = "Default Domain Contacts";
+$_LANG['ssl']['reissueInfo1'] = "If you have lost your certificate, need to move servers, or had a problem with the installation, you can reissue your certificate to generate a new one.";
+$_LANG['ssl']['reissueInfo2'] = "When reissuing a certificate, you cannot change the domain name and it must remain exactly the same.";
+$_LANG['ssl']['reissueSuccess'] = "Reissue request submitted successfully!";
+$_LANG['ssl']['reissueSuccessInfo'] = "<p>Your request to reissue your certificate has been submitted to the certificate authority.</p><p>You will receive an email shortly to <em>:approverEmail</em> to approve the certificate.</p><p>If you do not receive the email, please check any spam filters and virus protection folders in case the email has been quarantined. If you are still unable to find it, please <a href=\"submitticket.php\">contact support</a>.</p>";
+$_LANG['ssl']['approverEmailUpdateSuccess'] = "Approver email updated successfully!";
+$_LANG['ssl']['approverEmailUpdateInfo'] = "<p>You will receive an email shortly to <em>:newApproverEmail</em> to approve the certificate.</p><p>If you do not receive the email, please check any spam filters and virus protection folders in case the email has been quarantined. If you are still unable to find it, please <a href=\"submitticket.php\">contact support</a>.</p>";
+$_LANG['ssl']['disableWhoisPrivacy'] = "Please disable any WHOIS privacy services before proceeding.";
+$_LANG['ssl']['selectDcvEmail'] = "Select an active email address from the list below. You will receive an email to approve the SSL certificate.";
+$_LANG['ssl']['approverEmailProcess'] = "<h4>About the Approver Email Process</h4><p>In order to issue an SSL certificate, the Certificate Authority has to validate the certificate order's authenticity to ensure that the request is legitimate and comes from an authorized owner of the domain.</p><p>Email-based domain validation is the most common certificate validation mechanism for certificate orders. The certificate authority compiles a list of approved email addresses using common administrative email addresses (for example, admin or webmaster) in combination with the public WHOIS data for the domain. You can only use one of these email addresses to confirm ownership.</p>";
+
+
 
 $_LANG['upgradeCredit'] = "Oppgrader kreditt";
 $_LANG['upgradeCreditDescription'] = "Kalkulasjon basert på :daysRemaining ubrukte dager av :totalDays totalt dager i nåværende betalingsperiode.";
@@ -2319,12 +2338,12 @@ $_LANG['errorPage']['404']['submitTicket'] = "Kontakt support";
 
 $_LANG['creditCard']['removeDescription'] = "Er du sikker på at du vil fjerne kredittkortdetaljene?";
 
-$_LANG['marketConnect']['weebly']['ftpHost'] = "FTP server";
-$_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP brukernavn";
-$_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP passord";
-$_LANG['marketConnect']['weebly']['ftpPath'] = "FTP sti";
-$_LANG['marketConnect']['weebly']['updateFtp'] = "Oppdater FTP opplysnignene";
-$_LANG['marketConnect']['weebly']['manage'] = "Logg inn på Weebly";
+$_LANG['marketConnect']['websiteBuilder']['ftpHost'] = "FTP server";
+$_LANG['marketConnect']['websiteBuilder']['ftpUsername'] = "FTP brukernavn";
+$_LANG['marketConnect']['websiteBuilder']['ftpPassword'] = "FTP passord";
+$_LANG['marketConnect']['websiteBuilder']['ftpPath'] = "FTP sti";
+$_LANG['marketConnect']['websiteBuilder']['updateFtp'] = "Oppdater FTP opplysnignene";
+$_LANG['marketConnect']['websiteBuilder']['manage'] = "Logg inn på Weebly";
 
 $_LANG['domainChecker']['contactSupport'] = "Kontakt support for å kjøpe";
 
@@ -2715,6 +2734,7 @@ $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Logg ut/bytt bruke
 $_LANG['tax']['taxLabel'] = "MVA ID";
 $_LANG['tax']['vatLabel'] = "MVA nummer";
 $_LANG['tax']['errorInvalid'] = "Oppgitt :taxLabel er ikke gyldig";
+$_LANG['tax']['errorService'] = "The :taxLabel verification service is not available. Try again later.";
 
 $_LANG['fraud']['checkConfiguration'] = "En feil oppstod underveis i svindelsjekken. Vennligst kontakt support.";
 $_LANG['fraud']['title'] = "Svindelsjekk";
@@ -2797,7 +2817,7 @@ $_LANG['store']['codeGuard']['adminPreview'] = "CodeGuards planer som du kan akt
 $_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Legg til nettside sikkerhetskopi";
 $_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Beskytt din nettside med daglige automatiske sikkerhetskopier";
 
-$_LANG['marketConnect']['codeguard']['manage'] = "Logg på CodeGuard kontrollpanel";
+$_LANG['marketConnect']['codeGuard']['manage'] = "Logg på CodeGuard kontrollpanel";
 
 $_LANG['sslState']['sslInactive'] = "Ingen SSL funnet. Klikk her for å se på SSL alternativer";
 $_LANG['sslState']['sslActive'] = "Gyldig SSL funnet. Utløper :expiry";
@@ -3048,7 +3068,7 @@ $_LANG['store']['ssl']['landingPage']['faq']['a3'] = "Det er 3 forskjellige niv�
 $_LANG['store']['ssl']['landingPage']['faq']['q4'] = "Hva er er Wildcard SSL sertifikat";
 $_LANG['store']['ssl']['landingPage']['faq']['a4'] = "Et Wildcard SSL sertifikat gir samme kryptering og autentisering som andre SSL sertifikater, men kan også brukes på et ubegrenset antall underdomenet på en nettside. Et Wildcard SSL sertifikat støtter både hoveddomenet (example.com) og hoveddomenetets underdomener.";
 $_LANG['store']['ssl']['landingPage']['faq']['q5'] = "Hva er fordelene med et EV SSL sertifikat?";
-$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "EV, eller Extended validering, er den høyeste klassen av SSL tilgjengelig i dag, og gir mer kredibilitet og tillit til din nettside enn andre SSL sertifikater. EV inkluderer funksjoner som grønn adresselnje, og firmanavnet i adresselinjen. Dette har vist seg å være lønnsomt både for å bygge tillit og kundetilfredshet.";
+$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "EV or Extended Validation certificates are the highest class of SSL available and give the most credibility and trust to your website. EV assures consumers that their personal and financial information is protected at the highest levels of authentication. Additional verifications are performed, such as corporate agency record checks, applicant contact info, and whether the business has existed for a minimum of 3 years. EV certificates are best suited for business-critical webpages.";
 $_LANG['store']['ssl']['landingPage']['faq']['q6'] = "Hva vis jeg allerede har et SSL sertifikat?";
 $_LANG['store']['ssl']['landingPage']['faq']['a6'] = "Du kan bytte til oss når du vil. Vi tilbyr konkurransedyktige priser, og hvis du allerede har et eksisterende sertifikat, legger vi til resterende tid på dette sertifikatet, når du bestiller nytt hos oss. For dette gjelder maksimalt 12 måneder tillegg.";
 
@@ -3151,6 +3171,7 @@ $_LANG['back'] = "Tilbake";
 
 $_LANG['errors']['badRequest'] = "Ugyldig forespørsel";
 $_LANG['errors']['badRequestTryAgain'] = "En feil oppstod. Vennligst prøv igjen.";
+$_LANG['errors']['tryAgainOrSupport'] = "Please try again later or <a href=\"submitticket.php\">contact support</a>.";
 
 $_LANG['paymentMethods']['iban'] = "IBAN";
 $_LANG['paymentMethods']['mandateAcceptance'] = "Ved å oppgi din IBAN og gå gjennom denne betalingen, autoriserer du :companyName og Stripe, vår betalingspartner, for å sende instruksjoner til din bank for å trekke din bankkonto i henhold til disse instruksjonene. Du har rett på refusjon i henhold til dine avtaler med din bank. En forespørel om refusjon må være sendt inne 8 uker fra datoen da din konto ble belastet.";
@@ -3189,7 +3210,7 @@ $_LANG['genericPaymentDeclined'] = "Your payment was declined. Please try again 
 
 $_LANG['sitelockvpn']['loginPanelText'] = "Logg inn for å sette opp og administrer dine VPN brukerdetaljer og last ned VPN klientene.";
 $_LANG['store']['save'] = "Lagrer :saving%";
-$_LANG['marketConnect']['codeguard']['manageBackup'] = "Administrer sikkerhetskopiter";
+$_LANG['marketConnect']['codeGuard']['manageBackup'] = "Administrer sikkerhetskopiter";
 $_LANG['store']['chooseExistingDomain'] = "Velg eksisterende domene";
 $_LANG['store']['choosePaymentTerm'] = "Velg betalingssyklus";
 $_LANG['store']['chooseDomain'] = "Velg domene";
@@ -3207,10 +3228,10 @@ $_LANG['marketConnect']['sitelock']['ftpPath'] = "FTP sti";
 $_LANG['marketConnect']['sitelock']['updateFtp'] = "Oppdater FTP opplysnignene";
 $_LANG['marketConnect']['sitelock']['manage'] = "Logg inn på SiteLock";
 $_LANG['marketConnect']['sitelockvpn']['manageVPN'] = "Administrer din VPN";
-$_LANG['marketConnect']['spamexperts']['manageEmail'] = "Administrer din e-post";
-$_LANG['marketConnect']['spamexperts']['manage'] = "Log in to SpamExperts";
+$_LANG['marketConnect']['emailServices']['manageEmail'] = "Administrer din e-post";
+$_LANG['marketConnect']['emailServices']['manage'] = "Log in to SpamExperts";
 $_LANG['marketConnect']['sitelockvpn']['manage'] = "Log in to SiteLock VPN";
-$_LANG['marketConnect']['weebly']['buildWebsite'] = "Bygg din nettside";
+$_LANG['marketConnect']['websiteBuilder']['buildWebsite'] = "Bygg din nettside";
 
 $_LANG['creditCardHolderName'] = "Korteierens navn";
 
@@ -4112,6 +4133,17 @@ $_LANG['ssl']['installing'] = "Installing Your Certificate";
 $_LANG['ssl']['howToInstall'] = "To install your certificate, upload the certificate above to your server or control panel. The method to do this depends on your hosting environment.";
 $_LANG['ssl']['installFurtherInfo'] = "For more information, see the :anchorRapidSSL Installation Support:endAnchor page.";
 
+$_LANG['recommendations']['title']['generic'] = "Recommendations";
+$_LANG['recommendations']['title']['addedTo'] = "Added to Cart";
+$_LANG['recommendations']['title']['yourOrder'] = "Based on Your Order";
+$_LANG['recommendations']['title']['yourProducts'] = "Based on Your Products";
+$_LANG['recommendations']['explain']['generic'] = "Based on your order, we recommend:";
+$_LANG['recommendations']['explain']['product'] = "Based on this product, we recommend:";
+$_LANG['recommendations']['explain']['ordered'] = "Because you ordered <strong>:productName</strong>, we recommend:";
+$_LANG['recommendations']['learnMore'] = "Click to learn more.";
+$_LANG['recommendations']['productAdded'] = "Product Added";
+$_LANG['recommendations']['taglinePlaceholder'] = "A description (tagline) is not available for this product.";
+
 $_LANG['copyToClipboard'] = "Copy to Clipboard";
 
 $_LANG['usagebilling']['metric']['diskSpace'] = "Disk Space";
@@ -4129,4 +4161,120 @@ $_LANG['idna']['labelTooLong'] = "The domain label has exceeded the maximum leng
 $_LANG['idna']['domainTooLong'] = "The domain has exceeded the maximum length.";
 $_LANG['idna']['invalidDomain'] = "The domain is invalid.";
 $_LANG['idna']['unknownError'] = "An unknown error occurred.";
+
+$_LANG['domains']['europeanDomainTerms'] = "Important Information Regarding Your Contact Data: We are contractually obligated to share your personal information with the registry for this TLD. We will transfer your personal information to the registry, which may publish it to WHOIS publicly. For details on why we share your personal information, review our privacy policy and the domain registration agreement.";
+
+
+$_LANG['store']['ssl']['shared']['oneYearPrice'] = "1 Year";
+$_LANG['store']['ssl']['shared']['twoYearPrice'] = "2 Years";
+$_LANG['store']['ssl']['shared']['threeYearPrice'] = "3 Years";
+
+$_LANG['store']['ssl']['landingPage']['multiYear']['title'] = "Multi-Year SSL Certificates";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p1'] = "Multi-year certificates allow you to pay a single discounted price for two or three years of SSL certificate coverage. When you purchase a multi-year SSL certificate, you lock in a single price for up to 3 years of coverage.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p2'] = "Initially, you will receive a certificate that is valid for the Certificate Authority Browser Forum's maximum allowed term (1 year and 1 month) with the right to unlimited certificate reissues during the order period.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p3'] = "Automated reissuance will occur automatically throughout the term to ensure continued protection for your website.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p4'] = "For example, a 2-year SSL certificate order works as follows:";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p5'] = "SSL certificates must be revalidated periodically. The maximum certificate lifetime is 13 months, requiring revalidation annually.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['title'] = "Benefits";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b1'] = "Enjoy increasing discounts for each year of coverage that you purchase.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b2'] = "Remove the hassle of annual billing.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b3'] = "Annual validation. Yearly validation of identity in shorter validity certificates prevents potential fraud and spoofing.";
+$_LANG['navMarketConnectService']['cpanelseo'] = "cPanel SEO";
+$_LANG['marketConnect']['cPanelSEO']['manage'] = "Log in to cPanel SEO";
+$_LANG['store']['cPanelSEO']['title'] = "cPanel SEO";
+$_LANG['store']['cPanelSEO']['tagline'] = "Be Found Online With :lineBreak cPanel SEO";
+$_LANG['store']['cPanelSEO']['getStarted'] = "Get Started";
+$_LANG['store']['cPanelSEO']['productTourTitle'] = "Product Tour";
+$_LANG['store']['cPanelSEO']['measureResultsTitle'] = "Measurable Results at Your Fingertips";
+$_LANG['store']['cPanelSEO']['measureResults1'] = "Let's say you want to grow your business in the next year. You could start by investing some money in an SEO agency, but that seems like an overwhelming task for someone who doesn't have technical skills!";
+$_LANG['store']['cPanelSEO']['measureResults2'] = ":startBold Luckily, there is an easier way :endBold: let us ensure that people are finding out what makes YOUR company great from their searches online using cPanel SEO.";
+$_LANG['store']['cPanelSEO']['features']['keywords']['title'] = "Keywords";
+$_LANG['store']['cPanelSEO']['features']['advisor']['title'] = "Advisor";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['title'] = "Rank Tracker";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['title'] = "Site Audit";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['title'] = "Text Optimizer";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['title'] = "Benchmarking";
+$_LANG['store']['cPanelSEO']['features']['keywords']['line1'] = "A 53M+ keyword database for research and inspiration";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet1'] = "Get comprehensive keyword data";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet2'] = "Find out which keywords your website's ranking for";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet3'] = "Identify promising keywords for better traffic";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet4'] = "Analyze your competition's keywords and rankings";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet5'] = "Compare international markets";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet6'] = "Profit from a 53M+ keyword database";
+$_LANG['store']['cPanelSEO']['features']['advisor']['line1'] = "Receive, manage, and solve tasks to improve your website";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet1'] = "Kanban-style Task Manager";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet2'] = "Customized and prioritized tasks";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet3'] = "Detailed instructions and additional information";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet4'] = "No expert knowledge needed";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet5'] = "Updated weekly";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['line1'] = "Monitor your rankings and those of your competitors";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet1'] = "Track essential rankings weekly or daily";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet2'] = "Local rankings for brick-and-mortar businesses";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet3'] = "International rankings for global companies";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet4'] = "Keep an eye on your competition";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet5'] = "Track keyword rankings or dedicated pages";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['line1'] = "Check the technical foundation of your website";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet1'] = "Automated weekly site audits";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet2'] = "Technical website check";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet3'] = "Prioritized results";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet4'] = "Shows improvements";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet5'] = "Translated results to advisor tasks";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['line1'] = "Improve your rankings with data-driven content optimization";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet1'] = "Compare your text to Amazon™'s and Google™'s top 10 results";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet2'] = "Increase the content quality in a guided manner";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet3'] = "Add, increase, or reduce keywords as instructed";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['line1'] = "Analyse competitors, compare performance and improve your SEO";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet1'] = "Discover domains that share rankings for the same keywords";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet2'] = "Identify your niche's leader";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet3'] = "Compare keyword rankings of two or more domains";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet4'] = "Track and compare your competition's rankings for important keywords";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet5'] = "Track and compare visibility scores";
+$_LANG['store']['cPanelSEO']['audience']['freelancersTitle'] = "Freelancers";
+$_LANG['store']['cPanelSEO']['audience']['freelancersDesc'] = "cPanel SEO was designed to provide immediate value for your personal website or your clients’ sites, from an initial site audit through recommendations to improve your search engine results.";
+$_LANG['store']['cPanelSEO']['audience']['smbizTitle'] = "Small and Medium-sized Businesses";
+$_LANG['store']['cPanelSEO']['audience']['smbizDesc'] = "You don't have to be an SEO expert to improve your business's Google rankings. cPanel SEO will identify the best keywords for your business while also keeping an eye on the performance of your competitors.";
+$_LANG['store']['cPanelSEO']['moneyBackGuarantee'] = "Flexible Pricing Options With :guaranteeStart 30 Day Money Back Guarantee :guaranteeEnd";
+$_LANG['store']['cPanelSEO']['featurematrix']['1'] = "Projects";
+$_LANG['store']['cPanelSEO']['featurematrix']['2'] = "Full-Access Accounts";
+$_LANG['store']['cPanelSEO']['featurematrix']['3'] = "Read-Only Accounts";
+$_LANG['store']['cPanelSEO']['featurematrix']['4'] = "Competitor Benchmarking";
+$_LANG['store']['cPanelSEO']['featurematrix']['5'] = "Competitors per project";
+$_LANG['store']['cPanelSEO']['featurematrix']['6'] = "Keyword Research";
+$_LANG['store']['cPanelSEO']['featurematrix']['7'] = "Rank Tracker";
+$_LANG['store']['cPanelSEO']['featurematrix']['8'] = "Keyword crawls";
+$_LANG['store']['cPanelSEO']['featurematrix']['9'] = "Keyword check";
+$_LANG['store']['cPanelSEO']['featurematrix']['10'] = "Site Audit";
+$_LANG['store']['cPanelSEO']['featurematrix']['11'] = "Pages to crawl";
+$_LANG['store']['cPanelSEO']['featurematrix']['12'] = "SEO Advisor";
+$_LANG['store']['cPanelSEO']['featurematrix']['13'] = "SEO Text Optimizer";
+$_LANG['store']['cPanelSEO']['faqTitle'] = "Frequently Asked Questions";
+$_LANG['store']['cPanelSEO']['faq1'] = "What is SEO?";
+$_LANG['store']['cPanelSEO']['faq1ans'] = "<p>SEO is an acronym for Search Engine Optimization. It is an essential online marketing strategy dedicated to driving prospective customers to your website. Its goal is to optimize a website to gain top positions for selected keywords on search engines. This goal is achieved by strategically employing measures to improve the website's technical setup and contents and obtaining backlinks from other domains.</p><p>SEO is divided into three general categories:</p><ol><li>Keywords and rankings</li><li>On-page SEO</li><li>Off-page SEO</li></ol><p>SEO specialists apply measures to meet the search engine's ranking factors for each category. Search engines use ranking factors to determine the position in which it lists a website in search results.</p>";
+$_LANG['store']['cPanelSEO']['faq2'] = "Why Do I Need SEO?";
+$_LANG['store']['cPanelSEO']['faq2ans'] = "<p>Every day, millions of people use search engines to find information or services from all aspects of life: Recipes, guides, products, flights, navigation, tickets, entertainment, and more. Most people navigate the web using search engines to find answers to their questions and solutions to their challenges.</p><p>A study shows that 68% of the web's traffic comes from search engines. 53% of this traffic has its origins in organic search—search results that are not ads (paid search) and can be improved through SEO.</p><img src=\":image1\"><p>In other words, organic search (SEO) and paid search (SEA, ads in search results) make up the lion's share of traffic on the web.</p><p>Even where we go offline is significantly influenced by search engines: We use Google and Apple Maps and local search results to find places and nearby services like hairdressers, supermarkets, restaurants, and doctors. We choose our destination based on online reviews. And we instruct search engine-based services to guide us there, be it by car, public transportation, or on foot.</p><p>Now, imagine if your business, products, and services are not listed in search results. Imagine people can't find you online to buy your products or find their way to your brick-and-mortar business. Instead, they will most likely choose your competition.</p>";
+$_LANG['store']['cPanelSEO']['faq3'] = "What Can SEO Do For Me?";
+$_LANG['store']['cPanelSEO']['faq3ans'] = "<p>With the help of SEO, users can find your business, products, and services online—and buy them. As mentioned, that means that people can find you online and much easier offline, too.</p><p>SEO maximizes your chances to be listed in top positions for keywords crucial to your business. The better your position, the more people will find their way to your website—preferably on the first page (or top ten) of search results.</p><p><strong>Why Page One?</strong></p><p>Good question. Studies have shown that 31.7% of users click on the first organic search result (position one); a whopping 75.1% of all clicks go to the top three search results. After that, the number of clicks shrinks rapidly with every following position.</p><img src=\":image2\"><p>This behavior shows that users rarely look at page two or lower results, let alone click on any of them.</p><img src=\":image3\"><p>That's why businesses need to be present on the first page of search results, at least for relevant keywords.</p><p>In short: It's crucial for freelancers and business owners to</p><ol><li>Own a website or any kind of online presence, even if they offer their products or services offline</li><li>Perform SEO to make sure they rank on page one for relevant keywords</li></ol>";
+$_LANG['store']['cPanelSEO']['faq4'] = "Why Are Keywords Important?";
+$_LANG['store']['cPanelSEO']['faq4ans'] = "<p><em>Keyword</em> is a technical term for search queries (words, phrases, sentences, and questions). With their help, users find content that answers their questions and provides solutions. Put simply, a keyword is the link between users and your website. Search engines compare keywords with websites, looking for content with the highest relevance.</p><p>A big part of SEO lies in identifying keywords that have the potential to drive relevant traffic to your website—in other words, bringing in prospective customers. To do that, you need to identify search terms (or keywords) people use when searching for offers like yours. This process is called keyword research. Ideally, keyword research provides you with a list of keywords covering search queries across the entire customer journey.</p>";
+$_LANG['store']['cPanelSEO']['faq5'] = "What Is Keyword Optimization?";
+$_LANG['store']['cPanelSEO']['faq5ans'] = "<p>So we know that relevance is a crucial factor for a top position in search results. To create relevant content, you want to deal with the topics and questions around a keyword on an individual subpage or URL. Then, make sure your keyword appears in crucial spots on your page.</p><p>Let's say you are in the ice cream business. One of your keywords is <em>s'mores ice cream sandwich</em>. Now you focus on everything that has to do with a <em>s'mores ice cream sandwich</em>.</p><p>What you want to do is create a recipe page for a <em>s'mores ice cream sandwich</em> where users find an easy-to-follow recipe, pictures or videos, and answers to questions they might have. <em>S'mores ice cream sandwich</em> is your focus keyword that should appear in your page's URL, title, headlines, and more.</p><p>Providing a dedicated and keyword-optimized page makes it easy for search engines—and users, too—to determine what your page is all about. That way, they can list it in good positions in related search results.</p>";
+$_LANG['store']['cPanelSEO']['faq6'] = "How to use the Advisor";
+$_LANG['store']['cPanelSEO']['faq6ans'] = "<p>First, check out the advisor's board by clicking Advisor in the top navigation bar. It is a Kanban board helping you organize your tasks by status. Your tasks are color coded by importance:</p><ul><li><strong>Red:</strong> High. Solve ASAP.</li><li><strong>Yellow:</strong> Medium. Tackle those soon.</li><li><strong>Blue:</strong> Low. Keep them in mind and solve them when you can.</li></ul><img src=\":image1\"><p>You can drag and drop as you complete tasks, assign tasks to other users (depending on your plan), and filter by the assignee.</p><p>As mentioned above, tasks are a mix of standard basic SEO measures and issues found in weekly automated audits of your website.</p>";
+$_LANG['store']['cPanelSEO']['faq7'] = "I want an advisor for other websites. How do I get it?";
+$_LANG['store']['cPanelSEO']['faq7ans'] = "<p>Keep in mind that you do need a <em>Project</em> for the Advisor feature to work. Also, most of the Advisor's tasks are tailored to a Project's website (usually yours or your client's). If you manage more than one website, you'll need to create an extra Project for each of them.</p><p>To add or switch to another project, click the <em>Projects</em> menu in the top navigation bar. Depending on your plan, you might need to upgrade it to add another Project.</p>";
+$_LANG['store']['cPanelSEO']['faq8'] = "How do I assign tasks to other users?";
+$_LANG['store']['cPanelSEO']['faq8ans'] = "<p>To assign a task to other users, you'll need a plan that allows additional users. If your plan includes additional users, you'll find the Assignee menu in your Advisor and tasks. Simply choose a user to assign a task or filter the Advisor by. To add a new user, click on your profile avatar and then click <em>Users</em>. If your plan does not include additional users, you won't see the <em>Assignee</em> menu in your Advisor or tasks. Upgrade your plan to add users.</p>";
+$_LANG['store']['cPanelSEO']['faq9'] = "There are tasks I've already covered. Why do they pop up?";
+$_LANG['store']['cPanelSEO']['faq9ans'] = "<p>There are two reasons why you might see tasks you've already solved or covered. As mentioned above, tasks are a mix of basic SEO measures and issues found in weekly automated audits of your website.</p><p>First, the tasks covering basic SEO measures are the same for everyone and are not tailored to your website or business. For example, we don't know whether you created a Google account for your business and set up Search Console or if you installed SEO plugins. If you already did—great work! Simply flag those tasks as Done.</p><p>The second reason is that the Advisor is automatically updated based on the results of automated weekly Site Audits. In other words, if a Site Audit identifies any issues concerning a task you completed in the past, it will automatically be updated and pop up in the Open section.</p>";
+$_LANG['store']['cPanelSEO']['faq10'] = "What is Project Visibility?";
+$_LANG['store']['cPanelSEO']['faq10ans'] = "<p>Maybe you already stopped to think, “Wait, but I don't care about my visibility for keywords that have nothing to do with my business.” And you are right. While Visibility is a great score to get an idea of your overall performance and compare websites in general, it's not tailored to your specific keyword set.</p><p>That's why we provide <em>Project Visibility</em>. This metric is calculated the same way as Visibility, but instead of using 500,000 cross-industry keywords, Project Visibility is exclusively based on keywords in your Rank Tracker.</p><p>In other words, Project Visibility is a custom visibility score for the unique set of keywords relevant to your business.</p><p>You'll find Project Visibility here: <em>Projects → Rank Tracker → Visibility</em>.</p><p>As you might already know, you can also track your competitors' rankings in your Rank Tracker. That way, you'll get Project Visibility for them, too, allowing for a much more realistic comparison. So, even if they have a slightly different product or service portfolio, Project Visibility accounts exclusively for keywords you actually share.</p>";
+$_LANG['store']['cPanelSEO']['faq11'] = "Why is Visibility score useful?";
+$_LANG['store']['cPanelSEO']['faq11ans'] = "<p>Use your Visibility score as an indicator of your overall SEO performance, problems, and potential for optimization.</p><p><strong>1. Get An Idea of Your Overall SEO Performance</strong></p><p>You can track rankings for single keywords and know which position you rank on. It's an important thing to do. However, rank tracking does not give you a bird's eye view perspective of the overall improvement of your rankings—but Visibility does. When your SEO measures are effective and rankings improve, so does your Visibility score.</p><p><strong>2. Diagnose SEO Problems</strong></p><p>A sudden drop in your Visibility indicates problems in your SEO performance. Use Visibility like an alert. If it drops significantly, start digging for what happened. Here's a list of common reasons:</p><ul><li>You were hit with a <strong>Google Penalty</strong>. Check Search Console for notifications. Make sure to follow <a href=\":googleWebmasterGuidelinesUrl\" target=\"_blank\">Google's Webmaster Guidelines</a>.</li><li>There are ramifications from a recent change in Google's algorithm. Inquire about recent <strong>Google Updates</strong> and what they entail.</li><li>Your competitors optimized their websites and content, and now they out-compete you. Compare their (historical) <strong>Visibility</strong> with yours. Use the <a href=\":waybackMachineUrl\" target=\"_blank\">Wayback Machine</a> to compare how their content changed.</li><li>You relaunched your site without SEO in mind. For example, check <em>robots.txt</em> and <em>.htaccess</em> for accidentally blocked pages, increased 404 status codes, faulty 301-redirects, and internal links.<br><br>You changed your content in a way that didn't help your rankings. Consider reversing the changes.<br><br>Your website has technical issues. Run a <em>Site Audit</em> or check your <strong><em>Advisor</em></strong> for open technical tasks. Check your backend for outdated, recently updated, or incompatible <strong>plugins</strong> that may cause havoc.<br><br>Hosting issues are the cause. Inquire whether your host made recent changes, has been hacked, moved their servers, or experienced technical difficulties. See if your server has issues.</li></ul><p>Keep in mind that this list is not exhaustive. One or more of those reasons can apply simultaneously, or there could be other reasons altogether.</p><p><strong>3. Competitor Comparison</strong></p><p>Visibility is a great metric for a quick comparison of two or more websites. Check your Visibility against theirs. Who is out-competing who? Has a competitor outperformed you in the past or vice versa? Who's leading the field, and how big is the gap between you and your fiercest competitor? Answering those questions will help you develop an SEO strategy to come out (and stay) at the top of your niche.</p><p><strong>4. Track Visibility Development Over Time With Historical Data</strong></p><p>Want to know how a website fared over time? We provide historical data going all the way back to 2009, free of seasonal fluctuations. That way, you can track and compare historic Visibility and see their development over long periods of time.</p>";
+$_LANG['store']['cPanelSEO']['faq12'] = "How Can I Improve My Visibility Score?";
+$_LANG['store']['cPanelSEO']['faq12ans'] = "<p>Short answer: Don't make improving Visibility a goal in your SEO strategy.</p><p>Long answer: Visibility <em>reflects</em> the quality of your rankings in a single metric; it won't lead to better rankings. Make it your goal to improve your rankings for relevant keywords that prospective customers actually use to find products and services like yours. Improving your rankings will improve your Visibility, too. But it's your rankings that really matter.</p><p>As a rule of thumb, your Visibility score will be higher if</p><ul><li>Your domain's URLs rank in good positions</li><li>You have a high number of indexed URLs with good rankings</li><li>You rank well for keywords with a high search volume</li></ul>";
+$_LANG['store']['cPanelSEO']['promo']['sidebar']['title'] = "SEO Tools";
+$_LANG['store']['cPanelSEO']['promo']['sidebar']['body'] = "Improve your site performance with accurate, reliable, and easy-to-use site rankings, keywords, and an advisor.";
+$_LANG['store']['cPanelSEO']['cartTitle'] = "SEO Tools";
+$_LANG['store']['cPanelSEO']['cartShortDescription'] = "Improve your site performance with accurate, reliable, and easy-to-use site rankings, keywords, and an advisor.";
+
 ////////// End of norwegian language file.  Do not place any translation strings below this line!

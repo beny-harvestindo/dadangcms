@@ -250,7 +250,7 @@ class ResponseHeaderBagTest extends TestCase
 
     public function testGetCookiesWithInvalidArgument()
     {
-        $this->expectException('InvalidArgumentException');
+        $this->expectException(\InvalidArgumentException::class);
         $bag = new ResponseHeaderBag();
 
         $bag->getCookies('invalid_argument');
@@ -309,6 +309,6 @@ class ResponseHeaderBagTest extends TestCase
 
     private function assertSetCookieHeader(string $expected, ResponseHeaderBag $actual)
     {
-        $this->assertRegExp('#^Set-Cookie:\s+'.preg_quote($expected, '#').'$#m', str_replace("\r\n", "\n", (string) $actual));
+        $this->assertMatchesRegularExpression('#^Set-Cookie:\s+'.preg_quote($expected, '#').'$#m', str_replace("\r\n", "\n", (string) $actual));
     }
 }

@@ -176,7 +176,7 @@ class XmlDeserializationVisitor extends AbstractVisitor implements NullAwareVisi
             $nodes = $data->xpath($entryName);
         }
 
-        if (!\count($nodes)) {
+        if (!is_iterable($nodes) || !\count($nodes)) {
             if (null === $this->result) {
                 return $this->result = array();
             }

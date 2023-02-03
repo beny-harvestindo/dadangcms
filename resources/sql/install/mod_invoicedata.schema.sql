@@ -12,6 +12,7 @@ CREATE TABLE `mod_invoicedata` (
   `invoiceid` int(10) NOT NULL,
   `clientsdetails` text COLLATE utf8_unicode_ci NOT NULL,
   `customfields` text COLLATE utf8_unicode_ci NOT NULL,
+  `version` varchar(255) COLLATE utf8_unicode_ci NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;

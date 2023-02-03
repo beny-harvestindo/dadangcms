@@ -38,7 +38,7 @@ class StreamOutputTest extends TestCase
 
     public function testStreamIsRequired()
     {
-        $this->expectException('InvalidArgumentException');
+        $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage('The StreamOutput class needs a stream as its first argument.');
         new StreamOutput('foo');
     }
@@ -54,7 +54,7 @@ class StreamOutputTest extends TestCase
         $output = new StreamOutput($this->stream);
         $output->writeln('foo');
         rewind($output->getStream());
-        $this->assertEquals('foo'.PHP_EOL, stream_get_contents($output->getStream()), '->doWrite() writes to the stream');
+        $this->assertEquals('foo'.\PHP_EOL, stream_get_contents($output->getStream()), '->doWrite() writes to the stream');
     }
 
     public function testDoWriteOnFailure()

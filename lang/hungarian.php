@@ -60,7 +60,7 @@ $_LANG['affiliatesstatus'] = "Állapot";
 $_LANG['affiliatestitle'] = "Partnerek";
 $_LANG['affiliatesvisitorsreferred'] = "Látogatók száma hivatkozásonként";
 $_LANG['affiliateswithdrawalrequestsuccessful'] = "A kifizetési kérelmét benyújtottuk.";
-$_LANG['affiliatesWithdrawalRequestUnsuccessful'] = "Your request for a withdrawal was not successful. Please try again later.";
+$_LANG['affiliatesWithdrawalRequestUnsuccessful'] = "A kifizetés iránti kérelme nem volt sikeres. Kérjük, próbálja újra később.";
 $_LANG['affiliateswithdrawn'] = "Kifizetett összeg";
 $_LANG['all'] = "Összes";
 $_LANG['alreadyregistered'] = "Már regisztrált?";
@@ -360,7 +360,7 @@ $_LANG['domainregistrarlock'] = "Regisztrátor zárolása";
 $_LANG['domainregistrarlockdesc'] = "Engedélyezze a regisztráció zárolását (Ajánlott). A jogosulatlan átregisztrálás megelőzhető, ha be van állítva. Később bármikor feloldhatja";
 $_LANG['domainregistration'] = "Domain regisztráció";
 $_LANG['domainregistryinfo'] = "Domain regisztrációs adatok";
-$_LANG['domainregnotavailable'] = "N/A";
+$_LANG['domainregnotavailable'] = "Nem Elérhető";
 $_LANG['domainrenew'] = "Újítsa meg a domaint";
 $_LANG['domainrenewal'] = "Domain megújítása";
 $_LANG['domainrenewalprice'] = "Megújítás";
@@ -698,6 +698,7 @@ $_LANG['registerdomainname'] = "Regisztráljon egy domainnevet";
 $_LANG['relatedservice'] = "Kapcsolódó szolgáltatások";
 $_LANG['rssfeed'] = "Hírcsatorna";
 $_LANG['securityanswerrequired'] = "Adjon meg egy biztonsági választ";
+$_LANG['securityquestionrequired'] = "Biztonsági kérdést kell választania";
 $_LANG['securitybothnotmatch'] = "Az Ön válasza és a megerősítés nem egyezik meg.";
 $_LANG['securitycurrentincorrect'] = "Az aktuális kérdés és válasz hibás";
 $_LANG['serverchangepassword'] = "Jelszó módosítása";
@@ -740,7 +741,7 @@ $_LANG['sslorderdate'] = "Rendelés dátuma";
 $_LANG['sslserverinfo'] = "Szerver információk";
 $_LANG['sslserverinfodetails'] = "Engedélyeznie kell érvényes \"CSR\" (Tanúsítvány aláírási kérelem) állítsd be SSL tanúsítvány. A CSR egy titkosított darab szöveg, ami által generált web szerver, ahol az SSL-tanúsítvány telepítésre kerül. Ha még nem rendelkezik CSR, akkor létrehoz egy vagy kérdezze meg web tárhely szolgáltató generál az Ön számára. Szintén győződjön meg arról, adja meg a helyes adatokat, mert nem lehet változtatni után SSL-tanúsítványt állított ki.";
 $_LANG['sslservertype'] = "Web Szerver típus";
-$_LANG['ssl']['selectWebserver'] = "Select a :serverType";
+$_LANG['ssl']['selectWebserver'] = "Válasszon egy :serverType";
 $_LANG['sslstatus'] = "Konfigurációs állapota";
 $_LANG['sslawaitingconfig'] = "Várakozás a konfigurációra";
 $_LANG['sslconfigure'] = "Konfigurálja";
@@ -1099,6 +1100,7 @@ $_LANG['cartchooseanothercategory'] = "Egy másik kategória kiválasztása";
 $_LANG['carttryanotherdomain'] = "Próbáljon egy másik domaint";
 $_LANG['cartmakedomainselection'] = "Kérjük adja meg, hogy milyen domain nevet szeretne használni a tárhelyhez.";
 $_LANG['cartfraudcheck'] = "Csalás ellenőrzés";
+$_LANG['cartapifailedtoloadcart'] = "A rendszer nem tudta betölteni a kért kosarat. <strong><a href=\"cart.php\">Kattintson ide</a></strong> új megrendelés indításához.";
 
 $_LANG['newcustomer'] = "Új ügyfél";
 $_LANG['existingcustomer'] = "Meglévő ügyfél";
@@ -1555,6 +1557,9 @@ $_LANG['maxmind_invalidip'] = "IP címe érvénytelen, vagy a helyi cím. Kérj�
 $_LANG['ssounabletologin'] = "Nem lehet automatikus bejelentkezni. Kérjük, lépjen kapcsolatba a támogatási szolgálattal.";
 $_LANG['ssofatalerror'] = "Végzetes hiba történt. Kérjük, lépjen kapcsolatba a támogatási szolgálattal.";
 
+$_LANG['customActionGenericError'] = "Nem lehet műveletet végrehajtani. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal.";
+$_LANG['customActionException'] = "Kivétel történt. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal.";
+
 # Version 6.0
 
 $_LANG['announcementschoosemonth'] = "Hónap kiválasztása";
@@ -1886,7 +1891,7 @@ $_LANG['cPanel']['autoresponders'] = "Automatikus Válasz";
 $_LANG['fileManager'] = "Fálj Kezelő";
 $_LANG['cPanel']['backup'] = "Biztonsági Mentés";
 $_LANG['cPanel']['subdomains'] = "Aldomain";
-$_LANG['cPanel']['addonDomains'] = "Addon Domain";
+$_LANG['cPanel']['addonDomains'] = "Kiegészítő Domain";
 $_LANG['cPanel']['cronJobs'] = "Cron Feladatok";
 $_LANG['mysqlDatabases'] = "MySQL Adatbázisok";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
@@ -1902,6 +1907,8 @@ $_LANG['cPanel']['emailAccountCreateFailed'] = "Email fiók létrehozása sikert
 $_LANG['cPanel']['packageNotActive'] = "A tárhely csomag jelenleg";
 $_LANG['cPanel']['statusPendingNotice'] = "Függőben lévő fiókot nem lehet kezelni.";
 $_LANG['cPanel']['statusSuspendedNotice'] = "Nem lehet tovább használni, illetve kezelni ezt a csomagot, amíg újra aktiválódik.";
+
+$_LANG['wordpress']['invalidPath'] = "A megadott elérési út érvénytelen.";
 
 $_LANG['billingOverview'] = "Számlázás áttekintése";
 
@@ -2188,7 +2195,7 @@ $_LANG['store']['configure']['configureProduct'] = "Konfiguráció";
 
 $_LANG['store']['ssl']['dv']['tagline'] = "Tudja biztonságban az oldalát pár perc alatt!";
 $_LANG['store']['ssl']['dv']['descriptionTitle'] = "Mi az a DV SSL?";
-$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>A Domain Validated SSL tanúsítványok könnyű és olcsó megoldást kínálnak az SSL gyors bevezetésére. Ezek esetén csak azt vizsgáljuk, hogy az Ön tulajdonában van-e a Domain név, de a szervezetet nem.<p><p>A DV SSL tenúsítványok ideálisak magán weboldalakhoz, blogokhoz, kisebb oldalakhoz ahol nem kérünk be érzékeny, vagy privát információkat. A DV SSL tanúsátvány használatával a biztonságos HTTPS kapcsolatnak köszönhetően zöld lakat ikon jelenik meg a böngészőben és a böngésző biztonságosnak jelöli a honlapot.</p>";
+$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>A Domain Érvényesített SSL tanúsítványok könnyű és olcsó megoldást kínálnak az SSL gyors bevezetésére. Ezek esetén csak azt vizsgáljuk, hogy az Ön tulajdonában van-e a Domain név, de a szervezetet nem.<p><p>A DV SSL tenúsítványok ideálisak magán weboldalakhoz, blogokhoz, kisebb oldalakhoz ahol nem kérünk be érzékeny, vagy privát információkat. A DV SSL tanúsátvány használatával a biztonságos HTTPS kapcsolatnak köszönhetően zöld lakat ikon jelenik meg a böngészőben és a böngésző biztonságosnak jelöli a honlapot.</p>";
 
 $_LANG['store']['ssl']['ov']['tagline'] = "A nagy biztonságú SSL a webhely látogatóinak hitelesített azonosítást mutatja";
 $_LANG['store']['ssl']['ov']['descriptionTitle'] = "Mi az a Szervezet Ellenőrzött (OV) SSL?";
@@ -2241,33 +2248,45 @@ $_LANG['pricingCycleLong']['biennially'] = "2 Év";
 $_LANG['pricingCycleLong']['triennially'] = "3 Év";
 
 $_LANG['navManageSsl'] = "SSL tanúsítványok kezelése";
-$_LANG['almostDone'] = "Almost Done";
+$_LANG['almostDone'] = "Majdnem kész";
 
 $_LANG['invoicesPaymentPending'] = "Fizetés folyamatban";
 
 $_LANG['ssl']['changeApproverEmail'] = "Email cím módosítása";
 $_LANG['ssl']['reissueCertificate'] = "Tanúsítván újragenerálása";
 $_LANG['ssl']['retrieveCertificate'] = "Tanúsítvány lekérése";
-$_LANG['ssl']['selectValidation'] = "Select a Validation Method";
+$_LANG['ssl']['selectValidation'] = "Válasszon ki egy érvényesítési módszert";
 $_LANG['ssl']['dnsMethod'] = "DNS";
 $_LANG['ssl']['emailMethod'] = "Email";
-$_LANG['ssl']['fileMethod'] = "HTTP File";
-$_LANG['ssl']['emailMethodDescription'] = "Validation will be performed by the Certificate Authority, sending an email with further instructions to the address chosen below.";
-$_LANG['ssl']['dnsMethodDescription'] = "The Certificate Authority will inspect the DNS records of the domain, looking for a specific record with a unique value. Make certain you have access to administer DNS settings for the domain to complete this setup. DNS record information will be provided upon successful configuration.";
-$_LANG['ssl']['fileMethodDescription'] = "The Certificate Authority will make an HTTP request to a path hosted within the domain, expecting the response to contain a unique value. The path and value will be provided upon successful configuration.";
-$_LANG['ssl']['selectEmail'] = "Select an Email Address";
-$_LANG['ssl']['nextSteps'] = "What's Next";
-$_LANG['ssl']['emailSteps'] = "The Certificate Authority will send an email to the email address chosen. It will contain further instructions needed to validate domain ownership. Once those steps are complete, the Certificate will be issued.";
-$_LANG['ssl']['fileSteps'] = "The Certificate Authority will now begin making requests to the URL below to validate the response is the value provided. Once a response with the specified value is detected, the Certificate will be issued.";
-$_LANG['ssl']['dnsSteps'] = "The Certificate Authority will now begin querying the domain's DNS records for a record matching the information below. Access your domain's DNS settings and create the record. Once the record is discovered, the Certificate will be issued.";
+$_LANG['ssl']['fileMethod'] = "HTTP Fájl";
+$_LANG['ssl']['emailMethodDescription'] = "Az érvényesítést a hitelesítésszolgáltató végzi, és az alább kiválasztott címre további utasításokat tartalmazó e-mailt küld.";
+$_LANG['ssl']['dnsMethodDescription'] = "A hitelesítésszolgáltató megvizsgálja a domain DNS-rekordjait, és egy adott rekordot keres egyedi értékkel. A beállítás befejezéséhez győződjön meg arról, hogy hozzáfér a domain DNS-beállításainak felügyeletéhez. A DNS-rekord adatait a rendszer a sikeres konfiguráláskor adja meg.";
+$_LANG['ssl']['fileMethodDescription'] = "A hitelesítésszolgáltató HTTP-kérést küld a domainon belül üzemeltetett elérési útra, és arra számít, hogy a válasz egyedi értéket fog tartalmazni. Az elérési út és az érték a sikeres konfiguráláskor lesz megadva.";
+$_LANG['ssl']['selectEmail'] = "Válasszon ki egy e-mail címet";
+$_LANG['ssl']['nextSteps'] = "Mi a következő lépés?";
+$_LANG['ssl']['emailSteps'] = "A hitelesítésszolgáltató e-mailt küld a kiválasztott e-mail-címre. További utasításokat fog tartalmazni a domain tulajdonjogának ellenőrzéséhez. A lépések befejezése után a rendszer kiállítja a tanúsítványt.";
+$_LANG['ssl']['fileSteps'] = "A hitelesítésszolgáltató most megkezdi az alábbi URL-címre irányuló kéréseket annak ellenőrzéséhez, hogy a válasz a megadott érték-e. A megadott értékkel rendelkező válasz észlelése után a rendszer kiállítja a tanúsítványt.";
+$_LANG['ssl']['dnsSteps'] = "A hitelesítésszolgáltató most megkezdi a domainok DNS-rekordjainak lekérdezését az alábbi információknak megfelelő rekord után kutatva. Nyissa meg a domain DNS-beállításait, és hozza létre a rekordot. A rekord felderítése után a rendszer kiállítja a tanúsítványt.";
 $_LANG['ssl']['url'] = "URL";
-$_LANG['ssl']['value'] = "Value";
-$_LANG['ssl']['type'] = "Type";
-$_LANG['ssl']['host'] = "Host";
-$_LANG['ssl']['dnsRecordInformation'] = "DNS Record Information";
-$_LANG['ssl']['fileInformation'] = "File Information";
-$_LANG['ssl']['emailInformation'] = "Email Information";
-$_LANG['ssl']['dcv'] = "Domain Control Validation";
+$_LANG['ssl']['value'] = "Érték";
+$_LANG['ssl']['type'] = "Típus";
+$_LANG['ssl']['host'] = "Házigazda";
+$_LANG['ssl']['dnsRecordInformation'] = "DNS rekord információ";
+$_LANG['ssl']['fileInformation'] = "Fájl információ";
+$_LANG['ssl']['emailInformation'] = "Email információ";
+$_LANG['ssl']['dcv'] = "Domain Vezérlés ellenőrzése";
+$_LANG['ssl']['defaultcontacts'] = "Alapértelmezett domain névjegyek";
+$_LANG['ssl']['reissueInfo1'] = "Ha elvesztette a tanúsítványt, kiszolgálókat kell áthelyeznie, vagy problémája volt a telepítéssel, újra kiadhatja a tanúsítványt egy új létrehozásához.";
+$_LANG['ssl']['reissueInfo2'] = "A tanúsítvány újbóli kiállításakor nem módosíthatja a tartománynevet, és annak pontosan meg kell maradnia.";
+$_LANG['ssl']['reissueSuccess'] = "A kérelem újbóli kiadása sikeresen beküldött!";
+$_LANG['ssl']['reissueSuccessInfo'] = "<p>A tanúsítvány újbóli kiadására vonatkozó kérelmét elküldtük a hitelesítésszolgáltatónak.</p><p>Hamarosan e-mailt fog kapni a következő címre: <em>:approverEmail</em> a tanúsítvány jóváhagyásához.</p><p>Ha nem kapja meg az e-mailt, kérjük, ellenőrizze a spamszűrőket és a vírusvédelmi mappákat arra az esetre, ha az e-mailt karanténba helyeznék. Ha még mindig nem találja, kérjük, <a href=\"submitticket.php\">kapcsolatfelvétel az ügyfélszolgálattal</a>.</p>";
+$_LANG['ssl']['approverEmailUpdateSuccess'] = "A jóváhagyó e-mail sikeresen frissült!";
+$_LANG['ssl']['approverEmailUpdateInfo'] = "<p>Hamarosan e-mailt fog kapni a következő címre: <em>:newApproverEmail</em> a tanúsítvány jóváhagyásához.</p><p>Ha nem kapja meg az e-mailt, kérjük, ellenőrizze a spamszűrőket és a vírusvédelmi mappákat arra az esetre, ha az e-mailt karanténba helyeznék. Ha még mindig nem találja, kérjük, <a href=\"submitticket.php\">kapcsolatfelvétel az ügyfélszolgálattal</a>.</p>";
+$_LANG['ssl']['disableWhoisPrivacy'] = "Kérjük, tiltsa le a WHOIS adatvédelmi szolgáltatásait, mielőtt továbblépne.";
+$_LANG['ssl']['selectDcvEmail'] = "Válasszon ki egy aktív e-mail címet az alábbi listából. Kap egy e-mailt az SSL-tanúsítvány jóváhagyásához.";
+$_LANG['ssl']['approverEmailProcess'] = "<h4>A jóváhagyó e-mail folyamata</h4><p>Az SSL-tanúsítvány kiállításához a hitelesítésszolgáltatónak ellenőriznie kell a tanúsítványrendelés hitelességét annak biztosítása érdekében, hogy a kérelem jogos legyen, és a tartomány felhatalmazott tulajdonosától származzon.</p><p>Az e-mail-alapú tartományérvényesítés a leggyakoribb tanúsítványérvényesítési mechanizmus a tanúsítványrendelésekhez. A hitelesítésszolgáltató összeállítja a jóváhagyott e-mail-címek listáját a közös rendszergazdai e-mail-címek (például rendszergazda vagy webmester) használatával, a tartomány nyilvános WHOIS-adataival együtt. Ezen e-mail-címek közül csak az egyiket használhatja a tulajdonjog megerősítésére.</p>";
+
+
 
 $_LANG['upgradeCredit'] = "Feltöltés";
 $_LANG['upgradeCreditDescription'] = "Számítás alapján: használaton kívüli nap, a daysRemaining :totalDays az aktuális számlázási ciklus napon összesen.";
@@ -2319,12 +2338,12 @@ $_LANG['errorPage']['404']['submitTicket'] = "Lépjen kapcsolatba ügyfélszolg�
 
 $_LANG['creditCard']['removeDescription'] = "Biztosan el szeretné távolítani a hitelkártya adatait?";
 
-$_LANG['marketConnect']['weebly']['ftpHost'] = "FTP Hoszt";
-$_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Felhasználónév";
-$_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Jelszó";
-$_LANG['marketConnect']['weebly']['ftpPath'] = "FTP elérési út";
-$_LANG['marketConnect']['weebly']['updateFtp'] = "Az FTP hitelesítő adatok frissítése";
-$_LANG['marketConnect']['weebly']['manage'] = "Bejelentkezés a Weebly-hoz";
+$_LANG['marketConnect']['websiteBuilder']['ftpHost'] = "FTP Hoszt";
+$_LANG['marketConnect']['websiteBuilder']['ftpUsername'] = "FTP Felhasználónév";
+$_LANG['marketConnect']['websiteBuilder']['ftpPassword'] = "FTP Jelszó";
+$_LANG['marketConnect']['websiteBuilder']['ftpPath'] = "FTP elérési út";
+$_LANG['marketConnect']['websiteBuilder']['updateFtp'] = "Az FTP hitelesítő adatok frissítése";
+$_LANG['marketConnect']['websiteBuilder']['manage'] = "Bejelentkezés a Weebly-hoz";
 
 $_LANG['domainChecker']['contactSupport'] = "Lépjen kapcsolatba ügyfélszolgálatunkkal, vásárlás";
 
@@ -2389,7 +2408,7 @@ $_LANG['emailMarketing']['joinOurMailingList'] = "Csatlakozz a levelező listán
 
 $_LANG['edit'] = "Szerkesztése";
 $_LANG['thankYou'] = "Köszönöm";
-$_LANG['na'] = "N/A";
+$_LANG['na'] = "Nem Elérhető";
 
 $_LANG['domainGracePeriodFeeInvoiceItem'] = "Domain megújítási díja a türelmi időszakonként :domainName";
 $_LANG['domainRedemptionPeriodFeeInvoiceItem'] = "Domain Megújítási Díj a visszavásárlás időszakban :domainName";
@@ -2715,6 +2734,7 @@ $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Kilépés/váltás
 $_LANG['tax']['taxLabel'] = "Adó ID";
 $_LANG['tax']['vatLabel'] = "ÁFA Szám";
 $_LANG['tax']['errorInvalid'] = "A mellékelt :taxLabel nem érvényes";
+$_LANG['tax']['errorService'] = "A :taxLabel az ellenőrző szolgáltatás nem érhető el. Próbálkozzon újra később.";
 
 $_LANG['fraud']['checkConfiguration'] = "Hiba történt a Csalásellenőrzés során. Kérjük lépjen kapcsolatba ügyfélszolgálatunkkal.";
 $_LANG['fraud']['title'] = "Csalásellenőrzés";
@@ -2797,7 +2817,7 @@ $_LANG['store']['codeGuard']['adminPreview'] = "Az általad aktivált CodeGuard 
 $_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Webhely biztonsági mentés hozzáadása";
 $_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Védje webhelyét naponta automatizált biztonsági mentésekkel";
 
-$_LANG['marketConnect']['codeguard']['manage'] = "Bejelentkezés a CodeGuard Vezérlőpultjába";
+$_LANG['marketConnect']['codeGuard']['manage'] = "Bejelentkezés a CodeGuard Vezérlőpultjába";
 
 $_LANG['sslState']['sslInactive'] = "Nincs SSL-észlelve. Kattintson ide az SSL-beállítások böngészéséhez";
 $_LANG['sslState']['sslActive'] = "Érvényes SSL észlelt. Lejár :expiry";
@@ -3048,7 +3068,7 @@ $_LANG['store']['ssl']['landingPage']['faq']['a3'] = "Az SSL-tanúsítványok al
 $_LANG['store']['ssl']['landingPage']['faq']['q4'] = "Mi az a helyettesítő SSL-tanúsítvány";
 $_LANG['store']['ssl']['landingPage']['faq']['a4'] = "A helyettesítő SSL-tanúsítvány ugyanazokat a titkosítási és hitelesítési szolgáltatásokat nyújt, mint a többi SSL-tanúsítvány, de egy weboldal korlátlan számú aldomainjére is alkalmazható. A Wildcard SSL tanúsítvány támogatja a root tartományt (example.com) és aldomainjeit is.";
 $_LANG['store']['ssl']['landingPage']['faq']['q5'] = "Milyen előnyei vannak az EV SSL tanúsítványnak?";
-$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "Az EV vagy a kiterjesztett hitelesítés az SSL legmagasabb osztálya, amely ma elérhető, és nagyobb hitelességet és bizalmat biztosít a webhelyéhez, mint más SSL tanúsítványok. Ilyenek például a zöld címsor és a vállalat nevének megjelenése, amelyek bizonyítottan növelik a bizalmat és a fogyasztói bizalmat.";
+$_LANG['store']['ssl']['landingPage']['faq']['a5'] = "EV or Extended Validation certificates are the highest class of SSL available and give the most credibility and trust to your website. EV assures consumers that their personal and financial information is protected at the highest levels of authentication. Additional verifications are performed, such as corporate agency record checks, applicant contact info, and whether the business has existed for a minimum of 3 years. EV certificates are best suited for business-critical webpages.";
 $_LANG['store']['ssl']['landingPage']['faq']['q6'] = "Mi van, ha már van SSL-tanúsítványom?";
 $_LANG['store']['ssl']['landingPage']['faq']['a6'] = "Bármikor átválthat bennünket. Rendkívül versenyképes árképzést kínálunk, és ha már létező tanúsítványod van, a fennmaradó érvényességet hozzáadjuk a meglévő SSL-tanúsítványhoz legfeljebb további 12 hónapig.";
 
@@ -3065,7 +3085,7 @@ $_LANG['support']['clientEmail'] = "Az ügyfél e-mail címe nem adható hozzá 
 $_LANG['support']['emailNotPossible'] = "Nem lehet hozzáadni :email, mint a cc címzett";
 $_LANG['support']['invalidEmail'] = "Érvénytelen e-mail címet adott meg.";
 $_LANG['support']['ipAddress'] = "IP Cím";
-$_LANG['support']['ticketError'] = "We cannot process your ticket request at this time. Please try again later.";
+$_LANG['support']['ticketError'] = "Jegyigényét jelenleg nem tudjuk feldolgozni. Kérjük, próbálja újra később.";
 
 $_LANG['confirmAndPay'] = "Megerősítés & Fizetés";
 $_LANG['paymentPreApproved'] = "Előre jóváhagyott fizetés :gateway";
@@ -3151,6 +3171,7 @@ $_LANG['back'] = "Vissza";
 
 $_LANG['errors']['badRequest'] = "Rossz kérés";
 $_LANG['errors']['badRequestTryAgain'] = "Hiba történt. Kérem próbálkozzon újra.";
+$_LANG['errors']['tryAgainOrSupport'] = "Please try again later or <a href=\"submitticket.php\">contact support</a>.";
 
 $_LANG['paymentMethods']['iban'] = "IBAN";
 $_LANG['paymentMethods']['mandateAcceptance'] = "Az IBAN megadásával és a fizetés visszaigazolásával felhatalmazza a :companyName -t és a Stripe-t, a pénzforgalmi szolgáltatókat, hogy utasításokat küldjön a bankjának a számlájának beszedésére, a bank pedig a számlájának beszedésére ezen utasítások szerint. A bankjával kötött megállapodás feltételei szerint jogosult a bank visszatérítésére. A visszatérítést 8 héten belül kell igényelni attól a naptól számítva, amikor a számláját megterhelték.";
@@ -3189,7 +3210,7 @@ $_LANG['genericPaymentDeclined'] = "Fizetését elutasították. Kérjük, prób
 
 $_LANG['sitelockvpn']['loginPanelText'] = "Jelentkezzen be a VPN felhasználói hitelesítő adatainak beállításához és kezeléséhez, valamint a VPN-ügyfelek letöltéséhez.";
 $_LANG['store']['save'] = "Mentés :saving%";
-$_LANG['marketConnect']['codeguard']['manageBackup'] = "Biztonsági mentések kezelése";
+$_LANG['marketConnect']['codeGuard']['manageBackup'] = "Biztonsági mentések kezelése";
 $_LANG['store']['chooseExistingDomain'] = "Létező Domain választása";
 $_LANG['store']['choosePaymentTerm'] = "Válasszon Fizetési feltétel";
 $_LANG['store']['chooseDomain'] = "Válasszon Domain-t";
@@ -3207,10 +3228,10 @@ $_LANG['marketConnect']['sitelock']['ftpPath'] = "FTP elérési út";
 $_LANG['marketConnect']['sitelock']['updateFtp'] = "Az FTP hitelesítő adatok frissítése";
 $_LANG['marketConnect']['sitelock']['manage'] = "Bejelentkezés a SiteLock-hoz";
 $_LANG['marketConnect']['sitelockvpn']['manageVPN'] = "Kezelje VPN-jét";
-$_LANG['marketConnect']['spamexperts']['manageEmail'] = "Kezelje e-mailjét";
-$_LANG['marketConnect']['spamexperts']['manage'] = "Log in to SpamExperts";
+$_LANG['marketConnect']['emailServices']['manageEmail'] = "Kezelje e-mailjét";
+$_LANG['marketConnect']['emailServices']['manage'] = "Log in to SpamExperts";
 $_LANG['marketConnect']['sitelockvpn']['manage'] = "Log in to SiteLock VPN";
-$_LANG['marketConnect']['weebly']['buildWebsite'] = "Készítse el webhelyét";
+$_LANG['marketConnect']['websiteBuilder']['buildWebsite'] = "Készítse el webhelyét";
 
 $_LANG['creditCardHolderName'] = "Kártyatulajdonos neve";
 
@@ -3626,7 +3647,7 @@ $_LANG['support']['requestor']['guest'] = "Vendég";
 $_LANG['twoFactor']['enabled'] = "Kétfaktoros hitelesítés engedélyezve";
 $_LANG['twoFactor']['disabled'] = "Kétfaktoros hitelesítés letiltva";
 
-$_LANG['store']['poweredBy'] = "Powered by: :service";
+$_LANG['store']['poweredBy'] = "Továbbfejlesztette: :service";
 
 $_LANG['navMarketConnectService']['ox'] = "Professzionális Email";
 
@@ -3675,8 +3696,8 @@ $_LANG['store']['ox']['faq7']['question'] = "Mi az OX-dokumentumok (termelékeny
 $_LANG['store']['ox']['faq7']['answer'] = "Az OX-szöveg, az OX-táblázat és az OX-kiszerelés a 3 alkalmazás a tágabb értelemben vett OX-dokumentumokon belül. Ezek az alkalmazások szöveges dokumentumok, táblázatok és bemutatók online létrehozására és szerkesztésére használhatók. Dokumentumait bárhonnan létrehozhatja és szerkesztheti az Office-szoftvermegoldása és az összes eszköze ismerős funkcióival és funkcióival.";
 $_LANG['store']['ox']['faq8']['question'] = "Milyen nyelveket támogat az OX App Suite?";
 $_LANG['store']['ox']['faq8']['answer'] = "Az OX App Suite a következő nyelveket támogatja: angol, német, spanyol, francia, olasz, holland, lengyel, 中文 简体 , 中文 繁體, 日本語 日本";
-$_LANG['store']['ox']['faq9']['question'] = "Can I migrate my existing email account from another provider?";
-$_LANG['store']['ox']['faq9']['answer'] = "Yes, we offer a self-service migration tool that is intuitive and easy to use. Migrate from all popular email services including Apple iCloud, Gmail, Outlook.com/Windows Live/Hotmail, Yahoo Mail, GMX, or T-Online, or manually enter your provider's information using IMAP/POP3 or other available preferred protocols.";
+$_LANG['store']['ox']['faq9']['question'] = "Áttelepíthetem a meglévő e-mail fiókomat egy másik szolgáltatótól?";
+$_LANG['store']['ox']['faq9']['answer'] = "Igen, kínálunk egy önkiszolgáló migrálási eszközt, amely intuitív és könnyen használható. Migráljon az összes népszerű e-mail szolgáltatásból, beleértve az Apple iCloudot, a Gmailt, a Outlook.com/Windows Live /Hotmailt, a Yahoo Mailt, a GMX-et vagy a T-Online-t, vagy manuálisan adja meg szolgáltatója adatait IMAP/POP3 vagy más elérhető preferált protokollok használatával.";
 $_LANG['store']['ox']['pricing']['features']['sla'] = "99.9% üzemidő SLA";
 $_LANG['store']['ox']['pricing']['features']['antivirus'] = "Premium Anti-Virus & Anti-Spam";
 $_LANG['store']['ox']['pricing']['features']['email'] = "email@your-domain.com";
@@ -3686,7 +3707,7 @@ $_LANG['store']['ox']['pricing']['features']['imap'] = "Mobil & Asztali hozzáf�
 $_LANG['store']['ox']['pricing']['features']['calendars'] = "Megosztott naptárak, névjegyek, feladatok";
 $_LANG['store']['ox']['pricing']['features']['caldav'] = "CardDAV & CalDAV";
 $_LANG['store']['ox']['pricing']['features']['portal'] = "Integrált portál oldal";
-$_LANG['store']['ox']['pricing']['features']['migration'] = "Self-Service Migration Tool";
+$_LANG['store']['ox']['pricing']['features']['migration'] = "Önkiszolgáló áttelepítési eszköz";
 $_LANG['store']['ox']['pricing']['features']['filestorage'] = "Felhőalapú fájltárolás";
 $_LANG['store']['ox']['pricing']['features']['collab'] = "Fájlmegosztás és együttműködés";
 $_LANG['store']['ox']['pricing']['features']['officeapps'] = "Online Office-csomag";
@@ -3777,7 +3798,7 @@ $_LANG['store']['addon']['notFound']['productUnavailableText'] = "Ez a termék j
 $_LANG['store']['addon']['notFound']['contactSupport'] = "Vegye fel a kapcsolatot az ügyfélszolgálattal";
 $_LANG['store']['addon']['notFound']['ref'] = "Ref";
 
-$_LANG['ox']['intro'] = "Here, you can create and manage users, mailboxes, and aliases for your OX App Suite subscription.";
+$_LANG['ox']['intro'] = "Itt felhasználókat, postaládákat és aliasokat hozhat létre és kezelhet az OX App Suite-előfizetéséhez.";
 $_LANG['ox']['accountCount'] = "Ön hozta létre <span class=\"number\">:number</span> a <span class=\"limit\">:limit</span> elérhető fiókok.";
 $_LANG['ox']['refresh'] = "Frissítés";
 $_LANG['ox']['emailActions'] = "E-mail kezelés";
@@ -3809,9 +3830,9 @@ $_LANG['ox']['settings']['davSettings'] = "Naptárak és névjegyek";
 $_LANG['ox']['settings']['davSettingsIntro'] = "A személyes eszközein lévő naptárak és névjegyek eléréséhez be kell állítania az ügyfelet, hogy csatlakozzon a CalDAV-hoz a naptárakhoz és a CardDAV-hoz a kapcsolatokhoz. Használja az alábbi információkat az ügyfél konfigurálásához.";
 $_LANG['ox']['settings']['caldavPassword'] = "Írja be ugyanazt a jelszót, amelyet az e-mail bejelentkezéshez használt.";
 $_LANG['ox']['settings']['serverUrl'] = "Szerver URL";
-$_LANG['ox']['settings']['migrationTitle'] = "Migration Tool";
-$_LANG['ox']['settings']['migrationIntro'] = "Migrate from all popular email services including Apple iCloud, Gmail, Outlook.com/Windows Live/Hotmail, Yahoo Mail, GMX, or T-Online, or manually enter your provider's information using IMAP/POP3 or other available preferred protocols.";
-$_LANG['ox']['settings']['migrationLaunch'] = "Launch Migration Tool";
+$_LANG['ox']['settings']['migrationTitle'] = "Áttelepítési eszköz";
+$_LANG['ox']['settings']['migrationIntro'] = "Áttelepíthet az összes népszerű e-mail szolgáltatásról, beleértve az Apple iCloudot, a Gmailt, az Outlook.com/Windows Live/Hotmailt, a Yahoo Mail-t, a GMX-t vagy a T-Online-t, vagy manuálisan adja meg a szolgáltató adatait az IMAP/POP3 vagy más elérhető preferált protokollok használatával.";
+$_LANG['ox']['settings']['migrationLaunch'] = "Indítsa el a Áttelepítési eszközt";
 $_LANG['ox']['displayName'] = "Megjelenítendő név";
 $_LANG['ox']['required']['displayName'] = "A megjelenített név kötelező kitölteni.";
 $_LANG['ox']['required']['firstName'] = "A keresztnév kitöltése kötelező.";
@@ -3825,13 +3846,13 @@ $_LANG['ox']['accountDeleted'] = "A fiók sikeresen törölve.";
 $_LANG['ox']['accountCreated'] = "A fiók sikeresen létrehozva.";
 $_LANG['ox']['accountModified'] = "A fiók módosítása sikeresen megtörtént.";
 $_LANG['ox']['passwordChanged'] = "A fiók jelszava sikeresen megváltozott.";
-$_LANG['ox']['alias']['intro'] = "Email aliases act as additional email addresses from which you can send and receive mail.";
-$_LANG['ox']['alias']['emailAliases'] = "Email Aliases";
-$_LANG['ox']['alias']['deleteTitle'] = "Delete alias <span class=\"alias\"></span>@:domain?";
-$_LANG['ox']['alias']['deleteQuestion'] = "Are you sure you want to delete this alias?";
-$_LANG['ox']['alias']['deleteSuccess'] = "Alias deleted successfully.";
-$_LANG['ox']['alias']['createButton'] = "Create";
-$_LANG['ox']['alias']['createSuccess'] = "Alias created successfully.";
+$_LANG['ox']['alias']['intro'] = "Az e-mail-aliasok további e-mail-címekként működnek, amelyekről e-maileket küldhet és fogadhat.";
+$_LANG['ox']['alias']['emailAliases'] = "E-mail aliasok";
+$_LANG['ox']['alias']['deleteTitle'] = "Alias törlése <span class=\"alias\"></span>@:domain?";
+$_LANG['ox']['alias']['deleteQuestion'] = "Biztos benne, hogy törölni szeretné ezt az aliast?";
+$_LANG['ox']['alias']['deleteSuccess'] = "Az alias sikeresen törölve lett.";
+$_LANG['ox']['alias']['createButton'] = "Létrehozása";
+$_LANG['ox']['alias']['createSuccess'] = "Az alias sikeresen létrehozva.";
 
 $_LANG['orderForm']['upgradeQuantityCannotBeLowerThanMinimum'] = "A szolgáltatás mennyisége nem változtatható a minimum alatt (:minimum).";
 $_LANG['orderForm']['upgradeQuantityMustChange'] = "Ki kell választania egy csomagfrissítést, vagy módosítania kell a mennyiséget.";
@@ -3840,8 +3861,8 @@ $_LANG['unavailable'] = "Nem érhető el";
 $_LANG['orderForm']['idnNotEnabled'] = "Jelenleg nem támogatjuk a nemzetközi domainneveket. Próbálkozzon egy másik domainnévvel.";
 
 $_LANG['store']['ssl']['landingPage']['secureInMinutes'] = "Biztosítsa webhelyét percek alatt a teljesen automatizált kiépítéssel és üzembe helyezéssel";
-$_LANG['store']['fromJust'] = "from just";
-$_LANG['store']['forJust'] = "for just";
+$_LANG['store']['fromJust'] = "tól csak";
+$_LANG['store']['forJust'] = "részére csak";
 
 $_LANG['goCardless']['paymentPending'] = "Olyan befizetést nyújtottak be, amely törli a bank :date. <br>A fizetés visszaigazolásakor e-mailt küldünk a fizetési visszaigazolásról.";
 $_LANG['goCardless']['automaticPayment'] = "Automatikus fizetési beállítás van érvényben ehhez a fiókhoz. Manuális fizetésre nincs szükség.";
@@ -4072,61 +4093,188 @@ $_LANG['viewMore'] = "További információk megtekintése...";
 $_LANG['store']['siteBuilder']['promo']['sidebar']['title'] = "Adja hozzá Webhely-készítő";
 $_LANG['store']['siteBuilder']['promo']['sidebar']['body'] = "Készítse el weboldalát gyorsan a Webhely-készítő segítségével";
 
-$_LANG['cPanel']['wptk'] = "WordPress Toolkit";
+$_LANG['cPanel']['wptk'] = "WordPress eszközkészlet";
 
-$_LANG['wptk']['goToWebsite'] = "Go to Website";
+$_LANG['wptk']['goToWebsite'] = "Ugrás a weboldalra";
 $_LANG['wptk']['goToAdmin'] = "Admin";
-$_LANG['wptk']['createNew'] = "Create New";
-$_LANG['wptk']['installationSuccess'] = "<strong>Success!</strong> <a href=\"\" target=\"_blank\" id=\"newWordPressLink\">Visit</a> your new WordPress® install, or go to the <a href=\"\" target=\"_blank\" id=\"newWordPressAdminLink\">Admin Area</a>.";
-$_LANG['wptk']['installWordPress'] = "Install WordPress®";
-$_LANG['wptk']['installWordPressShort'] = "Install";
+$_LANG['wptk']['createNew'] = "Új létrehozása";
+$_LANG['wptk']['installationSuccess'] = "<strong>Siker!</strong> <a href=\"\" target=\"_blank\" id=\"newWordPressLink\">Meglátogat</a> az új WordPress® telepítése, vagy lépjen a <a href=\"\" target=\"_blank\" id=\"newWordPressAdminLink\">Adminisztrációs terület</a>.";
+$_LANG['wptk']['installWordPress'] = "Telepítse a WordPress® alkalmazást";
+$_LANG['wptk']['installWordPressShort'] = "Telepítés";
 
 $_LANG['api']['client']['countryError'] = "Érvényes ország szükséges";
 
 $_LANG['plesk']['mail'] = "Mail";
-$_LANG['plesk']['applications'] = "Applications";
-$_LANG['plesk']['statistics'] = "Statistics";
-$_LANG['plesk']['users'] = "Users";
-$_LANG['plesk']['manageDomains'] = "Manage Domains";
+$_LANG['plesk']['applications'] = "Alkalmazások";
+$_LANG['plesk']['statistics'] = "Statisztika";
+$_LANG['plesk']['users'] = "Felhasználók";
+$_LANG['plesk']['manageDomains'] = "Domainek kezelése";
 
-$_LANG['contactCreated'] = "Contact created successfully!";
-$_LANG['contactUpdated'] = "Contact updated successfully!";
-$_LANG['contactDeleted'] = "Contact deleted successfully!";
-$_LANG['recommended'] = "Recommended";
+$_LANG['contactCreated'] = "A kapcsolat sikeresen létrejött!";
+$_LANG['contactUpdated'] = "Kapcsolat sikeresen frissítve!";
+$_LANG['contactDeleted'] = "A kapcsolat sikeresen törölve lett!";
+$_LANG['recommended'] = "Ajánlott";
 
 $_LANG['ssl']['siteSeal'] = "Site Seal";
-$_LANG['ssl']['getSiteSeal'] = "Get Site Seal Code";
-$_LANG['ssl']['copyTheSiteSeal'] = "Copy your site seal code from the text below:";
-$_LANG['ssl']['howToUseSiteSeal'] = "How to Use the Site Seal Code";
-$_LANG['ssl']['siteSealError1'] = "You can only retrieve the seal HTML code after the certificate authority issues the certificate.";
-$_LANG['ssl']['sealSuccess'] = "Your site seal code has been successfully retrieved.";
-$_LANG['ssl']['rapidSslInstructions'] = "Copy the HTML image tag to your HTML document in the location in which you want the RapidSSL seal to display.";
-$_LANG['ssl']['siteSealInstructions1'] = "Copy the DigiCert Seal HTML section and paste it into your HTML document in the location in which you want your site seal to display.";
-$_LANG['ssl']['siteSealInstructions2'] = "Copy the DigiCert Seal Code section and paste it into the HEAD section of your HTML document.";
-$_LANG['ssl']['certError1'] = "You can only retrieve the certificate after the certificate authority issues it.";
-$_LANG['ssl']['certError2'] = "If you submitted the configuration information recently, allow time for the certificate authority to complete security checks and issue the certificate. For DV orders, this is typically under 24 hours. OV and EV certificates may require up to 3–5 days.";
-$_LANG['ssl']['certError3'] = "If you continue to see this message, <a href=\"submitticket.php\">contact support</a>.";
-$_LANG['ssl']['retrieved'] = "The system successfully retrieved your certificate.";
-$_LANG['ssl']['copyCert'] = "Copy your certificate from the text below:";
-$_LANG['ssl']['installing'] = "Installing Your Certificate";
-$_LANG['ssl']['howToInstall'] = "To install your certificate, upload the certificate above to your server or control panel. The method to do this depends on your hosting environment.";
-$_LANG['ssl']['installFurtherInfo'] = "For more information, see the :anchorRapidSSL Installation Support:endAnchor page.";
+$_LANG['ssl']['getSiteSeal'] = "Szerezze be a webhely pecsétkódját";
+$_LANG['ssl']['copyTheSiteSeal'] = "Másolja ki webhelye pecsétkódját az alábbi szövegből:";
+$_LANG['ssl']['howToUseSiteSeal'] = "A Site Seal kód használata";
+$_LANG['ssl']['siteSealError1'] = "A pecsét HTML-kódját csak akkor lehet lekérni, ha a hitelesítésszolgáltató kiadja a tanúsítványt.";
+$_LANG['ssl']['sealSuccess'] = "A webhely pecsétkódjának lekérése sikeresen megtörtént.";
+$_LANG['ssl']['rapidSslInstructions'] = "Másolja a HTML-képcímkét a HTML-dokumentumba azon a helyen, ahol a RapidSSL-pecsétet meg szeretné jeleníteni.";
+$_LANG['ssl']['siteSealInstructions1'] = "Másolja ki a DigiCert Seal HTML szakaszt, és illessze be a HTML-dokumentumba arra a helyre, ahol a webhelypecsétet meg szeretné jeleníteni.";
+$_LANG['ssl']['siteSealInstructions2'] = "Másolja ki a DigiCert Seal Code részt, és illessze be a HTML-dokumentum HEAD szakaszába.";
+$_LANG['ssl']['certError1'] = "A tanúsítványt csak akkor lehet lekérni, ha a hitelesítésszolgáltató kiadja.";
+$_LANG['ssl']['certError2'] = "Ha a közelmúltban küldte el a konfigurációs adatokat, hagyjon időt a hitelesítésszolgáltatónak a biztonsági ellenőrzések elvégzésére és a tanúsítvány kiállítására. DV-megrendelések esetén ez általában 24 óra alatt van. Az OV és EV tanúsítványok akár 3–5 napot is igénybe vehetnek.";
+$_LANG['ssl']['certError3'] = "Ha továbbra is ezt az üzenetet látja, <a href=\"submitticket.php\">kapcsolatfelvétel az ügyfélszolgálattal</a>.";
+$_LANG['ssl']['retrieved'] = "A rendszer sikeresen lekérte a tanúsítványt.";
+$_LANG['ssl']['copyCert'] = "Másolja ki a tanúsítványt az alábbi szövegből:";
+$_LANG['ssl']['installing'] = "A tanúsítvány telepítése";
+$_LANG['ssl']['howToInstall'] = "A tanúsítvány telepítéséhez töltse fel a fenti tanúsítványt a kiszolgálóra vagy a vezérlőpultra. Ennek módja a tárhely környezetétől függ.";
+$_LANG['ssl']['installFurtherInfo'] = "További információkért lásd a :anchorRapidSSL Telepítési támogatás:endAnchor oldal.";
 
-$_LANG['copyToClipboard'] = "Copy to Clipboard";
+$_LANG['recommendations']['title']['generic'] = "Ajánlások";
+$_LANG['recommendations']['title']['addedTo'] = "Kosárba helyezve";
+$_LANG['recommendations']['title']['yourOrder'] = "Az Ön rendelése alapján";
+$_LANG['recommendations']['title']['yourProducts'] = "Az Ön termékei alapján";
+$_LANG['recommendations']['explain']['generic'] = "A megrendelés alapján a következőket javasoljuk:";
+$_LANG['recommendations']['explain']['product'] = "A termék alapján a következőket javasoljuk:";
+$_LANG['recommendations']['explain']['ordered'] = "Mert megrendelted <strong>:productName</strong>, ajánljuk:";
+$_LANG['recommendations']['learnMore'] = "Kattintson ide, ha többet szeretne megtudni.";
+$_LANG['recommendations']['productAdded'] = "Termék hozzáadva";
+$_LANG['recommendations']['taglinePlaceholder'] = "Ehhez a termékhez nem áll rendelkezésre leírás (szlogen).";
 
-$_LANG['usagebilling']['metric']['diskSpace'] = "Disk Space";
-$_LANG['usagebilling']['metric']['bandwidth'] = "Bandwidth";
-$_LANG['usagebilling']['metric']['emailAccounts'] = "Email Accounts";
-$_LANG['usagebilling']['metric']['addonDomains'] = "Addon Domains";
-$_LANG['usagebilling']['metric']['parkedDomains'] = "Parked Domains";
-$_LANG['usagebilling']['metric']['subDomains'] = "Sub Domains";
-$_LANG['usagebilling']['metric']['mysqlDatabases'] = "MySQL Databases";
-$_LANG['usagebilling']['metric']['mysqlDiskUsage'] = "MySQL Disk Usage";
-$_LANG['usagebilling']['metric']['subAccounts'] = "Sub-Accounts";
+$_LANG['copyToClipboard'] = "Másolás a vágólapra";
 
-$_LANG['idna']['emptyLabel'] = "The domain name input is empty.";
-$_LANG['idna']['labelTooLong'] = "The domain label has exceeded the maximum length.";
-$_LANG['idna']['domainTooLong'] = "The domain has exceeded the maximum length.";
-$_LANG['idna']['invalidDomain'] = "The domain is invalid.";
-$_LANG['idna']['unknownError'] = "An unknown error occurred.";
+$_LANG['usagebilling']['metric']['diskSpace'] = "Lemezterület";
+$_LANG['usagebilling']['metric']['bandwidth'] = "Sávszélesség";
+$_LANG['usagebilling']['metric']['emailAccounts'] = "E-mail fiókok";
+$_LANG['usagebilling']['metric']['addonDomains'] = "Addon Domainek";
+$_LANG['usagebilling']['metric']['parkedDomains'] = "Parkolt domainek";
+$_LANG['usagebilling']['metric']['subDomains'] = "Aldomainek";
+$_LANG['usagebilling']['metric']['mysqlDatabases'] = "MySQL Adatbázisok";
+$_LANG['usagebilling']['metric']['mysqlDiskUsage'] = "MySQL Lemezhasználat";
+$_LANG['usagebilling']['metric']['subAccounts'] = "Alfiókok";
+
+$_LANG['idna']['emptyLabel'] = "A domain név bevitele üres.";
+$_LANG['idna']['labelTooLong'] = "A domain címke túllépte a maximális hosszúságot.";
+$_LANG['idna']['domainTooLong'] = "A domain túllépte a maximális hosszt.";
+$_LANG['idna']['invalidDomain'] = "A domain érvénytelen.";
+$_LANG['idna']['unknownError'] = "Ismeretlen hiba történt.";
+
+$_LANG['domains']['europeanDomainTerms'] = "Fontos információk az Ön kapcsolattartási adataival kapcsolatban: Szerződésben kötelezzük önt arra, hogy megosszuk az Ön személyes adatait a TLD nyilvántartásával. Személyes adatait továbbítjuk a nyilvántartásba, amely nyilvánosan közzéteheti azokat a WHOIS-nak. Ha többet szeretne megtudni arról, hogy miért osztjuk meg az Ön személyes adatait, tekintse át adatvédelmi irányelveinket és a domainregisztrációs megállapodást.";
+
+
+$_LANG['store']['ssl']['shared']['oneYearPrice'] = "1 Év";
+$_LANG['store']['ssl']['shared']['twoYearPrice'] = "2 Évek";
+$_LANG['store']['ssl']['shared']['threeYearPrice'] = "3 Évek";
+
+$_LANG['store']['ssl']['landingPage']['multiYear']['title'] = "Többéves SSL tanúsítványok";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p1'] = "A többéves tanúsítványok lehetővé teszik, hogy egyetlen kedvezményes árat fizessen két vagy három éves SSL-tanúsítvány lefedettségért. Ha többéves SSL-tanúsítványt vásárol, egyetlen árat zárol, legfeljebb 3 éves fedezetre.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p2'] = "Kezdetben olyan tanúsítványt kap, amely érvényes a Hitelesítésszolgáltatói Böngésző Fórum maximálisan engedélyezett időszakára (1 év és 1 hónap), és jogosult korlátlan számú tanúsítvány újbóli kiadására a rendelési időszak alatt.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p3'] = "Az automatikus újrakiadás automatikusan megtörténik az időszak során, hogy biztosítsuk webhelye folyamatos védelmét.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p4'] = "Például egy 2 éves SSL-tanúsítványrendelés a következőképpen működik:";
+$_LANG['store']['ssl']['landingPage']['multiYear']['p5'] = "Az SSL-tanúsítványokat rendszeresen újra kell validálni. A tanúsítvány maximális élettartama 13 hónap, ami évente újraérvényesítést igényel.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['title'] = "Előnyök";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b1'] = "Élvezze a növekvő kedvezményeket minden megvásárolt fedezeti évre.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b2'] = "Távolítsa el az éves számlázással járó gondokat.";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b3'] = "Éves érvényesítés. A személyazonosság évenkénti érvényesítése a rövidebb érvényességű tanúsítványokban megakadályozza az esetleges csalásokat és hamisításokat.";
+$_LANG['navMarketConnectService']['cpanelseo'] = "cPanel SEO";
+$_LANG['marketConnect']['cPanelSEO']['manage'] = "Jelentkezzen be a cPanel SEO-ba";
+$_LANG['store']['cPanelSEO']['title'] = "cPanel SEO";
+$_LANG['store']['cPanelSEO']['tagline'] = "Legyen megtalálható online :lineBreak cPanel SEO";
+$_LANG['store']['cPanelSEO']['getStarted'] = "Kezdje el";
+$_LANG['store']['cPanelSEO']['productTourTitle'] = "Termékbemutató";
+$_LANG['store']['cPanelSEO']['measureResultsTitle'] = "Mérhető eredmények karnyújtásnyira";
+$_LANG['store']['cPanelSEO']['measureResults1'] = "Tegyük fel, hogy a következő évben szeretné növelni vállalkozását. Kezdhetné azzal, hogy pénzt fektet be egy SEO ügynökségbe, de ez elsöprő feladatnak tűnik annak, aki nem rendelkezik technikai készségekkel!";
+$_LANG['store']['cPanelSEO']['measureResults2'] = ":startBold Szerencsére van egy könnyebb út :endBold: biztosítsuk, hogy az emberek a cPanel SEO segítségével végzett online kereséseikből kiderítsék, mi teszi naggyá az Ön cégét.";
+$_LANG['store']['cPanelSEO']['features']['keywords']['title'] = "Kulcsszavak";
+$_LANG['store']['cPanelSEO']['features']['advisor']['title'] = "Tanácsadó";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['title'] = "Rangkövető";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['title'] = "Helyszíni ellenőrzés";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['title'] = "Szövegoptimalizáló";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['title'] = "Teljesítményértékelés";
+$_LANG['store']['cPanelSEO']['features']['keywords']['line1'] = "53 millió+ kulcsszóadatbázis kutatáshoz és inspirációhoz";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet1'] = "Átfogó kulcsszóadatok lekérése";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet2'] = "Tudja meg, hogy a webhely mely kulcsszavak rangsorolja a webhelyet";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet3'] = "Azonosítsa az ígéretes kulcsszavakat a jobb forgalom érdekében";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet4'] = "Elemezze versenytársainak kulcsszavait és rangsorait";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet5'] = "Hasonlítsa össze a nemzetközi piacokat";
+$_LANG['store']['cPanelSEO']['features']['keywords']['bullet6'] = "Profitáljon egy 53 millió+ kulcsszóadatbázisból";
+$_LANG['store']['cPanelSEO']['features']['advisor']['line1'] = "Feladatok fogadása, kezelése és megoldása a webhely fejlesztése érdekében";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet1'] = "Kanban stílusú Feladatkezelő";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet2'] = "Testreszabott és rangsorolt feladatok";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet3'] = "Részletes utasítások és további információk";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet4'] = "Nincs szükség szakértői ismeretekre";
+$_LANG['store']['cPanelSEO']['features']['advisor']['bullet5'] = "Hetente frissítve";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['line1'] = "Figyelemmel kísérheti az Ön és versenytársai rangsorát";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet1'] = "Kövesse nyomon az alapvető rangsorokat hetente vagy naponta";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet2'] = "Helyi rangsorok a hagyományos vállalkozások számára";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet3'] = "Nemzetközi rangsorok a globális vállalatok számára";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet4'] = "Tartsd szemmel a konkurenciádat";
+$_LANG['store']['cPanelSEO']['features']['rankTracker']['bullet5'] = "Kulcsszavak rangsorolásának vagy dedikált oldalaknak a nyomon követése";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['line1'] = "Ellenőrizze webhelye technikai alapjait";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet1'] = "Automatizált heti helyszíni ellenőrzések";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet2'] = "Műszaki weboldal ellenőrzése";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet3'] = "Rangsorolt eredmények";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet4'] = "Fejlesztéseket mutat";
+$_LANG['store']['cPanelSEO']['features']['siteAudit']['bullet5'] = "Lefordított eredmények tanácsadói feladatokra";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['line1'] = "Javítsd a rangsorolásaidat adatvezérelt tartalomoptimalizálással";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet1'] = "Hasonlítsa össze a szöveget az Amazon™ és a Google™ 10 legjobb találatával";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet2'] = "A tartalom minőségének javítása irányított módon";
+$_LANG['store']['cPanelSEO']['features']['textOptimizer']['bullet3'] = "Kulcsszavak hozzáadása, növelése vagy csökkentése az utasításoknak megfelelően";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['line1'] = "Elemezze a versenytársakat, hasonlítsa össze a teljesítményt és javítsa SEO-ját";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet1'] = "Fedezze fel azokat a domaineket, amelyek ugyanazokat a kulcsszavakat osztják meg a rangsorban";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet2'] = "Azonosítsa a fülke vezetőjét";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet3'] = "Két vagy több domain kulcsszórangsorainak összehasonlítása";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet4'] = "Kövesse nyomon és hasonlítsa össze versenytársai rangsorát a fontos kulcsszavak tekintetében";
+$_LANG['store']['cPanelSEO']['features']['benchmarking']['bullet5'] = "Láthatósági pontszámok nyomon követése és összehasonlítása";
+$_LANG['store']['cPanelSEO']['audience']['freelancersTitle'] = "Szabadúszók";
+$_LANG['store']['cPanelSEO']['audience']['freelancersDesc'] = "A cPanel SEO-t úgy tervezték, hogy azonnali értéket biztosítson személyes webhelye vagy ügyfelei webhelyei számára, a kezdeti webhely-ellenőrzéstől kezdve a keresőmotor eredményeinek javítására irányuló ajánlásokon át.";
+$_LANG['store']['cPanelSEO']['audience']['smbizTitle'] = "Kis- és középvállalkozások";
+$_LANG['store']['cPanelSEO']['audience']['smbizDesc'] = "Nem kell SEO szakértőnek lenned ahhoz, hogy javítsd vállalkozásod Google-rangsorolását. A cPanel SEO azonosítja a legjobb kulcsszavakat vállalkozása számára, miközben figyelemmel kíséri versenytársai teljesítményét is.";
+$_LANG['store']['cPanelSEO']['moneyBackGuarantee'] = "Rugalmas árképzési lehetőségek :guaranteeStart 30 napos pénzvisszafizetési garancia :guaranteeEnd";
+$_LANG['store']['cPanelSEO']['featurematrix']['1'] = "Projektek";
+$_LANG['store']['cPanelSEO']['featurematrix']['2'] = "Teljes hozzáférésű fiókok";
+$_LANG['store']['cPanelSEO']['featurematrix']['3'] = "Csak olvasható fiókok";
+$_LANG['store']['cPanelSEO']['featurematrix']['4'] = "Versenytársak teljesítményértékelése";
+$_LANG['store']['cPanelSEO']['featurematrix']['5'] = "Versenytársak projektenként";
+$_LANG['store']['cPanelSEO']['featurematrix']['6'] = "Kulcsszó kutatás";
+$_LANG['store']['cPanelSEO']['featurematrix']['7'] = "Rangkövető";
+$_LANG['store']['cPanelSEO']['featurematrix']['8'] = "Kulcsszófeltérképezések";
+$_LANG['store']['cPanelSEO']['featurematrix']['9'] = "Kulcsszó ellenőrzése";
+$_LANG['store']['cPanelSEO']['featurematrix']['10'] = "Helyszíni ellenőrzés";
+$_LANG['store']['cPanelSEO']['featurematrix']['11'] = "Feltérképezendő oldalak";
+$_LANG['store']['cPanelSEO']['featurematrix']['12'] = "SEO tanácsadó";
+$_LANG['store']['cPanelSEO']['featurematrix']['13'] = "SEO szövegoptimalizáló";
+$_LANG['store']['cPanelSEO']['faqTitle'] = "Gyakran Ismételt Kérdések";
+$_LANG['store']['cPanelSEO']['faq1'] = "Mi az a SEO?";
+$_LANG['store']['cPanelSEO']['faq1ans'] = "<p>A SEO a Search Engine Optimization rövidítése. Ez egy alapvető online marketingstratégia, amelynek célja, hogy a leendő ügyfeleket az Ön webhelyére vezesse. Célja, hogy optimalizálja a webhelyet, hogy a keresőmotorokban a kiválasztott kulcsszavakhoz vezető pozíciókat szerezzen. Ezt a célt úgy érik el, hogy stratégiailag olyan intézkedéseket alkalmaznak, amelyek javítják a weboldal technikai felépítését és tartalmát, és visszamutató linkeket szereznek más domainekről.</p><p>A SEO három általános kategóriába sorolható:</p><ol><li>Kulcsszavak és rangsorok</li><li>On-oldal SEO</li><li>Off-oldal SEO</li></ol><p>A SEO szakemberek olyan intézkedéseket alkalmaznak, amelyek megfelelnek a keresőmotor rangsorolási tényezőinek az egyes kategóriákra. A keresőmotorok rangsorolási tényezők segítségével határozzák meg, hogy milyen pozícióban sorolja fel a webhelyet a keresési eredmények között.</p>";
+$_LANG['store']['cPanelSEO']['faq2'] = "Miért van szükségem SEO-ra?";
+$_LANG['store']['cPanelSEO']['faq2ans'] = "<p>Minden nap emberek milliói használják a keresőmotorokat, hogy információkat vagy szolgáltatásokat találjanak az élet minden területéről: receptek, útmutatók, termékek, járatok, navigáció, jegyek, szórakozás és egyebek. A legtöbb ember keresőmotorok segítségével navigál az interneten, hogy válaszokat találjon kérdéseire és megoldásokat a kihívásaikra.</p><p>Egy tanulmány azt mutatja, hogy az internet forgalmának 68% -a keresőmotorokból származik. Ennek a forgalomnak az 53%-a organikus keresésből származik – olyan keresési eredményekből, amelyek nem hirdetések (fizetett keresés), és a SEO segítségével javíthatók.</p><img src=\":image1\"><p>Más szóval, az organikus keresés (SEO) és a fizetett keresés (SEA, a keresési eredményekben szereplő hirdetések) teszik ki az internetes forgalom oroszlánrészét.</p><p>Még ott is, ahol offline állapotba kerülünk, jelentősen befolyásolják a keresőmotorok: A Google és az Apple Maps, valamint a helyi keresési eredmények segítségével olyan helyeket és közeli szolgáltatásokat keresünk, mint a fodrászok, szupermarketek, éttermek és orvosok. Úti célunkat online vélemények alapján választjuk ki. És utasítjuk a keresőmotor-alapú szolgáltatásokat, hogy vezessenek minket oda, legyen szó autóról, tömegközlekedésről vagy gyalog.</p><p>Most képzelje el, ha vállalkozása, termékei és szolgáltatásai nem szerepelnek a keresési eredmények között. Képzelje el, hogy az emberek nem találnak téged az interneten, hogy megvásárolják a termékeit, vagy megtalálják az utat a fizikai vállalkozásodhoz. Ehelyett valószínűleg ők választják ki a konkurenciádat.</p>";
+$_LANG['store']['cPanelSEO']['faq3'] = "Mit tehet értem a SEO?";
+$_LANG['store']['cPanelSEO']['faq3ans'] = "<p>A SEO segítségével a felhasználók megtalálhatják vállalkozását, termékeit és szolgáltatásait az interneten – és megvásárolhatják azokat. Mint említettük, ez azt jelenti, hogy az emberek online és sokkal könnyebben megtalálhatnak offline is.</p><p>A SEO maximalizálja annak esélyét, hogy a vállalkozása számára kulcsfontosságú kulcsszavak vezető pozícióiban szerepeljen. Minél jobb a pozíciója, annál többen találják meg az utat a webhelyére – lehetőleg a keresési eredmények első (vagy első tízes) oldalán.</p><p><strong>Miért az első oldal?</strong></p><p>Jó kérdés. Tanulmányok kimutatták, hogy a felhasználók 31,7%-a kattint az első organikus keresési eredményre (első pozíció); az összes kattintás óriási 75,1%-a az első három keresési eredményre kerül. Ezt követően a kattintások száma gyorsan csökken minden következő pozícióval.</p><img src=\":image2\"><p>Ez a viselkedés azt mutatja, hogy a felhasználók ritkán nézik meg a második vagy annál alacsonyabb oldalt, nemhogy bármelyikre kattintanának.</p><img src=\":image3\"><p>Ezért a vállalkozásoknak jelen kell lenniük a keresési eredmények első oldalán, legalábbis a releváns kulcsszavak esetében.</p><p>Röviden: A szabadúszók és a cégtulajdonosok számára elengedhetetlen, hogy</p><ol><li>Legyen egy webhely vagy bármilyen online jelenlét, még akkor is, ha termékeiket vagy szolgáltatásaikat offline kínálják</li><li>Végezzen SEO-t, hogy megbizonyosodjon arról, hogy az első oldalon rangsorolják a releváns kulcsszavakat</li></ol>";
+$_LANG['store']['cPanelSEO']['faq4'] = "Miért fontosak a kulcsszavak?";
+$_LANG['store']['cPanelSEO']['faq4ans'] = "<p><em>Kulcsszó</em> a keresési lekérdezések (szavak, kifejezések, mondatok és kérdések) szakkifejezése. Segítségükkel a felhasználók olyan tartalmakat találnak, amelyek megválaszolják kérdéseiket és megoldásokat kínálnak. Egyszerűen fogalmazva, a kulcsszó a felhasználók és a webhely közötti kapcsolat. A keresőmotorok összehasonlítják a kulcsszavakat a webhelyekkel, és a legnagyobb relevanciajú tartalmat keresik.</p><p>A SEO nagy része abban rejlik, hogy azonosítja azokat a kulcsszavakat, amelyek releváns forgalmat irányíthatnak webhelyére - más szóval, potenciális ügyfelek bevonásával. Ehhez meg kell határoznia azokat a keresési kifejezéseket (vagy kulcsszavakat), amelyeket az emberek használnak, amikor az Önéhez hasonló ajánlatokat keresnek. Ezt a folyamatot kulcsszókutatásnak nevezik. Ideális esetben a kulcsszókutatás a kulcsszavak listáját nyújtja, amelyek lefedik a keresési lekérdezéseket a teljes ügyfélútvonalon.</p>";
+$_LANG['store']['cPanelSEO']['faq5'] = "Mi az a kulcsszóoptimalizálás?";
+$_LANG['store']['cPanelSEO']['faq5ans'] = "<p>Tehát tudjuk, hogy a relevancia döntő tényező a keresési eredményekben elfoglalt hely szempontjából. Releváns tartalom létrehozásához az egyes aloldalakon vagy URL-eken lévő kulcsszóval kapcsolatos témákkal és kérdésekkel kell foglalkoznia. Ezután győződjön meg arról, hogy a kulcsszó megjelenik az oldal kulcsfontosságú helyein.</p><p>Tegyük fel, hogy a fagylaltiparban vagy. Az egyik kulcsszó: <em>tábortűzi édesség fagylaltos szendvics</em>. Most mindenre összpontosít, ami a <em>tábortűzi édesség fagylaltos szendvics</em>.</p><p>Amit meg szeretne tenni, az az, hogy hozzon létre egy receptoldalt a <em>tábortűzi édesség fagylaltos szendvics</em> ahol a felhasználók könnyen követhető receptet, képeket vagy videókat találnak, és választ találnak azokra a kérdésekre, amelyekkel esetleg rendelkeznek. <em>tábortűzi édesség fagylaltos szendvics</em> a fókusz kulcsszó, amelynek meg kell jelennie az oldal URL-jében, címében, címsoraiban és egyebekben.</p><p>Egy dedikált és kulcsszóra optimalizált oldal biztosítása megkönnyíti a keresőmotorok – és a felhasználók – számára is, hogy meghatározzák, miről is szól az oldalad. Így jó pozíciókban sorolhatják fel a kapcsolódó keresési eredmények között.</p>";
+$_LANG['store']['cPanelSEO']['faq6'] = "Hogyan kell használni a Tanácsadót";
+$_LANG['store']['cPanelSEO']['faq6ans'] = "<p>Először nézze meg a tanácsadó testületét a felső navigációs sáv Tanácsadó elemére kattintva. Ez egy Kanban tábla, amely segít a feladatok státusz szerinti rendszerezésében. A feladatok fontosság szerint színkódoltak:</p><ul><li><strong>Piros:</strong> Magas. Oldja meg az ASAP-ot.</li><li><strong>Yellow:</strong> Medium. Tackle those soon.</li><li><strong>Kék:</strong> Alacsony. Tartsa szem előtt őket, és oldja meg őket, amikor csak tudja.</li></ul><img src=\":image1\"><p>A feladatok elvégzése közben húzással rendelhet hozzá feladatokat más felhasználókhoz (a csomagtól függően), és szűrhet a hozzárendelt személy szerint.</p><p>Mint fentebb említettük, a feladatok a szokásos alapvető SEO intézkedések és a webhely heti automatizált ellenőrzése során talált problémák keverékei.</p>";
+$_LANG['store']['cPanelSEO']['faq7'] = "Szeretnék egy tanácsadót más webhelyekhez. Hogyan szerezhetem be?";
+$_LANG['store']['cPanelSEO']['faq7ans'] = "<p>Ne feledje, hogy szüksége van egy <em>Projekt</em> a Tanácsadó funkció működéséhez. Ezenkívül a tanácsadó legtöbb feladata a Projekt webhelyére van szabva (általában az Öné vagy az ügyfeleé). Ha egynél több webhelyet kezel, mindegyikhez létre kell hoznia egy további Projektet.</p><p>Ha másik projektet szeretne hozzáadni vagy váltani, kattintson a felső navigációs sáv <em>Projektek</em> menüjére. A csomagtól függően előfordulhat, hogy frissítenie kell egy másik projekt hozzáadásához.</p>";
+$_LANG['store']['cPanelSEO']['faq8'] = "Hogyan rendelhetek feladatokat más felhasználókhoz?";
+$_LANG['store']['cPanelSEO']['faq8ans'] = "<p>Ha egy feladatot más felhasználókhoz szeretne hozzárendelni, szüksége lesz egy olyan csomagra, amely további felhasználókat tesz lehetővé. Ha a csomag további felhasználókat is tartalmaz, a Hozzárendelt menü a Tanácsadóban és a feladatokban található. Egyszerűen válasszon ki egy felhasználót egy feladat hozzárendeléséhez, vagy szűrje az Advisort. Új felhasználó hozzáadásához kattintson a profil avatarjára, majd a <em>Felhasználók</em> elemre. Ha a csomag nem tartalmaz további felhasználókat, akkor nem fogja látni a <em>Megbízott</em> menüben a Tanácsadóban vagy a feladatokban. Frissítse a csomagot felhasználók hozzáadásához.</p>";
+$_LANG['store']['cPanelSEO']['faq9'] = "Vannak olyan feladatok, amelyekkel már foglalkoztam. Miért bukkannak fel?";
+$_LANG['store']['cPanelSEO']['faq9ans'] = "<p>Két oka lehet annak, hogy miért láthat olyan feladatokat, amelyeket már megoldott vagy lefedett. Mint fentebb említettük, a feladatok az alapvető SEO intézkedések és a webhely heti automatizált ellenőrzése során talált kérdések keverékei.</p><p>Először is, az alapvető SEO intézkedéseket lefedő feladatok mindenki számára azonosak, és nem az Ön webhelyére vagy vállalkozására vannak szabva. Például nem tudjuk, hogy létrehozott-e Google-fiókot vállalkozása számára, és beállította-e a Search Console-t, vagy telepített seo bővítményeket. Ha már megtetted – nagyszerű munka! Egyszerűen jelölje meg ezeket a feladatokat Készként.</p><p>A második ok az, hogy a tanácsadó automatikusan frissül az automatizált heti helyszíni ellenőrzések eredményei alapján. Más szóval, ha egy webhely-ellenőrzés bármilyen problémát azonosít egy korábban elvégzett feladattal kapcsolatban, akkor az automatikusan frissül, és megjelenik a Megnyitás szakaszban.</p>";
+$_LANG['store']['cPanelSEO']['faq10'] = "Mi az a projekt láthatósága?";
+$_LANG['store']['cPanelSEO']['faq10ans'] = "<p>Talán már megálltál gondolkodni, “Várjon, de nem érdekel, hogy láthatóak-e olyan kulcsszavak, amelyeknek semmi közük a vállalkozásomhoz.” És igazad van. Bár a láthatóság nagyszerű pontszám az általános teljesítmény megismeréséhez és a webhelyek általános összehasonlításához, nem az adott kulcsszókészlethez igazodik.</p><p>Ezért nyújtunk <em>A projekt láthatósága</em>. Ezt a mutatót ugyanúgy számítjuk ki, mint a Láthatóságot, de az 500 000 ágazatközi kulcsszó használata helyett a Project láthatósága kizárólag a Rangsorkövető kulcsszavain alapul.</p><p>Más szóval, a Projekt láthatósága a vállalkozás szempontjából releváns egyedi kulcsszókészlet egyéni láthatósági pontszáma.</p><p>A projekt láthatóságát itt találja: <em>Projektek → Rangsorkövető → Láthatóság</em>.</p> <p>Amint azt már tudhatod, a Rangkövetőben is nyomon követheted a versenytársaid rangsorát. Így nekik is megkapja a Projekt láthatóságát, ami sokkal reálisabb összehasonlítást tesz lehetővé. Tehát még akkor is, ha kissé eltérő termék- vagy szolgáltatásportfólióval rendelkeznek, a Project Visibility kizárólag az Ön által ténylegesen megosztott kulcsszavakat veszi figyelembe.</p>";
+$_LANG['store']['cPanelSEO']['faq11'] = "Miért hasznos a láthatósági pontszám?";
+$_LANG['store']['cPanelSEO']['faq11ans'] = "<p>Használja láthatósági pontszámát az általános SEO teljesítmény, problémák és optimalizálási lehetőségek mutatójaként.</p><p><strong>1. Szerezzen képet az általános SEO teljesítményéről</strong></p><p>Nyomon követheti az egyes kulcsszavak rangsorolását, és tudhatja, hogy melyik pozícióban rangsorol. Ez egy fontos dolog. A rangsorkövetés azonban nem ad madártávlatból jövő perspektívát a rangsorok általános javulásáról – de a láthatóság igen. Amikor a SEO méréseid hatékonyak és a rangsorok javulnak, akkor a láthatósági pontszámod is javul.</p><p><strong>2. Diagnosztizálja a SEO problémákat</strong></p><p>A láthatóság hirtelen csökkenése problémákat jelez a SEO teljesítményében. Használja a láthatóságot riasztásként. Ha jelentősen csökken, kezdje el ásni, mi történt. Íme egy lista a gyakori okokról:</p><ul><li>Eltaláltak egy <strong>Google büntetés</strong>. Ellenőrizze a Search Console-ban az értesítéseket. Ügyeljen arra, hogy kövesse <a href=\":googleWebmasterGuidelinesUrl\" target=\"_blank\">A Google webmestereknek szóló irányelvei</a>.</li><li>A Google algoritmusának közelmúltbeli változásának következményei vannak. Érdeklődjön a legutóbbiakról <strong>Google Frissítések</strong> és mit jelentenek ezek.</li><li>Versenytársai optimalizálták weboldalaikat és tartalmaikat, és most felülmúlják Önt. Hasonlítsa össze a (történelmi) <strong>Láthatóság</strong> a tiéddel. Használja a <a href=\":waybackMachineUrl\" target=\"_blank\">Wayback gép</a> hogy összehasonlítsuk, hogyan változott a tartalmuk.</li><li>A SEO szem előtt tartása nélkül indította újra webhelyét. Például ellenőrizze, hogy <em>robots.txt</em> és <em>.htaccess</em> a véletlenül blokkolt oldalaknál a megnövekedett 404-es állapotkódok, a hibás 301-es átirányítások és a belső linkek.<br><br>Úgy módosítottad a tartalmadat, hogy az ne segítsen a rangsorolásodban. Fontolja meg a változások visszafordítását.<br><br>Webhelyének technikai problémái vannak. Run a <em>Helyszíni ellenőrzés</em> vagy ellenőrizze a <strong><em>Tanácsadó</em></strong> nyílt műszaki feladatokhoz. Ellenőrizze, hogy a háttérrendszerben nincs-e elavult, nemrég frissített vagy inkompatibilis <strong>bővítmények</strong> ami pusztítást okozhat.<br><br>A tárhelyproblémák okozzák az okokat. Érdeklődj, hogy a házigazdád végrehajtott-e a közelmúltban változtatásokat, feltörték-e, áthelyezték-e a szervereiket, vagy tapasztaltak-e technikai nehézségeket. Ellenőrizze, hogy a kiszolgálóval vannak-e problémák.</li></ul><p>Ne feledje, hogy ez a lista nem teljes. Ezen okok közül egy vagy több egyidejűleg is fennállhat, vagy ennek teljesen más okai is lehetnek.</p><p><strong>3. Versenytársak összehasonlítása</strong></p><p>A láthatóság nagyszerű mérőszám két vagy több webhely gyors összehasonlításához. Ellenőrizd a láthatóságodat az övékkel szemben. Ki ki versenyez ki? Egy versenytárs felülmúlta Önt a múltban, vagy fordítva? Ki vezeti a mezőnyt, és mekkora a szakadék közted és a legádázabb versenyződ között? Ezeknek a kérdéseknek a megválaszolása segít egy SEO stratégia kidolgozásában, hogy kijöjjön (és maradjon) a rés tetején.</p><p><strong>4. A láthatóság alakulásának nyomon követése az idő múlásával az előzményadatokkal</strong></p><p>Szeretné tudni, hogyan terjedt el egy weboldal az idő múlásával? A korábbi adatokat egészen 2009-ig visszamenőleg, szezonális ingadozásoktól mentesen közöljük. Így nyomon követheti és összehasonlíthatja a történelmi láthatóságot, és hosszú időn keresztül láthatja azok fejlődését.</p>";
+$_LANG['store']['cPanelSEO']['faq12'] = "Hogyan javíthatom a láthatósági pontszámomat?";
+$_LANG['store']['cPanelSEO']['faq12ans'] = "<p>Rövid válasz: Ne tegye a láthatóság javítását célnak a SEO stratégiájában.</p><p>Hosszú válasz: Láthatóság <em>tükrözi</em> rangsorainak minősége egyetlen mutatóban; ez nem vezet jobb rangsoroláshoz. Tegye célul, hogy javítsa rangsorát az olyan releváns kulcsszavak esetében, amelyeket a leendő ügyfelek ténylegesen használnak az Önéhez hasonló termékek és szolgáltatások megtalálásához. A rangsorok javítása javítja a láthatóságot is. De a te rangsorod az, ami igazán számít. </p><p>Ökölszabályként elmondható, hogy a láthatósági pontszám magasabb lesz, ha</p><ul><li>A domain URL-jei jó pozíciókban vannak</li><li>Magas az indexelt URL-ek száma, jó rangsorolással</li><li>Jól rangsorolhatja a nagy keresési volumenű kulcsszavakat</li></ul>";
+$_LANG['store']['cPanelSEO']['promo']['sidebar']['title'] = "SEO eszközök";
+$_LANG['store']['cPanelSEO']['promo']['sidebar']['body'] = "Javítsa webhelye teljesítményét pontos, megbízható és könnyen használható webhely-rangsorolással, kulcsszavakkal és tanácsadóval.";
+$_LANG['store']['cPanelSEO']['cartTitle'] = "SEO Eszközök";
+$_LANG['store']['cPanelSEO']['cartShortDescription'] = "Javítsa webhelye teljesítményét pontos, megbízható és könnyen használható webhely-rangsorolással, kulcsszavakkal és tanácsadóval.";
+
 ////////// End of hungarian language file.  Do not place any translation strings below this line!

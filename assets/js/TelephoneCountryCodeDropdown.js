@@ -146,7 +146,7 @@ jQuery(document).ready(function() {
                     initialCountry = 'us';
                 }
 
-                thisInput.before('<input id="populated' + inputName + 'CountryCode" type="hidden" name="contactdetails[' + inputName + '][Phone Country Code]" value="" />');
+                thisInput.before('<input id="populated' + inputName + 'CountryCode" class="' + inputName + 'customwhois" type="hidden" name="contactdetails[' + inputName + '][Phone Country Code]" value="" />');
                 thisInput.intlTelInput({
                     preferredCountries: [initialCountry, "us", "gb"].filter(function(value, index, self) {
                         return self.indexOf(value) === index;

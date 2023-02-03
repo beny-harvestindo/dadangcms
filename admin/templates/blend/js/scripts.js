@@ -118,7 +118,7 @@ var blendIntelliSearch = {
         });
 
         $(document).keyup(function(e) {
-            if (e.keyCode === 27) {
+            if (e.keyCode === 27 && $('#intelliSearchForm').hasClass('active')) {
                 self.close();
             }
         });
@@ -507,6 +507,65 @@ var blendSidebar = {
 };
 
 $(document).ready(blendSidebar.init);
+
+var blendSlidetray = {
+    refs: {
+        opener: '*[data-toggle="slide-tray"]',
+        close: 'button[data-dismiss="slide-tray"]',
+        backdrop: 'slide-tray-backdrop',
+        tray: '.slide-tray',
+    },
+
+    init: function() {
+        var self = blendSlidetray;
+
+        $(self.refs.opener).click(function(e) {
+            e.preventDefault();
+            var $target = $(this).data('target');
+            if (!$('#' + self.refs.backdrop).length) {
+                $(document.createElement('div'))
+                    .attr('id', self.refs.backdrop)
+                    .addClass('modal-backdrop nav-modal-backdrop')
+                    .css('opacity', '0.5')
+                    .css('position', 'absolute')
+                    .css('top', 0)
+                    .appendTo('body');
+            }
+            $('#' + self.refs.backdrop).fadeIn();
+            $('html, body').css('overflow', 'hidden');
+            $($target).show();
+            if ($($target).hasClass('right')) {
+                $($target).css('right', $($target).outerWidth() * -1);
+                $($target).animate({ right: 0 }, 200);
+            } else {
+                $($target).css('left', $($target).outerWidth() * -1);
+                $($target).animate({ left: 0 }, 200);
+            }
+        });
+
+        $(self.refs.close).click(function(e) {
+            e.preventDefault();
+            var $target = $(this).closest(self.refs.tray);
+            if ($($target).hasClass('right')) {
+                $($target).animate({ right: $($target).outerWidth() * -1 }, 200, function() {
+                    $($target).hide();
+                    $('#' + self.refs.backdrop).fadeOut('', function() {
+                        $('html, body').css('overflow', 'auto');
+                    });
+                });
+            } else {
+                $($target).animate({ left: $($target).outerWidth() * -1 }, 200, function() {
+                    $($target).hide();
+                    $('#' + self.refs.backdrop).fadeOut('', function() {
+                        $('html, body').css('overflow', 'auto');
+                    });
+                });
+            }
+        });
+    }
+};
+
+$(document).ready(blendSlidetray.init);
 
 function toggleadvsearch() {
     if (document.getElementById('searchbox').style.visibility=="hidden") {
@@ -1171,10 +1230,13 @@ toolTip: function () {
         return tip;
     };
 
-    this.hideTip = function (btn) {
+    this.hideTip = function (btn, timeout) {
+        if (!timeout) {
+            timeout = 2000;
+        }
         return setTimeout(function() {
             btn.data('bs.tooltip').hide()
-        }, 2000);
+        }, timeout);
     }
 },
 
@@ -1662,6 +1724,102 @@ function () {
         return selectized[0];
     };
 
+    this.productSearch = function() {
+        var selector = '.selectize-product-search',
+            selectElement = jQuery(selector),
+            module = this,
+            selectized = [],
+            itemDecorator = function(data, escape) {
+                var newDiv = jQuery('<div>'),
+                    newSpan = jQuery('<span>').attr('class', 'name').text(escape(data.name));
+                newDiv.append(newSpan);
+                return newDiv;
+            };
+
+        selectElement.each(function() {
+            var element = jQuery(this),
+                configuration = {
+                    'valueField': 'id',
+                    'labelField': 'name',
+                    'render': {
+                        item: itemDecorator
+                    },
+                    optgroupField: 'groupid',
+                    optgroupLabelField: 'name',
+                    optgroupValueField: 'id',
+                    'preload': true,
+                    'load': module.builder.onLoadEvent(
+                        element.data('search-url'),
+                        function (query) {
+                            return {
+                                token: csrfToken,
+                                search: query,
+                            };
+                        }
+                    ),
+                    'onLoad': function(data) {
+                        var instance = this,
+                            listItems = jQuery('.product-recommendations-wrapper li');
+                        data.forEach(function(item) {
+                            if (listItems.find('input[value="' + item.id + '"]').length) {
+                                instance.removeOption(item.id);
+                                return;
+                            }
+                            instance.addOptionGroup(item.groupid, {
+                                $order: item.order,
+                                name: item.group,
+                            });
+                        });
+                    },
+                    'onBlur': function() {
+                        this.clear();
+                    },
+                    'onItemAdd': function(value) {
+                        var listItems = jQuery('.product-recommendations-wrapper li'),
+                            existingItems = listItems.find('input[value="' + value + '"]').length,
+                            recommendationAlert = jQuery('div.recommendation-alert'),
+                            isChanged = false;
+                        if (value && existingItems < 1) {
+                            var newSelection = jQuery(".selectize-dropdown-content div[data-value|='" + value + "']"),
+                                clonableItem = jQuery('.product-recommendations-wrapper .clonable-item'),
+                                parentList = clonableItem.closest('ul'),
+                                clonedItem = clonableItem.clone().removeClass('hidden clonable-item');
+                            clonedItem.find('a span.recommendation-name').text(
+                                newSelection.siblings('div.optgroup-header').text() +
+                                ' - ' +
+                                newSelection.children("span.name").text()
+                            );
+                            jQuery('<input>').attr({
+                                type: 'hidden',
+                                name: 'productRecommendations[]',
+                                value: value
+                            }).appendTo(clonedItem);
+                            clonedItem.find('input').val(value);
+                            clonedItem.appendTo(parentList);
+                            instance.removeOption(value);
+                            isChanged = true;
+                        }
+                        if (listItems.length > 0) {
+                            jQuery('.product-recommendations-wrapper .placeholder-list-item').addClass('hidden');
+                            isChanged = true;
+                        }
+                        if (isChanged && recommendationAlert.not(':visible')) {
+                            jQuery('.recommendation-alert').removeClass('hidden');
+                        }
+                    }
+                },
+                instance = module.products(selector, undefined, configuration);
+
+            return selectized.push(instance);
+        });
+
+        if (selectized.length > 1) {
+            return selectized;
+        }
+
+        return selectized[0];
+    };
+
     /**
      * Generic selectize of users
      *  - no 'change' or 'load' events
@@ -1732,6 +1890,20 @@ function () {
         );
 
         instance.settings.searchField = ['description', 'shortAccountNumber', 'type', 'payMethodType'];
+
+        return instance;
+    };
+
+    this.products = function (selector, options, configuration) {
+        var instance = this.register(
+            selector,
+            options,
+            WHMCS.selectize.optionDecorator.product,
+            configuration
+        );
+
+        instance.settings.lockOptgroupOrder = true;
+        instance.settings.searchField = ['id', 'name', 'noResults'];
 
         return instance;
     };
@@ -1949,6 +2121,11 @@ function () {
             }
             return '<div' + color + '><span class="name">' + escape(item.name) + '</span>'
                  + (item.noResults ? '<span class="email">' + escape(item.noResults) + '</span>' : '') +
+                '</div>';
+        },
+        product: function (item, escape) {
+            return '<div><span class="name">' + escape(item.name) + '</span>'
+                + (item.noResults ? '<span class="email">' + escape(item.noResults) + '</span>' : '') +
                 '</div>';
         }
     };
@@ -3045,6 +3222,28 @@ function reverseCommissionSubmit(reverseCommission = false) {
         ).appendTo(form);
     }
     form.removeAttr('onsubmit').submit();
+}
+
+function autosizeTextarea(el) {
+    var init = function(el) {
+        var elements = document.querySelectorAll(el)
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.overflowX = "hidden"
+            elements[i].style.height = calcHeight(elements[i])
+            elements[i].addEventListener("input", onInput)
+        }
+    };
+
+    var onInput = function() {
+        this.style.height = "auto"
+        this.style.height = calcHeight(this)
+    };
+
+    var calcHeight = function(el) {
+        return (el.scrollHeight + parseFloat(jQuery(el).css("borderTopWidth")) + parseFloat(jQuery(el).css("borderBottomWidth"))) + "px"
+    };
+
+    init(el)
 }
 
 /*!
@@ -4198,6 +4397,11 @@ function initDateRangePicker()
                     monthNames: adminJsVars.dateRangePicker.months,
                     daysOfWeek: adminJsVars.dateRangePicker.daysOfWeek
                 }
+            }).on('show.daterangepicker', function (ev, picker) {
+                // Identify the date picker modal using the input ID if available.
+                if (picker.element[0].id != '') {
+                    picker.container[0].id = 'dateRangePicker_' + picker.element[0].id;
+                }
             }).on('apply.daterangepicker', function (ev, picker) {
                 jQuery(this).val(picker.startDate.format(adminJsVars.dateRangeFormat)
                     + ' - ' + picker.endDate.format(adminJsVars.dateRangeFormat));
@@ -4247,6 +4451,11 @@ function initDateRangePicker()
                     customRangeLabel: adminJsVars.dateRangePicker.customRangeLabel,
                     monthNames: adminJsVars.dateRangePicker.months,
                     daysOfWeek: adminJsVars.dateRangePicker.daysOfWeek
+                }
+            }).on('show.daterangepicker', function (ev, picker) {
+                // Identify the date picker modal using the input ID if available.
+                if (picker.element[0].id != '') {
+                    picker.container[0].id = 'dateRangePicker_' + picker.element[0].id;
                 }
             }).on('apply.daterangepicker', function (ev, picker) {
                 jQuery(this).data(
@@ -4400,7 +4609,7 @@ jQuery(document).ready(function() {
 /*!
  * WHMCS MarketConnect Admin JS Functions
  *
- * @copyright Copyright (c) WHMCS Limited 2005-2020
+ * @copyright Copyright (c) WHMCS Limited 2005-2022
  * @license https://www.whmcs.com/license/ WHMCS Eula
  */
 jQuery(document).ready(function() {
@@ -4467,6 +4676,21 @@ jQuery(document).ready(function() {
         }).always(function (xhr) {
             buttonIcon.removeClass().addClass(iconState);
         });
+    })
+    .on('click', '.feature-menu-item', function(e) {
+        e.preventDefault();
+        var self = jQuery(this),
+            name = self.data('name'),
+            shownMenu = jQuery('.feature-menu-item.shown'),
+            shownItem = jQuery('.feature-info-item.shown'),
+            target = jQuery('.feature-info-item[data-name="' + name + '"]');
+
+        shownMenu.removeClass('shown');
+        self.addClass('shown');
+        shownItem.slideUp('fast', function() {
+            jQuery(this).removeClass('shown');
+            target.hide().addClass('shown').slideDown('fast');
+        })
     });
 });
 
@@ -4618,7 +4842,7 @@ jQuery(document).ready(function() {
                     initialCountry = 'us';
                 }
 
-                thisInput.before('<input id="populated' + inputName + 'CountryCode" type="hidden" name="contactdetails[' + inputName + '][Phone Country Code]" value="" />');
+                thisInput.before('<input id="populated' + inputName + 'CountryCode" class="' + inputName + 'customwhois" type="hidden" name="contactdetails[' + inputName + '][Phone Country Code]" value="" />');
                 thisInput.intlTelInput({
                     preferredCountries: [initialCountry, "us", "gb"].filter(function(value, index, self) {
                         return self.indexOf(value) === index;

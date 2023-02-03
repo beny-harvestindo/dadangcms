@@ -1,6 +1,41 @@
 # PHPMailer Change Log
 
-## Version 6.1.5 (March 14th, 2020
+## Version 6.2.0
+* PHP 8.0 compatibility, many thanks to @jrf_nl!
+* Switch from PHP CS Fixer to PHP CodeSniffer for coding standards
+* Create class constants for the debug levels in the POP3 class
+* Improve French, Slovenian, and Ukrainian translations
+* Improve file upload examples so file extensions are retained
+* Resolve PHP 8 line break issues due to a very old PHP bug being fixed
+* Avoid warnings when using old openssl functions
+* Improve Travis-CI build configuration
+
+## Version 6.1.8 (October 9th, 2020)
+* Mark `ext-hash` as required in composer.json. This has long been required, but now it will cause an error at install time rather than runtime, making it easier to diagnose
+* Make file upload examples safer
+* Update links to SMTP testing servers
+* Avoid errors when set_time_limit is disabled (you need better hosting!)
+* Allow overriding auth settings for local tests; makes it easy to run tests using HELO
+* Recover gracefully from errors during keepalive sessions
+* Add AVIF MIME type mapping
+* Prevent duplicate `To` headers in BCC-only messages when using `mail()`
+* Avoid file function problems when attaching files from Windows UNC paths
+* Improve German, Bahasa Indonesian, Filipino translations
+* Add Javascript-based example
+* Increased test coverage
+
+## Version 6.1.7 (July 14th, 2020)
+* Split SMTP connection into two separate methods
+* Undo BC break in PHP versions 5.2.3 - 7.0.0 introduced in 6.1.2 when injecting callables for address validation and HTML to text conversion
+* Save response to SMTP welcome banner as other responses are saved
+* Retry stream_select if interrupted by a signal
+
+## Version 6.1.6 (May 27th, 2020)
+* **SECURITY** Fix insufficient output escaping bug in file attachment names. CVE-2020-13625. Reported by Elar Lang of Clarified Security.
+* Correct Armenian ISO language code from `am` to `hy`, add mapping for fallback
+* Use correct timeout property in debug output
+
+## Version 6.1.5 (March 14th, 2020)
 * Reject invalid custom headers that are empty or contain breaks
 * Various fixes for DKIM issues, especially when using `mail()` transport
 * Drop the `l=` length tag from DKIM signatures; it's a mild security risk

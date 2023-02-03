@@ -61,7 +61,7 @@ class OPS extends PEAR {
      *                  to use compression or not on the generated XML)
      */
 
-    function OPS($args=false)
+    function __construct($args=false)
     {
 
         $this->PEAR();

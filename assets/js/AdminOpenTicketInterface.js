@@ -78,7 +78,7 @@ $(document).ready(function(){
             "supporttickets.php",
             {
                 action: "validatereply",
-                id: 'opening',
+                id: 0,
                 status: 'new',
                 token: csrfToken
             },
